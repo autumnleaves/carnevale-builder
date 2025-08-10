@@ -924,8 +924,10 @@
     {
       "name": "Recruiter",
       "page": 22,
-      "keywords": [],
-      "rank": null,
+      "keywords": [
+        "Trade Extortion"
+      ],
+      "rank": "Hero",
       "version": "2.2.1",
       "actions": 2,
       "command": 2,

@@ -6,7 +6,7 @@
   },
   "cards": [
     {
-      "name": "de Bernis",
+      "name": "Patriarch Bishop de Bernis",
       "page": 2,
       "keywords": [
         "Discipline ( Divinity , Fateweaving , Wild Magic )",
@@ -271,7 +271,7 @@
       }
     },
     {
-      "name": "Angel of theBlooded Rose",
+      "name": "Angel of the Blooded Rose",
       "page": 7,
       "keywords": [
         "Unique",
@@ -495,8 +495,10 @@
     {
       "name": "Conventual Chaplain",
       "page": 12,
-      "keywords": [],
-      "rank": null,
+      "keywords": [
+        "HospitallerPsychic Communion Whenever this character or any other character with line of sight to this character uses the ORDER or COUNTER Commands, they ignore any other restrictions about line of sight."
+      ],
+      "rank": "Hero",
       "version": "2.2.0",
       "actions": 2,
       "command": 4,

@@ -595,7 +595,36 @@
       }
     },
     {
-      "name": "Electro Gauntlet 0\" - - -2 Stun Ethereal Snatcher",
+      "name": "Ethereal Assassin",
+      "page": 15,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "First Strike (2)",
+          "Concealment (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Ethereal Snatcher",
       "page": 16,
       "keywords": [],
       "rank": "Hero",

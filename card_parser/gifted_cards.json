@@ -677,8 +677,11 @@
     {
       "name": "Marco Leontus",
       "page": 17,
-      "keywords": [],
-      "rank": null,
+      "keywords": [
+        "UniqueThe Mask Makes the Noble At the beginning of the game, before deployment, select another friendly character to wear one of this character’s Masks. For the entirety of the game that character gains one of the following:",
+        "Increase their starting Command Points by 2"
+      ],
+      "rank": "Boat Crew and Bodyguard (Leader)",
       "version": "2.3.1",
       "actions": 2,
       "command": 1,
@@ -1042,8 +1045,11 @@
     {
       "name": "Colombina",
       "page": 26,
-      "keywords": [],
-      "rank": null,
+      "keywords": [
+        "Unique",
+        "Commedia dell'ArteAll According to Plan Colombina has a plan, and provided everyone plays their role, it'll all work out in the end. Once per round, when any character with line of sight to this character  is about to make a roll with at least 1 dice, you can decide to score a single Ace instead of rolling."
+      ],
+      "rank": "Henchman",
       "version": "2.3.0",
       "actions": 2,
       "will": 2,
@@ -1397,8 +1403,10 @@
     {
       "name": "Pierrot",
       "page": 35,
-      "keywords": [],
-      "rank": null,
+      "keywords": [
+        "Commedia dell'ArteEveryman If a friendly character is charged within 6\" of one or more characters with this rule, you may choose to swap them with one friendly Pierrot that isn't in base contact with an enemy. This is done before any Attacks of Opportunity. Turns out it was Pierrot all along!"
+      ],
+      "rank": "Henchman",
       "version": "2.2.0",
       "actions": 2,
       "life": 8,

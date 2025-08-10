@@ -427,8 +427,9 @@ def parse_keywords_and_rank(text: str) -> tuple[List[str], Optional[str]]:
     keywords = []
     rank = None
     
-    # Look for the Keywords section
-    keyword_pattern = r'Keywords\s*•\s*(.*?)(?=Character Abilities)'
+    # Look for the Keywords section - handle cases where Keywords might be preceded by other text
+    # and may not always be followed by "Character Abilities"
+    keyword_pattern = r'.*Keywords\s*•\s*(.*?)(?=Character Abilities|PULSE Command Ability|AURA Command Ability|\d+\.\d+\.\d+|$)'
     match = re.search(keyword_pattern, text, re.DOTALL)
     
     if match:
@@ -473,6 +474,7 @@ def parse_keywords_and_rank(text: str) -> tuple[List[str], Optional[str]]:
                         keywords.append(clean_item)
     
     return keywords, rank
+
 
 # Continue with the original working card parsing logic but use enhanced ability parsing
 def parse_card_enhanced(card_text: str, page_num: int) -> Dict:
