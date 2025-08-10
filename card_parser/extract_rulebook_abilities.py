@@ -126,7 +126,7 @@ def parse_weapon_abilities(pages):
 
 if __name__ == "__main__":
     # Extract pages 36-40 from the rulebook
-    rulebook_path = "Desktop_Carnevale_Rulebook_2.3.pdf"
+    rulebook_path = "pdfs/Desktop_Carnevale_Rulebook_2.3.pdf"
     pages = extract_rulebook_pages(rulebook_path, 36, 40)
     
     if not pages:
@@ -134,16 +134,6 @@ if __name__ == "__main__":
         exit(1)
     
     print(f"Extracted {len(pages)} pages from rulebook")
-    
-    # Save raw extracted text to file
-    raw_output_file = "rulebook_pages_36_40_raw.txt"
-    with open(raw_output_file, 'w', encoding='utf-8') as f:
-        for page_data in pages:
-            f.write(f"=== PAGE {page_data['page']} ===\n")
-            f.write(page_data['text'])
-            f.write(f"\n{'='*50}\n\n")
-    
-    print(f"Raw text saved to {raw_output_file}")
     
     # Parse abilities
     common_abilities = parse_common_abilities(pages)

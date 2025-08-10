@@ -1,0 +1,69 @@
+{
+  "factions": [
+    {
+      "file": "gifted_cards.json",
+      "faction": "Gifted",
+      "cards_count": 34,
+      "faction_ability": {
+        "name": "What's My Cue?",
+        "description": "Use this Command Ability at the start of the round, before rolling iniative. The character you have chosen to roll initiative uses this ability. Instead of rolling, you decide which player gets to take first turn this round."
+      }
+    },
+    {
+      "file": "patricians_cards.json",
+      "faction": "Patricians",
+      "cards_count": 41,
+      "faction_ability": {
+        "name": "Let the Masquerata Begin",
+        "description": "This character gains 1AP for this turn. If this character has the Councillor keyword, roll a dice. On a 7+ this Command Ability doesn't use a Command Point ."
+      }
+    },
+    {
+      "file": "rashaar_cards.json",
+      "faction": "Rashaar",
+      "cards_count": 37,
+      "faction_ability": {
+        "name": "Soul Drain",
+        "description": "Make a Basic MIND Roll. The number of Aces is the number of Life Points lost by any one character (friendly or enemy) in base contact. Replenish that many Will Points ."
+      }
+    },
+    {
+      "file": "strigoi_cards.json",
+      "faction": "Strigoi",
+      "cards_count": 41,
+      "faction_ability": {
+        "name": "Necrotic Mist",
+        "description": "Until the end of the round, all friendly characters within 6\" of this character count as being in Cover."
+      }
+    },
+    {
+      "file": "the_doctors_cards.json",
+      "faction": "The Doctors",
+      "cards_count": 45,
+      "faction_ability": {
+        "name": "Nexus Link Reconfiguration",
+        "description": "Pick 2 friendly characters within 6\" (including the character using the Command Ability). One character loses all of their Will Points . For every Will Point lost, the other character replenishes 2 Will Points ."
+      }
+    },
+    {
+      "file": "the_guild_cards.json",
+      "faction": "The Guild",
+      "cards_count": 46,
+      "faction_ability": {
+        "name": "Mob Mentality",
+        "description": "For every friendly character in line of sight to this character (including this character), add a re-roll to your Mob Mentality Pool. Until the end of the round, any friendly character may use these re-rolls on any roll - one re-roll per dice."
+      }
+    },
+    {
+      "file": "the_vatican_cards.json",
+      "faction": "The Vatican",
+      "cards_count": 50,
+      "faction_ability": {
+        "name": "Heavenly Father Guide Us",
+        "description": "This character replenishes 2 Will Points and every other friendly character within 3\" replenishes 1 Will Point ."
+      }
+    }
+  ],
+  "generated_at": "2025-08-10",
+  "total_factions": 7
+}

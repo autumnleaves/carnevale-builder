@@ -55,7 +55,8 @@
             "description": "One friendly character in line of sight with the Trade keyword replenishes 2 Will Points instead of 1 from Companion until the end of the game."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Harbourmaster",
@@ -97,8 +98,7 @@
       "abilities": {
         "common": [
           "Fast Swimmer (2)",
-          "Parry (2)",
-          "Expert Protection (3)"
+          "Parry (2)"
         ],
         "unique": [
           {
@@ -113,7 +113,8 @@
             "description": "Until the end of the round, any friendly characters within 6” gain Expert Protection (3) ."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "King For a Day",
@@ -160,7 +161,8 @@
             "description": "Until the end of the round, any friendly characters with the End of Days keyword in line of sight gain +1 ATTACK."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Madame",
@@ -215,7 +217,8 @@
             "description": "One other friendly character in line of sight within 3\" (not including this one) gains Parry (2) until the end of the game. Strike When They're Vulnerable AURA Command Ability Until the end of the round, any other friendly characters with the House of Virtue keyword in line of sight (not including this one) gain Penetration -2 on their weapons."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Ostrich King?!",
@@ -265,7 +268,8 @@
             "description": "Until the end of the round, any friendly characters with the End of Days keyword in line of sight gain +1 MOVEMENT."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Prince of Thieves",
@@ -303,8 +307,7 @@
           "Acrobatic (2)",
           "Expert Marksman (2)",
           "Pickpocket",
-          "Slippery",
-          "Take it for the Guild!\nAny friendly characters in line of \nsight replenish 2 Will Points instead \nof 1 when Pickpocketing ."
+          "Slippery"
         ],
         "unique": [],
         "command": [
@@ -314,7 +317,8 @@
             "description": "One friendly character within 6\" gains Pickpocket until the end of the game. Take it for the Guild! Any friendly characters in line of sight replenish 2 Will Points instead of 1 when Pickpocketing ."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Baba-Yaga",
@@ -356,7 +360,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Black Lamp",
@@ -408,7 +413,8 @@
             "description": "Until the end of the round, any friendly characters in line of sight gain Companion (Black Lamp) and Brave."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Ostrich Chariot?!",
@@ -437,12 +443,12 @@
         "common": [
           "First Strike (2)",
           "Companion (End of Days)",
-          "Bulky",
-          "Limited Movement\nMindless Uncoordinated Assault\nAfter this character makes a Combat \naction, it may make a single 0AP Attack \nof Opportunity using a weapon it did not \nattack with in that Combat action. Attacks \nof Opportunity from this rule cannot cause \nadditional Attacks of Opportunity and do \nnot count as Attacks of Opportunity from \ncharging & charging from above."
+          "Bulky"
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Rialto Assassin",
@@ -483,7 +489,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Bloodletter",
@@ -515,7 +522,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Blood Matron",
@@ -551,7 +559,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Barber",
@@ -591,7 +600,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Baroni",
@@ -625,8 +635,7 @@
       "abilities": {
         "common": [
           "Expert Marksman (2)",
-          "Pickpocket",
-          "First Strike (1)"
+          "Pickpocket"
         ],
         "unique": [
           {
@@ -645,7 +654,8 @@
             "description": "Until the end of the round, any friendly characters within 3\" gain First Strike (1)."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Brewer",
@@ -689,9 +699,7 @@
       "abilities": {
         "common": [
           "Companion ( End of Days )",
-          "Mindless",
-          "First Strike (1)",
-          "Brave"
+          "Mindless"
         ],
         "unique": [
           {
@@ -710,7 +718,8 @@
             "description": "Until the end of the round, any friendly characters within 3\" gain Brave and First Strike (1)."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Brute",
@@ -755,7 +764,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Butcher",
@@ -795,7 +805,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Dancer",
@@ -840,7 +851,8 @@
             "description": "Pick one friendly character within 3\" and one different friendly character with the House of Virtue keyword within line of sight. Both of those characters make an immediate Run/Climb action. This movement cannot be used to charge, but can be used to disengage."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Death Duellist",
@@ -872,7 +884,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Fisherman",
@@ -915,8 +928,7 @@
         "common": [
           "Expert Offence (1)",
           "Fast Swimmer (2)",
-          "Hunter",
-          "Hunter until the end of the game."
+          "Hunter"
         ],
         "unique": [],
         "command": [
@@ -926,13 +938,16 @@
             "description": "One friendly character within 6\" gains Hunter until the end of the game."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Recruiter",
       "page": 22,
-      "keywords": [],
-      "rank": null,
+      "keywords": [
+        "Trade Extortion"
+      ],
+      "rank": "Hero",
       "version": "2.2.1",
       "actions": 2,
       "command": 2,
@@ -966,7 +981,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Seamstress",
@@ -994,12 +1010,12 @@
       "abilities": {
         "common": [
           "Expert Sorcerer (1)",
-          "Mage (1)",
-          "Entwined Magics\nWhen picking spells for this \ncharacter, the additional spells \ngranted by Expert Sorcerer may be \nfrom any discipline it has access to \n(though it does not gain an additional \ncantrip if it is different)."
+          "Mage (1)"
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Shadow Assassin",
@@ -1029,7 +1045,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Smuggler",
@@ -1067,7 +1084,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Thief",
@@ -1110,8 +1128,7 @@
         "common": [
           "Aerial Attack",
           "Infiltration",
-          "Pickpocket",
-          "Acrobatic (3)"
+          "Pickpocket"
         ],
         "unique": [],
         "command": [
@@ -1121,7 +1138,8 @@
             "description": "One friendly character with the Henchman keyword within 6\" gains Acrobatic (3) until the end of the game."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Very Loud Ostrich",
@@ -1176,7 +1194,8 @@
             "description": "Up to 2 friendly characters within 3\" may make an immediate Run/Climb action, but this movement must be used to charge an enemy (doesn't have to be the same enemy!)."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Whaler",
@@ -1215,7 +1234,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Witch",
@@ -1247,7 +1267,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Arbalest",
@@ -1286,7 +1307,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Beggar",
@@ -1323,7 +1345,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Blooded",
@@ -1361,7 +1384,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Blood Courier",
@@ -1401,7 +1425,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Citizen",
@@ -1431,7 +1456,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Dog Keeper",
@@ -1469,7 +1495,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Dog",
@@ -1502,12 +1529,12 @@
       ],
       "abilities": {
         "common": [
-          "Engage",
-          "Limited Movement\nMindless"
+          "Engage"
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Escort",
@@ -1547,7 +1574,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Firebreather",
@@ -1587,7 +1615,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Gondolier",
@@ -1627,7 +1656,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Harlot",
@@ -1667,7 +1697,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Indebted",
@@ -1704,7 +1735,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Mariner",
@@ -1742,7 +1774,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ostrich Rider",
@@ -1779,12 +1812,12 @@
         "common": [
           "First Strike (2)",
           "Companion ( End of Days )",
-          "Bulky",
-          "Limited Movement\nMindless\nSlippery"
+          "Bulky"
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Pilferer",
@@ -1822,7 +1855,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Poacher",
@@ -1860,7 +1894,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Pulcinella",
@@ -1900,7 +1935,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Shipwright",
@@ -1937,7 +1973,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     }
   ]
 }

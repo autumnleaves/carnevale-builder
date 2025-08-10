@@ -1,0 +1,1682 @@
+{
+  "faction": "Rashaar",
+  "faction_ability": {
+    "name": "Soul Drain",
+    "description": "Make a Basic MIND Roll. The number of Aces is the number of Life Points lost by any one character (friendly or enemy) in base contact. Replenish that many Will Points ."
+  },
+  "cards": [
+    {
+      "name": "Underwater",
+      "page": 2,
+      "keywords": [
+        "Hydra",
+        "Monster",
+        "Unique"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 4,
+      "will": 5,
+      "life": 22,
+      "base_size": 50,
+      "ducats": 30,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 5,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Brawling Tentacles",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        },
+        {
+          "name": "Ornate Trident",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bulky",
+          "Expert Grappler (3)",
+          "Fast Swimmer (3)",
+          "Limited Movement",
+          "Water Creature"
+        ],
+        "unique": [
+          {
+            "name": "Dragging Down",
+            "description": "This character may re-roll failed dice rolls when making Drown actions."
+          },
+          {
+            "name": "Brawling Tentacles",
+            "description": "The Flame's tentacles thrash around, hitting anyone that gets close! When making a Combat action with this weapon, roll once, and apply the roll to every character (friendly and enemy) in base contact."
+          }
+        ],
+        "command": [
+          {
+            "name": "Hydra's Gifts",
+            "type": "PULSE",
+            "description": "Mutating tentacles emerge from flesh nearby. Every other character (friendly and enemy, not including this one) within 2\" loses 2 Life Points and gains +2 DEXTERITY until the end of the round."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Magi-Rashaar",
+      "page": 3,
+      "keywords": [
+        "Discipline ( Blood Rites , Runes of Sovereignty , Wild Magic )"
+      ],
+      "rank": "Leader",
+      "version": "2.2.1",
+      "actions": 3,
+      "command": 4,
+      "will": 5,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 24,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 6
+      },
+      "weapons": [
+        {
+          "name": "Ancient Trident",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Aquatic, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (2)",
+          "Fast Swimmer (1)",
+          "Mage (3)",
+          "Water Creature"
+        ],
+        "unique": [
+          {
+            "name": "Rent-born",
+            "description": "Each round, one friendly character (including this one) may subtract 1 from the Cost of a Magic Spell they attempt to cast (to a minimum of 0)."
+          }
+        ],
+        "command": [
+          {
+            "name": "Fury of Dagon",
+            "type": "PULSE",
+            "description": "Pick a friendly character in line of sight within 6\". That character gains First Strike (2) until the end of their next turn."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Paartul Matriarch",
+      "page": 4,
+      "keywords": [
+        "Monster"
+      ],
+      "rank": "Leader",
+      "version": "2.2.1",
+      "actions": 3,
+      "command": 4,
+      "will": 4,
+      "life": 22,
+      "base_size": 50,
+      "ducats": 25,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bulky",
+          "Fear (-1)",
+          "Water Creature"
+        ],
+        "unique": [
+          {
+            "name": "Matriarch",
+            "description": "All friendly characters with the Feral keyword gain Companion ( Leader ) as long as this character is on the board."
+          },
+          {
+            "name": "Postpartum",
+            "description": "If one or more Crybabies are killed within 6\" of this character, it gains +3 ATT for the rest of the round."
+          }
+        ],
+        "command": [
+          {
+            "name": "Birth",
+            "type": "PULSE",
+            "description": "Place one Crybaby within 6\" of this character. The new Crybaby acts just like any other friendly character, and can be activated this round as normal."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Thalidraur",
+      "page": 5,
+      "keywords": [
+        "Monster"
+      ],
+      "rank": "Leader",
+      "version": "2.2.1",
+      "actions": 3,
+      "command": 1,
+      "will": 3,
+      "life": 20,
+      "base_size": 50,
+      "ducats": 26,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 3,
+        "attack": 5,
+        "protection": 5,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Ancient Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)",
+          "Fast Swimmer (2)",
+          "Fear (-2)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Hide of The Deep",
+            "type": "AURA",
+            "description": "Until the end of the round, all friendly characters within 3\" of this character gain Expert Protection (2) . Foetid Pheromones Other friendly characters that start their activation within 6\" of this character gain First Strike (1) until the end of their activation."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Voice of Dagon",
+      "page": 6,
+      "keywords": [
+        "Monster"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 5,
+      "will": 3,
+      "life": 14,
+      "base_size": 40,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Voice of Madness",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "Stun, Template"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (4)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Blessing of Dagon",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 6\" gain Expert Offence (2)."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Morgraur",
+      "page": 7,
+      "keywords": [
+        "Monster",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 3,
+      "will": 1,
+      "life": 45,
+      "command": null,
+      "base_size": 120,
+      "ducats": 68,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 3,
+        "attack": 6,
+        "protection": 5,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Colossal Jaws",
+          "range": "2\"",
+          "evasion": "+2",
+          "damage": "+2",
+          "penetration": "-3",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (3)",
+          "Brawler (2)",
+          "Fear (-3)",
+          "Bulky"
+        ],
+        "unique": [
+          {
+            "name": "Swallow Whole",
+            "description": "When this character makes a Combat action (not an Attack of Opportunity) against a target character with a Size of 40mm or less and rolls at least 5 Aces, instead of calculating Damage as normal, instead immediately remove the target character from play as a casualty."
+          }
+        ],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Brachyura",
+      "page": 8,
+      "keywords": [
+        "Monster",
+        "Feral"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 20,
+      "command": null,
+      "base_size": 50,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 7,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Crushing Claws",
+          "range": "0\"",
+          "evasion": "+2",
+          "damage": "+3",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bulky"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Caandru Eel",
+      "page": 9,
+      "keywords": [
+        "Monster",
+        "Feral"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 3,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Mauling Talons",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Fast Swimmer (2)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Cult Enforcer",
+      "page": 10,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 13,
+      "base_size": 40,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Iron Mace",
+          "range": "1\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Bolster Your Faith",
+            "type": "AURA",
+            "description": "Until the end of the round, all friendly characters within 3\" gain +1 PROTECTION."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Dagonite Priest",
+      "page": 11,
+      "keywords": [
+        "Discipline ( Blood Rites , Wild Magic )"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Sacrificial Dagger",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mage (2)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Demagogue",
+      "page": 12,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 4,
+      "will": 2,
+      "life": 10,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Burning Brand",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "Smoke, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brave",
+          "Fear (0)"
+        ],
+        "unique": [
+          {
+            "name": "Eldritch Incense",
+            "description": "Any friendly character making a Combat action within 3\" gains Fear (0) for that action."
+          },
+          {
+            "name": "Burned Flesh",
+            "description": "If a Combat action with the Burning Brand results in no Protection roll for the target, add 2 to the Damage."
+          }
+        ],
+        "command": [
+          {
+            "name": "Prove Yourselves to Dagon!",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly character that starts a Run/Climb action within 6\" gains +2\" MOVE for that action provided they charge."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Handler",
+      "page": 13,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Herding Spear",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brave"
+        ],
+        "unique": [
+          {
+            "name": "Encouragement",
+            "description": "Friendly characters with the Feral keyword that start their turn within 6” and line of sight of this character automatically pass their Primitive roll."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Karcharos",
+      "page": 14,
+      "keywords": [
+        "Monster",
+        "Feral"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 15,
+      "command": null,
+      "base_size": 50,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 5,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Mighty Jaws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (3)",
+          "Fear (-2)",
+          "Mindless",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Krakenhost",
+      "page": 15,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 40,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "First Strike (1)",
+          "Companion (Hydra)"
+        ],
+        "unique": [
+          {
+            "name": "Living Vessel",
+            "description": "When this character is killed, before removing it from the game, make a basic MIND roll. Place an Infant Kraken in base contact with this character, plus an additional Infant Kraken in base contact with one of the new Infant Krakens for each Ace in the roll. The new Infant Krakens act just like any other friendly character and can be activated as normal this round."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Mature Kraken",
+      "page": 16,
+      "keywords": [
+        "Monster",
+        "Hydra"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 22,
+      "command": null,
+      "base_size": 50,
+      "ducats": 24,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 5,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Barbed Tentacles",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "-1",
+          "penetration": "-2",
+          "abilities": "Aquatic, Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Vampiric Attack (2)",
+          "Fear (-1)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Paliaa",
+      "page": 17,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty )",
+        "Monster"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 2,
+      "will": 5,
+      "life": 13,
+      "base_size": 40,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Mage (1)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Gift of the Elder Gods",
+            "type": "PULSE",
+            "description": "Until the end of the round, all friendly characters with the Henchman keyword gain +1 AT TAC K while they are within 6” and line of sight of any number of other friendly characters with the Monster keyword."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Raadru",
+      "page": 18,
+      "keywords": [
+        "Monster"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 20,
+      "command": null,
+      "base_size": 50,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 5,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Webbed Fists",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Fear (0)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Salaacia",
+      "page": 19,
+      "keywords": [
+        "Feral"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 17,
+      "command": null,
+      "base_size": 40,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Water Portal",
+          "range": "6\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Aquatic, Blast,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (1)",
+          "Water Creature"
+        ],
+        "unique": [
+          {
+            "name": "Gusher",
+            "description": "This character can make Drown actions against opponents no matter whether they're in water or not. Additionally, it gains +2 ATT ACK when making a Drown action."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Secreting Myxin",
+      "page": 20,
+      "keywords": [
+        "Monster",
+        "Feral"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 18,
+      "command": null,
+      "base_size": 50,
+      "ducats": 23,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 2,
+        "attack": 4,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Sticky Burst",
+          "range": "6\"",
+          "evasion": "+2",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun, Reload (2)"
+        },
+        {
+          "name": "Grasping Jaws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Parry (3)",
+          "Mindless",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Sirena",
+      "page": 21,
+      "keywords": [
+        "Discipline ( Blood Rites , Runes of Sovereignty )",
+        "Monster",
+        "Hydra"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 1,
+      "will": 5,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 1,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Engage",
+          "Fast Swimmer (4)",
+          "Mage (2)",
+          "Water Creature"
+        ],
+        "unique": [
+          {
+            "name": "Dragging Down",
+            "description": "This character may re-roll failed dice rolls when making Drown actions."
+          }
+        ],
+        "command": [
+          {
+            "name": "Hypnotic Song",
+            "type": "AURA",
+            "description": "Until the end of the round, any enemy characters within 6\" of this character have -2 MIND."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Advanced Hybrid",
+      "page": 22,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 1,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Weak Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (1)",
+          "Acrobatic (2)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Aglaope",
+      "page": 23,
+      "keywords": [
+        "Discipline ( Fateweaving , Wild Magic )",
+        "Monster"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 5,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 1,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (1)",
+          "Fast Swimmer (2)",
+          "Mage (1)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Bounding Telchine",
+      "page": 24,
+      "keywords": [
+        "Feral"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.1",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 40,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 1,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Primitive"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Bulbous Toad",
+      "page": 25,
+      "keywords": [
+        "Monster",
+        "Feral"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 14,
+      "command": null,
+      "base_size": 50,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 2,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Tongue Harpoon",
+          "range": "12\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Aquatic, Knockback,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Fast Swimmer (2)",
+          "Mindless"
+        ],
+        "unique": [
+          {
+            "name": "Feeder",
+            "description": "This character's Vampiric Attack special rule activates even if it isn't in base contact with its target."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Crybaby",
+      "page": 26,
+      "keywords": [
+        "Feral"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 4,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 5,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 0,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+2)",
+          "Mindless"
+        ],
+        "unique": [
+          {
+            "name": "Piercing Wail",
+            "description": "Any enemy characters within 6\" of this character have -1 DEXTERITY ."
+          },
+          {
+            "name": "Unsightly",
+            "description": "This character can be deployed anywhere on the board at ground level, at least 6\" away from any enemy characters or objectives."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Cymothoan Crusher",
+      "page": 27,
+      "keywords": [
+        "Feral"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 17,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 5,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Crusted Fist",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback, Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (3)",
+          "Bulky"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Dagon Officiant",
+      "page": 28,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Khopesh Daggers",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Dagonite Zealot",
+      "page": 29,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 6,
+        "attack": 3,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Wave-blade Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (1)",
+          "Aerial Attack",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Half-Breed",
+      "page": 30,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 12,
+      "command": null,
+      "base_size": 40,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Heavy Tentacles",
+          "range": "1\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Knockback"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Fast Swimmer (2)",
+          "Companion (Hydra)",
+          "Berserk",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Hellhound",
+      "page": 31,
+      "keywords": [
+        "Monster",
+        "Feral"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Gaping Maw",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (1)",
+          "Primitive",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Hybrid",
+      "page": 32,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Dive Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Infant Kraken",
+      "page": 33,
+      "keywords": [
+        "Hydra"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.1",
+      "actions": 2,
+      "will": 1,
+      "life": 5,
+      "command": null,
+      "base_size": 30,
+      "ducats": 5,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Concealment (2)",
+          "Primitive"
+        ],
+        "unique": [
+          {
+            "name": "Writhe Inside",
+            "description": "When this character successfully damages an enemy character (after its Protection roll), you may remove this character from the game as if it were killed. If you do, place it on the damaged character’s card. For the rest of the game, that character always counts as having a Stun counter."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Lesser Rhyll",
+      "page": 34,
+      "keywords": [
+        "Monster"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (1)",
+          "Fear (0)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Lesser Ugdru",
+      "page": 35,
+      "keywords": [
+        "Monster"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 13,
+      "command": null,
+      "base_size": 40,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Slave",
+      "page": 36,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 8,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 4,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Urchin",
+      "page": 37,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 8,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 1,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Flint Dagger",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Wet Nurse",
+      "page": 38,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 2,
+      "will": 3,
+      "life": 10,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (1)",
+          "Companion (Hydra)"
+        ],
+        "unique": [
+          {
+            "name": "Kraken Nurse",
+            "description": "When you place a new Infant Kraken in line of sight of this character, this character recovers 1 lost Will Point ."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    }
+  ]
+}

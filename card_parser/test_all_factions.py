@@ -11,16 +11,16 @@ from test_validation import CardValidationTests
 
 def find_faction_files():
     """Find all faction JSON files and their corresponding extracted text files."""
-    # Find all *_cards.json files
-    json_files = glob.glob("*_cards.json")
+    # Find all *_cards.json files in the output directory
+    json_files = glob.glob("output/*_cards.json")
     
     faction_pairs = []
     for json_file in json_files:
-        # Extract faction name (remove _cards.json suffix)
-        faction_name = json_file.replace("_cards.json", "")
+        # Extract faction name (remove path and _cards.json suffix)
+        faction_name = os.path.basename(json_file).replace("_cards.json", "")
         
-        # Look for corresponding extracted text file
-        extracted_text_file = f"{faction_name}_extracted_text.json"
+        # Look for corresponding extracted text file in extracted_text directory
+        extracted_text_file = f"extracted_text/{faction_name}_extracted_text.json"
         
         if os.path.exists(extracted_text_file):
             faction_pairs.append((json_file, extracted_text_file, faction_name))

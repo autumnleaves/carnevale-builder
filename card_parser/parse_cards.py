@@ -903,18 +903,24 @@ def parse_faction_name(extracted_text_file: str) -> str:
     return base_name.replace('_', ' ').title()  # Just format the name nicely
 
 if __name__ == "__main__":
-    extracted_files = [f for f in os.listdir('.') if f.endswith('_extracted_text.json')]
+    # Ensure output directory exists
+    os.makedirs('output', exist_ok=True)
+    
+    extracted_files = [f for f in os.listdir('extracted_text') if f.endswith('_extracted_text.json')]
 
     for extracted_file in extracted_files:
+        extracted_file_path = os.path.join('extracted_text', extracted_file)
         faction_name = parse_faction_name(extracted_file)
         print(f"Parsing cards for faction: {faction_name} from {extracted_file}")
 
-        result = parse_faction_cards(extracted_file, faction_name)
+        result = parse_faction_cards(extracted_file_path, faction_name)
 
-        print(f"Successfully parsed {len(result['cards'])} cards and saved to {extracted_file.replace('_extracted_text.json', '_cards.json')}")
+        # Save to output directory
+        output_file = os.path.join('output', extracted_file.replace('_extracted_text.json', '_cards.json'))
+        print(f"Successfully parsed {len(result['cards'])} cards and saved to {output_file}")
 
         # Save to file
-        with open(extracted_file.replace('_extracted_text.json', '_cards.json'), "w", encoding="utf-8") as f:
+        with open(output_file, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
 
     print(f"{len(extracted_files)} factions processed.")

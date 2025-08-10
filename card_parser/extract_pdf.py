@@ -1,5 +1,6 @@
 import PyPDF2
 import json
+from pathlib import Path
 
 def extract_text_from_pdf(pdf_path):
     """Extract text from PDF file"""
@@ -22,13 +23,17 @@ def extract_text_from_pdf(pdf_path):
         return []
 
 if __name__ == "__main__":
-    pdf_path = "The_Guild_250801.pdf"
+    # Ensure extracted_text directory exists
+    extracted_text_dir = Path('extracted_text')
+    extracted_text_dir.mkdir(exist_ok=True)
+    
+    pdf_path = "pdfs/The_Guild_250801.pdf"
     pages = extract_text_from_pdf(pdf_path)
     
     print(f"Found {len(pages)} pages in PDF")
     
-    # Save extracted text to JSON file
-    output_file = "extracted_text.json"
+    # Save extracted text to JSON file in extracted_text directory
+    output_file = "extracted_text/extracted_text.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(pages, f, indent=2, ensure_ascii=False)
     

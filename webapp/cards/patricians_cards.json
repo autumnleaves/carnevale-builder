@@ -1,0 +1,1843 @@
+{
+  "faction": "Patricians",
+  "faction_ability": {
+    "name": "Let the Masquerata Begin",
+    "description": "This character gains 1AP for this turn. If this character has the Councillor keyword, roll a dice. On a 7+ this Command Ability doesn't use a Command Point ."
+  },
+  "cards": [
+    {
+      "name": "Pinnacle of Affluence",
+      "page": 2,
+      "keywords": [
+        "Councillor",
+        "Unique"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "life": 3053,
+      "will": 0,
+      "command": null,
+      "base_size": 75,
+      "ducats": 32,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Strice's Paw",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        },
+        {
+          "name": "Gilded Table Scraps",
+          "range": "6\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Harmless, Stun, Reload (1)"
+        },
+        {
+          "name": "Minty Fresh Breath",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Poisoned, Template,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bulky",
+          "Limited Movement",
+          "Expert Grappler (2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "You there! Do something!",
+            "type": "AURA",
+            "description": "Until the end of the round, other friendly characters that start their turn within 6\" and line of sight of this character gain First Strike (2) until the end of their turn. Characters can only be affected by this Command Ability once each game round."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Guard Commander",
+      "page": 3,
+      "keywords": [
+        "Officer"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 5,
+      "will": 2,
+      "life": 14,
+      "base_size": 30,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Gilded Sabre",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brave",
+          "Parry (2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Take Arms",
+            "type": "PULSE",
+            "description": "Until the end of the round, all friendly characters with the Soldier keyword within 3\" gain +1 ATT ACK . Aim Fire! PULSE Command Ability Any friendly characters with the Soldier keyword in line of sight gain Expert Marksman (1) until the end of the round."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Noble Admiral",
+      "page": 4,
+      "keywords": [
+        "Councillor",
+        "Officer"
+      ],
+      "rank": "Leader",
+      "version": "2.3.1",
+      "actions": 3,
+      "command": 4,
+      "will": 3,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Boat Crew",
+          "Expert Marksman (2)",
+          "Fast Swimmer (2)"
+        ],
+        "unique": [
+          {
+            "name": "Twin Pistols",
+            "description": "This character's weapons share the Reload ability - you may make 2 Combat actions with the Rifled Duelling Pistol or 1 with Twin Rifled Duelling Pistols in one round."
+          },
+          {
+            "name": "Unwieldy",
+            "description": "This character may only make Combat actions with the Twin Rifled Duelling Pistols as the first action of their turn (including using it for Attacks of Opportunity)."
+          }
+        ],
+        "command": [
+          {
+            "name": "Naval Discipline",
+            "type": "PULSE",
+            "description": "Other friendly characters on the same Boat as this character replenish 1 Will Point . Other friendly characters with Boat Crew on the same Boat as this character instead replenish 2 Will Points . Raise a Crew All friendly characters may be set up on a Boat."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Venetian Noble",
+      "page": 5,
+      "keywords": [
+        "Councillor"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 3,
+      "will": 4,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 21,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Cup Rapier",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Engage",
+          "Expert Offence (2)"
+        ],
+        "unique": [
+          {
+            "name": "Murderous Patron",
+            "description": "Any other friendly character that kills an enemy character replenishes 1 Will Point if both are in line of sight to the Venetian Noble."
+          }
+        ],
+        "command": [
+          {
+            "name": "The Monster Behind the Mask",
+            "type": "PULSE",
+            "description": "This character gains +1 to its MOVEMENT , DEXTERITY , and AT TAC K until the end of the round. However, it reduces its MIND to 1."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Mounted Venetian Noble",
+      "page": 6,
+      "keywords": [
+        "Councillor"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 3,
+      "will": 4,
+      "life": 18,
+      "base_size": 50,
+      "ducats": 24,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)",
+          "Engage",
+          "Limited Movement"
+        ],
+        "unique": [
+          {
+            "name": "Gleeful Charge",
+            "description": "When this character makes an Attack of Opportunity due to charging, Gilded Sabre's Evasion becomes -2 for that Attack of Opportunity."
+          },
+          {
+            "name": "Do Try To Keep Up!",
+            "description": "Once per round, before this character makes a Run/Climb action, you may choose 1 other friendly character with the Councillor, Soldier, or Animal keyword within 3\". After this character completes that Run/Climb action, the chosen character makes an out of sequence Run/Climb action. This out of sequence action cannot cause Attacks of Opportunity from charging, but may require a character to Disengage as normal."
+          }
+        ],
+        "command": [
+          {
+            "name": "Venetian Drive",
+            "type": "PULSE",
+            "description": "This character gains First Strike (2) until the end of the round, however it reduces its PROTECTION to"
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Janissary Chorbaji",
+      "page": 7,
+      "keywords": [
+        "Ottoman"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 3,
+      "will": 4,
+      "life": 14,
+      "base_size": 30,
+      "ducats": 23,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Flanged Mace",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Knockback"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brawler (1)",
+          "Expert Offence (2)",
+          "Universal Shielding (3)"
+        ],
+        "unique": [
+          {
+            "name": "Martial Elite",
+            "description": "Friendly characters with the Ottoman keyword within 6\" may use their Expert Offence ability on the Destiny Dice."
+          }
+        ],
+        "command": [
+          {
+            "name": "Coordinated Attack",
+            "type": "PULSE",
+            "description": "All friendly characters with the Ottoman keyword within 3\" (including this one) gain First Strike (2) until the end of the round. Disciplined Momentum When a friendly character with the Ottoman keyword within 6\" and line of sight kills an enemy character, this character replenishes 1 lost Command Point ."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "Sopracomito",
+      "page": 8,
+      "keywords": [
+        "Councillor",
+        "Officer"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 8,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 5,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Naval Cutlass",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Boat Crew"
+        ],
+        "unique": [
+          {
+            "name": "Pay Out",
+            "description": "Any friendly character within 6” may use this character’s Will Point s as if they were their own."
+          },
+          {
+            "name": "Second in Command",
+            "description": "If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword and no other Sopracomitos may be chosen. However, if there is another character with the Leader keyword, this character loses the Leader keyword."
+          }
+        ],
+        "command": [
+          {
+            "name": "Wages Are Here",
+            "type": "PULSE",
+            "description": "Any friendly characters in line of sight with the Soldier keyword that aren't in base contact with an enemy may immediately make a Run/Climb action for 0AP, but must move into base contact with this character. This move does not cause Attacks of Opportunity . Any characters that move into base contact immediately replenish 1 Will Point ."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Moon",
+      "page": 9,
+      "keywords": [
+        "Discipline ( Blood Rites , Fateweaving )",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 2,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Shadow Touch",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion (Sun)",
+          "Mage (2)",
+          "Flight",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Sun",
+      "page": 10,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 5,
+        "protection": 2,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Blinding Flash",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "Knockback, Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (2)",
+          "Acrobatic (3)",
+          "Companion (Moon)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Adventuring Noble",
+      "page": 11,
+      "keywords": [
+        "Discipline ( Wild Magic )",
+        "Councillor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mage (2)",
+          "Hunter"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Captain of the Guard",
+      "page": 12,
+      "keywords": [
+        "Officer",
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 3,
+      "will": 2,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Officer's Sabre",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bodyguard ( Officer )",
+          "Companion ( Officer )"
+        ],
+        "unique": [
+          {
+            "name": "Chain of Command",
+            "description": "This character may only use the ORDER or COUNTER Commands on characters with the Soldier keyword."
+          }
+        ],
+        "command": [
+          {
+            "name": "Take Aim!",
+            "type": "AURA",
+            "description": "Until the end of the round, all friendly characters with the Soldier keyword within 6\" gain Expert Marksman (1) and Expert Offence (1)."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Cat Burglar",
+      "page": 13,
+      "keywords": [
+        "Councillor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 3,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 6,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Stiletto",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+2)",
+          "Aerial Attack",
+          "Infiltration",
+          "Pickpocket"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Fencing Master",
+      "page": 14,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Balanced Rapier",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)",
+          "Parry (2)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Foreign Dignitary",
+      "page": 15,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 3,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Sabre",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)",
+          "Companion ( Councillor )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Gourmand Noble",
+      "page": 16,
+      "keywords": [
+        "Councillor"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 13,
+      "base_size": 40,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Carving Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Engage",
+          "Fear (0)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "The Other, Other White Meat",
+            "type": "AURA",
+            "description": "Until the end of the round, every other friendly character in line of sight gains the Flesheater ability while in line of sight of this character. Flesheater If this character makes a Combat action against a target in base contact that causes it to lose at least 1 Life Point , it replenishes 1 Will Point ."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Naval Lieutenant",
+      "page": 17,
+      "keywords": [
+        "Officer",
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Nock Gun",
+          "range": "12\"",
+          "evasion": "0",
+          "damage": "+3",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (1)"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Boat Crew",
+          "Fast Swimmer (2)"
+        ],
+        "unique": [
+          {
+            "name": "Chain of Command",
+            "description": "This character may only use the ORDER or COUNTER Commands on characters with the Soldier keyword."
+          },
+          {
+            "name": "Unwieldy",
+            "description": "This character may only make Combat actions with the Nock Gun as the first action of their turn (including using it for Attacks of Opportunity)."
+          }
+        ],
+        "command": [
+          {
+            "name": "We Trained For This",
+            "type": "AURA",
+            "description": "All friendly characters within 6\" increase their Fast Swimmer (X) value by 2 until the end of the round. Any characters without Fast Swimmer are unaffected."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Janissary Sapper",
+      "page": 18,
+      "keywords": [
+        "Ottoman"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 3,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 4
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)",
+          "Expert Marksman (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Ottoman Cannoneer",
+      "page": 19,
+      "keywords": [
+        "Ottoman"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 15,
+      "command": null,
+      "base_size": 40,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Grapeshot",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "-4",
+          "abilities": "Black Powder,"
+        },
+        {
+          "name": "Cannon Barrel",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brawler (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Ottoman Janissary",
+      "page": 20,
+      "keywords": [
+        "Ottoman"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 0,
+      "life": 0,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 4
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Bodyguard ( Leader )",
+          "Brawler (1)",
+          "Expert Offence (2)",
+          "Universal Shielding (3)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Barbary Discipline",
+            "type": "AURA",
+            "description": "Until the end of the round, all friendly characters within 6\" gain +2 MOVEMENT if their Run/ Climb action is used to charge."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Seven Years Veteran",
+      "page": 21,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 13,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Service Pistol",
+          "range": "8\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Infantry Sabre",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (1)",
+          "Expert Offence (1)",
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Submissive Noble",
+      "page": 22,
+      "keywords": [
+        "Councillor"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 2,
+      "will": 1,
+      "life": 14,
+      "base_size": 40,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Cat O'Nine Tails",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Frenzied",
+          "Expert Offence (2)"
+        ],
+        "unique": [
+          {
+            "name": "Barbed",
+            "description": "If a Combat action with the Cat O’Nine Tails results in no Protection roll for the target, add 2 to the Damage."
+          }
+        ],
+        "command": [
+          {
+            "name": "Domination",
+            "type": "PULSE",
+            "description": "Every friendly character in base contact makes an immediate Move action for 0AP. This action cannot be used to move into base contact with an enemy character. Sadism PULSE Command Ability This character loses 1 Life Point and gains +2 Attack until the end of the round."
+          }
+        ]
+      },
+      "unique": false
+    },
+    {
+      "name": "Syphilitic Noble",
+      "page": 23,
+      "keywords": [
+        "Councillor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 11,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Rapier",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Berserk",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Venetian Heavy Guard",
+      "page": 24,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 15,
+      "command": null,
+      "base_size": 40,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Protection (3)",
+          "Companion ( Officer )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Venetian Spy",
+      "page": 25,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Long Rifle",
+          "range": "30\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "Black Powder, Knockback,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (2)",
+          "Concealment (+1)",
+          "Infiltration"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Wayfinder",
+      "page": 26,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 3,
+      "will": 2,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [
+          {
+            "name": "Gun Laying",
+            "description": "1AP Pick a friendly character within 6\" and line of sight. Until the end of that character's next activation, it gains -2 Evasion against targets outside of base contact with it."
+          },
+          {
+            "name": "Nautical Bearings",
+            "description": "Any friendly character that makes a Combat action within 3\" with a weapon that has a range of 6\" or higher increases their range by 6\"."
+          },
+          {
+            "name": "Maps and Charts",
+            "description": "Whenever this character uses a Plan command, draw 2 extra Agendas, take a look, and discard 2 of your choice."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Barnabotti",
+      "page": 27,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (1)",
+          "Companion ( Councillor )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Butler",
+      "page": 28,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (2)",
+          "Companion ( Councillor )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Cannibal Cultist",
+      "page": 29,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 8,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Sharpened Dagger",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Cortigiane",
+      "page": 30,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Rapier",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Parry (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "City Guard",
+      "page": 31,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Bardiche",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        },
+        {
+          "name": "Infantry Sabre",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Officer )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Guard Marksman",
+      "page": 32,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Musket",
+          "range": "24\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (1),"
+        },
+        {
+          "name": "Bayonet",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Officer )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Guard Sentry",
+      "page": 33,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 3,
+      "life": 10,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Boot Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Acrobatic (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Household Staff",
+      "page": 34,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Cast Iron Utensil",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bodyguard ( Councillor )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Hunting Hound",
+      "page": 35,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 6,
+      "command": null,
+      "base_size": 30,
+      "ducats": 6,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Bite",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Councillor )"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Merchant",
+      "page": 36,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 3,
+      "will": 2,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [
+          {
+            "name": "There's Coin in it for You",
+            "description": "Once per round, when this character makes a Combat action, you may spend 1 Command Point to re-roll any dice that didn't score an Ace."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Naval Ensign",
+      "page": 37,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Fishing Spear",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Aquatic, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Companion ( Officer )",
+          "Hunter"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Naval Recruit",
+      "page": 38,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Naval Cutlass",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Noble Seafarer",
+      "page": 39,
+      "keywords": [
+        "Councillor"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Coach Gun",
+          "range": "12\"",
+          "evasion": "+1",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Black Powder, Reload (1),"
+        },
+        {
+          "name": "Dive Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Boat Crew"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Ottoman Archer",
+      "page": 40,
+      "keywords": [
+        "Ottoman"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Short Bow",
+          "range": "12\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Boat Crew"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Ottoman Pirate",
+      "page": 41,
+      "keywords": [
+        "Ottoman"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Twin Blades",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Boat Crew",
+          "Parry (1)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Ottoman Rigger",
+      "page": 42,
+      "keywords": [
+        "Ottoman"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 6,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Boat Crew"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    }
+  ]
+}

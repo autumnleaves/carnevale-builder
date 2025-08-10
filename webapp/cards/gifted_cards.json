@@ -1,0 +1,1475 @@
+{
+  "faction": "Gifted",
+  "faction_ability": {
+    "name": "What's My Cue?",
+    "description": "Use this Command Ability at the start of the round, before rolling iniative. The character you have chosen to roll initiative uses this ability. Instead of rolling, you decide which player gets to take first turn this round."
+  },
+  "cards": [
+    {
+      "name": "Il Capitano",
+      "page": 2,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 4,
+      "will": 3,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Greatsword",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brawler (2)",
+          "Expert Offence (2)"
+        ],
+        "unique": [
+          {
+            "name": "Troupe Leader",
+            "description": "All friendly characters with the Commedia dell'Arte keyword gain Companion (Il Capitano) as long as this character is on the board."
+          }
+        ],
+        "command": [
+          {
+            "name": "Stage Manager",
+            "type": "PULSE",
+            "description": "2 friendly characters within line of sight may make an immediate Run/Climb action. This movement cannot be used to move into or out of base contact with an enemy."
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "La Signora",
+      "page": 3,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 3,
+      "will": 5,
+      "life": 15,
+      "base_size": 40,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Costume Pistol",
+          "range": "6\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Black Powder, Harmless,"
+        },
+        {
+          "name": "Rapier",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bulky",
+          "Parry (2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Search of Satisfaction",
+            "type": "PULSE",
+            "description": "Add up every character (friendly or enemy) within 3\" of this character. She replenishes that many Will Points . Cheat If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword. However, if the gang contains Il Capitano , this character loses the Leader keyword"
+          }
+        ]
+      },
+      "unique": true
+    },
+    {
+      "name": "The Duke",
+      "page": 4,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.1",
+      "actions": 3,
+      "command": 2,
+      "will": 2,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 22,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 5,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)",
+          "Aerial Attack",
+          "Bodyguard ( Henchman )",
+          "Infiltration"
+        ],
+        "unique": [
+          {
+            "name": "Inspiring Hero",
+            "description": "If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword. However, if there is another character with the Leader keyword, this character loses the Leader keyword."
+          }
+        ],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "The Aberration",
+      "page": 5,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 22,
+      "command": null,
+      "base_size": 50,
+      "ducats": 23,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 5,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Berserk",
+          "Bulky"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Artisan Elena",
+      "page": 6,
+      "keywords": [
+        "Unique",
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "First Strike (1)",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Black Spectre",
+      "page": 7,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 3,
+      "life": 30,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 30,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 6,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Spectral Touch",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fear (-2)",
+          "Bulky"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Burattino",
+      "page": 8,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 1,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Carving Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Expert Offence (3)",
+          "Engage",
+          "Hunter"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Fadhila",
+      "page": 9,
+      "keywords": [
+        "Discipline ( Divinity , Fateweaving )",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 3,
+      "will": 6,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (4)",
+          "Expert Protection (4)",
+          "Expert Sorcerer (1)",
+          "Mage (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Fate",
+      "page": 10,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty , Blood Rites , Fateweaving )",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 5,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Book of Destiny",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (2)",
+          "Ethereal",
+          "Mage (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Francisco De Lorme",
+      "page": 11,
+      "keywords": [
+        "Discipline ( Blood Rites , Wild Magic )",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 4,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Scalpel",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (1)",
+          "Mage (1)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Harbinger's Reflection",
+      "page": 12,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 4,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 3,
+        "mind": 6
+      },
+      "weapons": [
+        {
+          "name": "Shattered Touch",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-4",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Ethereal",
+          "Mindless"
+        ],
+        "unique": [
+          {
+            "name": "Reflected Reality",
+            "description": "Unless this character has been killed, every time you draw any Agendas , draw one extra, take a look, and then discard one."
+          }
+        ],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Harlequin",
+      "page": 13,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 3,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 7,
+        "attack": 4,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Acrobatic (3)",
+          "Slippery"
+        ],
+        "unique": [
+          {
+            "name": "Maximum Fastness",
+            "description": "This character cannot have more than a +1 modifier to its DEXTERITY (e.g. due to Evasion or Reactions). Dice gained through spending Will Points are unaffected."
+          }
+        ],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "II Mentore",
+      "page": 14,
+      "keywords": [
+        "Unique",
+        "Trade"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Stiletto",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Innamorati",
+      "page": 15,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Hero",
+      "version": "2.2.1",
+      "actions": 3,
+      "will": 4,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Parry (1)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Justice",
+      "page": 16,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 5,
+      "life": 14,
+      "command": null,
+      "base_size": 30,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Sword of Balance",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-4",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Ethereal"
+        ],
+        "unique": [
+          {
+            "name": "Justice Served",
+            "description": "During deployment, pick 1 enemy character. Justice re-rolls all failed dice rolls when making Combat actions against this character, including the Destiny Dice!"
+          }
+        ],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Marco Leontus",
+      "page": 17,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.1",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [
+          {
+            "name": "The Mask Makes the Noble",
+            "description": "At the beginning of the game, before deployment, select another friendly character to wear one of this character's Masks. For the entirety of the game that character gains one of the following:\n• Increase their starting Command Points by 2\n• Boat Crew and Bodyguard (Leader)\nA character can only be given a single Mask. Unique characters without Faction (Gifted) and Mindless characters cannot be given a Mask."
+          }
+        ],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Master Gerhard",
+      "page": 18,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Forge Hammer",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Maria Fioritura",
+      "page": 19,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty , Fateweaving , Wild Magic )",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 6,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Paintbrush",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (1)",
+          "Mage (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Painted Protector",
+      "page": 20,
+      "keywords": [],
+      "rank": null,
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 8,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 6,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (4)",
+          "Expert Protection (2)"
+        ],
+        "unique": [
+          {
+            "name": "Work of Art",
+            "description": "This character cannot be chosen as part of a gang, and gives no Victory Points if killed. In addition, if this character is killed, the Maria Fioritura that created it replenishes 1 Will Point ."
+          }
+        ],
+        "command": []
+      },
+      "unique": false
+    },
+    {
+      "name": "Solus Hydraea",
+      "page": 21,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Bronze Chisel",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fear (0)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "The Mask Maker",
+      "page": 22,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 5,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Pliers",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Concealment (+1)",
+          "Fear (-2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "White Dove",
+      "page": 23,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 3,
+      "will": 2,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 21,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Dove's Kiss",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Knockback, Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (2)",
+          "Flight"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Zovena Vela",
+      "page": 24,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Fireball",
+          "range": "8\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "-2",
+          "abilities": "Black Powder,"
+        },
+        {
+          "name": "Fiery Explosion",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "-7",
+          "abilities": "Black Powder, Blast,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Brighella",
+      "page": 25,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Atrezzo Crossbow",
+          "range": "30\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Reload (2), Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (1)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Colombina",
+      "page": 26,
+      "keywords": [
+        "Unique",
+        "Commedia dell'ArteAll According to Plan Colombina has a plan, and provided everyone plays their role, it'll all work out in the end. Once per round, when any character with line of sight to this character  is about to make a roll with at least 1 dice, you can decide to score a single Ace instead of rolling."
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Gilded Mirror",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Coviello",
+      "page": 27,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Prop Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Acrobatic (2)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "The Demolitionist",
+      "page": 28,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Bomb",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Black Powder, Blast,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (2)",
+          "Berserk"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Escaped Madman",
+      "page": 29,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 3,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Tentacled Rebar",
+          "range": "1\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (3)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Il Dottore",
+      "page": 30,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Wine Bottle",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Mezzetino",
+      "page": 31,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Parry (1)"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Pantaleone",
+      "page": 32,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Smoke Bomb",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Blast, Harmless,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Pickpocket"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Scapino",
+      "page": 33,
+      "keywords": [
+        "Unique",
+        "Commedia dell'Arte"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Starspawn",
+      "page": 34,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 3,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Fanged Tentacles",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      },
+      "unique": true
+    },
+    {
+      "name": "Pierrot",
+      "page": 35,
+      "keywords": [
+        "Commedia dell'ArteEveryman If a friendly character is charged within 6\" of one or more characters with this rule, you may choose to swap them with one friendly Pierrot that isn't in base contact with an enemy. This is done before any Attacks of Opportunity. Turns out it was Pierrot all along!"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 8,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 8,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": []
+      },
+      "unique": false
+    }
+  ]
+}
