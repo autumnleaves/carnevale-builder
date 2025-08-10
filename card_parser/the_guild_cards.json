@@ -38,9 +38,8 @@
       ],
       "abilities": {
         "common": [
-          "Aerial Attack",
           "Expert Offence (2)",
-          "Infiltration"
+          "Aerial Attack"
         ],
         "unique": [
           {
@@ -50,7 +49,7 @@
         ],
         "command": [
           {
-            "name": "Fight For the Guild!",
+            "name": "• InfiltrationFight For the Guild!",
             "type": "PULSE",
             "description": "One friendly character in line of sight with the Trade keyword replenishes 2 Will Points instead of 1 from Companion until the end of the game."
           }
@@ -96,8 +95,9 @@
       ],
       "abilities": {
         "common": [
-          "Fast Swimmer (2)",
-          "Parry (2)"
+          "Parry (2)",
+          "Expert Protection (3)",
+          "Fast Swimmer (2)"
         ],
         "unique": [
           {
@@ -107,9 +107,9 @@
         ],
         "command": [
           {
-            "name": "Toughen Up",
+            "name": "• Toughen Up",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 6” gain Expert Protection (3) ."
+            "description": "Until the end of the round, any friendly characters within 6” gain"
           }
         ]
       }
@@ -147,16 +147,15 @@
       ],
       "abilities": {
         "common": [
-          "Brave",
           "Companion ( End of Days )",
-          "Mindless"
+          "Brave"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Start the Horrorshow!",
+            "name": "• MindlessStart the Horrorshow!",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters with the End of Days keyword in line of sight gain +1 ATTACK."
+            "description": "Until the end of the round, any friendly characters with the"
           }
         ]
       }
@@ -203,15 +202,19 @@
       "abilities": {
         "common": [
           "Concealment (+1)",
-          "Parry (2)",
-          "Slippery"
+          "Parry (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Don't Let Them Take You!",
+            "name": "• SlipperyDon't Let Them Take You!",
             "type": "PULSE",
-            "description": "One other friendly character in line of sight within 3\" (not including this one) gains Parry (2) until the end of the game. Strike When They're Vulnerable AURA Command Ability Until the end of the round, any other friendly characters with the House of Virtue keyword in line of sight (not including this one) gain Penetration -2 on their weapons."
+            "description": "One other friendly character in line of sight within 3\" (not including this one) gains Parry (2) until the end of the game."
+          },
+          {
+            "name": "Strike When They're Vulnerable",
+            "type": "AURA",
+            "description": "Until the end of the round, any other friendly characters with the"
           }
         ]
       }
@@ -249,19 +252,16 @@
       ],
       "abilities": {
         "common": [
-          "Bulky",
-          "Companion ( End of Days )",
           "First Strike (2)",
-          "Limited Movement",
-          "Mindless",
-          "Slippery"
+          "Companion ( End of Days )",
+          "Bulky"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Full Tilt!",
+            "name": "• SlipperyFull Tilt!",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters with the End of Days keyword in line of sight gain +1 MOVEMENT."
+            "description": "Until the end of the round, any friendly characters with the"
           }
         ]
       }
@@ -299,17 +299,16 @@
       ],
       "abilities": {
         "common": [
-          "Acrobatic (2)",
           "Expert Marksman (2)",
-          "Pickpocket",
-          "Slippery"
+          "Acrobatic (2)",
+          "Pickpocket"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Thieves Guild Training",
+            "name": "• SlipperyThieves Guild Training",
             "type": "PULSE",
-            "description": "One friendly character within 6\" gains Pickpocket until the end of the game. Take it for the Guild! Any friendly characters in line of sight replenish 2 Will Points instead of 1 when Pickpocketing ."
+            "description": "One friendly character within 6\" gains Pickpocket until the end of the game."
           }
         ]
       }
@@ -390,8 +389,8 @@
       ],
       "abilities": {
         "common": [
-          "Brave",
-          "Universal Shielding (4)"
+          "Universal Shielding (4)",
+          "Brave"
         ],
         "unique": [
           {
@@ -401,7 +400,7 @@
         ],
         "command": [
           {
-            "name": "Rally to the Light!",
+            "name": "• Rally to the Light!",
             "type": "AURA",
             "description": "Until the end of the round, any friendly characters in line of sight gain Companion (Black Lamp) and Brave."
           }
@@ -622,7 +621,7 @@
       "abilities": {
         "common": [
           "Expert Marksman (2)",
-          "Pickpocket"
+          "First Strike (1)"
         ],
         "unique": [
           {
@@ -636,9 +635,9 @@
         ],
         "command": [
           {
-            "name": "Intimidation",
+            "name": "• PickpocketIntimidation",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 3\" gain First Strike (1)."
+            "description": "Until the end of the round, any friendly characters within 3\" gain"
           }
         ]
       }
@@ -684,8 +683,9 @@
       ],
       "abilities": {
         "common": [
+          "First Strike (1)",
           "Companion ( End of Days )",
-          "Mindless"
+          "Brave"
         ],
         "unique": [
           {
@@ -699,9 +699,9 @@
         ],
         "command": [
           {
-            "name": "Fancy a Tipple?",
+            "name": "• MindlessFancy a Tipple?",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 3\" gain Brave and First Strike (1)."
+            "description": "Until the end of the round, any friendly characters within 3\" gain"
           }
         ]
       }
@@ -823,15 +823,13 @@
         }
       ],
       "abilities": {
-        "common": [
-          "Slippery"
-        ],
+        "common": [],
         "unique": [],
         "command": [
           {
-            "name": "Communicative Dance",
+            "name": "• SlipperyCommunicative Dance",
             "type": "PULSE",
-            "description": "Pick one friendly character within 3\" and one different friendly character with the House of Virtue keyword within line of sight. Both of those characters make an immediate Run/Climb action. This movement cannot be used to charge, but can be used to disengage."
+            "description": "Pick one friendly character within 3\" and one different friendly character with the House of Virtue keyword within line of sight."
           }
         ]
       }
@@ -911,12 +909,17 @@
           "Fast Swimmer (2)",
           "Hunter"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "until the end of the game.",
+            "description": "2.2.1 3014 21231"
+          }
+        ],
         "command": [
           {
-            "name": "Bring it Down!",
+            "name": "• Hunter Bring it Down!",
             "type": "PULSE",
-            "description": "One friendly character within 6\" gains Hunter until the end of the game."
+            "description": "One friendly character within 6\" gains"
           }
         ]
       }
@@ -960,7 +963,13 @@
             "description": "All friendly characters with Companion( Trade ) gain +1 ATTACK while within 6” of one or more characters with this special rule Characters with the Instigator rule are unaffected."
           }
         ],
-        "command": []
+        "command": [
+          {
+            "name": "Extortion",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters with the"
+          }
+        ]
       }
     },
     {
@@ -1102,16 +1111,16 @@
       ],
       "abilities": {
         "common": [
+          "Acrobatic (3)",
           "Aerial Attack",
-          "Infiltration",
-          "Pickpocket"
+          "Infiltration"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Get to the Roof",
+            "name": "• PickpocketGet to the Roof",
             "type": "PULSE",
-            "description": "One friendly character with the Henchman keyword within 6\" gains Acrobatic (3) until the end of the game."
+            "description": "One friendly character with the"
           }
         ]
       }
@@ -1149,12 +1158,9 @@
       ],
       "abilities": {
         "common": [
-          "Bulky",
-          "Companion ( End of Days )",
           "First Strike (2)",
-          "Limited Movement",
-          "Mindless",
-          "Slippery"
+          "Companion ( End of Days )",
+          "Bulky"
         ],
         "unique": [
           {
@@ -1164,9 +1170,9 @@
         ],
         "command": [
           {
-            "name": "Toot Toot Toot... Charge!",
+            "name": "• SlipperyToot Toot Toot... Charge!",
             "type": "PULSE",
-            "description": "Up to 2 friendly characters within 3\" may make an immediate Run/Climb action, but this movement must be used to charge an enemy (doesn't have to be the same enemy!)."
+            "description": "Up to 2 friendly characters within 3\" may make an immediate"
           }
         ]
       }

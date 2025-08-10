@@ -30,9 +30,10 @@
       "weapons": [],
       "abilities": {
         "common": [
-          "Expert Offence (2)",
           "Expert Protection (2)",
-          "Frenzied"
+          "Expert Offence (2)",
+          "Bodyguard (Vlad Dracula)",
+          "Companion (Vlad Dracula)"
         ],
         "unique": [
           {
@@ -42,9 +43,9 @@
         ],
         "command": [
           {
-            "name": "Transformation",
+            "name": "• FrenziedTransformation",
             "type": "PULSE",
-            "description": "Remove this character and place it anywhere on solid ground within 8”, at least 3” away from any enemy characters. This ability cannot be used while in base contact with an enemy character. Master Bloodline All friendly characters with the Vampire keyword in line of sight to this character gain Bodyguard (Vlad Dracula) and Companion (Vlad Dracula) . 2.4.0 3027 315 5 Vlad Dracula"
+            "description": "Remove this character and place it anywhere on solid ground within 8”, at least 3” away from any enemy characters. This ability cannot be used while in base contact with an enemy character."
           }
         ]
       }
@@ -82,8 +83,7 @@
       ],
       "abilities": {
         "common": [
-          "Mage (3)",
-          "Slippery"
+          "Mage (3)"
         ],
         "unique": [
           {
@@ -97,9 +97,9 @@
         ],
         "command": [
           {
-            "name": "Clairvoyancy",
+            "name": "• SlipperyClairvoyancy",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 6\" may re-roll 1 dice on any of their rolls. Note that this does not include the Destiny dice!"
+            "description": "Until the end of the round, any friendly characters within 6\" may re-roll 1 dice on any of their rolls."
           }
         ]
       }
@@ -137,9 +137,9 @@
       ],
       "abilities": {
         "common": [
+          "Vampiric Attack (2)",
           "Expert Offence (3)",
-          "Frenzied",
-          "Vampiric Attack (2)"
+          "Frenzied"
         ],
         "unique": [
           {
@@ -149,9 +149,9 @@
         ],
         "command": [
           {
-            "name": "Blood Frenzy",
+            "name": "• Blood Frenzy",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters with the Vampire keyword within Line of Sight increase their Vampiric Attack by 1 to a maximum of 2. Bloodline All friendly characters with the Vampire keyword in line of sight to this character gain Companion (Noble Strigoi )."
+            "description": "Until the end of the round, any friendly characters with the Vampire keyword within Line of Sight increase their Vampiric Attack by 1 to a maximum of 2."
           }
         ]
       }
@@ -189,11 +189,9 @@
       ],
       "abilities": {
         "common": [
+          "Vampiric Attack (1)",
           "Concealment (+2)",
-          "Flight",
-          "Frenzied",
-          "Infiltration",
-          "Vampiric Attack (1)"
+          "Flight"
         ],
         "unique": [
           {
@@ -203,9 +201,9 @@
         ],
         "command": [
           {
-            "name": "Natural Camouflage",
+            "name": "• Natural Camouflage",
             "type": "PULSE",
-            "description": "Pick one friendly character within 6\". That character gains Concealment (+2) until the end of the game. A character can only be affected by this Command Ability once."
+            "description": "Pick one friendly character within 6\"."
           }
         ]
       }
@@ -244,9 +242,8 @@
       ],
       "abilities": {
         "common": [
-          "Vampiric Attack (1)",
           "Universal Shielding (3)",
-          "Frenzied"
+          "Vampiric Attack (1)"
         ],
         "unique": [
           {
@@ -256,9 +253,9 @@
         ],
         "command": [
           {
-            "name": "Defensive Lines:",
+            "name": "• FrenziedDefensive Lines:",
             "type": "PULSE",
-            "description": "Until the end of the round, all other friendly characters within 3\" gain Universal Shielding (2) . Warlord: Friendly characters with the Soldier keyword may use this character's MIND instead of their own while they are in Line of Sight of this character."
+            "description": "Until the end of the round, all other friendly characters within 3\" gain"
           }
         ]
       }
@@ -298,18 +295,16 @@
       ],
       "abilities": {
         "common": [
+          "Vampiric Attack (2)",
           "Concealment (+2)",
-          "Frenzied",
-          "Infiltration",
-          "Slippery",
-          "Vampiric Attack (2)"
+          "Frenzied"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Romani Fury",
+            "name": "• Romani Fury",
             "type": "PULSE",
-            "description": "Every friendly character with the Bride keyword gains Expert Offence (3) until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
+            "description": "Every friendly character with the Bride keyword gains Expert"
           }
         ]
       }
@@ -350,17 +345,17 @@
       ],
       "abilities": {
         "common": [
+          "Vampiric Attack (1)",
           "Expert Sorcerer (1)",
           "Frenzied",
-          "Mage (2)",
-          "Vampiric Attack (1)"
+          "Mage (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "African Bewitching",
+            "name": "• African Bewitching",
             "type": "PULSE",
-            "description": "Every friendly character with the Bride keyword gains Stun on their weapons until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
+            "description": "Every friendly character with the"
           }
         ]
       }
@@ -400,8 +395,8 @@
       ],
       "abilities": {
         "common": [
-          "Frenzied",
-          "Vampiric Attack (1)"
+          "Vampiric Attack (1)",
+          "Frenzied"
         ],
         "unique": [
           {
@@ -411,9 +406,9 @@
         ],
         "command": [
           {
-            "name": "Eastern Swiftness",
+            "name": "• Eastern Swiftness",
             "type": "PULSE",
-            "description": "Every friendly character with the Bride keyword gains 1 AP until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
+            "description": "Every friendly character with the"
           }
         ]
       }
@@ -786,8 +781,7 @@
       ],
       "abilities": {
         "common": [
-          "Mage (2)",
-          "Slippery"
+          "Mage (2)"
         ],
         "unique": [
           {
@@ -797,9 +791,9 @@
         ],
         "command": [
           {
-            "name": "Soothsaying",
+            "name": "• SlipperySoothsaying",
             "type": "PULSE",
-            "description": "For every enemy character in line of sight to this character, add a re-roll to your Soothsaying Pool. Until the end of the round, any friendly character may use these re-rolls on any roll this round - one re-roll per dice."
+            "description": "For every enemy character in line of sight to this character, add a re-roll to your Soothsaying Pool."
           }
         ]
       }
@@ -904,9 +898,9 @@
       "weapons": [],
       "abilities": {
         "common": [
+          "Vampiric Attack (1)",
           "Frenzied",
-          "Mage (2)",
-          "Vampiric Attack (1)"
+          "Mage (2)"
         ],
         "unique": [
           {
@@ -916,9 +910,9 @@
         ],
         "command": [
           {
-            "name": "Judgement",
+            "name": "• Judgement",
             "type": "PULSE",
-            "description": "Pick an enemy character within 6\". That character is Judged until the end of the round. Friendly characters may re-roll their entire Attack Roll (all of it - including the Destiny dice) against an enemy Judged character. When a friendly Mage attempts to Dispel a spell cast by a Judged character, count their Mage (X) level as 1 higher."
+            "description": "Pick an enemy character within 6\"."
           }
         ]
       }
@@ -1475,16 +1469,16 @@
       ],
       "abilities": {
         "common": [
+          "Vampiric Attack (1)",
           "Concealment (+1)",
-          "Frenzied",
-          "Vampiric Attack (1)"
+          "Frenzied"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Shadow Walker",
+            "name": "• Shadow Walker",
             "type": "PULSE",
-            "description": "Pick one friendly character with the Vampire keyword within 1”. Remove this character and place them anywhere out of base contact within 8” of this character. This placement does not cause Attacks of Opportunity."
+            "description": "Pick one friendly character with the"
           }
         ]
       }
