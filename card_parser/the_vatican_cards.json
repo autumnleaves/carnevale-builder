@@ -47,10 +47,6 @@
           {
             "name": "Patriarch Bishop",
             "description": "All friendly characters with the Faction (The Vatican) keyword gain Companion ( Leader ) while in line of sight of this character."
-          },
-          {
-            "name": "He Will Strengthen You \nand Protect You",
-            "description": ""
           }
         ],
         "command": [
@@ -206,10 +202,6 @@
           {
             "name": "Stigmata",
             "description": "If this character uses one or more Life Points as Will Points (due to Frenzied ) either to increase the dice pool or to perform an action (like casting spells), it may re-roll an equal number of dice (including the Destiny Dice ) during that action. If it does this on a Combat action, Hands of God instead has Penetration -3 for that action."
-          },
-          {
-            "name": "For the Glory of God",
-            "description": ""
           }
         ],
         "command": [
@@ -364,10 +356,6 @@
           {
             "name": "Renewed Vigour",
             "description": "When this character kills an enemy character, he replenishes his full Will Points ."
-          },
-          {
-            "name": "Put it Through the Heart!",
-            "description": ""
           }
         ],
         "command": [
@@ -786,12 +774,7 @@
           "Expert Marksman (2)",
           "Expert Offence (2)"
         ],
-        "unique": [
-          {
-            "name": "Look With Satisfaction Upon \nMy Enemies",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Look With Satisfaction Upon",

@@ -271,7 +271,8 @@ def parse_remaining_abilities(cleaned_text: str, known_common_abilities: List[st
                     if potential_desc and not any(x in potential_desc for x in ['Actions Life Will', 'MOVEMENT DEXTERITY', 'Range Evasion', 'PULSE Command', 'AURA Command']):
                         description = normalize_description(potential_desc)
                 
-                if ability_text != '.' and not ability_text.endswith(' .'):  # Don't add periods as abilities or text ending with " ."
+                # If we have a valid description, add the unique ability
+                if description != '' and ability_text != '.' and not ability_text.endswith(' .'):  # Don't add periods as abilities or text ending with " ."
                     unique_abilities.append({
                         "name": ability_text,
                         "description": description

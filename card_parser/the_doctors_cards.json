@@ -47,10 +47,6 @@
           {
             "name": "Aetheric Control",
             "description": "This character replenishes all of its Command Points at the start of each of its turns."
-          },
-          {
-            "name": "Mind Gazing",
-            "description": ""
           }
         ],
         "command": [
@@ -101,12 +97,7 @@
           "Mage (2)",
           "Vampiric Attack (2)"
         ],
-        "unique": [
-          {
-            "name": "Unliving Curse",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Unliving Curse",
@@ -147,10 +138,6 @@
           {
             "name": "Full Plate",
             "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
-          },
-          {
-            "name": "Expert Offense (2)\nElectrical Stimulation",
-            "description": ""
           }
         ],
         "command": [
@@ -202,10 +189,6 @@
           {
             "name": "Voltaic Shield",
             "description": "If an enemy character makes a Combat action against this character in base contact and they don't lose any Life Points from the attack, the enemy character loses 3 Life Points ."
-          },
-          {
-            "name": "Protective Field",
-            "description": ""
           }
         ],
         "command": [
@@ -258,10 +241,6 @@
           {
             "name": "Plague-infused Anatomy",
             "description": "The Plague Doctor has laced their test subjects with a virulent new plague, activated at a moment's notice! If an enemy character kills a friendly character in base contact while either are within 6\" of this character, the enemy receives a Stunned counter."
-          },
-          {
-            "name": "Biological Studies",
-            "description": ""
           }
         ],
         "command": [
@@ -503,12 +482,7 @@
           "Expert Offence (2)",
           "Slippery"
         ],
-        "unique": [
-          {
-            "name": "Elixir",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Elixir",
@@ -557,10 +531,6 @@
           {
             "name": "Beast Master",
             "description": "All friendly characters with the Animal keyword gain Companion (Doctor ) while in line of sight of this character."
-          },
-          {
-            "name": "Overcharged Discipline",
-            "description": ""
           }
         ],
         "command": [
@@ -613,10 +583,6 @@
           {
             "name": "Aetheric Gaze",
             "description": "This character may select its Magic Spells from up to 2 different Disciplines. It also gains Cantrips from both Disciplines chosen."
-          },
-          {
-            "name": "Void Walker",
-            "description": ""
           }
         ],
         "command": [
@@ -739,12 +705,7 @@
         "common": [
           "Mage (2)"
         ],
-        "unique": [
-          {
-            "name": "Power Over Death",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Power Over Death",

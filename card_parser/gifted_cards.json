@@ -46,10 +46,6 @@
           {
             "name": "Troupe Leader",
             "description": "All friendly characters with the Commedia dell'Arte keyword gain Companion (Il Capitano) as long as this character is on the board."
-          },
-          {
-            "name": "Stage Manager",
-            "description": ""
           }
         ],
         "command": [
@@ -106,12 +102,7 @@
           "Bulky",
           "Parry (2)"
         ],
-        "unique": [
-          {
-            "name": "Search of Satisfaction",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Search of Satisfaction",

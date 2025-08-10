@@ -105,12 +105,7 @@
           "Brave",
           "Parry (2)"
         ],
-        "unique": [
-          {
-            "name": "Take Arms",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Take Arms",
@@ -157,10 +152,6 @@
           {
             "name": "Unwieldy",
             "description": "This character may only make Combat actions with the Twin Rifled Duelling Pistols as the first action of their turn (including using it for Attacks of Opportunity)."
-          },
-          {
-            "name": "Naval Discipline",
-            "description": ""
           }
         ],
         "command": [
@@ -212,10 +203,6 @@
           {
             "name": "Murderous Patron",
             "description": "Any other friendly character that kills an enemy character replenishes 1 Will Point if both are in line of sight to the Venetian Noble."
-          },
-          {
-            "name": "The Monster Behind the Mask",
-            "description": ""
           }
         ],
         "command": [
@@ -312,10 +299,6 @@
           {
             "name": "Martial Elite",
             "description": "Friendly characters with the Ottoman keyword within 6\" may use their Expert Offence ability on the Destiny Dice."
-          },
-          {
-            "name": "Coordinated Attack",
-            "description": ""
           }
         ],
         "command": [
@@ -371,10 +354,6 @@
           {
             "name": "Second in Command",
             "description": "If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword and no other Sopracomitos may be chosen. However, if there is another character with the Leader keyword, this character loses the Leader keyword."
-          },
-          {
-            "name": "Wages Are Here",
-            "description": ""
           }
         ],
         "command": [
@@ -553,10 +532,6 @@
           {
             "name": "Chain of Command",
             "description": "This character may only use the ORDER or COUNTER Commands on characters with the Soldier keyword."
-          },
-          {
-            "name": "Take Aim!",
-            "description": ""
           }
         ],
         "command": [
@@ -779,10 +754,6 @@
           {
             "name": "Unwieldy",
             "description": "This character may only make Combat actions with the Nock Gun as the first action of their turn (including using it for Attacks of Opportunity)."
-          },
-          {
-            "name": "We Trained For This",
-            "description": ""
           }
         ],
         "command": [
@@ -901,12 +872,7 @@
           "Expert Offence (2)",
           "Universal Shielding (3)"
         ],
-        "unique": [
-          {
-            "name": "Barbary Discipline",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Barbary Discipline",
@@ -1005,10 +971,6 @@
           {
             "name": "Barbed",
             "description": "If a Combat action with the Cat O’Nine Tails results in no Protection roll for the target, add 2 to the Damage."
-          },
-          {
-            "name": "Domination",
-            "description": ""
           }
         ],
         "command": [

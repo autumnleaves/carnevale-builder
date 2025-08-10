@@ -266,12 +266,7 @@
           "Universal Shielding (4)",
           "Water Creature"
         ],
-        "unique": [
-          {
-            "name": "Blessing of Dagon",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Blessing of Dagon",
@@ -444,12 +439,7 @@
         "common": [
           "Expert Offence (2)"
         ],
-        "unique": [
-          {
-            "name": "Bolster Your Faith",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Bolster Your Faith",
@@ -541,10 +531,6 @@
           {
             "name": "Burned Flesh",
             "description": "If a Combat action with the Burning Brand results in no Protection roll for the target, add 2 to the Damage."
-          },
-          {
-            "name": "Prove Yourselves to Dagon!",
-            "description": ""
           }
         ],
         "command": [

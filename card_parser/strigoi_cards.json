@@ -38,10 +38,6 @@
           {
             "name": "Connoisseur",
             "description": "Vlad will not drink the blood of just anyone. When attacking a character with the Hero keyword, he gains Vampiric Attack (1) . When attacking a character with the Leader keyword, he gains Vampiric Attack (3) ."
-          },
-          {
-            "name": "Transformation",
-            "description": ""
           }
         ],
         "command": [
@@ -97,10 +93,6 @@
           {
             "name": "Minor Incantata",
             "description": "This character may cast a Cantrip for 0AP once per character turn. All the standard rules for casting spells apply."
-          },
-          {
-            "name": "Clairvoyancy",
-            "description": ""
           }
         ],
         "command": [
@@ -153,10 +145,6 @@
           {
             "name": "Sanguine Sabotage",
             "description": "The Noble Strigoi has infiltrated the opponent's gang to take them down from within. Whenever an enemy character uses a Command within 6\" of this character, roll a dice. On a 7+ the Command costs an extra Command Point if possible."
-          },
-          {
-            "name": "Blood Frenzy",
-            "description": ""
           }
         ],
         "command": [
@@ -264,10 +252,6 @@
           {
             "name": "Full Plate:",
             "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
-          },
-          {
-            "name": "Defensive Lines:",
-            "description": ""
           }
         ],
         "command": [
@@ -371,12 +355,7 @@
           "Mage (2)",
           "Vampiric Attack (1)"
         ],
-        "unique": [
-          {
-            "name": "African Bewitching",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "African Bewitching",
@@ -428,10 +407,6 @@
           {
             "name": "Sisters of Gélô",
             "description": "This character replenishes 1 Command Point at the start of each character turn if it has line of sight to any other friendly character with the Bride keyword."
-          },
-          {
-            "name": "Eastern Swiftness",
-            "description": ""
           }
         ],
         "command": [
@@ -818,10 +793,6 @@
           {
             "name": "Premonition",
             "description": "Whenever rolling dice for this character, you may re-roll the Destiny Dice."
-          },
-          {
-            "name": "Soothsaying",
-            "description": ""
           }
         ],
         "command": [
@@ -941,10 +912,6 @@
           {
             "name": "Cast Sentence",
             "description": "Whenever a character Judged by this character is killed, this character replenishes 3 Life Points or 1 Command Point ."
-          },
-          {
-            "name": "Judgement",
-            "description": ""
           }
         ],
         "command": [
@@ -1512,12 +1479,7 @@
           "Frenzied",
           "Vampiric Attack (1)"
         ],
-        "unique": [
-          {
-            "name": "Shadow Walker",
-            "description": ""
-          }
-        ],
+        "unique": [],
         "command": [
           {
             "name": "Shadow Walker",
