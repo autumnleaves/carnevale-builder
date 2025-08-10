@@ -38,11 +38,19 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Brawler (2)",
+          "Expert Offence (2)"
+        ],
+        "unique": [
+          {
+            "name": "Troupe Leader",
+            "description": "All friendly characters with the Commedia dell'Arte keyword gain Companion (Il Capitano) as long as this character is on the board."
+          }
+        ],
         "command": [
           {
-            "name": "Expert Offence (2) Stage Manager",
+            "name": "Stage Manager",
             "type": "PULSE",
             "description": "2 friendly characters within line of sight may make an immediate Run/Climb action. This movement cannot be used to move into or out of base contact with an enemy."
           }
@@ -90,11 +98,14 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Bulky",
+          "Parry (2)"
+        ],
         "unique": [],
         "command": [
           {
-            "name": "Parry (2)Search of Satisfaction",
+            "name": "Search of Satisfaction",
             "type": "PULSE",
             "description": "Add up every character (friendly or enemy) within 3\" of this character. She replenishes that many Will Points . Cheat If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword. However, if the gang contains Il Capitano , this character loses the Leader keyword"
           }
@@ -147,7 +158,12 @@
           "Bodyguard ( Henchman )",
           "Infiltration"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Inspiring Hero",
+            "description": "If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword. However, if there is another character with the Leader keyword, this character loses the Leader keyword."
+          }
+        ],
         "command": []
       }
     },
@@ -193,8 +209,8 @@
       "rank": "Hero",
       "version": "2.3.0",
       "actions": 2,
-      "will": 2,
-      "life": 1,
+      "life": 12,
+      "will": 0,
       "command": null,
       "base_size": 30,
       "ducats": 17,
@@ -474,7 +490,12 @@
           "Ethereal",
           "Mindless"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Reflected Reality",
+            "description": "Unless this character has been killed, every time you draw any Agendas , draw one extra, take a look, and then discard one."
+          }
+        ],
         "command": []
       }
     },
@@ -515,7 +536,12 @@
           "Acrobatic (3)",
           "Slippery"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Maximum Fastness",
+            "description": "This character cannot have more than a +1 modifier to its DEXTERITY (e.g. due to Evasion or Reactions). Dice gained through spending Will Points are unaffected."
+          }
+        ],
         "command": []
       }
     },
@@ -644,7 +670,16 @@
         "common": [
           "Ethereal"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Justice Served",
+            "description": "During deployment, pick 1 enemy character. Justice re-rolls all failed dice rolls when making Combat actions against this character, including the"
+          },
+          {
+            "name": "Destiny Dice!",
+            "description": ""
+          }
+        ],
         "command": []
       }
     },
@@ -798,7 +833,12 @@
           "Universal Shielding (4)",
           "Expert Protection (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Work of Art",
+            "description": "This character cannot be chosen as part of a gang, and gives no Victory Points if killed. In addition, if this character is killed, the Maria Fioritura that created it replenishes 1 Will Point ."
+          }
+        ],
         "command": []
       }
     },

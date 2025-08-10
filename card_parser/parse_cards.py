@@ -565,9 +565,9 @@ def parse_card_enhanced(card_text: str, page_num: int) -> Dict:
     return card_data
 
 # Main parsing function
-def parse_all_cards_enhanced():
+def parse_faction_cards(extracted_text_file: str, faction_name: str) -> Dict:
     """Parse all cards with enhanced ability parsing"""
-    with open("extracted_text.json", "r", encoding="utf-8") as f:
+    with open(extracted_text_file, "r", encoding="utf-8") as f:
         pages = json.load(f)
     
     cards = []
@@ -578,50 +578,77 @@ def parse_all_cards_enhanced():
         text = page["text"]
         
         # Extract faction ability from first page
-        if page_num == 1 and "Mob Mentality" in text:
-            # Extract everything after "PULSE Command Ability" until end
-            faction_match = re.search(r'Mob Mentality\s*PULSE Command Ability\s*(.*)', text, re.DOTALL)
-            if faction_match:
-                description = faction_match.group(1).strip()
-                # Clean up the description
-                description = re.sub(r'\s+', ' ', description).strip()
-                faction_ability = {
-                    "name": "Mob Mentality",
-                    "description": description
-                }
-        
-        # Skip the first page as it only contains faction ability
         if page_num == 1:
+            faction_ability = parse_faction_ability(text, faction_name)
             continue
-            
+        
         # Try to parse as individual character cards
         card = parse_card_enhanced(text, page_num)
         if card and card.get("name") and len(card["name"]) < 50:  # Reasonable name length
             cards.append(card)
     
     return {
-        "faction": "The Guild",
+        "faction": faction_name,
         "faction_ability": faction_ability,
         "cards": cards
     }
 
+def parse_faction_ability(text: str, faction_name: str) -> Dict:
+    """Parse faction ability from page 1 text"""
+    faction_ability = {}
+    
+    # Look for PULSE Command Ability pattern
+    faction_match = re.search(r'([^\n]*?)\s*PULSE Command Ability\s*(.*)', text, re.DOTALL)
+    if faction_match:
+        # The ability name is usually the last meaningful line before "PULSE Command Ability"
+        pre_text = faction_match.group(1)
+        description = faction_match.group(2).strip()
+        
+        # Extract ability name from pre_text
+        lines = [line.strip() for line in pre_text.split('\n') if line.strip()]
+        ability_name = "Unknown Ability"
+        
+        # Look for the ability name (usually appears after faction keyword info)
+        for i, line in enumerate(lines):
+            if not any(x in line.lower() for x in ['faction', 'keyword', 'may use', 'command ability']):
+                if len(line.split()) <= 6 and not line.startswith('Any'):  # Reasonable ability name length
+                    ability_name = line
+                    break
+        
+        # Clean up the description
+        description = re.sub(r'\s+', ' ', description).strip()
+        
+        faction_ability = {
+            "name": ability_name,
+            "description": description
+        }
+    
+    return faction_ability
+
+def parse_faction_name(extracted_text_file: str) -> str:
+    """Extract the faction name from the file name of the extracted text"""
+    # assuming the file name is structured like "guild_extracted_text.json"
+    base_name = extracted_text_file.replace('.json', '').replace('_extracted_text', '')
+    
+    if base_name.lower().startswith("The_"):
+        return base_name[4:].replace('_', ' ').title()  # Remove "The_" and format nicely
+    
+    return base_name.replace('_', ' ').title()  # Just format the name nicely
+
 if __name__ == "__main__":
-    print("Loading text from extracted_text.json")
+    extracted_files = [f for f in os.listdir('.') if f.endswith('_extracted_text.json')]
+
+    for extracted_file in extracted_files:
+        faction_name = parse_faction_name(extracted_file)
+        print(f"Parsing cards for faction: {faction_name} from {extracted_file}")
+
+        result = parse_faction_cards(extracted_file, faction_name)
+
+        print(f"Successfully parsed {len(result['cards'])} cards and saved to {extracted_file.replace('_extracted_text.json', '_cards.json')}")
+
+        # Save to file
+        with open(extracted_file.replace('_extracted_text.json', '_cards.json'), "w", encoding="utf-8") as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+
+    print(f"{len(extracted_files)} factions processed.")
     
-    result = parse_all_cards_enhanced()
-    
-    print(f"Successfully parsed {len(result['cards'])} cards and saved to guild_cards.json")
-    
-    # Save to file
-    with open("guild_cards.json", "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
-    
-    # Print faction ability
-    if result.get("faction_ability"):
-        print("Faction ability:")
-        print(json.dumps(result["faction_ability"], indent=2))
-    
-    # Print sample card
-    if result.get("cards"):
-        print("Sample card data:")
-        print(json.dumps(result["cards"][0], indent=2))

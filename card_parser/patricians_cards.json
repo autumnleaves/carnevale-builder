@@ -15,9 +15,9 @@
       "rank": "Leader",
       "version": "2.2.0",
       "actions": 3,
-      "command": 3,
-      "will": 5,
-      "life": 30,
+      "life": 3053,
+      "will": 0,
+      "command": null,
       "base_size": 75,
       "ducats": 32,
       "stat_block": {
@@ -54,11 +54,15 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Bulky",
+          "Limited Movement",
+          "Expert Grappler (2)"
+        ],
         "unique": [],
         "command": [
           {
-            "name": "Expert Grappler (2)You there! Do something!",
+            "name": "You there! Do something!",
             "type": "AURA",
             "description": "Until the end of the round, other friendly characters that start their turn within 6\" and line of sight of this character gain First Strike (2) until the end of their turn. Characters can only be affected by this Command Ability once each game round."
           }
@@ -98,12 +102,14 @@
       ],
       "abilities": {
         "common": [
+          "Brave",
+          "Parry (2)",
           "Expert Marksman (1)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "Parry (2)Take Arms",
+            "name": "Take Arms",
             "type": "PULSE",
             "description": "Until the end of the round, all friendly characters with the Soldier keyword within 3\" gain +1 ATT ACK . Aim Fire! PULSE Command Ability Any friendly characters with the Soldier keyword in line of sight gain Expert Marksman (1) until the end of the round."
           }
@@ -135,12 +141,24 @@
       "weapons": [],
       "abilities": {
         "common": [
+          "Boat Crew",
+          "Expert Marksman (2)",
+          "Fast Swimmer (2)",
           "Boat as this character replenish 1 \nWill Point . Other friendly characters \nwith Boat Crew on the same Boat \nas this character instead replenish 2 \nWill Points .\nRaise a Crew\nAll friendly characters may be set up \non a Boat."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Twin Pistols",
+            "description": "This character's weapons share the Reload ability - you may make 2 Combat actions with the Rifled Duelling Pistol or 1 with Twin Rifled Duelling Pistols in one round."
+          },
+          {
+            "name": "Unwieldy",
+            "description": "This character may only make Combat actions with the Twin Rifled Duelling Pistols as the first action of their turn (including using it for Attacks of Opportunity)."
+          }
+        ],
         "command": [
           {
-            "name": "Fast Swimmer (2)Naval Discipline",
+            "name": "Naval Discipline",
             "type": "PULSE",
             "description": "Other friendly characters on the same Boat as this character replenish 1 Will Point . Other friendly characters with Boat Crew on the same Boat as this character instead replenish 2 Will Points . Raise a Crew All friendly characters may be set up on a Boat."
           }
@@ -179,11 +197,19 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Engage",
+          "Expert Offence (2)"
+        ],
+        "unique": [
+          {
+            "name": "Murderous Patron",
+            "description": "Any other friendly character that kills an enemy character replenishes 1 Will Point if both are in line of sight to the Venetian Noble."
+          }
+        ],
         "command": [
           {
-            "name": "Expert Offence (2)The Monster Behind the Mask",
+            "name": "The Monster Behind the Mask",
             "type": "PULSE",
             "description": "This character gains +1 to its MOVEMENT , DEXTERITY , and AT TAC K until the end of the round. However, it reduces its MIND to 1."
           }
@@ -218,7 +244,20 @@
           "Engage",
           "Limited Movement Do Try To Keep Up!\nOnce per round, before this character \nmakes a Run/Climb action, you may \nchoose 1 other friendly character \nwith the Councillor , Soldier, or Animal \nkeyword within 3\".\nAfter this character completes that \nRun/Climb action, the chosen \ncharacter makes an out of sequence \nRun/Climb action. This out of \nsequence action cannot cause Attacks \nof Opportunity from charging, but \nmay require a character to Disengage \nas normal.2.2.0\n5024\n 31843\nWeapon Range Evasion Damage Penetration Abilities\nGarter Pistol 6\" - - -2 Black Powder, Reload (2)\nGilded Sabre 0\" -1 +1 -1 -\nMounted Venetian Noble"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Venetian Drive",
+            "description": ""
+          },
+          {
+            "name": "PULSE Command Ability",
+            "description": "This character gains First Strike (2) until the end of the round, however it reduces its PROTECTION to 1."
+          },
+          {
+            "name": "Gleeful Charge",
+            "description": "When this character makes an Attack of Opportunity due to charging, Gilded Sabre's Evasion becomes -2 for that Attack of Opportunity."
+          }
+        ],
         "command": []
       }
     },
@@ -255,12 +294,20 @@
       ],
       "abilities": {
         "common": [
+          "Brawler (1)",
+          "Expert Offence (2)",
+          "Universal Shielding (3)",
           "Ottoman keyword within 3\" \n(including this one) gain First Strike \n(2) until the end of the round.\nDisciplined Momentum\nWhen a friendly character with the \nOttoman keyword within 6\" and line \nof sight kills an enemy character, \nthis character replenishes 1 lost \nCommand Point ."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Martial Elite",
+            "description": "Friendly characters with the Ottoman keyword within 6\" may use their Expert Offence ability on the Destiny Dice."
+          }
+        ],
         "command": [
           {
-            "name": "Universal Shielding (3)Coordinated Attack",
+            "name": "Coordinated Attack",
             "type": "PULSE",
             "description": "All friendly characters with the Ottoman keyword within 3\" (including this one) gain First Strike (2) until the end of the round. Disciplined Momentum When a friendly character with the Ottoman keyword within 6\" and line of sight kills an enemy character, this character replenishes 1 lost Command Point ."
           }
@@ -300,11 +347,22 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Boat Crew"
+        ],
+        "unique": [
+          {
+            "name": "Pay Out",
+            "description": "Any friendly character within 6” may use this character’s Will Point s as if they were their own."
+          },
+          {
+            "name": "Second in Command",
+            "description": "If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword and no other Sopracomitos may be chosen. However, if there is another character with the Leader keyword, this character loses the Leader keyword."
+          }
+        ],
         "command": [
           {
-            "name": "Boat Crew Wages Are Here",
+            "name": "Wages Are Here",
             "type": "PULSE",
             "description": "Any friendly characters in line of sight with the Soldier keyword that aren't in base contact with an enemy may immediately make a Run/Climb action for 0AP, but must move into base contact with this character. This move does not cause Attacks of Opportunity . Any characters that move into base contact immediately replenish 1 Will Point ."
           }
@@ -470,11 +528,19 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Bodyguard ( Officer )",
+          "Companion ( Officer )"
+        ],
+        "unique": [
+          {
+            "name": "Chain of Command",
+            "description": "This character may only use the ORDER or COUNTER Commands on characters with the Soldier keyword."
+          }
+        ],
         "command": [
           {
-            "name": "Companion ( Officer )Take Aim!",
+            "name": "Take Aim!",
             "type": "AURA",
             "description": "Until the end of the round, all friendly characters with the Soldier keyword within 6\" gain Expert Marksman (1) and Expert Offence (1)."
           }
@@ -633,11 +699,15 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Engage",
+          "Fear (0)",
+          "Mindless"
+        ],
         "unique": [],
         "command": [
           {
-            "name": "Mindless The Other, Other White Meat",
+            "name": "The Other, Other White Meat",
             "type": "AURA",
             "description": "Until the end of the round, every other friendly character in line of sight gains the Flesheater ability while in line of sight of this character. Flesheater If this character makes a Combat action against a target in base contact that causes it to lose at least 1 Life Point , it replenishes 1 Will Point ."
           }
@@ -678,12 +748,23 @@
       ],
       "abilities": {
         "common": [
+          "Boat Crew",
+          "Fast Swimmer (2)",
           "Any characters without \nFast Swimmer are unaffected."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Chain of Command",
+            "description": "This character may only use the ORDER or COUNTER Commands on characters with the Soldier keyword."
+          },
+          {
+            "name": "Unwieldy",
+            "description": "This character may only make Combat actions with the Nock Gun as the first action of their turn (including using it for Attacks of Opportunity)."
+          }
+        ],
         "command": [
           {
-            "name": "Fast Swimmer (2)We Trained For This",
+            "name": "We Trained For This",
             "type": "AURA",
             "description": "All friendly characters within 6\" increase their Fast Swimmer (X) value by 2 until the end of the round. Any characters without Fast Swimmer are unaffected."
           }
@@ -791,7 +872,12 @@
       },
       "weapons": [],
       "abilities": {
-        "common": [],
+        "common": [
+          "Bodyguard ( Leader )",
+          "Brawler (1)",
+          "Expert Offence (2)",
+          "Universal Shielding (3)"
+        ],
         "unique": [
           {
             "name": "Climb action is used to charge.",
@@ -800,7 +886,7 @@
         ],
         "command": [
           {
-            "name": "Universal Shielding (3)Barbary Discipline",
+            "name": "Barbary Discipline",
             "type": "AURA",
             "description": "Until the end of the round, all friendly characters within 6\" gain +2 MOVEMENT if their Run/ Climb action is used to charge."
           }
@@ -888,11 +974,19 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Frenzied",
+          "Expert Offence (2)"
+        ],
+        "unique": [
+          {
+            "name": "Barbed",
+            "description": "If a Combat action with the Cat O’Nine Tails results in no Protection roll for the target, add 2 to the Damage."
+          }
+        ],
         "command": [
           {
-            "name": "Expert Offence (2)Domination",
+            "name": "Domination",
             "type": "PULSE",
             "description": "Every friendly character in base contact makes an immediate Move action for 0AP. This action cannot be used to move into base contact with an enemy character. Sadism PULSE Command Ability This character loses 1 Life Point and gains +2 Attack until the end of the round."
           }
@@ -1041,7 +1135,12 @@
       ],
       "abilities": {
         "common": [],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Maps and Charts",
+            "description": "Whenever this character uses a Plan command, draw 2 extra Agendas, take a look, and discard 2 of your choice."
+          }
+        ],
         "command": []
       }
     },

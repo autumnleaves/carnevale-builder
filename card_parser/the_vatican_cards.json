@@ -1,5 +1,5 @@
 {
-  "faction": "The_Vatican",
+  "faction": "The Vatican",
   "faction_ability": {
     "name": "Heavenly Father Guide Us",
     "description": "This character replenishes 2 Will Points and every other friendly character within 3\" replenishes 1 Will Point ."
@@ -39,12 +39,20 @@
       ],
       "abilities": {
         "common": [
+          "Expert Sorcerer (1)",
+          "Mage (3)",
+          "Universal Shielding (3)",
           "Universal Shielding (3)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Patriarch Bishop",
+            "description": "All friendly characters with the Faction (The Vatican) keyword gain Companion ( Leader ) while in line of sight of this character."
+          }
+        ],
         "command": [
           {
-            "name": "and Protect You",
+            "name": "He Will Strengthen You",
             "type": "AURA",
             "description": "Until the end of the round, any friendly characters within 3\" gain Universal Shielding (3) ."
           }
@@ -85,11 +93,21 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Flight",
+          "Mage (2)",
+          "Slippery",
+          "Universal Shielding (3)"
+        ],
+        "unique": [
+          {
+            "name": "Masterful Summoning",
+            "description": "Friendly characters with the Construct keyword lose Mindless for the rest of the game, even if this character is killed."
+          }
+        ],
         "command": [
           {
-            "name": "Universal Shielding (3)Gates of Heaven",
+            "name": "Gates of Heaven",
             "type": "PULSE",
             "description": "Until the end of the round, whenever a friendly character with the Construct keyword in line of sight within 6\" uses a Will Point to increase a roll, it instead counts as 2 Will Points . Impart Will At the start of the game, all friendly characters with the Construct keyword increase their starting Will Points by 1."
           }
@@ -128,9 +146,16 @@
       "abilities": {
         "common": [
           "Fear (-2)",
+          "Fear the Lord",
+          "Fear (-2)",
           "Mage (3)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Exorcism",
+            "description": "When making a Combat action with Divine Touch, if it causes at least 1 Damage , the target loses 1 Will Point . If the target has 0 Will Points remaining, the attack instead does +3 Damage ."
+          }
+        ],
         "command": [
           {
             "name": "Fear (-2)Fear the Lord",
@@ -173,12 +198,20 @@
       ],
       "abilities": {
         "common": [
+          "Frenzied",
+          "Mage (3)",
+          "Universal Shielding (3)",
           "Expert Offence (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Stigmata",
+            "description": "If this character uses one or more Life Points as Will Points (due to Frenzied ) either to increase the dice pool or to perform an action (like casting spells), it may re-roll an equal number of dice (including the Destiny Dice ) during that action. If it does this on a Combat action, Hands of God instead has Penetration -3 for that action."
+          }
+        ],
         "command": [
           {
-            "name": "Universal Shielding (3)For the Glory of God",
+            "name": "For the Glory of God",
             "type": "AURA",
             "description": "Until the end of the round, any friendly characters within 3\" gain Expert Offence (2) ."
           }
@@ -217,11 +250,25 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Brave",
+          "Expert Offence (2)",
+          "Hunter",
+          "Universal Shielding (4)"
+        ],
+        "unique": [
+          {
+            "name": "Destined For Victory",
+            "description": "All friendly characters with the Hospitaller keyword may choose to re-roll the Destiny Dice when making re-rolls as long as this character is on the board."
+          },
+          {
+            "name": "Full Plate",
+            "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
+          }
+        ],
         "command": [
           {
-            "name": "Universal Shielding (4)Fight Until the Last",
+            "name": "Fight Until the Last",
             "type": "PULSE",
             "description": "This Command Ability is used out of sequence, at the start of the round before rolling initiative. Pick 1 friendly character in line of sight within 6\". If that character is reduced to 0 Life Points before they take their turn, they are not removed from the board. Instead they are only removed after their turn is complete."
           }
@@ -266,7 +313,12 @@
           "Flight",
           "Frenzied\nBorn of Blood \nWhenever any character (friendly \nor enemy) is killed within 3\", this \ncharacter replenishes 3 Life Points ."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Heavenly Vision",
+            "description": "Whenever a friendly character in line of sight within 6\" is instructed to replenish Will Points , increase the amount replenished by 1."
+          }
+        ],
         "command": []
       }
     },
@@ -302,11 +354,19 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Brawler (1)",
+          "Expert Offence (2)"
+        ],
+        "unique": [
+          {
+            "name": "Renewed Vigour",
+            "description": "When this character kills an enemy character, he replenishes his full Will Points ."
+          }
+        ],
         "command": [
           {
-            "name": "Expert Offence (2)Put it Through the Heart!",
+            "name": "Put it Through the Heart!",
             "type": "PULSE",
             "description": "Pick a friendly character in line of sight within 12\". One of that character's weapons gains -4 Penetration until the end of the round."
           }
@@ -430,7 +490,12 @@
           "Expert Offence (2)",
           "Brave"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Full Plate",
+            "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
+          }
+        ],
         "command": []
       }
     },
@@ -503,7 +568,12 @@
           "Universal Shielding (5)",
           "Brave"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Righteous Zeal",
+            "description": "Every friendly character gains Brave while in line of sight of this character."
+          }
+        ],
         "command": []
       }
     },
@@ -709,12 +779,14 @@
       ],
       "abilities": {
         "common": [
+          "Expert Marksman (2)",
+          "Expert Offence (2)",
           "Parry (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "My Enemies",
+            "name": "Look With Satisfaction Upon",
             "type": "AURA",
             "description": "Until the end of the round, any friendly characters within 3\" gain Parry (2) ."
           }
@@ -751,11 +823,22 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Brawler (1)",
+          "Frenzied",
+          "Limited Movement",
+          "Mindless",
+          "Universal Shielding (4)"
+        ],
+        "unique": [
+          {
+            "name": "Full Plate",
+            "description": "If this character event enters water, it reveives a Stunned counter which is only removed if it ends its turn out of water."
+          }
+        ],
         "command": [
           {
-            "name": "Must Be Cleansed",
+            "name": "Hasten Your Steps, The Unfaithful",
             "type": "PULSE",
             "description": "All other friendly characters within 3\" gain +1 MOVEMENT until the end of the round."
           }
@@ -879,8 +962,8 @@
       "rank": "Hero",
       "version": "2.2.0",
       "actions": 2,
-      "will": 3,
-      "life": 1,
+      "life": 13,
+      "will": 0,
       "command": null,
       "base_size": 30,
       "ducats": 15,
@@ -1069,11 +1152,14 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Mage (2)",
+          "Universal Shielding (3)"
+        ],
         "unique": [],
         "command": [
           {
-            "name": "and Burn Them Thoroughly",
+            "name": "Come Let Us Make Bricks",
             "type": "PULSE",
             "description": "Remove 1 friendly character with the Construct keyword from the board. Place it within 3\" of this character (with no changes to its Life Points )."
           }
@@ -1139,8 +1225,8 @@
       "rank": "Hero",
       "version": "2.2.0",
       "actions": 2,
-      "will": 6,
-      "life": 1,
+      "life": 16,
+      "will": 0,
       "command": null,
       "ducats": 0,
       "base_size": 0,
@@ -1218,7 +1304,12 @@
           "Expert Offence (1)",
           "Hunter"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Full Plate",
+            "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
+          }
+        ],
         "command": []
       }
     },
@@ -1297,7 +1388,12 @@
           "First Strike (2)",
           "Concealment (+2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Censer Bearer",
+            "description": "Any friendly character that starts its turn within 6\" and in line of sight of this character replenishes 1 Will Point . Characters with the Censer Bearer rule cannot be affected by this rule (from their own or other Censer Bearers). Characters cannot be affected by multiple instances of this rule in one turn."
+          }
+        ],
         "command": []
       }
     },
@@ -1979,7 +2075,12 @@
           "Mindless",
           "Primitive\nLiving Flame\nThis character loses double Life Points \nfrom Drown actions."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Infernal Ally",
+            "description": "While this character is on solid ground, enemy characters that end their turn in base contact with this character lose 1 Life Point ."
+          }
+        ],
         "command": []
       }
     },

@@ -30,13 +30,21 @@
       "weapons": [],
       "abilities": {
         "common": [
+          "Expert Offence (2)",
+          "Expert Protection (2)",
+          "Frenzied",
           "Bodyguard (Vlad Dracula)",
           "Companion (Vlad Dracula)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Connoisseur",
+            "description": "Vlad will not drink the blood of just anyone. When attacking a character with the Hero keyword, he gains Vampiric Attack (1) . When attacking a character with the Leader keyword, he gains Vampiric Attack (3) ."
+          }
+        ],
         "command": [
           {
-            "name": "Frenzied Transformation",
+            "name": "Transformation",
             "type": "PULSE",
             "description": "Remove this character and place it anywhere on solid ground within 8”, at least 3” away from any enemy characters. This ability cannot be used while in base contact with an enemy character. Master Bloodline All friendly characters with the Vampire keyword in line of sight to this character gain Bodyguard (Vlad Dracula) and Companion (Vlad Dracula) . 2.4.0 3027 315 5 Vlad Dracula"
           }
@@ -75,11 +83,23 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Mage (3)",
+          "Slippery"
+        ],
+        "unique": [
+          {
+            "name": "Major Arcana",
+            "description": "When picking spells, this character always knows all Cantrips from all Disciplines (even those she doesn't have access to)."
+          },
+          {
+            "name": "Minor Incantata",
+            "description": "This character may cast a Cantrip for 0AP once per character turn. All the standard rules for casting spells apply."
+          }
+        ],
         "command": [
           {
-            "name": "Slippery Clairvoyancy",
+            "name": "Clairvoyancy",
             "type": "AURA",
             "description": "Until the end of the round, any friendly characters within 6\" may re-roll 1 dice on any of their rolls. Note that this does not include the Destiny dice!"
           }
@@ -119,12 +139,20 @@
       ],
       "abilities": {
         "common": [
+          "Expert Offence (3)",
+          "Frenzied",
+          "Vampiric Attack (2)",
           "Bloodline\nAll friendly characters with the \nVampire keyword in line of sight \nto this character gain Companion \n(Noble Strigoi )."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Sanguine Sabotage",
+            "description": "The Noble Strigoi has infiltrated the opponent's gang to take them down from within. Whenever an enemy character uses a Command within 6\" of this character, roll a dice. On a 7+ the Command costs an extra Command Point if possible."
+          }
+        ],
         "command": [
           {
-            "name": "Vampiric Attack (2)Blood Frenzy",
+            "name": "Blood Frenzy",
             "type": "AURA",
             "description": "Until the end of the round, any friendly characters with the Vampire keyword within Line of Sight increase their Vampiric Attack by 1 to a maximum of 2. Bloodline All friendly characters with the Vampire keyword in line of sight to this character gain Companion (Noble Strigoi )."
           }
@@ -164,12 +192,22 @@
       ],
       "abilities": {
         "common": [
+          "Concealment (+2)",
+          "Flight",
+          "Frenzied",
+          "Infiltration",
+          "Vampiric Attack (1)",
           "Concealment (+2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Carrion",
+            "description": "Before deployment, choose 3 friendly characters. They gain Infiltration ."
+          }
+        ],
         "command": [
           {
-            "name": "Vampiric Attack (1)Natural Camouflage",
+            "name": "Natural Camouflage",
             "type": "PULSE",
             "description": "Pick one friendly character within 6\". That character gains Concealment (+2) until the end of the game. A character can only be affected by this Command Ability once."
           }
@@ -210,12 +248,20 @@
       ],
       "abilities": {
         "common": [
+          "Vampiric Attack (1)",
+          "Universal Shielding (3)",
+          "Frenzied",
           "Universal Shielding (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Full Plate:",
+            "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
+          }
+        ],
         "command": [
           {
-            "name": "Frenzied Defensive Lines:",
+            "name": "Defensive Lines:",
             "type": "PULSE",
             "description": "Until the end of the round, all other friendly characters within 3\" gain Universal Shielding (2) . Warlord: Friendly characters with the Soldier keyword may use this character's MIND instead of their own while they are in Line of Sight of this character."
           }
@@ -256,11 +302,17 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Concealment (+2)",
+          "Frenzied",
+          "Infiltration",
+          "Slippery",
+          "Vampiric Attack (2)"
+        ],
         "unique": [],
         "command": [
           {
-            "name": "Vampiric Attack (2)Romani Fury",
+            "name": "Romani Fury",
             "type": "PULSE",
             "description": "Every friendly character with the Bride keyword gains Expert Offence (3) until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
           }
@@ -302,11 +354,16 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Expert Sorcerer (1)",
+          "Frenzied",
+          "Mage (2)",
+          "Vampiric Attack (1)"
+        ],
         "unique": [],
         "command": [
           {
-            "name": "Vampiric Attack (1)African Bewitching",
+            "name": "African Bewitching",
             "type": "PULSE",
             "description": "Every friendly character with the Bride keyword gains Stun on their weapons until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
           }
@@ -347,11 +404,19 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Frenzied",
+          "Vampiric Attack (1)"
+        ],
+        "unique": [
+          {
+            "name": "Sisters of Gélô",
+            "description": "This character replenishes 1 Command Point at the start of each character turn if it has line of sight to any other friendly character with the Bride keyword."
+          }
+        ],
         "command": [
           {
-            "name": "Vampiric Attack (1)Eastern Swiftness",
+            "name": "Eastern Swiftness",
             "type": "PULSE",
             "description": "Every friendly character with the Bride keyword gains 1 AP until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
           }
@@ -387,7 +452,12 @@
           "Bulky",
           "Flight\nFrenzied\nMindless\nSlippery\nAerial Aggression\nWhen this character moves into base \ncontact with an enemy character that \nis either 3\" above or 3\" below it at \nthe start of the action, that enemy \ncharacter skips their Protection \nroll for this character's Attack of \nOpportunity.\nSerpentine\nThis character is able to move \nthrough spaces smaller than its base \nto a minimum of 2\". It must be able \nto fit where it ends its turn."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Rip and Tear",
+            "description": "When this character makes a Combat action with Monstrous Claws against an enemy character with full Life Points, for the rest of this character's activation, it may re-roll any failed dice for Combat actions against that enemy character."
+          }
+        ],
         "command": []
       }
     },
@@ -642,7 +712,12 @@
           "Berserk",
           "Mindless Lunar Might\nDuring deployment let your \nopponent know when the moon will \nbe brightest. Choose either the first 3 \nrounds, or the remaining rounds.\nWhen the moon is brightest, all \ncharacters with this rule increase their \nMOVEMENT , DEXTERITY , and \nAT TAC K by 1."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Devourer of Will",
+            "description": "When this character kills an enemy character, it gains their starting Will Points . This is cumulative and can take this character above its starting Will Points ."
+          }
+        ],
         "command": []
       }
     },
@@ -720,11 +795,19 @@
         }
       ],
       "abilities": {
-        "common": [],
-        "unique": [],
+        "common": [
+          "Mage (2)",
+          "Slippery"
+        ],
+        "unique": [
+          {
+            "name": "Premonition",
+            "description": "Whenever rolling dice for this character, you may re-roll the Destiny Dice."
+          }
+        ],
         "command": [
           {
-            "name": "Slippery Soothsaying",
+            "name": "Soothsaying",
             "type": "PULSE",
             "description": "For every enemy character in line of sight to this character, add a re-roll to your Soothsaying Pool. Until the end of the round, any friendly character may use these re-rolls on any roll this round - one re-roll per dice."
           }
@@ -832,13 +915,21 @@
       "weapons": [],
       "abilities": {
         "common": [
+          "Frenzied",
+          "Mage (2)",
+          "Vampiric Attack (1)",
           "Mage (X)",
           "That character is Judged until the \nend of the round. Friendly characters \nmay re-roll their entire Attack Roll \n(all of it - including the Destiny dice) \nagainst an enemy Judged character. \nWhen a friendly Mage attempts \nto Dispel a spell cast by a Judged \ncharacter, count their  level \nas 1 higher."
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Cast Sentence",
+            "description": "Whenever a character Judged by this character is killed, this character replenishes 3 Life Points or 1 Command Point ."
+          }
+        ],
         "command": [
           {
-            "name": "Vampiric Attack (1)Judgement",
+            "name": "Judgement",
             "type": "PULSE",
             "description": "Pick an enemy character within 6\". That character is Judged until the end of the round. Friendly characters may re-roll their entire Attack Roll (all of it - including the Destiny dice) against an enemy Judged character. When a friendly Mage attempts to Dispel a spell cast by a Judged character, count their Mage (X) level as 1 higher."
           }
@@ -854,8 +945,8 @@
       "rank": "Hero",
       "version": "2.2.0",
       "actions": 2,
-      "will": 2,
-      "life": 1,
+      "life": 12,
+      "will": 0,
       "command": null,
       "base_size": 30,
       "ducats": 14,
@@ -1240,7 +1331,12 @@
         "common": [
           "Fear (-1)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Dredge",
+            "description": "When this character makes a Row action, any friendly characters with the Water Creature special rule in base contact with the Gondola at the start of its movement may be placed in base contact with the Gondola at the end of its movement."
+          }
+        ],
         "command": []
       }
     },
@@ -1393,11 +1489,15 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Concealment (+1)",
+          "Frenzied",
+          "Vampiric Attack (1)"
+        ],
         "unique": [],
         "command": [
           {
-            "name": "Vampiric Attack (1)Shadow Walker",
+            "name": "Shadow Walker",
             "type": "PULSE",
             "description": "Pick one friendly character with the Vampire keyword within 1”. Remove this character and place them anywhere out of base contact within 8” of this character. This placement does not cause Attacks of Opportunity."
           }
