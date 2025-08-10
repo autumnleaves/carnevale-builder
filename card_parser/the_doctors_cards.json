@@ -39,9 +39,9 @@
       ],
       "abilities": {
         "common": [
-          "Parry (3)",
           "Fear (-2)",
-          "Mage (3)"
+          "Mage (3)",
+          "Parry (3)"
         ],
         "unique": [
           {
@@ -51,9 +51,9 @@
         ],
         "command": [
           {
-            "name": "• Mind Gazing",
+            "name": "Mind Gazing",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 6\" gain"
+            "description": "Until the end of the round, any friendly characters within 6\" gain Fear (-2) , or increase their Fear number to ( -2)."
           }
         ]
       }
@@ -92,17 +92,17 @@
       ],
       "abilities": {
         "common": [
-          "Vampiric Attack (2)",
           "Expert Sorcerer (1)",
           "Frenzied",
-          "Mage (2)"
+          "Mage (2)",
+          "Vampiric Attack (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• Unliving Curse",
+            "name": "Unliving Curse",
             "type": "PULSE",
-            "description": "One friendly character within 1\" gains Vampiric Attack (2) until the end of the game."
+            "description": "One friendly character within 1\" gains Vampiric Attack (2) until the end of the game. Elixir of Death Every friendly character who starts the game with Will Points loses all of their Will Points and gains Frenzied . This change remains in play even if this character is killed."
           }
         ]
       }
@@ -131,8 +131,8 @@
       "weapons": [],
       "abilities": {
         "common": [
-          "Expert Marksman (2)",
-          "Bulky"
+          "Bulky",
+          "Expert Marksman (2)"
         ],
         "unique": [
           {
@@ -142,9 +142,9 @@
         ],
         "command": [
           {
-            "name": "• Electrical Stimulation",
+            "name": "Expert Offense (2)",
             "type": "PULSE",
-            "description": "All friendly characters within 3\" gain +1 ATT ACK until the end of the round."
+            "description": "All friendly characters within 3\" gain +1 ATT ACK until the end of the round. Auxiliary Systems At the start of this character's turn, it gains +2 to either its MOVEMENT , DEXTERITY , or PROTECTION until the end of the round."
           }
         ]
       }
@@ -182,8 +182,8 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (4)",
-          "Expert Protection (2)"
+          "Expert Protection (2)",
+          "Hunter"
         ],
         "unique": [
           {
@@ -193,9 +193,9 @@
         ],
         "command": [
           {
-            "name": "• HunterProtective Field",
+            "name": "Protective Field",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 3\" gain"
+            "description": "Until the end of the round, any friendly characters within 3\" gain Universal Shielding (4). Beast Master All friendly characters with the Animal keyword gain Companion (Doctor ) while in line of sight of this character."
           }
         ]
       }
@@ -234,8 +234,8 @@
       ],
       "abilities": {
         "common": [
-          "Mage (2)",
-          "Expert Sorcerer (1)"
+          "Expert Sorcerer (1)",
+          "Mage (2)"
         ],
         "unique": [
           {
@@ -245,9 +245,9 @@
         ],
         "command": [
           {
-            "name": "• Biological Studies",
+            "name": "Biological Studies",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 3\" gain"
+            "description": "Until the end of the round, any friendly characters within 3\" gain Penetration -2 on their weapons. Purifying Ungents While within 6” of this character, friendly characters are immune to the Stun Ability. At the end of each friendly character’s turn, remove any Stun counters from friendly characters within 6” of this character."
           }
         ]
       }
@@ -480,14 +480,14 @@
       "abilities": {
         "common": [
           "Expert Offence (2)",
-          "Engage"
+          "Slippery"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• SlipperyElixir",
+            "name": "Elixir",
             "type": "PULSE",
-            "description": "One friendly character within 3\" gains either Acrobatic (3) ,"
+            "description": "One friendly character within 3\" gains either Acrobatic (3) , Engage , or Slippery until the end of the game."
           }
         ]
       }
@@ -524,7 +524,9 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Hunter"
+        ],
         "unique": [
           {
             "name": "Beast Master",
@@ -533,9 +535,9 @@
         ],
         "command": [
           {
-            "name": "• HunterOvercharged Discipline",
+            "name": "Overcharged Discipline",
             "type": "PULSE",
-            "description": "One friendly character with the"
+            "description": "One friendly character with the Animal keyword within 6\" gains Berserk until the end of the game."
           }
         ]
       }
@@ -574,8 +576,8 @@
       ],
       "abilities": {
         "common": [
-          "Mage (2)",
-          "Expert Sorcerer (2)"
+          "Expert Sorcerer (2)",
+          "Mage (2)"
         ],
         "unique": [
           {
@@ -585,7 +587,7 @@
         ],
         "command": [
           {
-            "name": "• Void Walker",
+            "name": "Void Walker",
             "type": "PULSE",
             "description": "One friendly character within 3\" gains Ethereal until the end of the game."
           }
@@ -732,17 +734,12 @@
         "common": [
           "Mage (2)"
         ],
-        "unique": [
-          {
-            "name": "Make a Basic MIND Roll:",
-            "description": "2.2.0 3015 21222"
-          }
-        ],
+        "unique": [],
         "command": [
           {
-            "name": "• Power Over Death",
+            "name": "Power Over Death",
             "type": "PULSE",
-            "description": "This Command Ability is used out of sequence, when any other friendly character within 3\" is killed."
+            "description": "This Command Ability is used out of sequence, when any other friendly character within 3\" is killed. Make a Basic MIND Roll:"
           }
         ]
       }

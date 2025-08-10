@@ -179,47 +179,48 @@ def parse_command_abilities(cleaned_text: str, known_common_abilities: List[str]
     common_abilities = []
     
     # Extract all command abilities with their descriptions
-    # Updated pattern to capture the full command name line before PULSE/AURA
-    command_pattern = r'([^\n]+)\n(PULSE|AURA)\s*Command Ability\s*\n(.*?)(?=\n[A-Z][a-z]|\nKeywords|\nCharacter Abilities|\n\d+\.\d+\.\d+|$)'
+    command_pattern = r'(.*?)(PULSE|AURA)\s*Command Ability\n(.*?)(?=\n\d+\.\d+\.\d+|$)'
     command_matches = re.findall(command_pattern, cleaned_text, re.DOTALL)
     
     for match_groups in command_matches:
-        command_name_line = match_groups[0].strip()
+        pre_text = match_groups[0].strip()
         command_type = match_groups[1]
         description = match_groups[2].strip()
         
         # Clean up the description - remove extra newlines and normalize spaces
         clean_description = normalize_description(description)
         
-        # The command name should be the line directly before PULSE/AURA
-        command_name = command_name_line
-        
-        # Check if the command name line contains any common abilities mixed in
-        # This handles cases like "Expert Offence (2)Take Arms"
-        separated_abilities = separate_concatenated_abilities(command_name_line, known_common_abilities)
+        # Parse the pre_text line by line to extract common abilities and the command name
+        lines = [line.strip() for line in pre_text.split('\n') if line.strip()]
         found_commons = []
-        final_command_name = ""
+        command_name = ""
         
-        for ability_text in separated_abilities:
-            ability_text = ability_text.strip()
-            if not ability_text:
-                continue
-                
-            # Try to match against known common abilities
-            normalized = normalize_ability_name(ability_text, known_common_abilities)
-            if normalized:
-                if normalized not in found_commons:
-                    found_commons.append(normalized)
-            else:
-                # This is not a common ability, it should be the command name
-                final_command_name = ability_text
-        
-        # If we found common abilities mixed in, use the final non-common part as command name
-        if final_command_name:
-            command_name = final_command_name
+        for line in lines:
+            # First, try to separate any concatenated abilities in this line
+            separated_line_abilities = separate_concatenated_abilities(line, known_common_abilities)
+            
+            # Process each separated ability
+            for ability_text in separated_line_abilities:
+                ability_text = ability_text.strip()
+                if not ability_text:
+                    continue
+                    
+                # Try to match against known common abilities
+                normalized = normalize_ability_name(ability_text, known_common_abilities)
+                if normalized:
+                    if normalized not in found_commons:
+                        found_commons.append(normalized)
+                else:
+                    # This is not a common ability, it might be the command name
+                    if not command_name:  # Take the first non-common ability as the command name
+                        command_name = ability_text
         
         # Add found common abilities
         common_abilities.extend(found_commons)
+        
+        # The command name should be the last non-common ability line
+        if not command_name and lines:
+            command_name = lines[-1]  # Fallback to last line
         
         if command_name:
             command_abilities.append({
@@ -238,7 +239,7 @@ def parse_remaining_abilities(cleaned_text: str, known_common_abilities: List[st
     
     # Remove command abilities from the text to avoid double-parsing
     # More precise regex to remove entire command ability sections
-    text_without_commands = re.sub(r'[^\n]+\n(PULSE|AURA)\s*Command Ability\s*\n.*?(?=\n[A-Z][a-z]|\nKeywords|\nCharacter Abilities|\n\d+\.\d+\.\d+|$)', '', cleaned_text, flags=re.DOTALL)
+    text_without_commands = re.sub(r'(.*?)(PULSE|AURA)\s*Command Ability\n.*?(?=\n\d+\.\d+\.\d+|$)', r'\1', cleaned_text, flags=re.DOTALL)
     
     # Parse remaining abilities by separating concatenated ones
     separated_abilities = separate_concatenated_abilities(text_without_commands, known_common_abilities)
@@ -285,20 +286,15 @@ def enhanced_parse_abilities(text: str) -> Dict[str, List]:
     # Load known abilities
     known_common_abilities, _ = load_known_abilities()
     
-    # Parse command abilities from the entire text first (they can appear anywhere)
-    command_abilities, global_common_abilities = parse_command_abilities(text, known_common_abilities)
-    
-    # Remove command abilities from the entire text to avoid duplication
-    text_without_commands = re.sub(r'[^\n]+\n(PULSE|AURA)\s*Command Ability\s*\n.*?(?=\n[A-Z][a-z]|\nKeywords|\nCharacter Abilities|\n\d+\.\d+\.\d+|$)', '', text, flags=re.DOTALL)
-    
-    # Parse unique abilities that appear outside Character Abilities section (from cleaned text)
-    outside_unique_abilities = parse_outside_unique_abilities(text_without_commands, known_common_abilities)
+    # Parse unique abilities that appear outside Character Abilities section
+    outside_unique_abilities = parse_outside_unique_abilities(text, known_common_abilities)
     
     # Look for Character Abilities section
     abilities_pattern = r'Character Abilities\s*•?\s*(.*?)(?=\n\d+\.\d+\.\d+|$)'
-    match = re.search(abilities_pattern, text_without_commands, re.DOTALL)
+    match = re.search(abilities_pattern, text, re.DOTALL)
     
-    common_abilities = global_common_abilities.copy()  # Start with common abilities from command parsing
+    command_abilities = []
+    common_abilities = []
     character_section_unique_abilities = []
     
     if match:
@@ -313,10 +309,9 @@ def enhanced_parse_abilities(text: str) -> Dict[str, List]:
         cleaned_text = re.sub(r'(PULSE|AURA)\s*Command Ability\s*', r'\1 Command Ability\n', cleaned_text)
         cleaned_text = re.sub(r'[ \t]+', ' ', cleaned_text)  # Normalize spaces and tabs, but keep newlines
         
-        # Parse remaining common and unique abilities (command abilities already parsed from full text)
-        remaining_common, remaining_unique = parse_remaining_abilities(cleaned_text, known_common_abilities, abilities_text)
-        common_abilities.extend(remaining_common)
-        character_section_unique_abilities = remaining_unique
+        # Parse command abilities and any common abilities found in the process
+        command_abilities, command_common_abilities = parse_command_abilities(cleaned_text, known_common_abilities)
+        common_abilities.extend(command_common_abilities)
         
         # Parse remaining abilities (common and unique) after command abilities are removed
         remaining_common_abilities, character_section_unique_abilities = parse_remaining_abilities(cleaned_text, known_common_abilities, text)

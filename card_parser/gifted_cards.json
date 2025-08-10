@@ -39,8 +39,8 @@
       ],
       "abilities": {
         "common": [
-          "Expert Offence (2)",
-          "Brawler (2)"
+          "Brawler (2)",
+          "Expert Offence (2)"
         ],
         "unique": [
           {
@@ -50,9 +50,9 @@
         ],
         "command": [
           {
-            "name": "•  Stage Manager",
+            "name": "Stage Manager",
             "type": "PULSE",
-            "description": "2 friendly characters within line of sight may make an immediate"
+            "description": "2 friendly characters within line of sight may make an immediate Run/Climb action. This movement cannot be used to move into or out of base contact with an enemy."
           }
         ]
       }
@@ -99,15 +99,15 @@
       ],
       "abilities": {
         "common": [
-          "Parry (2)",
-          "Bulky"
+          "Bulky",
+          "Parry (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• Search of Satisfaction",
+            "name": "Search of Satisfaction",
             "type": "PULSE",
-            "description": "Add up every character (friendly or enemy) within 3\" of this character. She replenishes that many Will Points ."
+            "description": "Add up every character (friendly or enemy) within 3\" of this character. She replenishes that many Will Points . Cheat If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword. However, if the gang contains Il Capitano , this character loses the Leader keyword"
           }
         ]
       }

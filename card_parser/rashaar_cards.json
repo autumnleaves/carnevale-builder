@@ -48,9 +48,11 @@
       ],
       "abilities": {
         "common": [
+          "Bulky",
           "Expert Grappler (3)",
           "Fast Swimmer (3)",
-          "Bulky"
+          "Limited Movement",
+          "Water Creature"
         ],
         "unique": [
           {
@@ -64,9 +66,9 @@
         ],
         "command": [
           {
-            "name": "• Water CreatureHydra's Gifts",
+            "name": "Hydra's Gifts",
             "type": "PULSE",
-            "description": "Mutating tentacles emerge from flesh nearby."
+            "description": "Mutating tentacles emerge from flesh nearby. Every other character (friendly and enemy, not including this one) within 2\" loses 2 Life Points and gains +2 DEXTERITY until the end of the round."
           }
         ]
       }
@@ -106,24 +108,20 @@
         "common": [
           "Expert Sorcerer (2)",
           "Fast Swimmer (1)",
-          "First Strike (2)",
-          "Mage (3)"
+          "Mage (3)",
+          "Water Creature"
         ],
         "unique": [
           {
             "name": "Rent-born",
             "description": "Each round, one friendly character (including this one) may subtract 1 from the Cost of a Magic Spell they attempt to cast (to a minimum of 0)."
-          },
-          {
-            "name": "until the end of their \nnext turn.",
-            "description": "2.2.1 3024 31254"
           }
         ],
         "command": [
           {
-            "name": "• Water CreatureFury of Dagon",
+            "name": "Fury of Dagon",
             "type": "PULSE",
-            "description": "Pick a friendly character in line of sight within 6\". That character gains"
+            "description": "Pick a friendly character in line of sight within 6\". That character gains First Strike (2) until the end of their next turn."
           }
         ]
       }
@@ -161,8 +159,9 @@
       ],
       "abilities": {
         "common": [
+          "Bulky",
           "Fear (-1)",
-          "Bulky"
+          "Water Creature"
         ],
         "unique": [
           {
@@ -176,7 +175,7 @@
         ],
         "command": [
           {
-            "name": "• Water CreatureBirth",
+            "name": "Birth",
             "type": "PULSE",
             "description": "Place one Crybaby within 6\" of this character. The new Crybaby acts just like any other friendly character, and can be activated this round as normal."
           }
@@ -218,15 +217,15 @@
         "common": [
           "Expert Offence (2)",
           "Fast Swimmer (2)",
-          "First Strike (1)",
-          "Fear (-2)"
+          "Fear (-2)",
+          "Water Creature"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• Water CreatureHide of The Deep",
+            "name": "Hide of The Deep",
             "type": "AURA",
-            "description": "Until the end of the round, all friendly characters within 3\" of this character gain Expert Protection (2) ."
+            "description": "Until the end of the round, all friendly characters within 3\" of this character gain Expert Protection (2) . Foetid Pheromones Other friendly characters that start their activation within 6\" of this character gain First Strike (1) until the end of their activation."
           }
         ]
       }
@@ -265,14 +264,14 @@
       "abilities": {
         "common": [
           "Universal Shielding (4)",
-          "Expert Offence (2)"
+          "Water Creature"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• Water CreatureBlessing of Dagon",
+            "name": "Blessing of Dagon",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 6\" gain"
+            "description": "Until the end of the round, any friendly characters within 6\" gain Expert Offence (2)."
           }
         ]
       }
@@ -443,7 +442,7 @@
         "unique": [],
         "command": [
           {
-            "name": "• Bolster Your Faith",
+            "name": "Bolster Your Faith",
             "type": "AURA",
             "description": "Until the end of the round, all friendly characters within 3\" gain +1 PROTECTION."
           }
@@ -521,8 +520,8 @@
       ],
       "abilities": {
         "common": [
-          "Fear (0)",
-          "Brave"
+          "Brave",
+          "Fear (0)"
         ],
         "unique": [
           {
@@ -536,9 +535,9 @@
         ],
         "command": [
           {
-            "name": "• Prove Yourselves to Dagon!",
+            "name": "Prove Yourselves to Dagon!",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly character that starts a"
+            "description": "Until the end of the round, any friendly character that starts a Run/Climb action within 6\" gains +2\" MOVE for that action provided they charge."
           }
         ]
       }
@@ -750,14 +749,15 @@
       "abilities": {
         "common": [
           "Fast Swimmer (2)",
-          "Mage (1)"
+          "Mage (1)",
+          "Water Creature"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• Water CreatureGift of the Elder Gods",
+            "name": "Gift of the Elder Gods",
             "type": "PULSE",
-            "description": "Until the end of the round, all friendly characters with the"
+            "description": "Until the end of the round, all friendly characters with the Henchman keyword gain +1 AT TAC K while they are within 6” and line of sight of any number of other friendly characters with the Monster keyword."
           }
         ]
       }
@@ -934,9 +934,10 @@
       ],
       "abilities": {
         "common": [
+          "Engage",
           "Fast Swimmer (4)",
           "Mage (2)",
-          "Engage"
+          "Water Creature"
         ],
         "unique": [
           {
@@ -946,7 +947,7 @@
         ],
         "command": [
           {
-            "name": "• Water CreatureHypnotic Song",
+            "name": "Hypnotic Song",
             "type": "AURA",
             "description": "Until the end of the round, any enemy characters within 6\" of this character have -2 MIND."
           }

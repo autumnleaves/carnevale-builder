@@ -39,9 +39,9 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (3)",
           "Expert Sorcerer (1)",
-          "Mage (3)"
+          "Mage (3)",
+          "Universal Shielding (3)"
         ],
         "unique": [
           {
@@ -51,9 +51,9 @@
         ],
         "command": [
           {
-            "name": "and Protect You",
+            "name": "He Will Strengthen You",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 3\" gain"
+            "description": "Until the end of the round, any friendly characters within 3\" gain Universal Shielding (3) ."
           }
         ]
       }
@@ -93,9 +93,10 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (3)",
+          "Flight",
           "Mage (2)",
-          "Flight"
+          "Slippery",
+          "Universal Shielding (3)"
         ],
         "unique": [
           {
@@ -105,9 +106,9 @@
         ],
         "command": [
           {
-            "name": "• Gates of Heaven",
+            "name": "Gates of Heaven",
             "type": "PULSE",
-            "description": "Until the end of the round, whenever a friendly character with the Construct keyword in line of sight within 6\" uses a Will Point to increase a roll, it instead counts as 2 Will Points ."
+            "description": "Until the end of the round, whenever a friendly character with the Construct keyword in line of sight within 6\" uses a Will Point to increase a roll, it instead counts as 2 Will Points . Impart Will At the start of the game, all friendly characters with the Construct keyword increase their starting Will Points by 1."
           }
         ]
       }
@@ -143,8 +144,7 @@
       ],
       "abilities": {
         "common": [
-          "Fear (-2)",
-          "Mage (3)"
+          "Fear (-2)"
         ],
         "unique": [
           {
@@ -154,9 +154,9 @@
         ],
         "command": [
           {
-            "name": "• Fear (-2)Fear the Lord",
+            "name": "Fear (-2)Fear the Lord",
             "type": "PULSE",
-            "description": "Pick 1 enemy character within 6\"."
+            "description": "Pick 1 enemy character within 6\". Until the end of the round, whenever that character is hit by a Combat action, the attacker gains Fear (-2) . Helm of Penitence This character may attempt to Dispel magic spells as if it has Mage (3) . In addition, enemy characters may not use Will Points when within 3” of this character."
           }
         ]
       }
@@ -194,10 +194,9 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (3)",
-          "Expert Offence (2)",
           "Frenzied",
-          "Mage (3)"
+          "Mage (3)",
+          "Universal Shielding (3)"
         ],
         "unique": [
           {
@@ -207,9 +206,9 @@
         ],
         "command": [
           {
-            "name": "• For the Glory of God",
+            "name": "For the Glory of God",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 3\" gain"
+            "description": "Until the end of the round, any friendly characters within 3\" gain Expert Offence (2) ."
           }
         ]
       }
@@ -247,9 +246,10 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (4)",
+          "Brave",
           "Expert Offence (2)",
-          "Brave"
+          "Hunter",
+          "Universal Shielding (4)"
         ],
         "unique": [
           {
@@ -263,9 +263,9 @@
         ],
         "command": [
           {
-            "name": "• Fight Until the Last",
+            "name": "Fight Until the Last",
             "type": "PULSE",
-            "description": "This Command Ability is used out of sequence, at the start of the round before rolling initiative."
+            "description": "This Command Ability is used out of sequence, at the start of the round before rolling initiative. Pick 1 friendly character in line of sight within 6\". If that character is reduced to 0 Life Points before they take their turn, they are not removed from the board. Instead they are only removed after their turn is complete."
           }
         ]
       }
@@ -349,8 +349,8 @@
       ],
       "abilities": {
         "common": [
-          "Expert Offence (2)",
-          "Brawler (1)"
+          "Brawler (1)",
+          "Expert Offence (2)"
         ],
         "unique": [
           {
@@ -360,7 +360,7 @@
         ],
         "command": [
           {
-            "name": "• Put it Through the Heart!",
+            "name": "Put it Through the Heart!",
             "type": "PULSE",
             "description": "Pick a friendly character in line of sight within 12\". One of that character's weapons gains -4 Penetration until the end of the round."
           }
@@ -774,15 +774,14 @@
       "abilities": {
         "common": [
           "Expert Marksman (2)",
-          "Expert Offence (2)",
-          "Parry (2)"
+          "Expert Offence (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "My Enemies",
+            "name": "Look With Satisfaction Upon",
             "type": "AURA",
-            "description": "Until the end of the round, any friendly characters within 3\" gain"
+            "description": "Until the end of the round, any friendly characters within 3\" gain Parry (2) ."
           }
         ]
       }
@@ -818,9 +817,11 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (4)",
           "Brawler (1)",
-          "Frenzied"
+          "Frenzied",
+          "Limited Movement",
+          "Mindless",
+          "Universal Shielding (4)"
         ],
         "unique": [
           {
@@ -830,7 +831,7 @@
         ],
         "command": [
           {
-            "name": "Must Be Cleansed",
+            "name": "Hasten Your Steps, The Unfaithful",
             "type": "PULSE",
             "description": "All other friendly characters within 3\" gain +1 MOVEMENT until the end of the round."
           }
@@ -1141,15 +1142,15 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (3)",
-          "Mage (2)"
+          "Mage (2)",
+          "Universal Shielding (3)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "and Burn Them Thoroughly",
+            "name": "Come Let Us Make Bricks",
             "type": "PULSE",
-            "description": "Remove 1 friendly character with the"
+            "description": "Remove 1 friendly character with the Construct keyword from the board. Place it within 3\" of this character (with no changes to its Life Points )."
           }
         ]
       }

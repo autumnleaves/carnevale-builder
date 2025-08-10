@@ -55,15 +55,16 @@
       ],
       "abilities": {
         "common": [
-          "Expert Grappler (2)",
-          "Bulky"
+          "Bulky",
+          "Limited Movement",
+          "Expert Grappler (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• You there! Do something!",
+            "name": "You there! Do something!",
             "type": "AURA",
-            "description": "Until the end of the round, other friendly characters that start their turn within 6\" and line of sight of this character gain First Strike (2) until the end of their turn."
+            "description": "Until the end of the round, other friendly characters that start their turn within 6\" and line of sight of this character gain First Strike (2) until the end of their turn. Characters can only be affected by this Command Ability once each game round."
           }
         ]
       }
@@ -101,21 +102,15 @@
       ],
       "abilities": {
         "common": [
-          "Parry (2)",
-          "Expert Marksman (1)",
-          "Brave"
+          "Brave",
+          "Parry (2)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• Take Arms",
+            "name": "Take Arms",
             "type": "PULSE",
-            "description": "Until the end of the round, all friendly characters with the Soldier keyword within 3\" gain +1 ATT ACK ."
-          },
-          {
-            "name": "Aim Fire!",
-            "type": "PULSE",
-            "description": "Any friendly characters with the"
+            "description": "Until the end of the round, all friendly characters with the Soldier keyword within 3\" gain +1 ATT ACK . Aim Fire! PULSE Command Ability Any friendly characters with the Soldier keyword in line of sight gain Expert Marksman (1) until the end of the round."
           }
         ]
       }
@@ -145,9 +140,9 @@
       "weapons": [],
       "abilities": {
         "common": [
-          "Fast Swimmer (2)",
+          "Boat Crew",
           "Expert Marksman (2)",
-          "Boat Crew"
+          "Fast Swimmer (2)"
         ],
         "unique": [
           {
@@ -161,9 +156,9 @@
         ],
         "command": [
           {
-            "name": "• Naval Discipline",
+            "name": "Naval Discipline",
             "type": "PULSE",
-            "description": "Other friendly characters on the same"
+            "description": "Other friendly characters on the same Boat as this character replenish 1 Will Point . Other friendly characters with Boat Crew on the same Boat as this character instead replenish 2 Will Points . Raise a Crew All friendly characters may be set up on a Boat."
           }
         ]
       }
@@ -201,8 +196,8 @@
       ],
       "abilities": {
         "common": [
-          "Expert Offence (2)",
-          "Engage"
+          "Engage",
+          "Expert Offence (2)"
         ],
         "unique": [
           {
@@ -212,9 +207,9 @@
         ],
         "command": [
           {
-            "name": "• The Monster Behind the Mask",
+            "name": "The Monster Behind the Mask",
             "type": "PULSE",
-            "description": "This character gains +1 to its MOVEMENT , DEXTERITY , and AT TAC K until the end of the round."
+            "description": "This character gains +1 to its MOVEMENT , DEXTERITY , and AT TAC K until the end of the round. However, it reduces its MIND to 1."
           }
         ]
       }
@@ -248,17 +243,19 @@
         ],
         "unique": [
           {
+            "name": "Venetian Drive",
+            "description": ""
+          },
+          {
+            "name": "PULSE Command Ability",
+            "description": "This character gains First Strike (2) until the end of the round, however it reduces its PROTECTION to 1."
+          },
+          {
             "name": "Gleeful Charge",
             "description": "When this character makes an Attack of Opportunity due to charging, Gilded Sabre's Evasion becomes -2 for that Attack of Opportunity."
           }
         ],
-        "command": [
-          {
-            "name": "Venetian Drive",
-            "type": "PULSE",
-            "description": "This character gains First Strike (2) until the end of the round, however it reduces its PROTECTION to 1."
-          }
-        ]
+        "command": []
       }
     },
     {
@@ -294,9 +291,9 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (3)",
+          "Brawler (1)",
           "Expert Offence (2)",
-          "Brawler (1)"
+          "Universal Shielding (3)"
         ],
         "unique": [
           {
@@ -306,9 +303,9 @@
         ],
         "command": [
           {
-            "name": "• Coordinated Attack",
+            "name": "Coordinated Attack",
             "type": "PULSE",
-            "description": "All friendly characters with the"
+            "description": "All friendly characters with the Ottoman keyword within 3\" (including this one) gain First Strike (2) until the end of the round. Disciplined Momentum When a friendly character with the Ottoman keyword within 6\" and line of sight kills an enemy character, this character replenishes 1 lost Command Point ."
           }
         ]
       }
@@ -346,7 +343,9 @@
         }
       ],
       "abilities": {
-        "common": [],
+        "common": [
+          "Boat Crew"
+        ],
         "unique": [
           {
             "name": "Pay Out",
@@ -359,9 +358,9 @@
         ],
         "command": [
           {
-            "name": "• Boat CrewWages Are Here",
+            "name": "Wages Are Here",
             "type": "PULSE",
-            "description": "Any friendly characters in line of sight with the Soldier keyword that aren't in base contact with an enemy may immediately make a Run/Climb action for 0AP, but must move into base contact with this character. This move does not cause Attacks of"
+            "description": "Any friendly characters in line of sight with the Soldier keyword that aren't in base contact with an enemy may immediately make a Run/Climb action for 0AP, but must move into base contact with this character. This move does not cause Attacks of Opportunity . Any characters that move into base contact immediately replenish 1 Will Point ."
           }
         ]
       }
@@ -526,8 +525,8 @@
       ],
       "abilities": {
         "common": [
-          "Companion ( Officer )",
-          "Bodyguard ( Officer )"
+          "Bodyguard ( Officer )",
+          "Companion ( Officer )"
         ],
         "unique": [
           {
@@ -537,7 +536,7 @@
         ],
         "command": [
           {
-            "name": "• Take Aim!",
+            "name": "Take Aim!",
             "type": "AURA",
             "description": "Until the end of the round, all friendly characters with the Soldier keyword within 6\" gain Expert Marksman (1) and Expert Offence (1)."
           }
@@ -696,15 +695,16 @@
       ],
       "abilities": {
         "common": [
+          "Engage",
           "Fear (0)",
-          "Engage"
+          "Mindless"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• MindlessThe Other, Other White Meat",
+            "name": "The Other, Other White Meat",
             "type": "AURA",
-            "description": "Until the end of the round, every other friendly character in line of sight gains the Flesheater ability while in line of sight of this character."
+            "description": "Until the end of the round, every other friendly character in line of sight gains the Flesheater ability while in line of sight of this character. Flesheater If this character makes a Combat action against a target in base contact that causes it to lose at least 1 Life Point , it replenishes 1 Will Point ."
           }
         ]
       }
@@ -743,8 +743,8 @@
       ],
       "abilities": {
         "common": [
-          "Fast Swimmer (2)",
-          "Boat Crew"
+          "Boat Crew",
+          "Fast Swimmer (2)"
         ],
         "unique": [
           {
@@ -758,9 +758,9 @@
         ],
         "command": [
           {
-            "name": "• We Trained For This",
+            "name": "We Trained For This",
             "type": "AURA",
-            "description": "All friendly characters within 6\" increase their Fast Swimmer (X) value by 2 until the end of the round."
+            "description": "All friendly characters within 6\" increase their Fast Swimmer (X) value by 2 until the end of the round. Any characters without Fast Swimmer are unaffected."
           }
         ]
       }
@@ -867,17 +867,17 @@
       "weapons": [],
       "abilities": {
         "common": [
-          "Universal Shielding (3)",
-          "Expert Offence (2)",
           "Bodyguard ( Leader )",
-          "Brawler (1)"
+          "Brawler (1)",
+          "Expert Offence (2)",
+          "Universal Shielding (3)"
         ],
         "unique": [],
         "command": [
           {
-            "name": "• Barbary Discipline",
+            "name": "Barbary Discipline",
             "type": "AURA",
-            "description": "Until the end of the round, all friendly characters within 6\" gain +2 MOVEMENT if their Run/"
+            "description": "Until the end of the round, all friendly characters within 6\" gain +2 MOVEMENT if their Run/ Climb action is used to charge."
           }
         ]
       }
@@ -964,8 +964,8 @@
       ],
       "abilities": {
         "common": [
-          "Expert Offence (2)",
-          "Frenzied"
+          "Frenzied",
+          "Expert Offence (2)"
         ],
         "unique": [
           {
@@ -975,14 +975,9 @@
         ],
         "command": [
           {
-            "name": "• Domination",
+            "name": "Domination",
             "type": "PULSE",
-            "description": "Every friendly character in base contact makes an immediate Move action for 0AP. This action cannot be used to move into base contact with an enemy character."
-          },
-          {
-            "name": "Sadism",
-            "type": "PULSE",
-            "description": "This character loses 1 Life Point and gains +2 Attack until the end of the round."
+            "description": "Every friendly character in base contact makes an immediate Move action for 0AP. This action cannot be used to move into base contact with an enemy character. Sadism PULSE Command Ability This character loses 1 Life Point and gains +2 Attack until the end of the round."
           }
         ]
       }
@@ -1536,13 +1531,7 @@
       "abilities": {
         "common": [],
         "unique": [],
-        "command": [
-          {
-            "name": "• HenchmanThere's Coin in it for You",
-            "type": "PULSE",
-            "description": "One friendly character with the"
-          }
-        ]
+        "command": []
       }
     },
     {
