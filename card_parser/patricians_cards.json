@@ -239,23 +239,26 @@
       "abilities": {
         "common": [
           "Expert Offence (2)",
-          "Engage"
+          "Engage",
+          "Limited Movement"
         ],
         "unique": [
           {
-            "name": "Venetian Drive",
-            "description": ""
-          },
-          {
-            "name": "PULSE Command Ability",
-            "description": "This character gains First Strike (2) until the end of the round, however it reduces its PROTECTION to 1."
-          },
-          {
             "name": "Gleeful Charge",
             "description": "When this character makes an Attack of Opportunity due to charging, Gilded Sabre's Evasion becomes -2 for that Attack of Opportunity."
+          },
+          {
+            "name": "Do Try To Keep Up!",
+            "description": "Once per round, before this character makes a Run/Climb action, you may choose 1 other friendly character with the Councillor, Soldier, or Animal keyword within 3\". After this character completes that Run/Climb action, the chosen character makes an out of sequence Run/Climb action. This out of sequence action cannot cause Attacks of Opportunity from charging, but may require a character to Disengage as normal."
           }
         ],
-        "command": []
+        "command": [
+          {
+            "name": "Venetian Drive",
+            "type": "PULSE",
+            "description": "This character gains First Strike (2) until the end of the round, however it reduces its PROTECTION to"
+          }
+        ]
       }
     },
     {

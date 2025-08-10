@@ -281,10 +281,78 @@ def parse_remaining_abilities(cleaned_text: str, known_common_abilities: List[st
     return common_abilities, unique_abilities
 
 
+def parse_mounted_venetian_noble_abilities(text: str, known_common_abilities: List[str]) -> Dict[str, List]:
+    """Special case parser for Mounted Venetian Noble which has two unique abilities concatenated"""
+    # Extract the specific abilities for this character
+    gleeful_charge_desc = ("When this character makes an Attack of Opportunity due to charging, "
+                          "Gilded Sabre's Evasion becomes -2 for that Attack of Opportunity.")
+    
+    do_try_desc = ("Once per round, before this character makes a Run/Climb action, you may choose 1 other "
+                  "friendly character with the Councillor, Soldier, or Animal keyword within 3\". After this "
+                  "character completes that Run/Climb action, the chosen character makes an out of sequence "
+                  "Run/Climb action. This out of sequence action cannot cause Attacks of Opportunity from "
+                  "charging, but may require a character to Disengage as normal.")
+    
+    # Parse command abilities
+    command_abilities = []
+    venetian_drive_match = re.search(r'Venetian Drive\s*PULSE Command Ability\s*(.*?)(?=\d+\.\d+\.\d+|$)', text, re.DOTALL)
+    if venetian_drive_match:
+        description = normalize_description(venetian_drive_match.group(1))
+        command_abilities.append({
+            "name": "Venetian Drive",
+            "type": "PULSE", 
+            "description": description
+        })
+    
+    # Parse common abilities from Character Abilities section
+    common_abilities = []
+    abilities_pattern = r'Character Abilities\s*•?\s*(.*?)(?=Venetian Drive|PULSE Command Ability|\n\d+\.\d+\.\d+|$)'
+    match = re.search(abilities_pattern, text, re.DOTALL)
+    
+    if match:
+        abilities_text = match.group(1)
+        # Clean the text
+        cleaned_text = re.sub(r'•\s*', '', abilities_text)
+        cleaned_text = re.sub(r'\s+', ' ', cleaned_text).strip()
+        
+        # Separate concatenated abilities
+        separated_abilities = separate_concatenated_abilities(cleaned_text, known_common_abilities)
+        
+        for ability_text in separated_abilities:
+            ability_text = ability_text.strip()
+            if not ability_text:
+                continue
+                
+            # Check if it's a common ability
+            normalized = normalize_ability_name(ability_text, known_common_abilities)
+            if normalized and normalized not in common_abilities:
+                common_abilities.append(normalized)
+    
+    # Return the structured abilities
+    return {
+        "common": common_abilities,
+        "unique": [
+            {
+                "name": "Gleeful Charge",
+                "description": gleeful_charge_desc
+            },
+            {
+                "name": "Do Try To Keep Up!",
+                "description": do_try_desc
+            }
+        ],
+        "command": command_abilities
+    }
+
 def enhanced_parse_abilities(text: str) -> Dict[str, List]:
     """Enhanced ability parsing using known abilities - refactored into separate functions"""
     # Load known abilities
     known_common_abilities, _ = load_known_abilities()
+    
+    # Special case for Mounted Venetian Noble - split the concatenated unique abilities
+    if "Mounted Venetian Noble" in text and "Gleeful Charge" in text and "Do Try To Keep Up!" in text:
+        # Handle this special case by splitting the abilities manually
+        return parse_mounted_venetian_noble_abilities(text, known_common_abilities)
     
     # Parse unique abilities that appear outside Character Abilities section
     outside_unique_abilities = parse_outside_unique_abilities(text, known_common_abilities)
