@@ -41,14 +41,16 @@
         "common": [
           "Fear (-2)",
           "Mage (3)",
-          "Parry (3)",
-          "Fear (-2)",
-          ", or increase their Fear \nnumber to ( -2)."
+          "Parry (3)"
         ],
         "unique": [
           {
             "name": "Aetheric Control",
             "description": "This character replenishes all of its Command Points at the start of each of its turns."
+          },
+          {
+            "name": "Mind Gazing",
+            "description": ""
           }
         ],
         "command": [
@@ -97,10 +99,14 @@
           "Expert Sorcerer (1)",
           "Frenzied",
           "Mage (2)",
-          "Vampiric Attack (2)",
-          "Elixir of Death \nEvery friendly character who starts \nthe game with Will Points loses \nall of their Will Points and gains \nFrenzied .\nThis change remains in play even if \nthis character is killed."
+          "Vampiric Attack (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Unliving Curse",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Unliving Curse",
@@ -141,6 +147,10 @@
           {
             "name": "Full Plate",
             "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
+          },
+          {
+            "name": "Expert Offense (2)\nElectrical Stimulation",
+            "description": ""
           }
         ],
         "command": [
@@ -186,14 +196,16 @@
       "abilities": {
         "common": [
           "Expert Protection (2)",
-          "Hunter",
-          "Universal Shielding (4)",
-          ".\nBeast Master\nAll friendly characters with the \nAnimal keyword gain Companion \n(Doctor ) while in line of sight of \nthis character."
+          "Hunter"
         ],
         "unique": [
           {
             "name": "Voltaic Shield",
             "description": "If an enemy character makes a Combat action against this character in base contact and they don't lose any Life Points from the attack, the enemy character loses 3 Life Points ."
+          },
+          {
+            "name": "Protective Field",
+            "description": ""
           }
         ],
         "command": [
@@ -246,6 +258,10 @@
           {
             "name": "Plague-infused Anatomy",
             "description": "The Plague Doctor has laced their test subjects with a virulent new plague, activated at a moment's notice! If an enemy character kills a friendly character in base contact while either are within 6\" of this character, the enemy receives a Stunned counter."
+          },
+          {
+            "name": "Biological Studies",
+            "description": ""
           }
         ],
         "command": [
@@ -291,8 +307,7 @@
       "abilities": {
         "common": [
           "Companion ( Doctor )",
-          "Berserk",
-          "Mindless\nPrimitive Locomotive Nexus Link\nWhenever this character makes \na Combat action, total up the \namount of Damage caused \n(before Protection rolls).\nThat many characters within 6\" \nwith the Nexus ability replenish \n1 Will Point ."
+          "Berserk"
         ],
         "unique": [
           {
@@ -329,8 +344,7 @@
         "common": [
           "Expert Grappler (3)",
           "Fear (-3)",
-          "Bulky",
-          "Limited Movement\nMindless\nPrimitive Convulsing\nThis character is able to move through \nspaces smaller than its base to a \nminimum of 2\". It must be able to fit \nwhere it ends its turn."
+          "Bulky"
         ],
         "unique": [
           {
@@ -374,8 +388,7 @@
         "common": [
           "Fast Swimmer (3)",
           "Fear (-1)",
-          "Bulky",
-          "Mindless\nWater Creature"
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -417,8 +430,7 @@
         "common": [
           "Vampiric Attack (2)",
           "Frenzied",
-          "Mage (2)",
-          "Sanguine Sorcery \nThis character's Vampiric Attack \nalso activates when making a \nCast Spell action."
+          "Mage (2)"
         ],
         "unique": [],
         "command": []
@@ -449,8 +461,7 @@
       "abilities": {
         "common": [
           "Universal Shielding (2)",
-          "Water Creature",
-          "Limited Movement Long Dive\nPulse Command Ability\nAll friendly characters with an \nUnderwater Counter gain an \nadditional Underwater Counter.\nDeep Dive\nWhenever this character makes a \nDive action, you may spend 1 Will \nPoint . If you do, you automatically \nscore a Critical without rolling any \ndice."
+          "Water Creature"
         ],
         "unique": [],
         "command": []
@@ -490,10 +501,14 @@
       "abilities": {
         "common": [
           "Expert Offence (2)",
-          "Slippery",
-          "Engage , or Slippery until the \nend of the game."
+          "Slippery"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Elixir",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Elixir",
@@ -536,13 +551,16 @@
       ],
       "abilities": {
         "common": [
-          "Hunter",
-          "Animal keyword within 6\" gains \nBerserk until the end of the game."
+          "Hunter"
         ],
         "unique": [
           {
             "name": "Beast Master",
             "description": "All friendly characters with the Animal keyword gain Companion (Doctor ) while in line of sight of this character."
+          },
+          {
+            "name": "Overcharged Discipline",
+            "description": ""
           }
         ],
         "command": [
@@ -595,6 +613,10 @@
           {
             "name": "Aetheric Gaze",
             "description": "This character may select its Magic Spells from up to 2 different Disciplines. It also gains Cantrips from both Disciplines chosen."
+          },
+          {
+            "name": "Void Walker",
+            "description": ""
           }
         ],
         "command": [
@@ -629,8 +651,7 @@
       "abilities": {
         "common": [
           "Expert Grappler (2)",
-          "Engage",
-          "Stride Through The Void - 1AP\nThis character gains Ethereal until \nthe end of its turn.\nDrag Through The Void\nTargets of this characters Grapple \nactions may be moved as if they had \nthe Ethereal special rule."
+          "Engage"
         ],
         "unique": [],
         "command": []
@@ -720,8 +741,8 @@
         ],
         "unique": [
           {
-            "name": "Make a Basic MIND Roll:",
-            "description": "2.2.0 3015 21222"
+            "name": "Power Over Death",
+            "description": ""
           }
         ],
         "command": [
@@ -864,8 +885,7 @@
       "weapons": [],
       "abilities": {
         "common": [
-          "Brawler (2)",
-          "Limited Movement\nMindless Nexus\nAny character with the Doctor \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own.\nDetonation \nWhen placing the Blast template for \nSoul Bombard, it must be centred \nover this character (and is also hit)."
+          "Brawler (2)"
         ],
         "unique": [
           {
@@ -986,8 +1006,7 @@
       ],
       "abilities": {
         "common": [
-          "Fear (-2)",
-          "Limited Movement\nMindless\nPrimitive Poison Burst\nWhen this character is killed, before \nremoving it from the game, each \ncharacter in base contact (friendly \nand enemy) loses Life Points as if \nthey were damaged by an attack with \nthe Poisoned rule."
+          "Fear (-2)"
         ],
         "unique": [],
         "command": []
@@ -1025,8 +1044,7 @@
       "abilities": {
         "common": [
           "Infiltration",
-          "Mindless",
-          "Pickpocket Nexus\nAny character with the Doctor \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own."
+          "Mindless"
         ],
         "unique": [],
         "command": []
@@ -1067,8 +1085,7 @@
         "common": [
           "Fast Swimmer (3)",
           "Limited Movement",
-          "Mindless",
-          "Primitive\nWater Creature"
+          "Mindless"
         ],
         "unique": [],
         "command": []
@@ -1106,8 +1123,7 @@
       "abilities": {
         "common": [
           "Vampiric Attack (1)",
-          "Frenzied",
-          "Limited Movement\nPrimitive"
+          "Frenzied"
         ],
         "unique": [],
         "command": []
@@ -1136,8 +1152,7 @@
       "abilities": {
         "common": [
           "Universal Shielding (2)",
-          "Bodyguard (Doctor)",
-          "Water Creature Deep Dive\nWhenever this character makes a \nDive action, you may spend 1 Will \nPoint . If you do, you automatically \nscore a Critical without rolling any \ndice."
+          "Bodyguard (Doctor)"
         ],
         "unique": [],
         "command": []
@@ -1207,8 +1222,7 @@
       "weapons": [],
       "abilities": {
         "common": [
-          "Mindless",
-          "Frenzied Unstable Wretch\nFrom the start of the second round \nonwards, at the end of this character's \nturn all characters (friendly and \nenemy, including this character) \nwithin 3\" lose 1 Life Point ."
+          "Mindless"
         ],
         "unique": [
           {
@@ -1294,8 +1308,7 @@
       "abilities": {
         "common": [
           "Fast Swimmer (4)",
-          "Bulky",
-          "Limited Movement\nMindless\nPrimitive\nWater Creature"
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -1334,8 +1347,7 @@
       ],
       "abilities": {
         "common": [
-          "Flight",
-          "Infiltration\nMindless"
+          "Flight"
         ],
         "unique": [],
         "command": []
@@ -1373,8 +1385,7 @@
       "abilities": {
         "common": [
           "Frenzied",
-          "Mindless",
-          "Blood Nexus\nEvery time this character loses \nLife Points (including from the \nFrenzied rule), you may replenish \nthat many Will Points from all \ncharacters within 6\" with \nthe Nexus ability."
+          "Mindless"
         ],
         "unique": [
           {
@@ -1523,8 +1534,7 @@
       "abilities": {
         "common": [
           "Expert Offence (3)",
-          "Engage",
-          "Mindless\nPrimitive"
+          "Engage"
         ],
         "unique": [],
         "command": []
@@ -1709,8 +1719,7 @@
       ],
       "abilities": {
         "common": [
-          "Frenzied",
-          "Primitive Healer - 1AP\nPick a character within 3\" and make \na basic MIND roll. That character \nreplenishes 2 Life Points for each \nAce rolled."
+          "Frenzied"
         ],
         "unique": [],
         "command": []
@@ -1750,8 +1759,7 @@
       "abilities": {
         "common": [
           "First Strike (2)",
-          "Bulky",
-          "Limited Movement\nMindless\nPrimitive"
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -1781,8 +1789,7 @@
         "common": [
           "Vampiric Attack (2)",
           "Frenzied",
-          "Mindless",
-          "Regenerating\nThis character's Vampiric Attack \nspecial rule can cause it to gain Life \nPoints above its starting value. If they \nstart their turn with 10 or more Life \nPoints , they increase their AT TAC K \nby 2 until the start of their next turn."
+          "Mindless"
         ],
         "unique": [],
         "command": []

@@ -41,13 +41,16 @@
         "common": [
           "Expert Sorcerer (1)",
           "Mage (3)",
-          "Universal Shielding (3)",
           "Universal Shielding (3)"
         ],
         "unique": [
           {
             "name": "Patriarch Bishop",
             "description": "All friendly characters with the Faction (The Vatican) keyword gain Companion ( Leader ) while in line of sight of this character."
+          },
+          {
+            "name": "He Will Strengthen You \nand Protect You",
+            "description": ""
           }
         ],
         "command": [
@@ -145,10 +148,7 @@
       ],
       "abilities": {
         "common": [
-          "Fear (-2)",
-          "Fear the Lord",
-          "Fear (-2)",
-          "Mage (3)"
+          "Fear (-2)"
         ],
         "unique": [
           {
@@ -200,13 +200,16 @@
         "common": [
           "Frenzied",
           "Mage (3)",
-          "Universal Shielding (3)",
-          "Expert Offence (2)"
+          "Universal Shielding (3)"
         ],
         "unique": [
           {
             "name": "Stigmata",
             "description": "If this character uses one or more Life Points as Will Points (due to Frenzied ) either to increase the dice pool or to perform an action (like casting spells), it may re-roll an equal number of dice (including the Destiny Dice ) during that action. If it does this on a Combat action, Hands of God instead has Penetration -3 for that action."
+          },
+          {
+            "name": "For the Glory of God",
+            "description": ""
           }
         ],
         "command": [
@@ -310,8 +313,7 @@
       "abilities": {
         "common": [
           "Universal Shielding (3)",
-          "Flight",
-          "Frenzied\nBorn of Blood \nWhenever any character (friendly \nor enemy) is killed within 3\", this \ncharacter replenishes 3 Life Points ."
+          "Flight"
         ],
         "unique": [
           {
@@ -362,6 +364,10 @@
           {
             "name": "Renewed Vigour",
             "description": "When this character kills an enemy character, he replenishes his full Will Points ."
+          },
+          {
+            "name": "Put it Through the Heart!",
+            "description": ""
           }
         ],
         "command": [
@@ -446,8 +452,7 @@
         "common": [
           "Universal Shielding (3)",
           "Expert Sorcerer (1)",
-          "Mage (2)",
-          "Blessed Water - 1AP\nPlace the Blast marker in water in line of sight \nwithin 8\".\nThe area under the Blast marker is treated as \nsolid ground for friendly characters. \nEnemy characters treat the area as water, and \ncharacters with the Water Creature rule can be \ndrowned while at least partially on the marker.\nRemove the marker at the end of the round."
+          "Mage (2)"
         ],
         "unique": [],
         "command": []
@@ -733,8 +738,7 @@
         "common": [
           "Companion ( Invoker )",
           "Fear (0)",
-          "Bulky",
-          "Mindless\nPrimitive Stoneskin\nWhenever this character takes \nDamage, reduce the amount \nof Damage caused by 3 \n(to a minimum of 1).\nIn addition, if this character is hit by \na Poisoned weapon, roll 2 dice and \nchoose 1 to see if they shrug off the \npoison."
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -780,10 +784,14 @@
       "abilities": {
         "common": [
           "Expert Marksman (2)",
-          "Expert Offence (2)",
-          "Parry (2)"
+          "Expert Offence (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Look With Satisfaction Upon \nMy Enemies",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Look With Satisfaction Upon",
@@ -879,8 +887,7 @@
       "abilities": {
         "common": [
           "Universal Shielding (3)",
-          "Expert Offence (1)",
-          "Resurrection\nWhen this character is killed, do not \nremove it from the board.\nAt the start of the next round, make a \nBasic MIND Roll (Will Points may be \nused as normal). If successful, this character \ncomes back to life with 5 Life Points and \ngains Berserk for the rest of the game.\nIf the MIND Roll is unsuccessful, the \ncharacter is completely dead and removed \nfrom the board."
+          "Expert Offence (1)"
         ],
         "unique": [],
         "command": []
@@ -910,8 +917,7 @@
         "common": [
           "Expert Offence (2)",
           "Brave",
-          "Bulky",
-          "Mindless Burning Aura \nAny friendly characters without this \nability within 3\" gain -2 Penetration \non their weapons."
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -1031,8 +1037,7 @@
         "common": [
           "Companion (Invoker)",
           "Fear (0)",
-          "Flight",
-          "Mindless\nPrimitive Holy Grace \nWhenever this character makes a \nsuccessful Combat action (before \nProtection rolls), the target loses 1 \nWill Point and this character gains \n1 Will Point . This can take this \ncharacter above its starting Will \nPoints ."
+          "Flight"
         ],
         "unique": [],
         "command": []
@@ -1112,8 +1117,7 @@
       "abilities": {
         "common": [
           "Frenzied",
-          "Mage (2)",
-          "Stigmata\nIf this character uses one or more \nLife Points as Will Points (due \nto Frenzied ) either to increase the \ndice pool or to perform an action \n(like casting spells), it may re-roll an \nequal number of dice (including the \nDestiny Dice ) during that action. \nIf it does this on a Combat \naction, Hands of God instead has \nPenetration -3 for that action."
+          "Mage (2)"
         ],
         "unique": [],
         "command": []
@@ -1252,8 +1256,7 @@
           "Universal Shielding (3)",
           "Companion ( Invoker )",
           "Fear (-2)",
-          "Flight",
-          "Be Thou Afraid? \nIf an enemy character would roll no \nAces on its basic MIND roll due \nto this character's Fear ability, that \ncharacter loses 1 Will Point.\nCosmic Harmony \nAt the start of this character's turn, \nchoose a friendly character within \n6\" and in line of sight. This character \nand the chosen character both \nreplenish 1 Command Point ."
+          "Flight"
         ],
         "unique": [],
         "command": []
@@ -1347,8 +1350,7 @@
       "abilities": {
         "common": [
           "Bodyguard (Felix Baumgartner)",
-          "Brave",
-          "Hunter Vampire Hunter\nWhen making a Combat action \nagainst a character with 0 Will Points \nremaining, Thomas may re-roll all dice, \nincluding the Destiny Dice ."
+          "Brave"
         ],
         "unique": [],
         "command": []
@@ -1563,8 +1565,7 @@
           "Universal Shielding (2)",
           "Companion ( Cherubim )",
           "Fear (-1)",
-          "Mindless",
-          "Limited Movement\nLiving Proof of God's Majesty\nFriendly characters with the \nCompanion ability also have \n."
+          "Mindless"
         ],
         "unique": [],
         "command": []
@@ -1797,8 +1798,7 @@
       "abilities": {
         "common": [
           "Universal Shielding (3)",
-          "Mage (2)",
-          "Frenzied Candid Soul\nFor every Life Point this character \nuses as a Will Point due to Frenzied , \nall other friendly characters without \nthis rule within 3\" replenish 1 Life \nPoint ."
+          "Mage (2)"
         ],
         "unique": [],
         "command": []
@@ -1874,8 +1874,7 @@
       ],
       "abilities": {
         "common": [
-          "Frenzied",
-          "Limited Movement\nMindless"
+          "Frenzied"
         ],
         "unique": [],
         "command": []
@@ -2030,8 +2029,7 @@
           "Universal Shielding (4)",
           "Fast Swimmer (3)",
           "Companion ( Invoker )",
-          "Primitive",
-          "Water Creature Living Tide\nThis character can re-roll any failed \ndice rolls when making Drown and \nDive actions."
+          "Primitive"
         ],
         "unique": [],
         "command": []
@@ -2072,8 +2070,7 @@
         "common": [
           "Universal Shielding (2)",
           "Companion ( Invoker )",
-          "Mindless",
-          "Primitive\nLiving Flame\nThis character loses double Life Points \nfrom Drown actions."
+          "Mindless"
         ],
         "unique": [
           {

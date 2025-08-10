@@ -89,18 +89,9 @@ def separate_concatenated_abilities(item: str, known_abilities: List[str]) -> Li
                 separated.append(base_name)
                 remaining_text = remaining_text[next_pos:].strip()
     
-    # If there's still text remaining, add it only if it looks like a valid ability
+    # If there's still text remaining, add it
     if remaining_text:
-        # Filter out command ability descriptions and other non-ability text
-        remaining_text = remaining_text.strip()
-        if (remaining_text and 
-            not any(invalid_text in remaining_text.lower() for invalid_text in [
-                'until the end of the round', 'command ability', 
-                'friendly characters within', 'gains fear'
-            ]) and
-            not remaining_text.startswith(', ') and  # Don't include text starting with ", "
-            len(remaining_text) < 100):  # Reasonable length limit for ability names
-            separated.append(remaining_text)
+        separated.append(remaining_text)
     
     return separated if separated else [item]
 
@@ -238,8 +229,7 @@ def parse_remaining_abilities(cleaned_text: str, known_common_abilities: List[st
     unique_abilities = []
     
     # Remove command abilities from the text to avoid double-parsing
-    # More precise regex to remove entire command ability sections
-    text_without_commands = re.sub(r'(.*?)(PULSE|AURA)\s*Command Ability\n.*?(?=\n\d+\.\d+\.\d+|$)', r'\1', cleaned_text, flags=re.DOTALL)
+    text_without_commands = re.sub(r'.*?(PULSE|AURA)\s*Command Ability\s*.*?(?=\n[A-Z]|\d+\.\d+\.\d+|$)', '', cleaned_text, flags=re.DOTALL)
     
     # Parse remaining abilities by separating concatenated ones
     separated_abilities = separate_concatenated_abilities(text_without_commands, known_common_abilities)
@@ -252,9 +242,7 @@ def parse_remaining_abilities(cleaned_text: str, known_common_abilities: List[st
         # Check if it's a common ability
         normalized = normalize_ability_name(ability_text, known_common_abilities)
         if normalized:
-            # Only add if not already present (avoid duplicates)
-            if normalized not in common_abilities:
-                common_abilities.append(normalized)
+            common_abilities.append(normalized)
         else:
             # This might be a unique ability - extract its description from original text
             if (len(ability_text.split()) <= 8 and 
@@ -319,32 +307,8 @@ def enhanced_parse_abilities(text: str) -> Dict[str, List]:
     # Combine all unique abilities
     all_unique_abilities = outside_unique_abilities + character_section_unique_abilities
     
-    # Deduplicate common abilities and filter out invalid ones
-    deduplicated_common = []
-    for ability in common_abilities:
-        if ability and ability not in deduplicated_common:
-            # Check if it's a valid common ability (direct match or (X) pattern match)
-            is_valid = ability in known_common_abilities
-            if not is_valid:
-                # Check for (X) pattern matches
-                for known_ability in known_common_abilities:
-                    if '(X)' in known_ability:
-                        base_name = known_ability.replace('(X)', '').strip()
-                        if re.match(f'^{re.escape(base_name)}\\s*\\([^)]+\\)$', ability):
-                            is_valid = True
-                            break
-            
-            # Additional validation: not command ability description text
-            if (is_valid and 
-                not any(invalid_text in ability.lower() for invalid_text in [
-                    'command ability', 'until the end of the round', 'friendly characters within',
-                    ', or increase their', 'pulse', 'aura'
-                ]) and
-                not ability.startswith(', ')):
-                deduplicated_common.append(ability)
-    
     return {
-        "common": deduplicated_common,
+        "common": common_abilities,
         "unique": all_unique_abilities,
         "command": command_abilities
     }
@@ -601,9 +565,9 @@ def parse_card_enhanced(card_text: str, page_num: int) -> Dict:
     return card_data
 
 # Main parsing function
-def parse_faction_cards(extracted_text_file: str, faction_name: str) -> Dict:
+def parse_all_cards_enhanced():
     """Parse all cards with enhanced ability parsing"""
-    with open(extracted_text_file, "r", encoding="utf-8") as f:
+    with open("extracted_text.json", "r", encoding="utf-8") as f:
         pages = json.load(f)
     
     cards = []
@@ -614,77 +578,50 @@ def parse_faction_cards(extracted_text_file: str, faction_name: str) -> Dict:
         text = page["text"]
         
         # Extract faction ability from first page
-        if page_num == 1:
-            faction_ability = parse_faction_ability(text, faction_name)
-            continue
+        if page_num == 1 and "Mob Mentality" in text:
+            # Extract everything after "PULSE Command Ability" until end
+            faction_match = re.search(r'Mob Mentality\s*PULSE Command Ability\s*(.*)', text, re.DOTALL)
+            if faction_match:
+                description = faction_match.group(1).strip()
+                # Clean up the description
+                description = re.sub(r'\s+', ' ', description).strip()
+                faction_ability = {
+                    "name": "Mob Mentality",
+                    "description": description
+                }
         
+        # Skip the first page as it only contains faction ability
+        if page_num == 1:
+            continue
+            
         # Try to parse as individual character cards
         card = parse_card_enhanced(text, page_num)
         if card and card.get("name") and len(card["name"]) < 50:  # Reasonable name length
             cards.append(card)
     
     return {
-        "faction": faction_name,
+        "faction": "The Guild",
         "faction_ability": faction_ability,
         "cards": cards
     }
 
-def parse_faction_ability(text: str, faction_name: str) -> Dict:
-    """Parse faction ability from page 1 text"""
-    faction_ability = {}
-    
-    # Look for PULSE Command Ability pattern
-    faction_match = re.search(r'([^\n]*?)\s*PULSE Command Ability\s*(.*)', text, re.DOTALL)
-    if faction_match:
-        # The ability name is usually the last meaningful line before "PULSE Command Ability"
-        pre_text = faction_match.group(1)
-        description = faction_match.group(2).strip()
-        
-        # Extract ability name from pre_text
-        lines = [line.strip() for line in pre_text.split('\n') if line.strip()]
-        ability_name = "Unknown Ability"
-        
-        # Look for the ability name (usually appears after faction keyword info)
-        for i, line in enumerate(lines):
-            if not any(x in line.lower() for x in ['faction', 'keyword', 'may use', 'command ability']):
-                if len(line.split()) <= 6 and not line.startswith('Any'):  # Reasonable ability name length
-                    ability_name = line
-                    break
-        
-        # Clean up the description
-        description = re.sub(r'\s+', ' ', description).strip()
-        
-        faction_ability = {
-            "name": ability_name,
-            "description": description
-        }
-    
-    return faction_ability
-
-def parse_faction_name(extracted_text_file: str) -> str:
-    """Extract the faction name from the file name of the extracted text"""
-    # assuming the file name is structured like "guild_extracted_text.json"
-    base_name = extracted_text_file.replace('.json', '').replace('_extracted_text', '')
-    
-    if base_name.lower().startswith("The_"):
-        return base_name[4:].replace('_', ' ').title()  # Remove "The_" and format nicely
-    
-    return base_name.replace('_', ' ').title()  # Just format the name nicely
-
 if __name__ == "__main__":
-    extracted_files = [f for f in os.listdir('.') if f.endswith('_extracted_text.json')]
-
-    for extracted_file in extracted_files:
-        faction_name = parse_faction_name(extracted_file)
-        print(f"Parsing cards for faction: {faction_name} from {extracted_file}")
-
-        result = parse_faction_cards(extracted_file, faction_name)
-
-        print(f"Successfully parsed {len(result['cards'])} cards and saved to {extracted_file.replace('_extracted_text.json', '_cards.json')}")
-
-        # Save to file
-        with open(extracted_file.replace('_extracted_text.json', '_cards.json'), "w", encoding="utf-8") as f:
-            json.dump(result, f, indent=2, ensure_ascii=False)
-
-    print(f"{len(extracted_files)} factions processed.")
+    print("Loading text from extracted_text.json")
     
+    result = parse_all_cards_enhanced()
+    
+    print(f"Successfully parsed {len(result['cards'])} cards and saved to guild_cards.json")
+    
+    # Save to file
+    with open("guild_cards.json", "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+    
+    # Print faction ability
+    if result.get("faction_ability"):
+        print("Faction ability:")
+        print(json.dumps(result["faction_ability"], indent=2))
+    
+    # Print sample card
+    if result.get("cards"):
+        print("Sample card data:")
+        print(json.dumps(result["cards"][0], indent=2))

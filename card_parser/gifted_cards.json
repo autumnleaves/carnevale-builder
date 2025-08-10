@@ -46,6 +46,10 @@
           {
             "name": "Troupe Leader",
             "description": "All friendly characters with the Commedia dell'Arte keyword gain Companion (Il Capitano) as long as this character is on the board."
+          },
+          {
+            "name": "Stage Manager",
+            "description": ""
           }
         ],
         "command": [
@@ -102,7 +106,12 @@
           "Bulky",
           "Parry (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Search of Satisfaction",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Search of Satisfaction",
@@ -192,8 +201,7 @@
       "abilities": {
         "common": [
           "Berserk",
-          "Bulky",
-          "Mindless Slavering Horror \nWhen this character makes Combat , \nDrown , or Grapple actions, it may \nre-roll any failed dice rolls (remember, \nyou cannot re-roll the Destiny dice ). \nYes, even against Brave characters!"
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -235,8 +243,7 @@
         "common": [
           "Vampiric Attack (1)",
           "First Strike (1)",
-          "Frenzied",
-          "Fanged Visage\nAt the beginning of the game, \nbefore deployment, select another \nfriendly character to wear one of this \ncharacter’s Masks.\nFor the entirety of the game that \ncharacter gains one of the following:\nFrenzied and Vampiric Attack (2) \nbut reduce Will Points to 0\n and Vampiric \nAttack (1)"
+          "Frenzied"
         ],
         "unique": [],
         "command": []
@@ -276,8 +283,7 @@
       "abilities": {
         "common": [
           "Fear (-2)",
-          "Bulky",
-          "Ethereal\n\nFlight\nMindless Supernatural\nWhen making Protection Rolls \nagainst Spectral Touch, the target \nmust use their MIND value instead \nof their PROTECTION value. \nIf the character failed their Fear test, \nthey must re-roll any Aces."
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -319,8 +325,7 @@
           "Vampiric Attack (2)",
           "Expert Offence (3)",
           "Engage",
-          "Hunter",
-          "Mindless\nDiminutive\nThis character counts all base sizes \nas larger than it. This affects Hunter , \nGrappling, and Drowning, for example."
+          "Hunter"
         ],
         "unique": [],
         "command": []
@@ -446,8 +451,7 @@
       "abilities": {
         "common": [
           "Expert Sorcerer (1)",
-          "Mage (1)",
-          "Take the Oath \nAt the beginning of the game, \nbefore deployment, select another \nfriendly character to wear one of this \ncharacter’s Masks.\nFor the entirety of the game that \ncharacter increases their starting Will \nPoints by 2 and gains Companion \n(Francisco De Lorme) . Any friendly \ncharacter within 6” and line of sight \nof them may use that character’s Will \nPoints as if they were their own."
+          "Mage (1)"
         ],
         "unique": [],
         "command": []
@@ -578,10 +582,7 @@
         }
       ],
       "abilities": {
-        "common": [
-          "Slippery (2)",
-          "Pickpocket Mask of Many Faces \nAt the beginning of the game, \nbefore deployment, select another \nfriendly character to wear one of this \ncharacter’s Masks.\nFor the entirety of the game that \ncharacter gains one of the following:\nPickpocket and Slippery (2)\nAerial Attack and Infiltrate"
-        ],
+        "common": [],
         "unique": [],
         "command": []
       }
@@ -628,8 +629,7 @@
       ],
       "abilities": {
         "common": [
-          "Parry (1)",
-          "Till Death Do Us Part \nWhen this character is reduced \nto 5 Life Points or less, it gains \n+2 ATT ACK and Mindless."
+          "Parry (1)"
         ],
         "unique": [],
         "command": []
@@ -751,8 +751,7 @@
       ],
       "abilities": {
         "common": [
-          "Universal Shielding (3)",
-          "Armourer \nAt the beginning of the game, \nbefore deployment, select another \nfriendly character to wear one of this \ncharacter’s Masks.\nFor the entirety of the game that \ncharacter gains one of the following:\nUniversal Shielding (2)"
+          "Universal Shielding (3)"
         ],
         "unique": [],
         "command": []
@@ -875,8 +874,7 @@
       ],
       "abilities": {
         "common": [
-          "Fear (0)",
-          "Water Creature Mask of Dagon \nAt the beginning of the game, \nbefore deployment, select another \nfriendly character to wear one of this \ncharacter’s Masks.\nFor the entirety of the game that \ncharacter gains one of the following:\nWater Creature and the Monster \nkeyword\nFear (0) and +1 ATT ACK"
+          "Fear (0)"
         ],
         "unique": [],
         "command": []
@@ -917,8 +915,7 @@
         "common": [
           "Vampiric Attack (2)",
           "Concealment (+1)",
-          "Fear (-2)",
-          "Split Personalities\nAt the start of this character's turn, \nhe puts on a mask. Pick one of the \nfollowing for the Mask Maker to gain \nuntil the start of his next turn: \n\nSlippery\n\nWater Creature"
+          "Fear (-2)"
         ],
         "unique": [],
         "command": []
@@ -1005,8 +1002,7 @@
       ],
       "abilities": {
         "common": [
-          "Brave",
-          "Pickpocket\nSlippery Self-Immolate\nWhen making a Combat action with \nFiery Explosion, centre the Blast \nmarker on Zovena Vela herself. \nShe is hit by this attack like anyone \nelse touched by the marker."
+          "Brave"
         ],
         "unique": [],
         "command": []
@@ -1161,8 +1157,7 @@
       "abilities": {
         "common": [
           "Expert Marksman (2)",
-          "Berserk",
-          "Mindless Deathwish\nThis character may not make \nUnarmed Combat actions. \nAdditionally, any failed Combat \nactions with Bombs always count as \nfumbles."
+          "Berserk"
         ],
         "unique": [],
         "command": []
@@ -1402,8 +1397,7 @@
       "abilities": {
         "common": [
           "Vampiric Attack (2)",
-          "Mindless",
-          "Primitive\nThirsty\nAny time a friendly or enemy \ncharacter successfully casts a Magic \nSpell, after resolving all effects, this \ncharacter replenishes 1 Will Point ."
+          "Mindless"
         ],
         "unique": [],
         "command": []

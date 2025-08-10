@@ -46,6 +46,10 @@
           {
             "name": "Rise Up",
             "description": "All friendly characters with the Trade keyword gain Companion ( Trade ) as long as this character is on the board."
+          },
+          {
+            "name": "Fight For the Guild!",
+            "description": ""
           }
         ],
         "command": [
@@ -97,13 +101,16 @@
       "abilities": {
         "common": [
           "Fast Swimmer (2)",
-          "Parry (2)",
-          "Expert Protection (3)"
+          "Parry (2)"
         ],
         "unique": [
           {
             "name": "Born to Swim",
             "description": "Other friendly characters add +2 to their Fast Swimmer number as long as this character is on the board. Friendly characters without Fast Swimmer instead gain Fast Swimmer (2)."
+          },
+          {
+            "name": "Toughen Up",
+            "description": ""
           }
         ],
         "command": [
@@ -207,7 +214,12 @@
           "Parry (2)",
           "Slippery"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Don't Let Them Take You!",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Don't Let Them Take You!",
@@ -303,10 +315,14 @@
           "Acrobatic (2)",
           "Expert Marksman (2)",
           "Pickpocket",
-          "Slippery",
-          "Take it for the Guild!\nAny friendly characters in line of \nsight replenish 2 Will Points instead \nof 1 when Pickpocketing ."
+          "Slippery"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Thieves Guild Training",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Thieves Guild Training",
@@ -399,6 +415,10 @@
           {
             "name": "The Lamp",
             "description": "This character may attempt to Dispel magic spells as if it has Mage (3) and Expert Sorcerer (3). In addition, enemy characters may not use Will Points when within 3” of this character."
+          },
+          {
+            "name": "Rally to the Light!",
+            "description": ""
           }
         ],
         "command": [
@@ -437,8 +457,7 @@
         "common": [
           "First Strike (2)",
           "Companion (End of Days)",
-          "Bulky",
-          "Limited Movement\nMindless Uncoordinated Assault\nAfter this character makes a Combat \naction, it may make a single 0AP Attack \nof Opportunity using a weapon it did not \nattack with in that Combat action. Attacks \nof Opportunity from this rule cannot cause \nadditional Attacks of Opportunity and do \nnot count as Attacks of Opportunity from \ncharging & charging from above."
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -625,8 +644,7 @@
       "abilities": {
         "common": [
           "Expert Marksman (2)",
-          "Pickpocket",
-          "First Strike (1)"
+          "Pickpocket"
         ],
         "unique": [
           {
@@ -636,6 +654,10 @@
           {
             "name": "Unwieldy",
             "description": "This character may only make Combat actions with the Twin Duelling Pistols as the first action of their turn (including using it for Attacks of Opportunity)."
+          },
+          {
+            "name": "Intimidation",
+            "description": ""
           }
         ],
         "command": [
@@ -689,9 +711,7 @@
       "abilities": {
         "common": [
           "Companion ( End of Days )",
-          "Mindless",
-          "First Strike (1)",
-          "Brave"
+          "Mindless"
         ],
         "unique": [
           {
@@ -701,6 +721,10 @@
           {
             "name": "Flambé",
             "description": "This character may only use Flaming Bottles when within 3\" of a Pulcinella Firebreather."
+          },
+          {
+            "name": "Fancy a Tipple?",
+            "description": ""
           }
         ],
         "command": [
@@ -832,7 +856,12 @@
         "common": [
           "Slippery"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Communicative Dance",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Communicative Dance",
@@ -915,10 +944,14 @@
         "common": [
           "Expert Offence (1)",
           "Fast Swimmer (2)",
-          "Hunter",
-          "Hunter until the end of the game."
+          "Hunter"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Bring it Down!",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Bring it Down!",
@@ -994,8 +1027,7 @@
       "abilities": {
         "common": [
           "Expert Sorcerer (1)",
-          "Mage (1)",
-          "Entwined Magics\nWhen picking spells for this \ncharacter, the additional spells \ngranted by Expert Sorcerer may be \nfrom any discipline it has access to \n(though it does not gain an additional \ncantrip if it is different)."
+          "Mage (1)"
         ],
         "unique": [],
         "command": []
@@ -1110,10 +1142,14 @@
         "common": [
           "Aerial Attack",
           "Infiltration",
-          "Pickpocket",
-          "Acrobatic (3)"
+          "Pickpocket"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Get to the Roof",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Get to the Roof",
@@ -1502,8 +1538,7 @@
       ],
       "abilities": {
         "common": [
-          "Engage",
-          "Limited Movement\nMindless"
+          "Engage"
         ],
         "unique": [],
         "command": []
@@ -1779,8 +1814,7 @@
         "common": [
           "First Strike (2)",
           "Companion ( End of Days )",
-          "Bulky",
-          "Limited Movement\nMindless\nSlippery"
+          "Bulky"
         ],
         "unique": [],
         "command": []

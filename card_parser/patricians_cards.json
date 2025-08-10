@@ -103,10 +103,14 @@
       "abilities": {
         "common": [
           "Brave",
-          "Parry (2)",
-          "Expert Marksman (1)"
+          "Parry (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Take Arms",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Take Arms",
@@ -143,8 +147,7 @@
         "common": [
           "Boat Crew",
           "Expert Marksman (2)",
-          "Fast Swimmer (2)",
-          "Boat as this character replenish 1 \nWill Point . Other friendly characters \nwith Boat Crew on the same Boat \nas this character instead replenish 2 \nWill Points .\nRaise a Crew\nAll friendly characters may be set up \non a Boat."
+          "Fast Swimmer (2)"
         ],
         "unique": [
           {
@@ -154,6 +157,10 @@
           {
             "name": "Unwieldy",
             "description": "This character may only make Combat actions with the Twin Rifled Duelling Pistols as the first action of their turn (including using it for Attacks of Opportunity)."
+          },
+          {
+            "name": "Naval Discipline",
+            "description": ""
           }
         ],
         "command": [
@@ -205,6 +212,10 @@
           {
             "name": "Murderous Patron",
             "description": "Any other friendly character that kills an enemy character replenishes 1 Will Point if both are in line of sight to the Venetian Noble."
+          },
+          {
+            "name": "The Monster Behind the Mask",
+            "description": ""
           }
         ],
         "command": [
@@ -241,8 +252,7 @@
       "abilities": {
         "common": [
           "Expert Offence (2)",
-          "Engage",
-          "Limited Movement Do Try To Keep Up!\nOnce per round, before this character \nmakes a Run/Climb action, you may \nchoose 1 other friendly character \nwith the Councillor , Soldier, or Animal \nkeyword within 3\".\nAfter this character completes that \nRun/Climb action, the chosen \ncharacter makes an out of sequence \nRun/Climb action. This out of \nsequence action cannot cause Attacks \nof Opportunity from charging, but \nmay require a character to Disengage \nas normal.2.2.0\n5024\n 31843\nWeapon Range Evasion Damage Penetration Abilities\nGarter Pistol 6\" - - -2 Black Powder, Reload (2)\nGilded Sabre 0\" -1 +1 -1 -\nMounted Venetian Noble"
+          "Engage"
         ],
         "unique": [
           {
@@ -296,13 +306,16 @@
         "common": [
           "Brawler (1)",
           "Expert Offence (2)",
-          "Universal Shielding (3)",
-          "Ottoman keyword within 3\" \n(including this one) gain First Strike \n(2) until the end of the round.\nDisciplined Momentum\nWhen a friendly character with the \nOttoman keyword within 6\" and line \nof sight kills an enemy character, \nthis character replenishes 1 lost \nCommand Point ."
+          "Universal Shielding (3)"
         ],
         "unique": [
           {
             "name": "Martial Elite",
             "description": "Friendly characters with the Ottoman keyword within 6\" may use their Expert Offence ability on the Destiny Dice."
+          },
+          {
+            "name": "Coordinated Attack",
+            "description": ""
           }
         ],
         "command": [
@@ -358,6 +371,10 @@
           {
             "name": "Second in Command",
             "description": "If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword and no other Sopracomitos may be chosen. However, if there is another character with the Leader keyword, this character loses the Leader keyword."
+          },
+          {
+            "name": "Wages Are Here",
+            "description": ""
           }
         ],
         "command": [
@@ -536,6 +553,10 @@
           {
             "name": "Chain of Command",
             "description": "This character may only use the ORDER or COUNTER Commands on characters with the Soldier keyword."
+          },
+          {
+            "name": "Take Aim!",
+            "description": ""
           }
         ],
         "command": [
@@ -622,8 +643,7 @@
         "common": [
           "Expert Offence (2)",
           "Parry (2)",
-          "Engage",
-          "Strike True - 1AP\nPick one friendly character in line of \nsight within 6\". \nThe next Combat action they make \nthis round while in base contact with \nthe target ignores all Protection Rolls \n- even Universal Shielding !"
+          "Engage"
         ],
         "unique": [],
         "command": []
@@ -749,8 +769,7 @@
       "abilities": {
         "common": [
           "Boat Crew",
-          "Fast Swimmer (2)",
-          "Any characters without \nFast Swimmer are unaffected."
+          "Fast Swimmer (2)"
         ],
         "unique": [
           {
@@ -760,6 +779,10 @@
           {
             "name": "Unwieldy",
             "description": "This character may only make Combat actions with the Nock Gun as the first action of their turn (including using it for Attacks of Opportunity)."
+          },
+          {
+            "name": "We Trained For This",
+            "description": ""
           }
         ],
         "command": [
@@ -880,7 +903,7 @@
         ],
         "unique": [
           {
-            "name": "Climb action is used to charge.",
+            "name": "Barbary Discipline",
             "description": ""
           }
         ],
@@ -982,6 +1005,10 @@
           {
             "name": "Barbed",
             "description": "If a Combat action with the Cat O’Nine Tails results in no Protection roll for the target, add 2 to the Damage."
+          },
+          {
+            "name": "Domination",
+            "description": ""
           }
         ],
         "command": [
@@ -1027,8 +1054,7 @@
       "abilities": {
         "common": [
           "Berserk",
-          "Engage",
-          "Frenzied\nMindless"
+          "Engage"
         ],
         "unique": [],
         "command": []
@@ -1259,8 +1285,7 @@
       ],
       "abilities": {
         "common": [
-          "Mindless",
-          "Frenzied Flesheater\nIf this character makes a Combat \naction against a target in base contact \nthat causes it to lose at least 1 Life \nPoint , it replenishes 1 Will Point .\nThe Hunger\nIf this character starts its turn within \n4\" of one or more enemy characters, \nit must attempt to move into base \ncontact with one of them."
+          "Mindless"
         ],
         "unique": [],
         "command": []
@@ -1506,8 +1531,7 @@
       ],
       "abilities": {
         "common": [
-          "Companion ( Councillor )",
-          "Limited Movement \nMindless\nEngage"
+          "Companion ( Councillor )"
         ],
         "unique": [],
         "command": []

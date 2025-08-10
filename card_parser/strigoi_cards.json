@@ -32,14 +32,16 @@
         "common": [
           "Expert Offence (2)",
           "Expert Protection (2)",
-          "Frenzied",
-          "Bodyguard (Vlad Dracula)",
-          "Companion (Vlad Dracula)"
+          "Frenzied"
         ],
         "unique": [
           {
             "name": "Connoisseur",
             "description": "Vlad will not drink the blood of just anyone. When attacking a character with the Hero keyword, he gains Vampiric Attack (1) . When attacking a character with the Leader keyword, he gains Vampiric Attack (3) ."
+          },
+          {
+            "name": "Transformation",
+            "description": ""
           }
         ],
         "command": [
@@ -95,6 +97,10 @@
           {
             "name": "Minor Incantata",
             "description": "This character may cast a Cantrip for 0AP once per character turn. All the standard rules for casting spells apply."
+          },
+          {
+            "name": "Clairvoyancy",
+            "description": ""
           }
         ],
         "command": [
@@ -141,13 +147,16 @@
         "common": [
           "Expert Offence (3)",
           "Frenzied",
-          "Vampiric Attack (2)",
-          "Bloodline\nAll friendly characters with the \nVampire keyword in line of sight \nto this character gain Companion \n(Noble Strigoi )."
+          "Vampiric Attack (2)"
         ],
         "unique": [
           {
             "name": "Sanguine Sabotage",
             "description": "The Noble Strigoi has infiltrated the opponent's gang to take them down from within. Whenever an enemy character uses a Command within 6\" of this character, roll a dice. On a 7+ the Command costs an extra Command Point if possible."
+          },
+          {
+            "name": "Blood Frenzy",
+            "description": ""
           }
         ],
         "command": [
@@ -196,8 +205,7 @@
           "Flight",
           "Frenzied",
           "Infiltration",
-          "Vampiric Attack (1)",
-          "Concealment (+2)"
+          "Vampiric Attack (1)"
         ],
         "unique": [
           {
@@ -250,13 +258,16 @@
         "common": [
           "Vampiric Attack (1)",
           "Universal Shielding (3)",
-          "Frenzied",
-          "Universal Shielding (2)"
+          "Frenzied"
         ],
         "unique": [
           {
             "name": "Full Plate:",
             "description": "If this character ever enters water, it receives a Stunned counter which is only removed if it ends its turn out of water."
+          },
+          {
+            "name": "Defensive Lines:",
+            "description": ""
           }
         ],
         "command": [
@@ -360,7 +371,12 @@
           "Mage (2)",
           "Vampiric Attack (1)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "African Bewitching",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "African Bewitching",
@@ -412,6 +428,10 @@
           {
             "name": "Sisters of Gélô",
             "description": "This character replenishes 1 Command Point at the start of each character turn if it has line of sight to any other friendly character with the Bride keyword."
+          },
+          {
+            "name": "Eastern Swiftness",
+            "description": ""
           }
         ],
         "command": [
@@ -449,8 +469,7 @@
       "abilities": {
         "common": [
           "Vampiric Attack (2)",
-          "Bulky",
-          "Flight\nFrenzied\nMindless\nSlippery\nAerial Aggression\nWhen this character moves into base \ncontact with an enemy character that \nis either 3\" above or 3\" below it at \nthe start of the action, that enemy \ncharacter skips their Protection \nroll for this character's Attack of \nOpportunity.\nSerpentine\nThis character is able to move \nthrough spaces smaller than its base \nto a minimum of 2\". It must be able \nto fit where it ends its turn."
+          "Bulky"
         ],
         "unique": [
           {
@@ -539,8 +558,7 @@
           "Expert Grappler (3)",
           "Vampiric Attack (1)",
           "Fast Swimmer (2)",
-          "Frenzied",
-          "Water Creature Hydrodynamic\nThis character increases its \nDEXTERITY to 5 while in water."
+          "Frenzied"
         ],
         "unique": [],
         "command": []
@@ -627,8 +645,7 @@
         "common": [
           "Vampiric Attack (1)",
           "First Strike (2)",
-          "Bulky",
-          "Frenzied\nMindless"
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -669,8 +686,7 @@
         "common": [
           "Vampiric Attack (3)",
           "Acrobatic (3)",
-          "Frenzied",
-          "Primitive\n\nWater Creature Brain Leech \nWhen this character replenishes \nLife Points due to the Vampiric Attack \nability, the target character lowers any abilities \nwith a number down by 1 until the end of the \ngame, to a minimum of 0. \nFor example  becomes Acrobatic (2) ."
+          "Frenzied"
         ],
         "unique": [],
         "command": []
@@ -709,8 +725,7 @@
         "common": [
           "Brawler (2)",
           "Fear (-3)",
-          "Berserk",
-          "Mindless Lunar Might\nDuring deployment let your \nopponent know when the moon will \nbe brightest. Choose either the first 3 \nrounds, or the remaining rounds.\nWhen the moon is brightest, all \ncharacters with this rule increase their \nMOVEMENT , DEXTERITY , and \nAT TAC K by 1."
+          "Berserk"
         ],
         "unique": [
           {
@@ -803,6 +818,10 @@
           {
             "name": "Premonition",
             "description": "Whenever rolling dice for this character, you may re-roll the Destiny Dice."
+          },
+          {
+            "name": "Soothsaying",
+            "description": ""
           }
         ],
         "command": [
@@ -882,8 +901,7 @@
       "abilities": {
         "common": [
           "Vampiric Attack (1)",
-          "Flight",
-          "Frenzied\nHunter"
+          "Flight"
         ],
         "unique": [],
         "command": []
@@ -917,14 +935,16 @@
         "common": [
           "Frenzied",
           "Mage (2)",
-          "Vampiric Attack (1)",
-          "Mage (X)",
-          "That character is Judged until the \nend of the round. Friendly characters \nmay re-roll their entire Attack Roll \n(all of it - including the Destiny dice) \nagainst an enemy Judged character. \nWhen a friendly Mage attempts \nto Dispel a spell cast by a Judged \ncharacter, count their  level \nas 1 higher."
+          "Vampiric Attack (1)"
         ],
         "unique": [
           {
             "name": "Cast Sentence",
             "description": "Whenever a character Judged by this character is killed, this character replenishes 3 Life Points or 1 Command Point ."
+          },
+          {
+            "name": "Judgement",
+            "description": ""
           }
         ],
         "command": [
@@ -1160,8 +1180,7 @@
           "Vampiric Attack (1)",
           "Expert Offence (2)",
           "Fear (-1)",
-          "Frenzied",
-          "Impaler \nEach time an enemy character is \nkilled within 3\" of this character, \nthis character increases its Fear and \nVampiric Attack value by 1."
+          "Frenzied"
         ],
         "unique": [],
         "command": []
@@ -1409,8 +1428,7 @@
       "abilities": {
         "common": [
           "Vampiric Attack (1)",
-          "Flight",
-          "Frenzied\nMindless"
+          "Flight"
         ],
         "unique": [],
         "command": []
@@ -1494,7 +1512,12 @@
           "Frenzied",
           "Vampiric Attack (1)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Shadow Walker",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Shadow Walker",
@@ -1576,8 +1599,7 @@
       "abilities": {
         "common": [
           "Fast Swimmer (2)",
-          "Berserk",
-          "Frenzied\nWater Creature"
+          "Berserk"
         ],
         "unique": [],
         "command": []
@@ -1616,8 +1638,7 @@
       ],
       "abilities": {
         "common": [
-          "Frenzied",
-          "Limited Movement\nWater Creature Dead Weights\nThis character is not deployed like \nnormal. Instead, at the end of the \nfirst round, deploy it anywhere on the \nboard in water at least 3\" away from \nany enemy characters in water. \nFrom that point on they take turns \njust like normal."
+          "Frenzied"
         ],
         "unique": [],
         "command": []

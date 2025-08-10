@@ -109,17 +109,12 @@
           "Expert Sorcerer (2)",
           "Fast Swimmer (1)",
           "Mage (3)",
-          "Water Creature",
-          "First Strike (2)"
+          "Water Creature"
         ],
         "unique": [
           {
             "name": "Rent-born",
             "description": "Each round, one friendly character (including this one) may subtract 1 from the Cost of a Magic Spell they attempt to cast (to a minimum of 0)."
-          },
-          {
-            "name": "until the end of their \nnext turn.",
-            "description": "2.2.1 3024 31254"
           }
         ],
         "command": [
@@ -223,8 +218,7 @@
           "Expert Offence (2)",
           "Fast Swimmer (2)",
           "Fear (-2)",
-          "Water Creature",
-          "First Strike (1)"
+          "Water Creature"
         ],
         "unique": [],
         "command": [
@@ -270,10 +264,14 @@
       "abilities": {
         "common": [
           "Universal Shielding (4)",
-          "Water Creature",
-          "Expert Offence (2)"
+          "Water Creature"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Blessing of Dagon",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Blessing of Dagon",
@@ -320,8 +318,7 @@
           "Fast Swimmer (3)",
           "Brawler (2)",
           "Fear (-3)",
-          "Bulky",
-          "Limited Movement\nMindless\nWater Creature Serpentine\nThis character is able to move \nthrough spaces smaller than its base \nto a minimum of 2\". It must be able \nto fit where it ends its turn."
+          "Bulky"
         ],
         "unique": [
           {
@@ -366,8 +363,7 @@
       ],
       "abilities": {
         "common": [
-          "Bulky",
-          "Mindless\nWater Creature"
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -409,8 +405,7 @@
         "common": [
           "Expert Grappler (2)",
           "Fast Swimmer (2)",
-          "Mindless",
-          "Primitive\nWater Creature Patient Hunter\nIf this character exits water and \ncharges in the same action, it counts \nas charging from above."
+          "Mindless"
         ],
         "unique": [],
         "command": []
@@ -449,7 +444,12 @@
         "common": [
           "Expert Offence (2)"
         ],
-        "unique": [],
+        "unique": [
+          {
+            "name": "Bolster Your Faith",
+            "description": ""
+          }
+        ],
         "command": [
           {
             "name": "Bolster Your Faith",
@@ -541,6 +541,10 @@
           {
             "name": "Burned Flesh",
             "description": "If a Combat action with the Burning Brand results in no Protection roll for the target, add 2 to the Damage."
+          },
+          {
+            "name": "Prove Yourselves to Dagon!",
+            "description": ""
           }
         ],
         "command": [
@@ -583,8 +587,7 @@
       ],
       "abilities": {
         "common": [
-          "Brave",
-          "Hunter Herding\nAny friendly character with the \nMonster keyword that starts a \nRun/Climb action within 2” of one or \nmore characters with this rule gains \n+2\" MOVE for that action."
+          "Brave"
         ],
         "unique": [
           {
@@ -671,8 +674,7 @@
         "common": [
           "Expert Grappler (2)",
           "First Strike (1)",
-          "Companion (Hydra)",
-          "Limited Movement\nMindless Spawn - 3LP\nPlace a new Infant Kraken in base \ncontact with this character. The new \nInfant Kraken acts just like any \nother friendly character, and can be \nactivated this round as normal. This \nability may only be used once each \nround and only if this character has 4 \nor more Life Points remaining."
+          "Companion (Hydra)"
         ],
         "unique": [
           {
@@ -720,8 +722,7 @@
           "Expert Grappler (2)",
           "Vampiric Attack (2)",
           "Fear (-1)",
-          "Engage",
-          "Water Creature Climbing Suckers\nWhen this character makes a \nDEXTERITY roll as part of a Run/\nClimb action, it counts all fumbles \nas failures."
+          "Engage"
         ],
         "unique": [],
         "command": []
@@ -906,8 +907,7 @@
           "Vampiric Attack (2)",
           "Parry (3)",
           "Mindless",
-          "Slippery",
-          "Water Creature Mucus\nThis character gains \n+4 DEXTERITY for any Combat \nactions (including Attacks of \nOpportunity) if the attacker is within \n3\".\nAdditionally, any enemy character \nwithin 3\" of this character suffers \n-1 to their MOVEMENT and \nDEXTERITY ."
+          "Slippery"
         ],
         "unique": [],
         "command": []
@@ -1043,8 +1043,7 @@
         "common": [
           "Expert Sorcerer (1)",
           "Fast Swimmer (2)",
-          "Mage (1)",
-          "Water Creature Dragging Down\nThis character may re-roll failed dice \nrolls when making Drown actions."
+          "Mage (1)"
         ],
         "unique": [],
         "command": []
@@ -1083,8 +1082,7 @@
       ],
       "abilities": {
         "common": [
-          "Primitive",
-          "Water Creature Leaper\nWhen this character makes a \nsuccessful Jump action, add 2\" to the \nmovement distance."
+          "Primitive"
         ],
         "unique": [],
         "command": []
@@ -1126,8 +1124,7 @@
         "common": [
           "Vampiric Attack (1)",
           "Fast Swimmer (2)",
-          "Mindless",
-          "Primitive\n\nWater Creature Barbed Tongue\nThe Tongue Harpoon's Knockback \nmoves the target directly towards this \ncharacter rather than away."
+          "Mindless"
         ],
         "unique": [
           {
@@ -1172,8 +1169,7 @@
       "abilities": {
         "common": [
           "Concealment (+2)",
-          "Mindless",
-          "Bait\nFriendly characters may attack this \ncharacter as if it were an enemy.\nIf a friendly character kills this \ncharacter, it loses the Mindless rule \nfor the rest of the game."
+          "Mindless"
         ],
         "unique": [
           {
@@ -1222,8 +1218,7 @@
       "abilities": {
         "common": [
           "First Strike (3)",
-          "Bulky",
-          "Primitive\nMindless\nWater Creature"
+          "Bulky"
         ],
         "unique": [],
         "command": []
@@ -1382,8 +1377,7 @@
         "common": [
           "First Strike (1)",
           "Primitive",
-          "Mindless",
-          "Water Creature Climber\nThis character always counts as \nrolling at least one Ace when making \nClimb rolls."
+          "Mindless"
         ],
         "unique": [],
         "command": []
@@ -1461,8 +1455,7 @@
         "common": [
           "Vampiric Attack (1)",
           "Concealment (2)",
-          "Primitive",
-          "Water Creature\nOne Mind\nWhen this character makes a Combat \naction, it gains +1 to its AT TAC K \nfor every other Infant Kraken in base \ncontact with the target."
+          "Primitive"
         ],
         "unique": [
           {
@@ -1613,8 +1606,7 @@
       ],
       "abilities": {
         "common": [
-          "Mindless",
-          "Pickpocket Unassuming\nIf this character disengages \nsuccessfully and does not use the \naction to charge another enemy \ncharacter, make a 0AP Attack of \nOpportunity with this character \nbefore moving."
+          "Mindless"
         ],
         "unique": [],
         "command": []
