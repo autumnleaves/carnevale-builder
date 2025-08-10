@@ -281,6 +281,69 @@ def parse_remaining_abilities(cleaned_text: str, known_common_abilities: List[st
     return common_abilities, unique_abilities
 
 
+def parse_marco_leontus_abilities(text: str, known_common_abilities: List[str]) -> Dict[str, List]:
+    """Special case parser for Marco Leontus to fix the 'The Mask Makes the Noble' parsing issue"""
+    # The correct Marco Leontus unique ability description with complete rules
+    mask_ability_desc = ("At the beginning of the game, before deployment, select another friendly character to wear one of this character's Masks. For the entirety of the game that character gains one of the following:\n• Increase their starting Command Points by 2\n• Boat Crew and Bodyguard (Leader)\nA character can only be given a single Mask. Unique characters without Faction (Gifted) and Mindless characters cannot be given a Mask.")
+    
+    # Parse common abilities from Character Abilities section  
+    common_abilities = []
+    # Marco Leontus doesn't have a traditional Character Abilities section based on the text structure
+    
+    # Return the structured abilities with the corrected unique ability
+    return {
+        "common": common_abilities,
+        "unique": [
+            {
+                "name": "The Mask Makes the Noble",
+                "description": mask_ability_desc
+            }
+        ],
+        "command": []
+    }
+
+def parse_justice_abilities(text: str, known_common_abilities: List[str]) -> Dict[str, List]:
+    """Special case parser for Justice character to fix the 'Destiny Dice!' parsing issue"""
+    # The correct Justice Served description
+    justice_served_desc = ("During deployment, pick 1 enemy character. Justice re-rolls all failed dice "
+                          "rolls when making Combat actions against this character, including the Destiny Dice!")
+    
+    # Parse common abilities from Character Abilities section  
+    common_abilities = []
+    abilities_pattern = r'Character Abilities\s*•?\s*(.*?)(?=The Other Side|\n\d+\.\d+\.\d+|$)'
+    match = re.search(abilities_pattern, text, re.DOTALL)
+    
+    if match:
+        abilities_text = match.group(1)
+        # Clean the text
+        cleaned_text = re.sub(r'•\s*', '', abilities_text)
+        cleaned_text = re.sub(r'\s+', ' ', cleaned_text).strip()
+        
+        # Separate concatenated abilities
+        separated_abilities = separate_concatenated_abilities(cleaned_text, known_common_abilities)
+        
+        for ability_text in separated_abilities:
+            ability_text = ability_text.strip()
+            if not ability_text:
+                continue
+                
+            # Check if it's a common ability
+            normalized = normalize_ability_name(ability_text, known_common_abilities)
+            if normalized and normalized not in common_abilities:
+                common_abilities.append(normalized)
+    
+    # Return the structured abilities with the corrected Justice Served
+    return {
+        "common": common_abilities,
+        "unique": [
+            {
+                "name": "Justice Served",
+                "description": justice_served_desc
+            }
+        ],
+        "command": []
+    }
+
 def parse_mounted_venetian_noble_abilities(text: str, known_common_abilities: List[str]) -> Dict[str, List]:
     """Special case parser for Mounted Venetian Noble which has two unique abilities concatenated"""
     # Extract the specific abilities for this character
@@ -344,6 +407,57 @@ def parse_mounted_venetian_noble_abilities(text: str, known_common_abilities: Li
         "command": command_abilities
     }
 
+def parse_merchant_abilities(text: str, known_common_abilities: List[str]) -> Dict[str, List]:
+    """Special case parser for Merchant to fix the rank parsing issue"""
+    # Merchant has a unique ability "There's Coin in it for You" that got concatenated with rank
+    merchant_ability_desc = ("Once per round, when this character makes a Combat action, you may spend 1 Command Point to re-roll any dice that didn't score an Ace.")
+    
+    # Parse common abilities from Character Abilities section  
+    common_abilities = []
+    # Merchant doesn't have notable common abilities based on the parsing issue
+    
+    # Return the structured abilities with the corrected unique ability
+    return {
+        "common": common_abilities,
+        "unique": [
+            {
+                "name": "There's Coin in it for You",
+                "description": merchant_ability_desc
+            }
+        ],
+        "command": []
+    }
+
+def parse_wayfinder_abilities(text: str, known_common_abilities: List[str]) -> Dict[str, List]:
+    """Special case parser for Wayfinder to fix the rank parsing issue"""
+    # Wayfinder has unique abilities that got concatenated with rank
+    gun_laying_desc = ("1AP Pick a friendly character within 6\" and line of sight. Until the end of that character's next activation, it gains -2 Evasion against targets outside of base contact with it.")
+    nautical_bearings_desc = ("Any friendly character that makes a Combat action within 3\" with a weapon that has a range of 6\" or higher increases their range by 6\".")
+    
+    # Parse common abilities from Character Abilities section  
+    common_abilities = []
+    # Wayfinder doesn't have notable common abilities based on the parsing issue
+    
+    # Return the structured abilities with the corrected unique abilities
+    return {
+        "common": common_abilities,
+        "unique": [
+            {
+                "name": "Gun Laying",
+                "description": gun_laying_desc
+            },
+            {
+                "name": "Nautical Bearings", 
+                "description": nautical_bearings_desc
+            },
+            {
+                "name": "Maps and Charts",
+                "description": "Whenever this character uses a Plan command, draw 2 extra Agendas, take a look, and discard 2 of your choice."
+            }
+        ],
+        "command": []
+    }
+
 def enhanced_parse_abilities(text: str) -> Dict[str, List]:
     """Enhanced ability parsing using known abilities - refactored into separate functions"""
     # Load known abilities
@@ -353,6 +467,26 @@ def enhanced_parse_abilities(text: str) -> Dict[str, List]:
     if "Mounted Venetian Noble" in text and "Gleeful Charge" in text and "Do Try To Keep Up!" in text:
         # Handle this special case by splitting the abilities manually
         return parse_mounted_venetian_noble_abilities(text, known_common_abilities)
+    
+    # Special case for Justice - fix the "Destiny Dice!" parsing issue
+    if "Justice" in text and "Justice Served" in text and "Destiny Dice!" in text:
+        # Handle this special case by manually fixing the Justice Served ability
+        return parse_justice_abilities(text, known_common_abilities)
+    
+    # Special case for Marco Leontus - fix the "The Mask Makes the Noble" parsing issue
+    if "Marco Leontus" in text and "The Mask Makes the Noble" in text:
+        # Handle this special case by manually fixing the Marco Leontus parsing
+        return parse_marco_leontus_abilities(text, known_common_abilities)
+    
+    # Special case for Merchant - fix the rank concatenation issue
+    if "Merchant" in text and "There's Coin in it for You" in text:
+        # Handle this special case by manually fixing the Merchant parsing
+        return parse_merchant_abilities(text, known_common_abilities)
+    
+    # Special case for Wayfinder - fix the rank concatenation issue  
+    if "Wayfinder" in text and "Gun Laying" in text and "Nautical Bearings" in text:
+        # Handle this special case by manually fixing the Wayfinder parsing
+        return parse_wayfinder_abilities(text, known_common_abilities)
     
     # Parse unique abilities that appear outside Character Abilities section
     outside_unique_abilities = parse_outside_unique_abilities(text, known_common_abilities)
@@ -565,8 +699,23 @@ def parse_card_enhanced(card_text: str, page_num: int) -> Dict:
     
     card_data["page"] = page_num
     
-    # Parse keywords and rank
+    # Parse keywords and rank with special case handling
     keywords, rank = parse_keywords_and_rank(card_text)
+    
+    # Special case for Marco Leontus - fix rank parsing issue
+    if name == "Marco Leontus":
+        # Manually fix the keywords and rank for Marco Leontus
+        keywords = ["Unique"]
+        rank = "Hero"
+    elif name == "Merchant":
+        # Handle Merchant's special case - rank is concatenated with ability text
+        if rank and "There's Coin in it for You" in rank:
+            rank = "Henchman"  # Extract just the rank
+    elif name == "Wayfinder":
+        # Handle Wayfinder's special case - rank is concatenated with ability text  
+        if rank and ("Gun Laying" in rank or "Nautical Bearings" in rank):
+            rank = "Hero"  # Extract just the rank
+    
     card_data["keywords"] = keywords
     card_data["rank"] = rank
     
@@ -666,6 +815,17 @@ def parse_card_enhanced(card_text: str, page_num: int) -> Dict:
     
     # Use enhanced ability parsing
     card_data["abilities"] = enhanced_parse_abilities(card_text)
+    
+    # Determine if the character is unique
+    is_unique = False
+    # Check if they have the "Unique" keyword
+    if "Unique" in card_data.get("keywords", []):
+        is_unique = True
+    # All Leaders are also unique
+    elif card_data.get("rank") == "Leader":
+        is_unique = True
+    
+    card_data["unique"] = is_unique
     
     # Command was already parsed above in the ALW section
     

@@ -56,7 +56,8 @@
             "description": "Until the end of the round, any friendly characters within 3\" gain Universal Shielding (3) ."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Father Cesta",
@@ -111,7 +112,8 @@
             "description": "Until the end of the round, whenever a friendly character with the Construct keyword in line of sight within 6\" uses a Will Point to increase a roll, it instead counts as 2 Will Points . Impart Will At the start of the game, all friendly characters with the Construct keyword increase their starting Will Points by 1."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Exorcist",
@@ -159,7 +161,8 @@
             "description": "Pick 1 enemy character within 6\". Until the end of the round, whenever that character is hit by a Combat action, the attacker gains Fear (-2) . Helm of Penitence This character may attempt to Dispel magic spells as if it has Mage (3) . In addition, enemy characters may not use Will Points when within 3” of this character."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Inquisitor",
@@ -211,7 +214,8 @@
             "description": "Until the end of the round, any friendly characters within 3\" gain Expert Offence (2) ."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Knight Commander",
@@ -268,7 +272,8 @@
             "description": "This Command Ability is used out of sequence, at the start of the round before rolling initiative. Pick 1 friendly character in line of sight within 6\". If that character is reduced to 0 Life Points before they take their turn, they are not removed from the board. Instead they are only removed after their turn is complete."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Angel of the Blooded Rose",
@@ -314,7 +319,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Felix Baumgartner",
@@ -365,7 +371,8 @@
             "description": "Pick a friendly character in line of sight within 12\". One of that character's weapons gains -4 Penetration until the end of the round."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Avignon Guard",
@@ -403,7 +410,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Baptist",
@@ -444,7 +452,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Burning Saint",
@@ -490,7 +499,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Conventual Chaplain",
@@ -527,7 +537,8 @@
         "common": [],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Cross-bearing Deacon",
@@ -570,7 +581,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Divine Seraphim",
@@ -612,7 +624,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Executioner",
@@ -649,7 +662,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Galilean Priest",
@@ -691,7 +705,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Golgotha",
@@ -732,7 +747,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Inquisition Commissioner",
@@ -784,7 +800,8 @@
             "description": "Until the end of the round, any friendly characters within 3\" gain Parry (2) ."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Holy SepulchreKnight of the",
@@ -836,7 +853,8 @@
             "description": "All other friendly characters within 3\" gain +1 MOVEMENT until the end of the round."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Paladin of St Lazarus",
@@ -876,7 +894,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Prelate of theFlaming Sword",
@@ -906,7 +925,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Scorpio Marksman",
@@ -944,7 +964,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Sepulchral Vanguard",
@@ -985,7 +1006,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Seraph",
@@ -1026,7 +1048,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Silere Priest",
@@ -1066,7 +1089,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Stigmatist",
@@ -1106,7 +1130,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Summoner Priest",
@@ -1153,7 +1178,8 @@
             "description": "Remove 1 friendly character with the Construct keyword from the board. Place it within 3\" of this character (with no changes to its Life Points )."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Templar Marshal",
@@ -1203,7 +1229,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Throne",
@@ -1245,7 +1272,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Venator of Devotion",
@@ -1299,7 +1327,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Thomas Thieme",
@@ -1339,7 +1368,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Altar Boy",
@@ -1382,7 +1412,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Bishop Guard",
@@ -1428,7 +1459,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Celestial Congregation",
@@ -1470,7 +1502,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Celestial Spirit",
@@ -1512,7 +1545,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Cherubim",
@@ -1554,7 +1588,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Chevaleresse",
@@ -1594,7 +1629,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Crucifier",
@@ -1631,7 +1667,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "French Infantryman",
@@ -1668,7 +1705,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Inquisitorial Spy",
@@ -1706,7 +1744,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Knight of Malta",
@@ -1747,7 +1786,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Lacrimosa",
@@ -1787,7 +1827,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Maltese Squire",
@@ -1826,7 +1867,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Martyr",
@@ -1863,7 +1905,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Priest",
@@ -1900,7 +1943,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Redemptionist",
@@ -1938,7 +1982,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Stalker",
@@ -1976,7 +2021,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Thalassic Messenger",
@@ -2018,7 +2064,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Theophant of Sinai",
@@ -2064,7 +2111,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Witch Finder",
@@ -2103,7 +2151,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Reliquary Page",
@@ -2140,7 +2189,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     }
   ]
 }

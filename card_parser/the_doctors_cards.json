@@ -56,7 +56,8 @@
             "description": "Until the end of the round, any friendly characters within 6\" gain Fear (-2) , or increase their Fear number to ( -2)."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Master ofNecromantic Studies",
@@ -105,7 +106,8 @@
             "description": "One friendly character within 1\" gains Vampiric Attack (2) until the end of the game. Elixir of Death Every friendly character who starts the game with Will Points loses all of their Will Points and gains Frenzied . This change remains in play even if this character is killed."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Master ofArcane Security",
@@ -147,7 +149,8 @@
             "description": "All friendly characters within 3\" gain +1 ATT ACK until the end of the round. Auxiliary Systems At the start of this character's turn, it gains +2 to either its MOVEMENT , DEXTERITY , or PROTECTION until the end of the round."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Master of Zoology",
@@ -198,7 +201,8 @@
             "description": "Until the end of the round, any friendly characters within 3\" gain Universal Shielding (4). Beast Master All friendly characters with the Animal keyword gain Companion (Doctor ) while in line of sight of this character."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Plague Doctor",
@@ -250,7 +254,8 @@
             "description": "Until the end of the round, any friendly characters within 3\" gain Penetration -2 on their weapons. Purifying Ungents While within 6” of this character, friendly characters are immune to the Stun Ability. At the end of each friendly character’s turn, remove any Stun counters from friendly characters within 6” of this character."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "The Being",
@@ -295,7 +300,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "The Unholy Union",
@@ -332,7 +338,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Brined Horror",
@@ -371,7 +378,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Doctor of Blood",
@@ -413,7 +421,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Doctor of Tides",
@@ -444,7 +453,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Doctor of Poisons",
@@ -490,7 +500,8 @@
             "description": "One friendly character within 3\" gains either Acrobatic (3) , Engage , or Slippery until the end of the game."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Doctor of the Beasts",
@@ -540,7 +551,8 @@
             "description": "One friendly character with the Animal keyword within 6\" gains Berserk until the end of the game."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Doctor of the Firmament",
@@ -592,7 +604,8 @@
             "description": "One friendly character within 3\" gains Ethereal until the end of the game."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ethereal Assassin",
@@ -621,7 +634,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ethereal Snatcher",
@@ -650,7 +664,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Alchemist Doctor",
@@ -697,7 +712,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Morgue Doctor",
@@ -742,7 +758,8 @@
             "description": "This Command Ability is used out of sequence, when any other friendly character within 3\" is killed. Make a Basic MIND Roll:"
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Marine Biologist",
@@ -773,7 +790,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ordnance Doctor",
@@ -812,7 +830,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Unleashed Madman",
@@ -851,7 +870,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Voltage Bombardiers",
@@ -884,7 +904,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Warden",
@@ -922,7 +943,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Apprentice Doctor",
@@ -961,7 +983,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Basilisk",
@@ -1000,7 +1023,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Carrion",
@@ -1038,7 +1062,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Crocodile",
@@ -1079,7 +1104,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Doctor of Venesection",
@@ -1117,7 +1143,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Diving Assistant",
@@ -1146,7 +1173,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Electron Cannoneer",
@@ -1188,7 +1216,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ghoul",
@@ -1221,7 +1250,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Gorilla",
@@ -1262,7 +1292,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Hippocampus",
@@ -1302,7 +1333,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Hippogryph",
@@ -1341,7 +1373,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Hollowman",
@@ -1384,7 +1417,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Harvester",
@@ -1412,7 +1446,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Husk",
@@ -1450,7 +1485,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Lab Assistant",
@@ -1488,7 +1524,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Lion",
@@ -1528,7 +1565,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Madman",
@@ -1566,7 +1604,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Manticore",
@@ -1606,7 +1645,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Mermaid",
@@ -1638,7 +1678,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Monstrosity",
@@ -1676,7 +1717,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Nurse",
@@ -1713,7 +1755,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Rhino",
@@ -1753,7 +1796,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Shackled Feaster",
@@ -1783,7 +1827,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     }
   ]
 }

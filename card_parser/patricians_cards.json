@@ -67,7 +67,8 @@
             "description": "Until the end of the round, other friendly characters that start their turn within 6\" and line of sight of this character gain First Strike (2) until the end of their turn. Characters can only be affected by this Command Ability once each game round."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Guard Commander",
@@ -113,7 +114,8 @@
             "description": "Until the end of the round, all friendly characters with the Soldier keyword within 3\" gain +1 ATT ACK . Aim Fire! PULSE Command Ability Any friendly characters with the Soldier keyword in line of sight gain Expert Marksman (1) until the end of the round."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Noble Admiral",
@@ -161,7 +163,8 @@
             "description": "Other friendly characters on the same Boat as this character replenish 1 Will Point . Other friendly characters with Boat Crew on the same Boat as this character instead replenish 2 Will Points . Raise a Crew All friendly characters may be set up on a Boat."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Venetian Noble",
@@ -212,7 +215,8 @@
             "description": "This character gains +1 to its MOVEMENT , DEXTERITY , and AT TAC K until the end of the round. However, it reduces its MIND to 1."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Mounted Venetian Noble",
@@ -259,7 +263,8 @@
             "description": "This character gains First Strike (2) until the end of the round, however it reduces its PROTECTION to"
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Janissary Chorbaji",
@@ -311,7 +316,8 @@
             "description": "All friendly characters with the Ottoman keyword within 3\" (including this one) gain First Strike (2) until the end of the round. Disciplined Momentum When a friendly character with the Ottoman keyword within 6\" and line of sight kills an enemy character, this character replenishes 1 lost Command Point ."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Sopracomito",
@@ -366,7 +372,8 @@
             "description": "Any friendly characters in line of sight with the Soldier keyword that aren't in base contact with an enemy may immediately make a Run/Climb action for 0AP, but must move into base contact with this character. This move does not cause Attacks of Opportunity . Any characters that move into base contact immediately replenish 1 Will Point ."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Moon",
@@ -409,7 +416,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Sun",
@@ -451,7 +459,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Adventuring Noble",
@@ -492,7 +501,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Captain of the Guard",
@@ -544,7 +554,8 @@
             "description": "Until the end of the round, all friendly characters with the Soldier keyword within 6\" gain Expert Marksman (1) and Expert Offence (1)."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Cat Burglar",
@@ -586,7 +597,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Fencing Master",
@@ -625,7 +637,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Foreign Dignitary",
@@ -663,7 +676,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Gourmand Noble",
@@ -710,7 +724,8 @@
             "description": "Until the end of the round, every other friendly character in line of sight gains the Flesheater ability while in line of sight of this character. Flesheater If this character makes a Combat action against a target in base contact that causes it to lose at least 1 Life Point , it replenishes 1 Will Point ."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Naval Lieutenant",
@@ -766,7 +781,8 @@
             "description": "All friendly characters within 6\" increase their Fast Swimmer (X) value by 2 until the end of the round. Any characters without Fast Swimmer are unaffected."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Janissary Sapper",
@@ -797,7 +813,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ottoman Cannoneer",
@@ -844,7 +861,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ottoman Janissary",
@@ -883,7 +901,8 @@
             "description": "Until the end of the round, all friendly characters within 6\" gain +2 MOVEMENT if their Run/ Climb action is used to charge."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Seven Years Veteran",
@@ -932,7 +951,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Submissive Noble",
@@ -983,7 +1003,8 @@
             "description": "Every friendly character in base contact makes an immediate Move action for 0AP. This action cannot be used to move into base contact with an enemy character. Sadism PULSE Command Ability This character loses 1 Life Point and gains +2 Attack until the end of the round."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Syphilitic Noble",
@@ -1023,7 +1044,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Venetian Heavy Guard",
@@ -1054,7 +1076,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Venetian Spy",
@@ -1093,13 +1116,14 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Wayfinder",
       "page": 26,
       "keywords": [],
-      "rank": "HeroGun Laying - 1AP Pick a friendly character within 6” and line of sight. Until the end of that character’s next activation, it gains -2 Evasion against targets outside of base contact with it. Nautical Bearings Any friendly character that makes a Combat action within 3\" with a weapon that has a range of 6\" or higher increases their range by 6\".",
+      "rank": "Hero",
       "version": "2.3.0",
       "actions": 2,
       "command": 3,
@@ -1128,12 +1152,21 @@
         "common": [],
         "unique": [
           {
+            "name": "Gun Laying",
+            "description": "1AP Pick a friendly character within 6\" and line of sight. Until the end of that character's next activation, it gains -2 Evasion against targets outside of base contact with it."
+          },
+          {
+            "name": "Nautical Bearings",
+            "description": "Any friendly character that makes a Combat action within 3\" with a weapon that has a range of 6\" or higher increases their range by 6\"."
+          },
+          {
             "name": "Maps and Charts",
             "description": "Whenever this character uses a Plan command, draw 2 extra Agendas, take a look, and discard 2 of your choice."
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Barnabotti",
@@ -1179,7 +1212,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Butler",
@@ -1217,7 +1251,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Cannibal Cultist",
@@ -1254,7 +1289,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Cortigiane",
@@ -1291,7 +1327,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "City Guard",
@@ -1338,7 +1375,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Guard Marksman",
@@ -1385,7 +1423,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Guard Sentry",
@@ -1424,7 +1463,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Household Staff",
@@ -1461,7 +1501,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Hunting Hound",
@@ -1500,13 +1541,14 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Merchant",
       "page": 36,
       "keywords": [],
-      "rank": "HenchmanThere's Coin in it for You",
+      "rank": "Henchman",
       "version": "2.2.0",
       "actions": 2,
       "command": 3,
@@ -1533,9 +1575,15 @@
       ],
       "abilities": {
         "common": [],
-        "unique": [],
+        "unique": [
+          {
+            "name": "There's Coin in it for You",
+            "description": "Once per round, when this character makes a Combat action, you may spend 1 Command Point to re-roll any dice that didn't score an Ace."
+          }
+        ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Naval Ensign",
@@ -1576,7 +1624,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Naval Recruit",
@@ -1615,7 +1664,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Noble Seafarer",
@@ -1663,7 +1713,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ottoman Archer",
@@ -1703,7 +1754,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ottoman Pirate",
@@ -1744,7 +1796,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Ottoman Rigger",
@@ -1783,7 +1836,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     }
   ]
 }

@@ -71,7 +71,8 @@
             "description": "Mutating tentacles emerge from flesh nearby. Every other character (friendly and enemy, not including this one) within 2\" loses 2 Life Points and gains +2 DEXTERITY until the end of the round."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Magi-Rashaar",
@@ -124,7 +125,8 @@
             "description": "Pick a friendly character in line of sight within 6\". That character gains First Strike (2) until the end of their next turn."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Paartul Matriarch",
@@ -180,7 +182,8 @@
             "description": "Place one Crybaby within 6\" of this character. The new Crybaby acts just like any other friendly character, and can be activated this round as normal."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Thalidraur",
@@ -228,7 +231,8 @@
             "description": "Until the end of the round, all friendly characters within 3\" of this character gain Expert Protection (2) . Foetid Pheromones Other friendly characters that start their activation within 6\" of this character gain First Strike (1) until the end of their activation."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Voice of Dagon",
@@ -274,7 +278,8 @@
             "description": "Until the end of the round, any friendly characters within 6\" gain Expert Offence (2)."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "Morgraur",
@@ -322,7 +327,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Brachyura",
@@ -362,7 +368,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Caandru Eel",
@@ -404,7 +411,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Cult Enforcer",
@@ -447,7 +455,8 @@
             "description": "Until the end of the round, all friendly characters within 3\" gain +1 PROTECTION."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Dagonite Priest",
@@ -487,7 +496,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Demagogue",
@@ -540,7 +550,8 @@
             "description": "Until the end of the round, any friendly character that starts a Run/Climb action within 6\" gains +2\" MOVE for that action provided they charge."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Handler",
@@ -582,7 +593,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Karcharos",
@@ -625,7 +637,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Krakenhost",
@@ -669,7 +682,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Mature Kraken",
@@ -712,7 +726,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Paliaa",
@@ -760,7 +775,8 @@
             "description": "Until the end of the round, all friendly characters with the Henchman keyword gain +1 AT TAC K while they are within 6” and line of sight of any number of other friendly characters with the Monster keyword."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Raadru",
@@ -801,7 +817,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Salaacia",
@@ -846,7 +863,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Secreting Myxin",
@@ -897,7 +915,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Sirena",
@@ -952,7 +971,8 @@
             "description": "Until the end of the round, any enemy characters within 6\" of this character have -2 MIND."
           }
         ]
-      }
+      },
+      "unique": false
     },
     {
       "name": "Advanced Hybrid",
@@ -991,7 +1011,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Aglaope",
@@ -1033,7 +1054,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Bounding Telchine",
@@ -1072,7 +1094,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Bulbous Toad",
@@ -1119,7 +1142,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Crybaby",
@@ -1168,7 +1192,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Cymothoan Crusher",
@@ -1208,7 +1233,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Dagon Officiant",
@@ -1245,7 +1271,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Dagonite Zealot",
@@ -1284,7 +1311,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Half-Breed",
@@ -1325,7 +1353,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Hellhound",
@@ -1367,7 +1396,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Hybrid",
@@ -1404,7 +1434,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Infant Kraken",
@@ -1450,7 +1481,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Lesser Rhyll",
@@ -1482,7 +1514,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Lesser Ugdru",
@@ -1522,7 +1555,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Slave",
@@ -1559,7 +1593,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Urchin",
@@ -1596,7 +1631,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Wet Nurse",
@@ -1639,7 +1675,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     }
   ]
 }

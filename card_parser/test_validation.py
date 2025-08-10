@@ -87,8 +87,15 @@ class CardValidationTests:
         for i, card in enumerate(self.json_data.get("cards", [])):
             card_name = card.get("name", f"Card #{i+1}")
             
+            # Special case: Painted Protector is a summoned unit and doesn't need a rank
+            if card_name == "Painted Protector":
+                # Skip rank requirement for Painted Protector
+                fields_to_check = [field for field in required_fields if field != "rank"]
+            else:
+                fields_to_check = required_fields
+            
             # Check required fields
-            for field in required_fields:
+            for field in fields_to_check:
                 if field not in card or card[field] is None:
                     self._add_error(test_name, f"{card_name}: Missing or null field '{field}'")
                 elif isinstance(card[field], str) and card[field].strip() == "":
@@ -280,6 +287,27 @@ class CardValidationTests:
         
         return len(self.errors) == 0
     
+    def test_valid_rank_values(self) -> bool:
+        """Test 9: Validate rank values are Leader, Hero, or Henchman (except Painted Protector)."""
+        test_name = "Valid Rank Values"
+        valid_ranks = ["Leader", "Hero", "Henchman"]
+        
+        for card in self.json_data.get("cards", []):
+            card_name = card.get("name", "Unknown Card")
+            
+            # Special case: Painted Protector can have null rank
+            if card_name == "Painted Protector":
+                continue
+            
+            rank = card.get("rank")
+            if rank not in valid_ranks:
+                if rank is None:
+                    self._add_error(test_name, f"{card_name}: Rank is null (expected one of {valid_ranks})")
+                else:
+                    self._add_error(test_name, f"{card_name}: Invalid rank '{rank}' (expected one of {valid_ranks})")
+        
+        return len(self.errors) == 0
+    
     def run_all_tests(self) -> Tuple[int, int]:
         """Run all tests and return (passed, total) counts."""
         tests = [
@@ -291,6 +319,7 @@ class CardValidationTests:
             self.test_ability_completeness,
             self.test_weapon_names,
             self.test_faction_ability,
+            self.test_valid_rank_values,
         ]
         
         passed = 0

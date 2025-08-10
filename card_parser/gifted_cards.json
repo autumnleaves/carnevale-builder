@@ -55,7 +55,8 @@
             "description": "2 friendly characters within line of sight may make an immediate Run/Climb action. This movement cannot be used to move into or out of base contact with an enemy."
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "La Signora",
@@ -110,7 +111,8 @@
             "description": "Add up every character (friendly or enemy) within 3\" of this character. She replenishes that many Will Points . Cheat If this is the only character with the Leader keyword in the gang, this character loses the Hero keyword. However, if the gang contains Il Capitano , this character loses the Leader keyword"
           }
         ]
-      }
+      },
+      "unique": true
     },
     {
       "name": "The Duke",
@@ -165,7 +167,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "The Aberration",
@@ -196,7 +199,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Artisan Elena",
@@ -238,7 +242,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Black Spectre",
@@ -278,7 +283,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Burattino",
@@ -320,7 +326,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Fadhila",
@@ -363,7 +370,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Fate",
@@ -405,7 +413,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Francisco De Lorme",
@@ -446,7 +455,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Harbinger's Reflection",
@@ -492,7 +502,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Harlequin",
@@ -538,7 +549,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "II Mentore",
@@ -576,7 +588,8 @@
         "common": [],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Innamorati",
@@ -624,7 +637,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Justice",
@@ -664,24 +678,20 @@
         "unique": [
           {
             "name": "Justice Served",
-            "description": "During deployment, pick 1 enemy character. Justice re-rolls all failed dice rolls when making Combat actions against this character, including the"
-          },
-          {
-            "name": "Destiny Dice!",
-            "description": ""
+            "description": "During deployment, pick 1 enemy character. Justice re-rolls all failed dice rolls when making Combat actions against this character, including the Destiny Dice!"
           }
         ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Marco Leontus",
       "page": 17,
       "keywords": [
-        "UniqueThe Mask Makes the Noble At the beginning of the game, before deployment, select another friendly character to wear one of this character’s Masks. For the entirety of the game that character gains one of the following:",
-        "Increase their starting Command Points by 2"
+        "Unique"
       ],
-      "rank": "Boat Crew and Bodyguard (Leader)",
+      "rank": "Hero",
       "version": "2.3.1",
       "actions": 2,
       "command": 1,
@@ -708,9 +718,15 @@
       ],
       "abilities": {
         "common": [],
-        "unique": [],
+        "unique": [
+          {
+            "name": "The Mask Makes the Noble",
+            "description": "At the beginning of the game, before deployment, select another friendly character to wear one of this character's Masks. For the entirety of the game that character gains one of the following:\n• Increase their starting Command Points by 2\n• Boat Crew and Bodyguard (Leader)\nA character can only be given a single Mask. Unique characters without Faction (Gifted) and Mindless characters cannot be given a Mask."
+          }
+        ],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Master Gerhard",
@@ -749,7 +765,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Maria Fioritura",
@@ -790,7 +807,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Painted Protector",
@@ -833,7 +851,8 @@
           }
         ],
         "command": []
-      }
+      },
+      "unique": false
     },
     {
       "name": "Solus Hydraea",
@@ -872,7 +891,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "The Mask Maker",
@@ -913,7 +933,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "White Dove",
@@ -953,7 +974,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Zovena Vela",
@@ -1000,7 +1022,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Brighella",
@@ -1040,7 +1063,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Colombina",
@@ -1078,7 +1102,8 @@
         "common": [],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Coviello",
@@ -1118,7 +1143,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "The Demolitionist",
@@ -1158,7 +1184,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Escaped Madman",
@@ -1198,7 +1225,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Il Dottore",
@@ -1238,7 +1266,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Mezzetino",
@@ -1278,7 +1307,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Pantaleone",
@@ -1318,7 +1348,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Scapino",
@@ -1358,7 +1389,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Starspawn",
@@ -1398,7 +1430,8 @@
         ],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": true
     },
     {
       "name": "Pierrot",
@@ -1435,7 +1468,8 @@
         "common": [],
         "unique": [],
         "command": []
-      }
+      },
+      "unique": false
     }
   ]
 }
