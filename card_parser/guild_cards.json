@@ -1,0 +1,1943 @@
+{
+  "faction": "The Guild",
+  "faction_ability": {
+    "name": "Mob Mentality",
+    "description": "For every friendly character in line of sight to this character (including this character), add a re-roll to your Mob Mentality Pool. Until the end of the round, any friendly character may use these re-rolls on any roll - one re-roll per dice."
+  },
+  "cards": [
+    {
+      "name": "Capodecina",
+      "page": 2,
+      "keywords": [
+        "Trade"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 4,
+      "will": 4,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 6,
+        "attack": 4,
+        "protection": 2,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Twin Blades",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Aerial Attack",
+          "Expert Offence (2)",
+          "Infiltration"
+        ],
+        "unique": [
+          {
+            "name": "Rise Up",
+            "description": "All friendly characters with the Trade keyword gain Companion ( Trade ) as long as this character is on the board."
+          }
+        ],
+        "command": [
+          {
+            "name": "Fight For the Guild!",
+            "type": "PULSE",
+            "description": "One friendly character in line of sight with the Trade keyword replenishes 2 Will Points instead of 1 from Companion until the end of the game."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Harbourmaster",
+      "page": 3,
+      "keywords": [],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 4,
+      "will": 3,
+      "life": 14,
+      "base_size": 30,
+      "ducats": 21,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Clockwork Pistol",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Sailor's Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Parry (2)",
+          "Expert Protection (3)"
+        ],
+        "unique": [
+          {
+            "name": "Born to Swim",
+            "description": "Other friendly characters add +2 to their Fast Swimmer number as long as this character is on the board. Friendly characters without Fast Swimmer instead gain Fast Swimmer (2)."
+          }
+        ],
+        "command": [
+          {
+            "name": "Toughen Up",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 6” gain Expert Protection (3) ."
+          }
+        ]
+      }
+    },
+    {
+      "name": "King For a Day",
+      "page": 4,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Staff of Credit",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brave",
+          "Companion ( End of Days )",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Start the Horrorshow!",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters with the End of Days keyword in line of sight gain +1 ATTACK."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Madame",
+      "page": 5,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 4,
+      "will": 4,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 6
+      },
+      "weapons": [
+        {
+          "name": "Garter Pistol",
+          "range": "6\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Stiletto",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+1)",
+          "Parry (2)",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Don't Let Them Take You!",
+            "type": "PULSE",
+            "description": "One other friendly character in line of sight within 3\" (not including this one) gains Parry (2) until the end of the game. Strike When They're Vulnerable AURA Command Ability Until the end of the round, any other friendly characters with the House of Virtue keyword in line of sight (not including this one) gain Penetration -2 on their weapons."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ostrich King?!",
+      "page": 6,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 15,
+      "base_size": 40,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 7,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Staff of Credit",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bulky",
+          "Companion ( End of Days )",
+          "First Strike (2)",
+          "Limited Movement",
+          "Mindless",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Full Tilt!",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters with the End of Days keyword in line of sight gain +1 MOVEMENT."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prince of Thieves",
+      "page": 7,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 5,
+      "will": 2,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 23,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 5,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Gilded Sword 0” - +1 -1",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": ""
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Acrobatic (2)",
+          "Expert Marksman (2)",
+          "Pickpocket",
+          "Slippery",
+          "Take it for the Guild!\nAny friendly characters in line of \nsight replenish 2 Will Points instead \nof 1 when Pickpocketing ."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Thieves Guild Training",
+            "type": "PULSE",
+            "description": "One friendly character within 6\" gains Pickpocket until the end of the game. Take it for the Guild! Any friendly characters in line of sight replenish 2 Will Points instead of 1 when Pickpocketing ."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Baba-Yaga",
+      "page": 8,
+      "keywords": [
+        "Discipline ( Blood Rites , Wild Magic )",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 7,
+      "life": 13,
+      "command": null,
+      "base_size": 40,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 3,
+        "mind": 6
+      },
+      "weapons": [
+        {
+          "name": "Pestle",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Knockback, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Mage (3)",
+          "Bulky"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Black Lamp",
+      "page": 9,
+      "keywords": [
+        "Unique",
+        "Trade"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 5,
+      "life": 14,
+      "base_size": 30,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Sharpened Dagger",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brave",
+          "Universal Shielding (4)"
+        ],
+        "unique": [
+          {
+            "name": "The Lamp",
+            "description": "This character may attempt to Dispel magic spells as if it has Mage (3) and Expert Sorcerer (3). In addition, enemy characters may not use Will Points when within 3” of this character."
+          }
+        ],
+        "command": [
+          {
+            "name": "Rally to the Light!",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters in line of sight gain Companion (Black Lamp) and Brave."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ostrich Chariot?!",
+      "page": 10,
+      "keywords": [
+        "End of Days",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.1",
+      "actions": 2,
+      "will": 3,
+      "life": 30,
+      "command": null,
+      "base_size": 75,
+      "ducats": 34,
+      "stat_block": {
+        "movement": 7,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "First Strike (2)",
+          "Companion (End of Days)",
+          "Bulky",
+          "Limited Movement\nMindless Uncoordinated Assault\nAfter this character makes a Combat \naction, it may make a single 0AP Attack \nof Opportunity using a weapon it did not \nattack with in that Combat action. Attacks \nof Opportunity from this rule cannot cause \nadditional Attacks of Opportunity and do \nnot count as Attacks of Opportunity from \ncharging & charging from above."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Rialto Assassin",
+      "page": 11,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 13,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 5,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Smoke Bomb",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Blast, Harmless,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (3)",
+          "Infiltration",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Bloodletter",
+      "page": 12,
+      "keywords": [
+        "Discipline ( Blood Rites )",
+        "House of Virtue"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 2,
+        "mind": 5
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (1)",
+          "Mage (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Blood Matron",
+      "page": 13,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Mindless"
+        ],
+        "unique": [
+          {
+            "name": "Prey Upon",
+            "description": "At the start of the game, nominate an enemy character to be this character's Prey. When this character makes a Combat action against its Prey that combat action is a critical if the Destiny Dice is a 9 or a 10 and there is at least 1 other Ace in that roll."
+          }
+        ],
+        "command": []
+      }
+    },
+    {
+      "name": "Barber",
+      "page": 14,
+      "keywords": [
+        "Trade"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Straight Razor",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (1)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Baroni",
+      "page": 15,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 3,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Duelling Pistol",
+          "range": "8\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (2)",
+          "Pickpocket",
+          "First Strike (1)"
+        ],
+        "unique": [
+          {
+            "name": "Twin Pistols",
+            "description": "This character's weapons share the Reload ability - you may make 2 Combat actions with the Single Duelling Pistol or 1 with Twin Duelling Pistols in one round."
+          },
+          {
+            "name": "Unwieldy",
+            "description": "This character may only make Combat actions with the Twin Duelling Pistols as the first action of their turn (including using it for Attacks of Opportunity)."
+          }
+        ],
+        "command": [
+          {
+            "name": "Intimidation",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 3\" gain First Strike (1)."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brewer",
+      "page": 16,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 13,
+      "base_size": 40,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Bottles",
+          "range": "6\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        },
+        {
+          "name": "Flaming Bottles",
+          "range": "6\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-5",
+          "abilities": "Black Powder"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( End of Days )",
+          "Mindless",
+          "First Strike (1)",
+          "Brave"
+        ],
+        "unique": [
+          {
+            "name": "Keep it Flowing",
+            "description": "Any enemy character in base contact with this character can be the target of a Drown action, regardless of whether they're in water."
+          },
+          {
+            "name": "Flambé",
+            "description": "This character may only use Flaming Bottles when within 3\" of a Pulcinella Firebreather."
+          }
+        ],
+        "command": [
+          {
+            "name": "Fancy a Tipple?",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 3\" gain Brave and First Strike (1)."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brute",
+      "page": 17,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Big Club",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( End of Days )",
+          "Mindless"
+        ],
+        "unique": [
+          {
+            "name": "Thick Skull\nThis character cannot receive Stunned \ncounters.",
+            "description": "2.2.0 4013 2142"
+          }
+        ],
+        "command": []
+      }
+    },
+    {
+      "name": "Butcher",
+      "page": 18,
+      "keywords": [
+        "Trade"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 13,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Butcher's Knives",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Brawler (1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Dancer",
+      "page": 19,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 3,
+      "will": 2,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 6,
+        "attack": 3,
+        "protection": 2,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Poisoned Needle",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "Poisoned"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Slippery"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Communicative Dance",
+            "type": "PULSE",
+            "description": "Pick one friendly character within 3\" and one different friendly character with the House of Virtue keyword within line of sight. Both of those characters make an immediate Run/Climb action. This movement cannot be used to charge, but can be used to disengage."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death Duellist",
+      "page": 20,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)",
+          "Parry (2)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Fisherman",
+      "page": 21,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.1",
+      "actions": 2,
+      "command": 1,
+      "will": 3,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Pole Spear & Net",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        },
+        {
+          "name": "Harpoon Gun",
+          "range": "12\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Reload (1), Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (1)",
+          "Fast Swimmer (2)",
+          "Hunter",
+          "Hunter until the end of the game."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Bring it Down!",
+            "type": "PULSE",
+            "description": "One friendly character within 6\" gains Hunter until the end of the game."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recruiter",
+      "page": 22,
+      "keywords": [],
+      "rank": null,
+      "version": "2.2.1",
+      "actions": 2,
+      "command": 2,
+      "will": 3,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Handbow",
+          "range": "15\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [
+          {
+            "name": "Instigator",
+            "description": "All friendly characters with Companion( Trade ) gain +1 ATTACK while within 6” of one or more characters with this special rule Characters with the Instigator rule are unaffected."
+          }
+        ],
+        "command": []
+      }
+    },
+    {
+      "name": "Seamstress",
+      "page": 23,
+      "keywords": [
+        "Discipline ( Divinity , Fateweaving )",
+        "House of Virtue"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (1)",
+          "Mage (1)",
+          "Entwined Magics\nWhen picking spells for this \ncharacter, the additional spells \ngranted by Expert Sorcerer may be \nfrom any discipline it has access to \n(though it does not gain an additional \ncantrip if it is different)."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Shadow Assassin",
+      "page": 24,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Hero",
+      "version": "2.2.1",
+      "actions": 2,
+      "command": 1,
+      "will": 3,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Smuggler",
+      "page": 25,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Blunderbuss",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "+2",
+          "penetration": "+1",
+          "abilities": "Black Powder, Reload (1),"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+1)",
+          "Boat Crew"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Thief",
+      "page": 26,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 1,
+      "will": 3,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Stiletto",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "+1",
+          "abilities": "-"
+        },
+        {
+          "name": "Smoke Bomb",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Blast, Harmless,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Aerial Attack",
+          "Infiltration",
+          "Pickpocket",
+          "Acrobatic (3)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Get to the Roof",
+            "type": "PULSE",
+            "description": "One friendly character with the Henchman keyword within 6\" gains Acrobatic (3) until the end of the game."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Very Loud Ostrich",
+      "page": 27,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 3,
+      "life": 14,
+      "base_size": 40,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 7,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Trumpet",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bulky",
+          "Companion ( End of Days )",
+          "First Strike (2)",
+          "Limited Movement",
+          "Mindless",
+          "Slippery"
+        ],
+        "unique": [
+          {
+            "name": "Doot",
+            "description": "Whenever this character makes a Combat action with its Trumpet weapon, all friendly characters within 3\" cheer and replenish 1 Will Point."
+          }
+        ],
+        "command": [
+          {
+            "name": "Toot Toot Toot... Charge!",
+            "type": "PULSE",
+            "description": "Up to 2 friendly characters within 3\" may make an immediate Run/Climb action, but this movement must be used to charge an enemy (doesn't have to be the same enemy!)."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Whaler",
+      "page": 28,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 15,
+      "command": null,
+      "base_size": 40,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Whaling Lance",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "+3",
+          "penetration": "0",
+          "abilities": "Knockback, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Boat Crew",
+          "Hunter"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Witch",
+      "page": 29,
+      "keywords": [
+        "Discipline ( Blood Rites , Runes of Sovereignty , Wild Magic )",
+        "House of Virtue"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 4,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Mage (2)",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Arbalest",
+      "page": 30,
+      "keywords": [
+        "Trade"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Crossbow",
+          "range": "30\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Reload (1), Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Trade )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Beggar",
+      "page": 31,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 6,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Blooded",
+      "page": 32,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 5,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed - - - +1",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": ""
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mindless",
+          "Limited Movement"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Blood Courier",
+      "page": 33,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Dagger",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (2)",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Citizen",
+      "page": 34,
+      "keywords": [
+        "Trade"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Companion ( Trade )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Dog Keeper",
+      "page": 35,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 1,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Training Whip",
+          "range": "3\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion (Dog)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Dog",
+      "page": 36,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 6,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 5,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Teeth",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Engage",
+          "Limited Movement\nMindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Escort",
+      "page": 37,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 13,
+      "command": null,
+      "base_size": 40,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (1)",
+          "Bodyguard ( Hero, Henchman )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Firebreather",
+      "page": 38,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 9,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Fire Breath",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "Black Powder, Template,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( End of Days )",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Gondolier",
+      "page": 39,
+      "keywords": [
+        "Trade"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Bladed Oar",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (1)",
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Harlot",
+      "page": 40,
+      "keywords": [
+        "House of Virtue"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Stiletto",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+1)",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Indebted",
+      "page": 41,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Short Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Mariner",
+      "page": 42,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Dive Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Boat Crew"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Ostrich Rider",
+      "page": 43,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 13,
+      "command": null,
+      "base_size": 40,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 7,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Club",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (2)",
+          "Companion ( End of Days )",
+          "Bulky",
+          "Limited Movement\nMindless\nSlippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Pilferer",
+      "page": 44,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 6,
+        "attack": 2,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Dagger",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+1)",
+          "Pickpocket"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Poacher",
+      "page": 45,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Short Bow",
+          "range": "12\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Reload (3), Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+1)",
+          "Infiltration"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Pulcinella",
+      "page": 46,
+      "keywords": [
+        "End of Days"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 9,
+      "command": null,
+      "base_size": 30,
+      "ducats": 8,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Club",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( End of Days )",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Shipwright",
+      "page": 47,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 13,
+      "command": null,
+      "base_size": 40,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Riveting Hammer",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    }
+  ]
+}

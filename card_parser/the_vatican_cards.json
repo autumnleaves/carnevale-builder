@@ -1,0 +1,2063 @@
+{
+  "faction": "The_Vatican",
+  "faction_ability": {
+    "name": "Heavenly Father Guide Us",
+    "description": "This character replenishes 2 Will Points and every other friendly character within 3\" replenishes 1 Will Point ."
+  },
+  "cards": [
+    {
+      "name": "de Bernis",
+      "page": 2,
+      "keywords": [
+        "Discipline ( Divinity , Fateweaving , Wild Magic )",
+        "Unique"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 3,
+      "will": 8,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 24,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Crosier",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "and Protect You",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 3\" gain Universal Shielding (3) ."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Father Cesta",
+      "page": 3,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty, Wild Magic )",
+        "Invoker",
+        "Unique"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 3,
+      "will": 4,
+      "life": 12,
+      "base_size": 40,
+      "ducats": 24,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Divine Winds",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Template"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Universal Shielding (3)Gates of Heaven",
+            "type": "PULSE",
+            "description": "Until the end of the round, whenever a friendly character with the Construct keyword in line of sight within 6\" uses a Will Point to increase a roll, it instead counts as 2 Will Points . Impart Will At the start of the game, all friendly characters with the Construct keyword increase their starting Will Points by 1."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Exorcist",
+      "page": 4,
+      "keywords": [],
+      "rank": "Leader",
+      "version": "2.3.1",
+      "actions": 3,
+      "command": 3,
+      "will": 4,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 6
+      },
+      "weapons": [
+        {
+          "name": "Divine Touch",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fear (-2)",
+          "Mage (3)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Fear (-2)Fear the Lord",
+            "type": "PULSE",
+            "description": "Pick 1 enemy character within 6\". Until the end of the round, whenever that character is hit by a Combat action, the attacker gains Fear (-2) . Helm of Penitence This character may attempt to Dispel magic spells as if it has Mage (3) . In addition, enemy characters may not use Will Points when within 3” of this character."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Inquisitor",
+      "page": 5,
+      "keywords": [
+        "Discipline ( Blood Rites , Runes of Sovereignty , Wild Magic )"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 4,
+      "will": 2,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 22,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Hands of God",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Universal Shielding (3)For the Glory of God",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 3\" gain Expert Offence (2) ."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight Commander",
+      "page": 6,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 3,
+      "will": 3,
+      "life": 14,
+      "base_size": 30,
+      "ducats": 21,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 6,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Blade of Gozo",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Universal Shielding (4)Fight Until the Last",
+            "type": "PULSE",
+            "description": "This Command Ability is used out of sequence, at the start of the round before rolling initiative. Pick 1 friendly character in line of sight within 6\". If that character is reduced to 0 Life Points before they take their turn, they are not removed from the board. Instead they are only removed after their turn is complete."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angel of theBlooded Rose",
+      "page": 7,
+      "keywords": [
+        "Unique",
+        "Hospitaller"
+      ],
+      "rank": "Hero",
+      "version": "2.2.1",
+      "actions": 3,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 50,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Ahlspiess",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Flight",
+          "Frenzied\nBorn of Blood \nWhenever any character (friendly \nor enemy) is killed within 3\", this \ncharacter replenishes 3 Life Points ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Felix Baumgartner",
+      "page": 8,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 4,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Holy Instruments",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Expert Offence (2)Put it Through the Heart!",
+            "type": "PULSE",
+            "description": "Pick a friendly character in line of sight within 12\". One of that character's weapons gains -4 Penetration until the end of the round."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Avignon Guard",
+      "page": 9,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 15,
+      "command": null,
+      "base_size": 40,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 6,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Greatsword",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (4)",
+          "Brawler (1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Baptist",
+      "page": 10,
+      "keywords": [
+        "Discipline ( Divinity )"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Expert Sorcerer (1)",
+          "Mage (2)",
+          "Blessed Water - 1AP\nPlace the Blast marker in water in line of sight \nwithin 8\".\nThe area under the Blast marker is treated as \nsolid ground for friendly characters. \nEnemy characters treat the area as water, and \ncharacters with the Water Creature rule can be \ndrowned while at least partially on the marker.\nRemove the marker at the end of the round."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Burning Saint",
+      "page": 11,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 3,
+      "life": 11,
+      "command": null,
+      "base_size": 40,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 6,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Blessed Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (6)",
+          "Expert Offence (2)",
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Conventual Chaplain",
+      "page": 12,
+      "keywords": [],
+      "rank": null,
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 4,
+      "will": 2,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Cross-bearing Deacon",
+      "page": 13,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Holy Icon",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (5)",
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Divine Seraphim",
+      "page": 14,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 13,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Divine Flame",
+          "range": "0\"",
+          "evasion": "-2",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "Template"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Companion ( Invoker )",
+          "Fear (-1)",
+          "Flight"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Executioner",
+      "page": 15,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 13,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 1,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Executioner's Axe",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Galilean Priest",
+      "page": 16,
+      "keywords": [
+        "Discipline ( Fateweaving , Wild Magic )",
+        "Invoker"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 2,
+      "will": 6,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)",
+          "Fast Swimmer (2)",
+          "Mage (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Golgotha",
+      "page": 17,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Hero",
+      "version": "2.3.1",
+      "actions": 2,
+      "life": 20,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 6,
+        "protection": 0,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Stone Fists",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Invoker )",
+          "Fear (0)",
+          "Bulky",
+          "Mindless\nPrimitive Stoneskin\nWhenever this character takes \nDamage, reduce the amount \nof Damage caused by 3 \n(to a minimum of 1).\nIn addition, if this character is hit by \na Poisoned weapon, roll 2 dice and \nchoose 1 to see if they shrug off the \npoison."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Inquisition Commissioner",
+      "page": 18,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 3,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Parry (2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "My Enemies",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 3\" gain Parry (2) ."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Holy SepulchreKnight of the",
+      "page": 19,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 18,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 6,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Flail",
+          "range": "2\"",
+          "evasion": "+1",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Must Be Cleansed",
+            "type": "PULSE",
+            "description": "All other friendly characters within 3\" gain +1 MOVEMENT until the end of the round."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Paladin of St Lazarus",
+      "page": 20,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 1,
+      "will": 2,
+      "life": 14,
+      "base_size": 40,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Warhammer",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Stun, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Expert Offence (1)",
+          "Resurrection\nWhen this character is killed, do not \nremove it from the board.\nAt the start of the next round, make a \nBasic MIND Roll (Will Points may be \nused as normal). If successful, this character \ncomes back to life with 5 Life Points and \ngains Berserk for the rest of the game.\nIf the MIND Roll is unsuccessful, the \ncharacter is completely dead and removed \nfrom the board."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Prelate of theFlaming Sword",
+      "page": 21,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Offence (2)",
+          "Brave",
+          "Bulky",
+          "Mindless Burning Aura \nAny friendly characters without this \nability within 3\" gain -2 Penetration \non their weapons."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Scorpio Marksman",
+      "page": 22,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 15,
+      "command": null,
+      "base_size": 50,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 5,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Scorpio",
+          "range": "18\"",
+          "evasion": "+1",
+          "damage": "+2",
+          "penetration": "-2",
+          "abilities": "Knockback, Two-handed,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Expert Marksman (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Sepulchral Vanguard",
+      "page": 23,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 1,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 5,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Flaming Mace",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-2",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Protection (3)",
+          "Bodyguard (Leader, Hero)",
+          "Frenzied",
+          "Mage (1)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Seraph",
+      "page": 24,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 15,
+      "command": null,
+      "base_size": 40,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 6,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Angelic Touch",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion (Invoker)",
+          "Fear (0)",
+          "Flight",
+          "Mindless\nPrimitive Holy Grace \nWhenever this character makes a \nsuccessful Combat action (before \nProtection rolls), the target loses 1 \nWill Point and this character gains \n1 Will Point . This can take this \ncharacter above its starting Will \nPoints ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Silere Priest",
+      "page": 25,
+      "keywords": [
+        "Discipline ( Fateweaving , Runes of Sovereignty )"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 3,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Fire of Persecution",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "1 -"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)",
+          "Mage (1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Stigmatist",
+      "page": 26,
+      "keywords": [
+        "Discipline ( Blood Rites )"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Hands of God",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Frenzied",
+          "Mage (2)",
+          "Stigmata\nIf this character uses one or more \nLife Points as Will Points (due \nto Frenzied ) either to increase the \ndice pool or to perform an action \n(like casting spells), it may re-roll an \nequal number of dice (including the \nDestiny Dice ) during that action. \nIf it does this on a Combat \naction, Hands of God instead has \nPenetration -3 for that action."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Summoner Priest",
+      "page": 27,
+      "keywords": [
+        "Discipline ( Fateweaving , Runes of Sovereignty )",
+        "Invoker"
+      ],
+      "rank": "Hero",
+      "version": "2.3.1",
+      "actions": 2,
+      "command": 2,
+      "will": 4,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "and Burn Them Thoroughly",
+            "type": "PULSE",
+            "description": "Remove 1 friendly character with the Construct keyword from the board. Place it within 3\" of this character (with no changes to its Life Points )."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Templar Marshal",
+      "page": 28,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 3,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Crossbow",
+          "range": "30\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Reload (1), Two-handed"
+        },
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Expert Marksman (1)",
+          "Expert Offence (1)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Throne",
+      "page": 29,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 6,
+      "life": 1,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 4,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Divine Justice",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback, Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Companion ( Invoker )",
+          "Fear (-2)",
+          "Flight",
+          "Be Thou Afraid? \nIf an enemy character would roll no \nAces on its basic MIND roll due \nto this character's Fear ability, that \ncharacter loses 1 Will Point.\nCosmic Harmony \nAt the start of this character's turn, \nchoose a friendly character within \n6\" and in line of sight. This character \nand the chosen character both \nreplenish 1 Command Point ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Venator of Devotion",
+      "page": 30,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 6,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Zweihänder",
+          "range": "2\"",
+          "evasion": "+1",
+          "damage": "+3",
+          "penetration": "0",
+          "abilities": "Knockback, Two-handed"
+        },
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (4)",
+          "Expert Offence (1)",
+          "Hunter"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Thomas Thieme",
+      "page": 31,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Hammer & Stake",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bodyguard (Felix Baumgartner)",
+          "Brave",
+          "Hunter Vampire Hunter\nWhen making a Combat action \nagainst a character with 0 Will Points \nremaining, Thomas may re-roll all dice, \nincluding the Destiny Dice ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Altar Boy",
+      "page": 32,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.4.0",
+      "actions": 2,
+      "will": 2,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (2)",
+          "Concealment (+2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Bishop Guard",
+      "page": 33,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Halberd (swing)",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        },
+        {
+          "name": "Halberd (thrust)",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Protection (1)",
+          "Bodyguard ( Leader )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Celestial Congregation",
+      "page": 34,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.1",
+      "actions": 2,
+      "will": 1,
+      "life": 15,
+      "command": null,
+      "base_size": 50,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Heavenly Clamour",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Invoker )",
+          "Ethereal",
+          "Fear (-1)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Celestial Spirit",
+      "page": 35,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.1",
+      "actions": 2,
+      "will": 1,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Heavenly Grasp",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion (Invoker)",
+          "Ethereal",
+          "Fear (0)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Cherubim",
+      "page": 36,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 8,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 2,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Light",
+          "range": "6\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)",
+          "Companion ( Cherubim )",
+          "Fear (-1)",
+          "Mindless",
+          "Limited Movement\nLiving Proof of God's Majesty\nFriendly characters with the \nCompanion ability also have \n."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Chevaleresse",
+      "page": 37,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bodyguard ( Henchman )",
+          "Parry (1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Crucifier",
+      "page": 38,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Hammer & Nails",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Leader )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "French Infantryman",
+      "page": 39,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Corseque",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Knockback, Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Inquisitorial Spy",
+      "page": 40,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Sharpened Dagger",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Infiltration",
+          "Pickpocket"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Knight of Malta",
+      "page": 41,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Protection (2)",
+          "Companion ( Hospitaller )",
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Lacrimosa",
+      "page": 42,
+      "keywords": [
+        "Discipline ( Divinity )"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (3)",
+          "Mage (2)",
+          "Frenzied Candid Soul\nFor every Life Point this character \nuses as a Will Point due to Frenzied , \nall other friendly characters without \nthis rule within 3\" replenish 1 Life \nPoint ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Maltese Squire",
+      "page": 43,
+      "keywords": [
+        "Hospitaller"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Crossbow",
+          "range": "30\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Reload (1), Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Leader )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Martyr",
+      "page": 44,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 11,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 8,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Tools of Penance",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Frenzied",
+          "Limited Movement\nMindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Priest",
+      "page": 45,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Club",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Redemptionist",
+      "page": 46,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 11,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Short Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (1)",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Stalker",
+      "page": 47,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Handbow",
+          "range": "15\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Reload (2)"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+1)",
+          "Infiltration"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Thalassic Messenger",
+      "page": 48,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Angelic Touch",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (4)",
+          "Fast Swimmer (3)",
+          "Companion ( Invoker )",
+          "Primitive",
+          "Water Creature Living Tide\nThis character can re-roll any failed \ndice rolls when making Drown and \nDive actions."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Theophant of Sinai",
+      "page": 49,
+      "keywords": [
+        "Construct"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 13,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Hellfire",
+          "range": "8\"",
+          "evasion": "0",
+          "damage": "+3",
+          "penetration": "-2",
+          "abilities": "Black Powder, Reload (1)"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)",
+          "Companion ( Invoker )",
+          "Mindless",
+          "Primitive\nLiving Flame\nThis character loses double Life Points \nfrom Drown actions."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Witch Finder",
+      "page": 50,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 9,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Snare",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Mage (2)",
+          "Engage"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Reliquary Page",
+      "page": 51,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 3,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    }
+  ]
+}

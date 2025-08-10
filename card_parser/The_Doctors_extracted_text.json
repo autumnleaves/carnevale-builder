@@ -1,0 +1,186 @@
+[
+  {
+    "page": 1,
+    "text": "Any character with the Faction (The Doctors)  keyword may use this Command Ability :\nNexus Link Reconfiguration\nPULSE Command Ability  \nPick 2 friendly characters within 6\" (including the character using the Command Ability). \nOne character loses all of their Will Points . For every Will Point  lost, the other character \nreplenishes 2 Will Points ."
+  },
+  {
+    "page": 2,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n3 4 3 4 6\nAetheric Control\nThis character replenishes all of its \nCommand Points  at the start of each \nof its turns.Keywords\n• Faction (The Doctors)\n• Leader\n• Doctor\n• Discipline ( Blood Rites ,  \nRunes of Sovereignty )\nCharacter Abilities\n• Fear (-2)\n• Mage (3)\n• Parry (3)Mind Gazing\nAURA Command Ability  \nUntil the end of the round, any \nfriendly characters within 6\" gain \nFear (-2) , or increase their Fear \nnumber to ( -2).\n2.3.0\n3022\n 31222\nDoctor of the Mind"
+  },
+  {
+    "page": 3,
+    "text": "Actions Life Ducats Size Command\nWeapon Range Evasion Damage Penetration Abilities\nSurgical Tools 0\" - - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 4 5\nNote that characters with the Nexus  \nability may still use their Life Points  \nas Will Points , even for other \ncharacters!\nIn addition, change the Nexus Link \nReconfiguration  Command Ability : \nevery time it mentions Will Points , \nchange it to Life Points .Keywords\n• Faction (The Doctors)\n• Leader\n• Doctor\n• Discipline ( Blood Rites , Divinity )\nCharacter Abilities\n• Expert Sorcerer (1)\n• Frenzied\n• Mage (2)\n• Vampiric Attack (2)Unliving Curse\nPULSE Command Ability  \nOne friendly character within 1\" \ngains Vampiric Attack (2) until the \nend of the game.\nElixir of Death  \nEvery friendly character who starts \nthe game with Will Points  loses \nall of their Will Points  and gains \nFrenzied .\nThis change remains in play even if \nthis character is killed.\n2.2.0\n3023\n 311 4\nMaster ofNecromantic Studies"
+  },
+  {
+    "page": 4,
+    "text": "Actions Life Will Command Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 5 4\nFull Plate\nIf this character ever enters water, it \nreceives a Stunned  counter which is \nonly removed if it ends its turn out \nof water.Keywords\n• Faction (The Doctors)\n• Leader\n• Doctor\nCharacter Abilities\n• Bulky\n• Expert Offense (2)\n• Expert Marksman (2)Electrical Stimulation\nPULSE Command Ability  \nAll friendly characters within 3\" gain \n+1 ATT ACK until the end of the \nround.\nAuxiliary Systems\nAt the start of this character's turn, it \ngains +2 to either its MOVEMENT , \nDEXTERITY , or PROTECTION  \nuntil the end of the round.\n2.3.0\n5027\n 32243\nWeapon Range Evasion Damage Penetration Abilities\nArming Blade 2\" - +1 - -\nSoul Burner 0\" - - -3 Template, Reload (1)\nMaster ofArcane Security"
+  },
+  {
+    "page": 5,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nElectrified Mace 0\" - +1 -2 StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 5 4\nVoltaic Shield\nIf an enemy character makes a \nCombat action against this character \nin base contact and they don't lose \nany Life Points  from the attack, the \nenemy character loses 3 Life Points .Keywords\n• Faction (The Doctors)\n• Leader\n• Doctor\nCharacter Abilities\n• Expert Protection (2)\n• HunterProtective Field\nAURA Command Ability  \nUntil the end of the round, any \nfriendly characters within 3\" gain \nUniversal Shielding (4).\nBeast Master\nAll friendly characters with the \nAnimal  keyword gain Companion \n(Doctor ) while in line of sight of  \nthis character. \n2.2.0\n3020\n 31443\nMaster of Zoology"
+  },
+  {
+    "page": 6,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nScalpel 0\" - - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 4 4\nPlague-infused Anatomy\nThe Plague Doctor has laced their test \nsubjects with a virulent new plague, \nactivated at a moment's notice! If \nan enemy character kills a friendly \ncharacter in base contact while either \nare within 6\" of this character, the \nenemy receives a Stunned  counter.Keywords\n• Faction (The Doctors)\n• Leader\n• Doctor\n• Discipline ( Fateweaving ,  \nWild Magic )\nCharacter Abilities\n• Expert Sorcerer (1)\n• Mage (2)Biological Studies\nAURA Command Ability  \nUntil the end of the round, any \nfriendly characters within 3\" gain \nPenetration -2  on their weapons.\nPurifying Ungents\nWhile within 6” of this character, \nfriendly characters are immune to \nthe Stun  Ability. At the end of each \nfriendly character’s turn, remove \nany Stun  counters from friendly \ncharacters within 6” of this character.\n2.3.0\n3021\n 31324\nPlague Doctor"
+  },
+  {
+    "page": 7,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nBrutal Fists 0\" - - - StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 5 3 1\nPain Suppression\nWhenever this character takes \nDamage from a Combat  action, \nreduce the amount of Damage caused \nby 1 (to a minimum of 1).Keywords\n• Faction (The Doctors)\n• Hero\n• Unique\nCharacter Abilities\n• Berserk\n• Companion ( Doctor )\n• Mindless\n• PrimitiveLocomotive Nexus Link\nWhenever this character makes  \na Combat  action, total up the  \namount of Damage caused  \n(before Protection rolls).\nThat many characters within 6\"  \nwith the Nexus  ability replenish  \n1 Will Point .\n2.3.0\n4015\n 2151\nThe Being"
+  },
+  {
+    "page": 8,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nEndless Grasping \nHands0\" -1 - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 6 1 2\nFlesh Golem\nEvery time this character kills a \ncharacter, it replenishes a number of \nLife Points  equal to that character's \nstarting Life Points .Keywords\n• Faction (The Doctors)\n• Hero\n• Unique\nCharacter Abilities\n• Bulky\n• Expert Grappler (3)\n• Fear (-3)\n• Limited Movement\n• Mindless\n• PrimitiveConvulsing\nThis character is able to move through \nspaces smaller than its base to a \nminimum of 2\". It must be able to fit \nwhere it ends its turn.\n2.3.0\n7545\n 340\nThe Unholy Union"
+  },
+  {
+    "page": 9,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nWebbed Apendages 0\" +1 +1 - AquaticMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n3 3 6 3 1\nKeywords\n• Faction (The Doctors)\n• Hero\nCharacter Abilities\n• Bulky\n• Fast Swimmer (3)\n• Fear (-1)\n• Mindless\n• Water Creature\n2.3.0\n5019\n 225\nBrined Horror"
+  },
+  {
+    "page": 10,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nKnife 0\" - - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 4 4\nKeywords\n• Faction (The Doctors)\n• Hero\n• Doctor\n• Discipline ( Blood Rites )\nCharacter Abilities\n• Frenzied\n• Mage (2)\n• Vampiric Attack (2)Sanguine Sorcery  \nThis character's Vampiric Attack   \nalso activates when making a  \nCast Spell  action.\n2.2.0\n3016\n 212\nDoctor of Blood"
+  },
+  {
+    "page": 11,
+    "text": "Actions Life Will Command Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n3 3 4 6 4\nKeywords\n• Faction (The Doctors)\n• Hero\n• Doctor\nCharacter Abilities\n• Water Creature\n• Universal Shielding (2)\n• Limited Movement Long Dive\nPulse Command Ability\nAll friendly characters with an \nUnderwater Counter gain an \nadditional Underwater Counter.\nDeep Dive\nWhenever this character makes a \nDive  action, you may spend 1 Will \nPoint . If you do, you automatically \nscore a Critical  without rolling any \ndice.\n2.3.0\n4018\n 21522\nWeapon Range Evasion Damage Penetration Abilities\nDiving Trident 2\" - +1 - Aquatic, Two-handed\nUnderwater \nLimelight0\" - - - Harmless, Stun, Template\nDoctor of Tides"
+  },
+  {
+    "page": 12,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nPoisoned Blade 0\" - +1 - PoisonedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 3 3 4\nKeywords\n• Faction (The Doctors)\n• Hero\n• Doctor\nCharacter Abilities\n• Expert Offence (2)\n• SlipperyElixir\nPULSE Command Ability  \nOne friendly character within 3\" \ngains either Acrobatic (3) ,  \nEngage , or Slippery  until the  \nend of the game.\n2.2.0\n3013\n 21122\nDoctor of Poisons"
+  },
+  {
+    "page": 13,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nShock Staff 2\" - +1 -Knockback, Stun, \nTwo-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 4 4\nBeast Master\nAll friendly characters with the \nAnimal  keyword gain Companion \n(Doctor ) while in line of sight of this \ncharacter. Keywords\n• Faction (The Doctors)\n• Hero\n• Doctor\nCharacter Abilities\n• HunterOvercharged Discipline\nPULSE Command Ability  \nOne friendly character with the \nAnimal  keyword within 6\" gains \nBerserk  until the end of the game.\n2.2.0\n3014\n 21122\nDoctor of the Beasts"
+  },
+  {
+    "page": 14,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 4 5\nAetheric Gaze\nThis character may select its Magic \nSpells from up to  2 different \nDisciplines.\nIt also gains Cantrips from both \nDisciplines chosen.Keywords\n• Faction (The Doctors)\n• Hero\n• Doctor\n• Discipline ( Blood Rites , \nFateweaving , Wild Magic )\nCharacter Abilities\n• Expert Sorcerer (2)\n• Mage (2)Void Walker\nPULSE Command Ability  \nOne friendly character within 3\" \ngains Ethereal  until the end of  \nthe game.\n2.2.0\n3016\n 21022\nDoctor of the Firmament"
+  },
+  {
+    "page": 15,
+    "text": "Actions Life Will Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 3 2 1\nKeywords\n• Faction (The Doctors)\n• Hero\nCharacter Abilities\n• Concealment (2)\n• First Strike (2)Stride Through The Void - 1AP\nThis character gains Ethereal  until \nthe end of its turn.\n2.2.0\n3013\n 2112\nWeapon Range Evasion Damage Penetration Abilities\nPoisoned Needle 0\" - - -1 Poisoned Ethereal Assassin"
+  },
+  {
+    "page": 16,
+    "text": "Actions Life Will Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 4 1\nKeywords\n• Faction (The Doctors)\n• Hero\nCharacter Abilities\n• Engage\n• Expert Grappler (2)Stride Through The Void - 1AP\nThis character gains Ethereal  until \nthe end of its turn.\nDrag Through The Void\nTargets of this characters Grapple  \nactions may be moved as if they had \nthe Ethereal  special rule.\n2.2.0\n4015\n 2142\nWeapon Range Evasion Damage Penetration Abilities\nElectro Gauntlet 0\" - - -2 Stun Ethereal Snatcher"
+  },
+  {
+    "page": 17,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nAlchemical Bomb 6\" +1 +2 -Black Powder, Blast, \nReload (1)\nPoison Bomb 6\" - - - Reload (1), PoisonedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 5 3 3 2\nKeywords\n• Faction (The Doctors)\n• Hero\n• Doctor\nCharacter Abilities\n• BraveUnstable\nAny failed Combat actions with \nAlchemical Bombs and Poison \nBombs always count as fumbles.\n2.2.0\n3013\n 2112\nAlchemist Doctor"
+  },
+  {
+    "page": 18,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nSurgical Tools 0\" - - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 4\nKeywords\n• Faction (The Doctors)\n• Hero\n• Doctor\n• (Divinity , Fateweaving )\nCharacter Abilities\n• Mage (2)Power Over Death\nPULSE Command Ability  \nThis Command Ability is used out of sequence, when \nany other friendly character within 3\" is killed.\nMake a Basic MIND Roll:\n2.2.0\n3015\n 21222\nSuccessFor each Ace rolled, the target character \nreplenishes 2 Life Points .\nFail No effect.\nCriticalFor each Ace rolled, the target character \nreplenishes 4 Life Points .\nFumbleThis character loses half its remaining Life \nPoints  (rounding up).\nMorgue Doctor"
+  },
+  {
+    "page": 19,
+    "text": "Actions Life Will Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 2\nKeywords\n• Faction (The Doctors)\n• Hero\n• Doctor\nCharacter Abilities\n• Water Creature\n• Hunter\n2.2.1\n3014\n 2112\nWeapon Range Evasion Damage Penetration Abilities\nTranquilliser \nHarpoon Gun6\" +1 +1 -Reload (1), Aquatic, Two-\nhanded, Stun\n Marine Biologist"
+  },
+  {
+    "page": 20,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nSpirit Cannon 12\" +1 +2 -1 Reload (1), Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 4 3\nKeywords\n• Faction (The Doctors)\n• Hero\n• Doctor\nCharacter Abilities\n• Expert Marksman (1)Soul Ammunition\nWhen making a Combat  action with \nthe Spirit Cannon, this character may \nuse 2 Will Points  to have it gain one \nof the following for that action:\n• Increase Range from 12” to 18”.\n• Gain the Blast  ability.\n• Gain the Knockback  ability.\n2.3.0\n3015\n 2122\nOrdnance Doctor"
+  },
+  {
+    "page": 21,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nGrasping Tentacles 2\" -1 - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 5 4 2 1\nKeywords\n• Faction (The Doctors)\n• Hero\nCharacter Abilities\n• Brawler (1)\n• Expert Grappler (3)\n• MindlessNexus\nAny character with the Doctor  \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own.\n2.2.0\n3015\n 2123\nUnleashed Madman"
+  },
+  {
+    "page": 22,
+    "text": "Actions Life Will Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 3 2 1\nExplosive Mind\nWhenever this character loses Will \nPoints  (through using them itself \nor being used as part of the Nexus \nspecial rule), after the action is \nresolved, it must immediately make an \nout of sequence Combat action using \nSoul Bombard. This is done only once \nper action. Combat actions caused \nby Explosive Mind cannot cause \nadditional Combat actions.Keywords\n• Faction (The Doctors)\n• Hero\nCharacter Abilities\n• Brawler (2)\n• Limited Movement\n• MindlessNexus\nAny character with the Doctor  \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own.\nDetonation \nWhen placing the Blast template for \nSoul Bombard, it must be centred \nover this character (and is also hit).\n2.3.1\n4012\n 2104\nWeapon Range Evasion Damage Penetration Abilities\nSoul Bombard 0\" - +2 -3 Black Powder, Blast\n Voltage Bombardiers"
+  },
+  {
+    "page": 23,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nMace 0\" +1 +1 - KnockbackMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 4 2\nKeywords\n• Faction (The Doctors)\n• Hero\nCharacter Abilities\n• Bodyguard ( Doctor )\n• Expert Protection (2)\n2.2.0\n3013\n 2131\nWarden"
+  },
+  {
+    "page": 24,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nScalpel 0\" - - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 3\nIf choosing the Mage  ability, the \ndisciplines available are the same as \nthe mentor.\nIf choosing a weapon with a \nrelevant unique rule, that rule is \ntaken as well (such as Unstable  on \nAlchemical Bombs).Keywords\n• Faction (The Doctors)\n• Henchman\n• Doctor\nCharacter Abilities\n• Companion ( Doctor )Apprenticeship\nWhen choosing this character, pick \none character in your gang with both \nthe Doctor  and Hero keywords to be \nthis character’s mentor. \nChoose one Character Ability, \nunique skill, or weapon profile that \nmentor has for this character to gain. \nA character can only be a mentor to \none Apprentice Doctor. \n2.2.0\n3012\n 2102\nApprentice Doctor"
+  },
+  {
+    "page": 25,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nVenomous Spray 0\" +1 - -2 Poisoned, TemplateMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 4 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Fear (-2)\n• Limited Movement\n• Mindless\n• PrimitivePoison Burst\nWhen this character is killed, before \nremoving it from the game, each \ncharacter in base contact (friendly \nand enemy) loses Life Points as if \nthey were damaged by an attack with \nthe Poisoned  rule.\n2.3.0\n5013\n 213\nBasilisk"
+  },
+  {
+    "page": 26,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nImplanted Tools 0\" - - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n6 5 3 2 1\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Infiltration\n• Mindless\n• PickpocketNexus\nAny character with the Doctor  \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own.\n2.2.0\n3010\n 284\nCarrion"
+  },
+  {
+    "page": 27,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nEnhanced Jaws 0\" - - -3 AquaticMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n3 4 4 4 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Fast Swimmer (3)\n• Limited Movement\n• Mindless\n• Primitive\n• Water Creature\n2.2.0\n5014\n 213\nCrocodile"
+  },
+  {
+    "page": 28,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nFangs 0\" - - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 3 3 2\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Frenzied\n• Limited Movement\n• Primitive\n• Vampiric Attack (1)\n2.2.0\n3010\n 29\nDoctor of Venesection"
+  },
+  {
+    "page": 29,
+    "text": "Actions Life Will Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n3 4 3 4 2\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Bodyguard (Doctor)\n• Universal Shielding (2)\n• Water CreatureDeep Dive\nWhenever this character makes a \nDive  action, you may spend 1 Will \nPoint . If you do, you automatically \nscore a Critical  without rolling any \ndice.\n2.3.0\n3013\n 2112\nWeapon Range Evasion Damage Penetration Abilities\nTrident 2\" - - -1 Aquatic, Two-handed\n Diving Assistant"
+  },
+  {
+    "page": 30,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nElectron Cannon 12\" - +1 -1Black Powder,  \nTwo-handed, Reload (1)MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 2 2\nUnstable\nAny failed Combat actions with the \nElectron Cannon always count as \nfumbles.Keywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Universal Shielding (2)Volatile Arc Power\nAfter resolving a successful Combat  \naction with an Electron Cannon, pick \n1 other character within 3\" of the \ntarget (friend or foe - including this \ncharacter), they lose an equal amount \nof Life Points as the original target. \nIf there are no other characters in \nrange, this rule has no effect.\n2.3.0\n3012\n 2112\nElectron Cannoneer"
+  },
+  {
+    "page": 31,
+    "text": "Actions Life Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 2 1\nBereft of Will\nOther characters within 3\" cannot \nuse Will Points  (including Frenzied  \nand Will Points  of other characters, \neven if they are outside of 3\"). When \nthis character dies, all other characters \nwithin 3\" lose 1 Will Point .  \n    \n    \n Keywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Mindless\n• FrenziedUnstable Wretch\nFrom the start of the second round \nonwards, at the end of this character's \nturn all characters (friendly and \nenemy, including this character) \nwithin 3\" lose 1 Life Point .  \n    \n    \n \n2.2.0\n30 6\n 26\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -\nGhoul"
+  },
+  {
+    "page": 32,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nTitanic Fists 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Bodyguard ( Doctor )\n• Flight\n• Primitive\n2.2.0\n4013\n 213\nGorilla"
+  },
+  {
+    "page": 33,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHoof Stomp 0\" -1 +1 - StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 2 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Bulky\n• Fast Swimmer (4)\n• Limited Movement\n• Mindless\n• Primitive\n• Water Creature\n2.2.0\n5019\n 214\nHippocampus"
+  },
+  {
+    "page": 34,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nBeak & Claws 0\" -1 - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n6 5 3 2 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Flight\n• Infiltration\n• Mindless\n2.3.0\n40 7\n 212\nHippogryph"
+  },
+  {
+    "page": 35,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 2 1\nDeath Throes Overload\nWhen this character dies, every \ncharacter with the Doctor  keyword \nwithin 6\" replenishes 2 Will Points .Keywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Frenzied\n• MindlessBlood Nexus\nEvery time this character loses  \nLife Points  (including from the \nFrenzied  rule), you may replenish \nthat many Will Points from all \ncharacters within 6\" with  \nthe Nexus  ability.\n2.2.0\n30 6\n 26\nHollowman"
+  },
+  {
+    "page": 36,
+    "text": "Actions Life Will Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 2\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Expert Grappler (2)Shepherd\nThis character gains +2 ATT ACK  \nwhen making Grapple  actions \nagainst characters with a larger base \nsize.\n2.2.0\n3011\n 2112\nWeapon Range Evasion Damage Penetration Abilities\nMeat Hook 0\" - - -1 -\nHarvester"
+  },
+  {
+    "page": 37,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 2 3 0 1\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Expert Grappler (2)\n• MindlessCorpse\nIf this character takes 4 or more \nDamage  in one action (before \nmaking a Protection roll), add  \n2 extra Damage  to the attack.\n2.2.0\n30 4\n 28\nHusk"
+  },
+  {
+    "page": 38,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nShock Prod 0\" - - - StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 2 2\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Companion ( Doctor )\n• Hunter\n2.2.0\n3010\n 2111\nLab Assistant"
+  },
+  {
+    "page": 39,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nRipping Teeth 0\" - - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 5 4 2 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Engage\n• Expert Offence (3)\n• Mindless\n• Primitive\n2.2.0\n5012\n 212\nLion"
+  },
+  {
+    "page": 40,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 1 2 1\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Limited Movement\n• MindlessNexus\nAny character with the Doctor  \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own.\n2.2.0\n30 5\n 286\nMadman"
+  },
+  {
+    "page": 41,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nQuilled Spines 8\" +1 - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n6 4 3 2 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Expert Marksman (2)\n• PrimitiveSpined Hide\nAt the end of this character's turn, all \nenemy characters in base contact lose \n1 Life Point .\n2.3.0\n30 9\n 210\nManticore"
+  },
+  {
+    "page": 42,
+    "text": "Actions Life Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n3 5 3 1 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Discipline ( Runes of Sovereignty )\nCharacter Abilities\n• Fast Swimmer (3)\n• Mage (0)\n• Water Creature\n2.2.0\n3013\n 211\nWeapon Range Evasion Damage Penetration Abilities\nHidden Claws 0\" - - -1 Aquatic\nMermaid"
+  },
+  {
+    "page": 43,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nRusty Blade 0\" - +2 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 2 3 0 1\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Brawler (1)\n• Mindless\n2.3.0\n40 9\n 214\nMonstrosity"
+  },
+  {
+    "page": 44,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nRusty Knife 0\" - - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 2 2\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Frenzied\n• PrimitiveHealer - 1AP\nPick a character within 3\" and make \na basic MIND  roll. That character \nreplenishes 2 Life Points  for each \nAce rolled.\n2.3.0\n30 7\n 2101\nNurse"
+  },
+  {
+    "page": 45,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHorns 0\" 0 +1 - KnockbackMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 3 3 5 1\nKeywords\n• Faction (The Doctors)\n• Henchman\n• Animal\nCharacter Abilities\n• Bulky\n• First Strike (2)\n• Limited Movement\n• Mindless\n• Primitive\n2.2.0\n5015\n 220\nRhino"
+  },
+  {
+    "page": 46,
+    "text": "Actions Life Ducats Size\nMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 3 3 2\nKeywords\n• Faction (The Doctors)\n• Henchman\nCharacter Abilities\n• Frenzied\n• Mindless\n• Vampiric Attack (2)Regenerating\nThis character's Vampiric Attack \nspecial rule can cause it to gain Life \nPoints  above its starting value. If they \nstart their turn with 10 or more Life \nPoints , they increase their AT TAC K  \nby 2 until the start of their next turn.\n2.2.0\n3011\n 29\nWeapon Range Evasion Damage Penetration Abilities\nTender Claws 0\" - - - -\n Shackled Feaster"
+  }
+]

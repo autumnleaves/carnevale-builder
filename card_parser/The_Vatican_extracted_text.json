@@ -1,0 +1,206 @@
+[
+  {
+    "page": 1,
+    "text": "Any character with the Faction (The V atican)  keyword may use this Command Ability :\nHeavenly Father Guide Us\nPULSE Command Ability  \nThis character replenishes 2 Will Points  and every other friendly character within 3\" \nreplenishes 1 Will Point ."
+  },
+  {
+    "page": 2,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nCrosier 2\" - - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 3 5\nPatriarch Bishop  \nAll friendly characters with the \nFaction (The Vatican)  keyword gain \nCompanion ( Leader ) while in line of \nsight of this character.Keywords\n• Faction (The Vatican)\n• Leader\n• Unique\n• Discipline ( Divinity , Fateweaving , \nWild Magic )\nCharacter Abilities\n• Expert Sorcerer (1)\n• Mage (3)\n• Universal Shielding (3)He Will Strengthen You  \nand Protect You\nAURA Command Ability  \nUntil the end of the round, any \nfriendly characters within 3\" gain \nUniversal Shielding (3) .\n2.2.0\n3024\n 31283\nPatriarch Bishop\nde Bernis"
+  },
+  {
+    "page": 3,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nDivine Winds 0\" - +1 - TemplateMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 3 3 4\nMasterful Summoning\nFriendly characters with the Construct  \nkeyword lose Mindless  for the rest \nof the game, even if this character is \nkilled.Keywords\n• Faction (The Vatican)\n• Leader\n• Invoker\n• Unique\n• Discipline ( Runes of Sovereignty, \nWild Magic )\nCharacter Abilities\n• Flight\n• Mage (2)\n• Slippery\n• Universal Shielding (3)Gates of Heaven\nPULSE Command Ability  \nUntil the end of the round, whenever \na friendly character with the Construct \nkeyword in line of sight within 6\" \nuses a Will Point  to increase a roll, it \ninstead counts as 2 Will Points .\nImpart Will\nAt the start of the game, all friendly \ncharacters with the Construct  keyword \nincrease their starting Will Points  \nby 1.\n2.3.0\n4024\n 31243\nFather Cesta"
+  },
+  {
+    "page": 4,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nDivine Touch 0\" - - - StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 4 6\nExorcism\nWhen making a Combat  action  \nwith Divine Touch, if it causes at  \nleast 1 Damage , the target loses  \n1 Will Point .\nIf the target has 0 Will Points  \nremaining, the attack instead does  \n+3 Damage .Keywords\n• Faction (The Vatican)\n• Leader\nCharacter Abilities\n• Fear (-2)Fear the Lord\nPULSE Command Ability  \nPick 1 enemy character within 6\". \nUntil the end of the round, whenever \nthat character is hit by a Combat \naction, the attacker gains Fear (-2) .\nHelm of Penitence\nThis character may attempt to Dispel  \nmagic spells as if it has Mage (3) .\nIn addition, enemy characters may \nnot use Will Points  when within 3” \nof this character. \n2.3.1\n3020\n 31343\nExorcist"
+  },
+  {
+    "page": 5,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHands of God 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 3 3 5\nStigmata\nIf this character uses one or more \nLife Points  as Will Points  (due \nto Frenzied ) either to increase the \ndice pool or to perform an action \n(like casting spells), it may re-roll an \nequal number of dice (including the \nDestiny Dice ) during that action. \nIf it does this on a Combat  \naction, Hands of God instead has \nPenetration -3  for that action. Keywords\n• Faction (The Vatican)\n• Leader\n• Discipline ( Blood Rites ,  \nRunes of Sovereignty , Wild Magic )\nCharacter Abilities\n• Frenzied\n• Mage (3)\n• Universal Shielding (3)For the Glory of God\nAURA Command Ability  \nUntil the end of the round, any \nfriendly characters within 3\" gain \nExpert Offence (2) .\n2.2.0\n3022\n 31324\nInquisitor"
+  },
+  {
+    "page": 6,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nBlade of Gozo 0\" - +2 -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 6 5\nDestined For Victory\nAll friendly characters with the \nHospitaller  keyword may choose to  \nre-roll the Destiny Dice  when \nmaking re-rolls as long as this \ncharacter is on the board.\nFull Plate\nIf this character ever enters water, it \nreceives a Stunned  counter which is \nonly removed if it ends its turn out \nof water.Keywords\n• Faction (The Vatican)\n• Leader\n• Hospitaller\nCharacter Abilities\n• Brave\n• Expert Offence (2)\n• Hunter\n• Universal Shielding (4)Fight Until the Last\nPULSE Command Ability  \nThis Command Ability  is used out \nof sequence, at the start of the round \nbefore rolling initiative.\nPick 1 friendly character in line of \nsight within 6\". If that character is \nreduced to 0 Life Points  before they \ntake their turn, they are not removed \nfrom the board. Instead they are only \nremoved after their turn is complete.\n2.2.0\n3021\n 31433\nKnight Commander"
+  },
+  {
+    "page": 7,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nAhlspiess 2\" - +1 - Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 4 3 3\nHeavenly Vision  \nWhenever a friendly character in line \nof sight within 6\" is instructed to \nreplenish Will Points , increase the \namount replenished by 1.Keywords\n• Faction (The Vatican)\n• Hero\n• Unique\n• Hospitaller\nCharacter Abilities\n• Flight\n• Frenzied\n• Universal Shielding (3)Born of Blood  \nWhenever any character (friendly \nor enemy) is killed within 3\", this \ncharacter replenishes 3 Life Points .\n2.2.1\n5020\n 3122\nAngel of theBlooded Rose"
+  },
+  {
+    "page": 8,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHoly Instruments 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 4 4\nRenewed Vigour\nWhen this character kills an  \nenemy character, he replenishes  \nhis full Will Points .Keywords\n• Faction (The Vatican)\n• Hero\n• Unique\nCharacter Abilities\n• Brawler (1)\n• Expert Offence (2)Put it Through the Heart!\nPULSE Command Ability  \nPick a friendly character in line \nof sight within 12\". One of that \ncharacter's weapons gains  \n-4 Penetration  until the end  \nof the round.\n2.2.0\n3017\n 21342\nFelix Baumgartner"
+  },
+  {
+    "page": 9,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nGreatsword 1\" - +2 - Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 6 3\nKeywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Brawler (1)\n• Universal Shielding (4)Full Plate\nIf this character ever enters water, it \nreceives a Stunned  counter which is \nonly removed if it ends its turn out \nof water.\n2.2.0\n4014\n 2152\nAvignon Guard"
+  },
+  {
+    "page": 10,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 3 5\nKeywords\n• Faction (The Vatican)\n• Hero\n• Discipline ( Divinity )\nCharacter Abilities\n• Expert Sorcerer (1)\n• Mage (2)\n• Universal Shielding (3)Blessed Water - 1AP\nPlace the Blast marker in water in line of sight \nwithin 8\".\nThe area under the Blast marker is treated as \nsolid ground for friendly characters. \nEnemy characters treat the area as water, and \ncharacters with the Water Creature rule can be \ndrowned while at least partially on the marker.\nRemove the marker at the end of the round.\n2.2.0\n3015\n 2114\nBaptist"
+  },
+  {
+    "page": 11,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nBlessed Sword 0\" - +1 -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 6 4\nCharacters may only be affected by \nthis ability once per round, no matter \nhow many times it's used by any \nnumber of Burning Saints!\nFull Plate\nIf this character ever enters water, it \nreceives a Stunned  counter which is \nonly removed if it ends its turn out \nof water.Keywords\n• Faction (The Vatican)\n• Hero\n• Hospitaller\nCharacter Abilities\n• Brave\n• Expert Offence (2)\n• Universal Shielding (6)Walk Through The Fire And You \nWill Not Be Burned - 1AP\nThe Saint summons holy flame \naround her! At the end of the round, \nplace the Blast marker over this \ncharacter. Any enemy character at \nleast partially touched by this template \n(and within 1\" vertically of the \nBurning Saint) loses 3 Life Points . \nIf the Burning Saint enters water after \nusing this ability it is cancelled. \n2.3.0\n4016\n 2113\nBurning Saint"
+  },
+  {
+    "page": 12,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nSword 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 4\nKeywords\n• Faction (The Vatican)\n• Hero\n• HospitallerPsychic Communion  \nWhenever this character or any \nother character with line of sight \nto this character uses the ORDER  \nor COUNTER  Commands, they \nignore any other restrictions about \nline of sight.\n2.2.0\n3013\n 21124\nConventual Chaplain"
+  },
+  {
+    "page": 13,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHoly Icon 2\" - - - Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 5 5\nRighteous Zeal\nEvery friendly character gains Brave  \nwhile in line of sight of this character.Keywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Brave\n• Universal Shielding (5)Holy Relic\nAny other friendly character (not \nincluding this one) that starts their \nturn within 6\" of this character \nreplenishes 1 Will Point .\n2.2.0\n3014\n 2122\nCross-bearing Deacon"
+  },
+  {
+    "page": 14,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nDivine Flame 0\" -2 - -2 TemplateMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 3 4 1\nKeywords\n• Faction (The Vatican)\n• Hero\n• Construct\nCharacter Abilities\n• Companion ( Invoker )\n• Fear (-1)\n• Flight\n• Universal Shielding (3)Burn With The Fire of Charity  \nWhile within 6\" of this character, \nfriendly characters are immune to \nthe Stun, Poisoned , and their own  \nFull Plate  abilities. At the end of \neach friendly character's turn, remove \nany Stun  counters from friendly \ncharacters within 6\" of this character.\n2.2.0\n4018\n 213\nDivine Seraphim"
+  },
+  {
+    "page": 15,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nExecutioner's Axe 0\" +1 +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 1 2\nKeywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Expert Offence (2)Bifurcation\nWhen this character makes a \nCombat  action ( not an Attack of \nOpportunity) with the Executioner's \nAxe against a target character with \na Size of 40mm or less and rolls at \nleast 4 Aces , they are bifurcated!\nInstead of calculating Damage as \nnormal, instead the target character \nloses half their remaining Life Points  \n(rounding up).\n2.2.0\n3012\n 2132\nExecutioner"
+  },
+  {
+    "page": 16,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 3 4\nKeywords\n• Faction (The Vatican)\n• Hero\n• Invoker\n• Discipline ( Fateweaving , Wild \nMagic )\nCharacter Abilities\n• Fast Swimmer (2)\n• Mage (2)\n• Universal Shielding (2)Water Affinity  \nThis character always knows the \nmagic spell Waves of Force  in \naddition to its regular allowance, \neven if choosing to take spells from a \ndifferent discipline.\nThis character may use the Cast Spell  \naction while in water.\n2.3.0\n3017\n 21162\nGalilean Priest"
+  },
+  {
+    "page": 17,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nStone Fists 0\" +1 +2 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 6 0 1\nKeywords\n• Faction (The Vatican)\n• Hero\n• Construct\nCharacter Abilities\n• Bulky\n• Companion ( Invoker )\n• Fear (0)\n• Mindless\n• PrimitiveStoneskin\nWhenever this character takes \nDamage, reduce the amount  \nof Damage caused by 3  \n(to a minimum of 1).\nIn addition, if this character is hit by \na Poisoned  weapon, roll 2 dice and \nchoose 1 to see if they shrug off the \npoison.\n2.3.1\n5018\n 220\nGolgotha"
+  },
+  {
+    "page": 18,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nPistol 8\" +1 - -1 Black Powder, Reload (2)\nSword 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 4 4\nKeywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Expert Marksman (2)\n• Expert Offence (2)Look With Satisfaction Upon  \nMy Enemies\nAURA Command Ability  \nUntil the end of the round, any \nfriendly characters within 3\" gain \nParry (2) .\n2.2.0\n3016\n 21223\nInquisition Commissioner"
+  },
+  {
+    "page": 19,
+    "text": "Actions Life Ducats Size Command\nWeapon Range Evasion Damage Penetration Abilities\nFlail 2\" +1 +2 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n6 3 4 6 1\nFull Plate  \nIf this character event enters water, \nit reveives a Stunned counter which \nis only removed if it ends its turn out \nof water.Keywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Brawler (1)\n• Frenzied\n• Limited Movement\n• Mindless\n• Universal Shielding (4)Hasten Your Steps, The Unfaithful \nMust Be Cleansed\nPULSE Command Ability  \nAll other friendly characters within \n3\" gain +1 MOVEMENT  until the \nend of the round.\n2.2.0\n5017\n 218 2\nHoly SepulchreKnight of the"
+  },
+  {
+    "page": 20,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nWarhammer 1\" - +1 - Stun, Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 5 2\nKeywords\n• Faction (The Vatican)\n• Hero\n• Hospitaller\nCharacter Abilities\n• Expert Offence (1)\n• Universal Shielding (3)Resurrection\nWhen this character is killed, do not \nremove it from the board.\nAt the start of the next round, make a \nBasic MIND Roll  (Will Points  may be \nused as normal). If successful, this character \ncomes back to life with 5 Life Points  and \ngains Berserk  for the rest of the game.\nIf the MIND Roll is unsuccessful, the \ncharacter is completely dead and removed \nfrom the board.\n2.3.0\n4016\n 21421\nPaladin of St Lazarus"
+  },
+  {
+    "page": 21,
+    "text": "Actions Life Will Ducats SizeWeapon Range Evasion Damage Penetration Abilities\nBurning \nLongsword1\" - +1 -5 Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 5 2\nKeywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Brave\n• Bulky\n• Expert Offence (2)\n• MindlessBurning Aura  \nAny friendly characters without  this \nability within 3\" gain -2 Penetration  \non their weapons.\n2.2.0\n3015\n 2121\nPrelate of theFlaming Sword"
+  },
+  {
+    "page": 22,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nScorpio 18\" +1 +2 -2Knockback, Two-handed, \nReload (1)MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 5 3\nKeywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Expert Marksman (2)\n• Universal Shielding (3)Unwieldy  \nThis character may only make \nCombat actions with the Scorpio \nas the first action of their turn \n(including using it for Attacks of \nOpportunity).\n2.2.0\n5015\n 2152\nScorpio Marksman"
+  },
+  {
+    "page": 23,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nFlaming Mace 0\" - +1 -2 StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 3 3 5 3\nKeywords\n• Faction (The Vatican)\n• Hero\nCharacter Abilities\n• Bodyguard (Leader, Hero)\n• Expert Protection (3)\n• Frenzied\n• MindlessI will guard against thee, Witch  \nThis character may attempt to Dispel  \nmagic spells as if it has Mage (1) . In \naddition, enemy characters may not \nuse Will Points when in base contact \nwith this character.\n2.2.0\n3015\n 213\nSepulchral Vanguard"
+  },
+  {
+    "page": 24,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nAngelic Touch 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 4 6 1\nKeywords\n• Faction (The Vatican)\n• Hero\n• Construct\nCharacter Abilities\n• Companion (Invoker)\n• Fear (0)\n• Flight\n• Mindless\n• PrimitiveHoly Grace  \nWhenever this character makes a \nsuccessful Combat  action (before \nProtection  rolls), the target loses 1 \nWill Point  and this character gains \n1 Will Point . This can take this \ncharacter above its starting Will \nPoints .\n2.2.0\n4017\n 2151\nSeraph"
+  },
+  {
+    "page": 25,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nFire of Persecution 0\" - +1 - 1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 4 4\nKeywords\n• Faction (The Vatican)\n• Hero\n• Discipline ( Fateweaving , Runes of \nSovereignty )\nCharacter Abilities\n• Mage (1)\n• Universal Shielding (2)Keeper of the Fire of the \nPersecution  \nAny friendly characters without this \nability within 3” gain +1 Damage  on \ntheir weapons.\n2.3.0\n3016\n 2123\nSilere Priest"
+  },
+  {
+    "page": 26,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHands of God 0\" - +1 +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 2 3\nKeywords\n• Faction (The Vatican)\n• Hero\n• Discipline ( Blood Rites )\nCharacter Abilities\n• Frenzied\n• Mage (2)Stigmata\nIf this character uses one or more \nLife Points  as Will Points  (due \nto Frenzied ) either to increase the \ndice pool or to perform an action \n(like casting spells), it may re-roll an \nequal number of dice (including the \nDestiny Dice ) during that action. \nIf it does this on a Combat  \naction, Hands of God instead has \nPenetration -3  for that action. \n2.2.0\n3013\n 2111\nStigmatist"
+  },
+  {
+    "page": 27,
+    "text": "Actions Life Will Command Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 3 4\nKeywords\n• Faction (The Vatican)\n• Hero\n• Invoker\n• Discipline ( Fateweaving ,  \nRunes of Sovereignty )\nCharacter Abilities\n• Mage (2)\n• Universal Shielding (3)Come Let Us Make Bricks  \nand Burn Them Thoroughly\nPULSE Command Ability  \nRemove 1 friendly character with the \nConstruct  keyword from the board. \nPlace it within 3\" of this character \n(with no changes to its  \nLife Points ).\n2.3.1\n3015\n 21142\nSummoner Priest"
+  },
+  {
+    "page": 28,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nCrossbow 30\" - - -1 Reload (1), Two-handed\nSword 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 4 4 4\nKeywords\n• Faction (The Vatican)\n• Hero\n• Hospitaller\nCharacter Abilities\n• Engage\n• Expert Marksman (1)\n• Expert Offence (1)\n• Universal Shielding (3)\n2.3.0\n3014\n 2123\nTemplar Marshal"
+  },
+  {
+    "page": 29,
+    "text": "Actions Life Ducats Size Command\nWeapon Range Evasion Damage Penetration Abilities\nDivine Justice 0\" - +1 - Knockback, StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n6 3 4 4 1\nKeywords\n• Faction (The Vatican)\n• Hero\n• Construct \nCharacter Abilities\n• Companion ( Invoker )\n• Fear (-2)\n• Flight\n• Universal Shielding (3)Be Thou Afraid?  \nIf an enemy character would roll no \nAces on its basic MIND  roll due \nto this character's Fear ability, that \ncharacter loses 1 Will Point.\nCosmic Harmony  \nAt the start of this character's turn, \nchoose a friendly character within \n6\" and in line of sight. This character \nand the chosen character both \nreplenish 1 Command Point .\n2.2.0\n5022\n 216 1\nThrone"
+  },
+  {
+    "page": 30,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nZweihänder 2\" +1 +3 - Knockback, Two-handed\nSword 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 6 4\nFull Plate\nIf this character ever enters water, it \nreceives a Stunned  counter which is \nonly removed if it ends its turn out \nof water.Keywords\n• Faction (The Vatican)\n• Hero\n• Hospitaller\nCharacter Abilities\n• Expert Offence (1)\n• Hunter\n• Universal Shielding (4)Killing Blow\nIf this character causes an enemy \ncharacter to lose more Life Points  \nthan they have left (ie. they'd go \nto minus numbers), this character \nreplenishes all of its Will Points .\n2.3.0\n4017\n 2142\nVenator of Devotion"
+  },
+  {
+    "page": 31,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHammer & Stake 0\" - +1 - Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 5 3 3 3\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Unique\nCharacter Abilities\n• Brave\n• Bodyguard (Felix Baumgartner)\n• HunterVampire Hunter\nWhen making a Combat  action \nagainst a character with 0 Will Points \nremaining, Thomas may re-roll all dice, \nincluding the Destiny Dice .\n2.2.0\n3013\n 2114\nThomas Thieme"
+  },
+  {
+    "page": 32,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 2 2 2\nCenser Bearer\nAny friendly character that starts \nits turn within 6\" and in line of \nsight of this character replenishes  \n1 Will Point .\nCharacters with the Censer Bearer \nrule cannot be affected by this rule \n(from their own or other Censer \nBearers). Characters cannot be \naffected by multiple instances of \nthis rule in one turn.Keywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Concealment (+2)Spurring Incense - 1AP\nUntil the end of the round, any \nfriendly character that starts its \naction within 6” and line of sight of \nthis character gains First Strike (2)  \nfor that action and any subsequent \nAttacks of Opportunity.\n2.4.0\n3011\n 282\nAltar Boy"
+  },
+  {
+    "page": 33,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHalberd (swing) 2\" - +1 - Two-handed\nHalberd (thrust) 2\" - - -2 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 4 2\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Bodyguard ( Leader )\n• Expert Protection (1)\n2.2.0\n3011\n 2121\nBishop Guard"
+  },
+  {
+    "page": 34,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHeavenly Clamour 0\" - - -3 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 4 3 1\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Construct\nCharacter Abilities\n• Companion ( Invoker )\n• Ethereal\n• Fear (-1)\n• MindlessEnsoul - 3LP\nOne other friendly character with the \nConstruct  keyword without this ability \nreplenishes 3 Life Points . This ability \ncan only be used once in each of its \nturns, but can be used even if it would \nkill this character. If this character \nuses its last Life Points  on this ability, \nthe target replenishes 5 Life Points  \ninstead.\n2.3.1\n5015\n 2151\nCelestial Congregation"
+  },
+  {
+    "page": 35,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHeavenly Grasp 0\" - - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 3 3 1\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Construct\nCharacter Abilities\n• Companion (Invoker)\n• Ethereal\n• Fear (0)\n• MindlessEnspirit - 4LP\nThis character may use the ORDER  \ncommand on friendly characters with \nthe Construct  Keyword, consuming 4 \nLife Points  instead of 1 Command \nPoint . This can be used even if it would \nkill this character. If this character uses \nits last Life Points  on this ability, the \ntarget replenishes 1 Will Point .\n2.3.1\n3010\n 281\nCelestial Spirit"
+  },
+  {
+    "page": 36,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nFeathers of Holy \nLight 6\" -1 - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 3 2 2 2\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Construct\nCharacter Abilities\n• Fear (-1)\n• Mindless\n• Limited Movement\n• Universal Shielding (2)Living Proof of God's Majesty\nFriendly characters with the \nCompanion  ability also have \nCompanion ( Cherubim ).\n2.2.0\n30 8\n 282\nCherubim"
+  },
+  {
+    "page": 37,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nSword 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 4 3\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Hospitaller\nCharacter Abilities\n• Bodyguard ( Henchman )\n• Parry (1)\n2.2.0\n3011\n 2102\nChevaleresse"
+  },
+  {
+    "page": 38,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHammer & Nails 0\" - - -2 Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 2\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Companion ( Leader )Crucifixion\nWhen this character makes a Combat \naction with the Hammer & Nails \nand rolls at least 3 Aces,  change its \nPenetration to -4 .\n2.2.0\n3010\n 2111\nCrucifier"
+  },
+  {
+    "page": 39,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nCorseque 2\" - - - Knockback, Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 2\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Mindless\n2.2.0\n30 9\n 2111\nFrench Infantryman"
+  },
+  {
+    "page": 40,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nSharpened Dagger 0\" - - -1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 3 3 4\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Infiltration\n• PickpocketIllicit Information\nFor every friendly character with this \nability in your gang at the start of the \nround, add a re-roll to your Illicit \nInformation Pool. \nUntil the end of the round, any friendly \ncharacter may use these re-rolls on any \nroll - one re-roll per dice.\n2.2.0\n3011\n 2102\nInquisitorial Spy"
+  },
+  {
+    "page": 41,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nSword 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 4 4 3\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Hospitaller\nCharacter Abilities\n• Brave \n• Companion ( Hospitaller )\n• Expert Protection (2)\n2.2.0\n3014\n 2122\nKnight of Malta"
+  },
+  {
+    "page": 42,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 2 3 4\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Discipline ( Divinity )\nCharacter Abilities\n• Mage (2)\n• Universal Shielding (3)\n• FrenziedCandid Soul\nFor every Life Point  this character \nuses as a Will Point due to Frenzied , \nall other friendly characters without \nthis rule within 3\" replenish 1 Life \nPoint .\n2.3.0\n3010\n 2102\nLacrimosa"
+  },
+  {
+    "page": 43,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nCrossbow 30\" - - -1 Reload (1), Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 3 3 2\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Hospitaller\nCharacter Abilities\n• Companion ( Leader )\n2.2.0\n3010\n 2102\nMaltese Squire"
+  },
+  {
+    "page": 44,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nTools of Penance 0\" - - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 1\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Frenzied\n• Limited Movement\n• Mindless\n2.2.0\n30 8\n 211\nMartyr"
+  },
+  {
+    "page": 45,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nClub 0\" - - - StunMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 2\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Expert Offence (1)\n2.2.0\n3010\n 2112\nPriest"
+  },
+  {
+    "page": 46,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nShort Sword 0\" - - - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 3 4 2\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• First Strike (1)\n• Frenzied\n2.2.0\n3012\n 211\nRedemptionist"
+  },
+  {
+    "page": 47,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHandbow 15\" - - -1 Reload (2)MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n5 4 3 3 3\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Concealment (+1)\n• InfiltrationPursuit\nWhen using a COUNTER  \nCommand on this character, it does \nnot cost a Command Point (although \nstill counts as a use of the Command \nfor all other purposes).\n2.2.0\n3012\n 2112\nStalker"
+  },
+  {
+    "page": 48,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nAngelic Touch 0\" - +1 - -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n3 4 4 5 1\nKeywords\n• Faction (The Vatican)\n• Henchman\n• Construct\nCharacter Abilities\n• Companion ( Invoker )\n• Fast Swimmer (3)\n• Primitive\n• Universal Shielding (4)\n• Water CreatureLiving Tide\nThis character can re-roll any failed \ndice rolls when making Drown  and \nDive  actions.\n2.2.0\n5018\n 212\nThalassic Messenger"
+  },
+  {
+    "page": 49,
+    "text": "Actions Life Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nHellfire 8\" - +3 -2 Black Powder, Reload (1)MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 1\nInfernal Ally\nWhile this character is on solid \nground, enemy characters that end \ntheir turn in base contact with this \ncharacter lose 1 Life Point .Keywords\n• Faction (The Vatican)\n• Henchman\n• Construct\nCharacter Abilities\n• Companion ( Invoker )\n• Mindless\n• Primitive\n• Universal Shielding (2)Living Flame\nThis character loses double Life Points  \nfrom Drown  actions.\n2.3.0\n4013\n 213\nTheophant of Sinai"
+  },
+  {
+    "page": 50,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nSnare 2\" - - - Two-handedMOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 4 3 3 4\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• Expert Grappler (2)\n• EngageSuffer Not a Witch\nThis character may attempt to Dispel  \nmagic spells as if it has Mage (2) .\nIn addition, enemy characters may \nnot use Will Points  when base \ncontact with this character. \n2.2.0\n3012\n 293\nWitch Finder"
+  },
+  {
+    "page": 51,
+    "text": "Actions Life Will Ducats Size\nWeapon Range Evasion Damage Penetration Abilities\nUnarmed 0\" - - +1 -MOVEMENT DEXTERITY ATTACK PROTECTION MIND\n4 5 2 3 2\nKeywords\n• Faction (The Vatican)\n• Henchman\nCharacter Abilities\n• SlipperyRelics of Malta\nOnce per each of their turns, any \nfriendly character within 6\" and line \nof sight of a friendly character with \nthis rule may re-roll 1 single dice on \nany roll they make. This character is \naffected by its own Relics of Malta  \nrule.\n2.3.0\n30 9\n 283\nReliquary Page"
+  }
+]

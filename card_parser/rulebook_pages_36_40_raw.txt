@@ -1,0 +1,319 @@
+=== PAGE 36 ===
+36Campaigns Actions Special Rules The Basics
+Special Rules
+Character Abilities are listed on a character’s 
+profile, or can be acquired through other 
+means (such as Command Abilities).
+Weapon Abilities are listed on a character’s 
+weapon, and will take effect any time that 
+weapon is used.
+Some of these special rules have an (X) 
+listed after them. That (X) is most often 
+a number (such as Fast Swimmer (2) for 
+example), which is referenced in the rule itself. 
+A character may find they are affected by 
+multiple instances of these special rules. These 
+special rules stack to a maximum of 3 unless 
+otherwise noted.
+Character Abilities
+Acrobatic (X)
+This character may re-roll up to (X) dice 
+when making a DEXTERITY roll as part  
+of any Move/Climb or Jump action.
+Aerial Attack
+This character does not lose Life Points from 
+falling, provided it makes a charge from above.
+Berserk
+If this character has 5 or fewer Life Points 
+remaining at the start of its turn, it gains a +1 
+bonus to its Action Points and +1 ATT ACK.
+Boat Crew
+This character may be set up on a Boat at the 
+start of the game. This character replenishes  
+1 Will Point at the start of its turn if it is on 
+a Boat.
+Additionally, if at least 1 character with the 
+Boat Crew ability is currently on a Boat, 
+the Cast Off Command Ability only costs 1 
+Command Point, and the Boat may instead 
+move up to 18”.Brave
+This character automatically succeeds  
+when making a Basic MIND roll from the 
+Fear ability.
+Brawler (X)
+This character modifies its ATTACK by 
+(X) when in base contact with 2 or more 
+opponents.
+Bodyguard (X)
+For this special rule, (X) may be a character 
+name or a character with a certain keyword . 
+If an enemy character charges (X), this 
+character may immediately make an out of 
+sequence Run/Climb action provided it is 
+currently out of base contact with any  
+enemy and it charges that active enemy.  
+This action causes an Attack of Opportunity 
+and takes place before the opponent’s Attack 
+of Opportunity.
+Bulky
+This character does not gain any benefit  
+from being in cover, and cannot make  
+Hide actions.
+Companion (X)
+For this special rule, (X) may be a character 
+name or a character with a certain keyword . 
+If this character can draw line of sight to 
+another (X) character at the start of their 
+turn, they replenish 1 Will Point.
+In addition, while in line of sight to another 
+(X) character they use that character’s 
+MIND value instead of their own (even if it 
+is lower). If more than one (X) character is in 
+line of sight, use the highest MIND value.
+Concealment (X)
+While in cover this character modifies its 
+PROTECTION by (X).
+==================================================
+
+=== PAGE 37 ===
+37Campaigns Actions Special Rules The Basics
+Engage
+This character automatically wins the 
+Opposed Roll when an enemy character 
+disengages from them, and so always gets to 
+make an Attack of Opportunity.
+If the opposing character has Slippery 
+however, then both players roll to disengage 
+as normal.
+Ethereal
+This character may ignore all terrain  
+while moving, but cannot end its turn 
+or make any other actions while “inside” 
+Impassable Terrain.
+Expert Grappler (X)
+This character may re-roll up to (X) dice 
+when making or defending against a 
+Grapple or Drown action.
+Expert Marksman (X)
+This character may re-roll up to (X) dice 
+when making a Combat action while not in 
+base contact with the target.
+Expert Offence (X)
+This character may re-roll up to (X) dice 
+when making a Combat action while in base 
+contact with the target.
+Expert Protection (X)
+This character may re-roll up to (X) dice 
+when making a Protection Roll.
+Expert Sorcerer (X)
+This character may re-roll up to (X) dice 
+when making a Cast Spell action or 
+Dispelling a magic spell.
+In addition, this character knows (X) 
+additional magic spells.Fast Swimmer (X)
+If this character starts a Run/Climb action 
+in water, it adds (X) number of inches to 
+its MOVE for that action (even if it leaves 
+water during the action).
+Fear (X)
+When this character makes a Combat 
+action, the target must first make a Basic 
+MIND Roll, with their MIND value 
+modified by (X), to a minimum of 1. If they 
+roll at least 1 Ace (on a 7+ as normal), there 
+is no effect. But if they roll no Aces, this 
+character may re-roll any failed dice rolls for 
+the Combat action.
+First Strike (X)
+This character modifies its ATTACK by (X) 
+when making an Attack of Opportunity 
+from charging.
+Flight
+When this character makes a Run/Climb 
+action, it may instead F ly.  Measure from 
+the character to any other point within its 
+MOVE (whether horizontally, vertically or 
+diagonally, and this doesn’t have to be on 
+Solid Ground) and move it without making 
+a DEXTERITY roll. It cannot make any 
+actions while “mid-air” other than further 
+Fly actions, and if it ends its turn “mid-air”  
+it will fall from that spot. Additionally,  this 
+character takes 2 less Damage from falling.
+Frenzied
+This character may use its Life Points as if 
+they were Will Points.
+Hunter
+This character gains Penetration -3 on its 
+weapons (but not on Unarmed attacks) when 
+targeting an enemy with a larger base size.
+==================================================
+
+=== PAGE 38 ===
+38Campaigns Actions Special Rules The Basics
+Infiltration
+This character may be deployed more than 
+3” above or below ground level at the start of 
+the game, but not in water unless specified.
+Limited Movement
+This character may only move up to 2” 
+maximum in a single action when in water 
+and up to 2” vertically up or down in a  
+single Run/Climb action. They may still 
+Jump as normal.
+In addition, this character cannot carry  
+Mobile Objectives.
+Mage (X)
+This character is a Mage and knows (X) 
+number of magic spells. See the Magic 
+section for more details. A character with 
+Mage (0) still knows a single Cantrip.
+Mindless
+This character may interact with Objectives 
+as normal (such as carrying, revealing, 
+claiming, or destroying), but is ignored when 
+scoring Victory Points for them at the end 
+of the game. It can still score Victory Points 
+from other win conditions (such as killing 
+enemies or Agendas).
+Parry (X)
+When this character becomes the 
+target of a Combat action while in base 
+contact with the attacker, you may force 
+your opponent to re-roll up to (X) dice 
+from the Attack Roll.
+Note that some attackers may choose to 
+re-roll their dice too. In this situation, 
+don’t forget that you may never re-roll a 
+dice more than once. Pickpocket
+If this character successfully disengages, 
+its opponent loses 1 Will Point and this 
+character automatically takes any Mobile 
+objective they’re carrying.
+At the end of the action, this character 
+or any one friendly character within 3” 
+replenishes 1 Will Point.
+Primitive
+At the start of this character’s turn it must 
+roll a Basic MIND Roll. If it rolls no Aces,  
+it receives a Stunned counter.
+Slippery
+This character automatically wins the 
+Opposed Roll when disengaging, and so 
+never gets hit by an Attack of Opportunity.
+If the opposing character has Engage 
+however, then both players roll to disengage 
+as normal.
+Universal Shielding (X)
+This character always has a minimum 
+PROTECTION of (X), after all modifiers.  
+This special rule can stack higher than 3, but 
+cannot take a character’s PROTECTION 
+value above its starting number.
+Vampiric Attack (X)
+If this character makes a Combat action 
+while in base contact with its target that 
+causes the target to lose at least 1 Life Point, 
+it replenishes (x) of its own Life Points.
+Water Creature
+This character moves its full MOVE in 
+water, may move up to 8” as part of a Dive 
+action, and cannot be Drowned.
+In addition, this character may be set up in 
+water at the start of the game.
+==================================================
+
+=== PAGE 39 ===
+39Campaigns Actions Special Rules The Basics
+Weapon Abilities
+Aquatic
+This weapon can be used while the attacker 
+is in water. 
+Black Powder
+This weapon cannot be used if a character 
+starts its turn in water.
+In addition, a character using this weapon 
+loses 1 additional Life Point when they roll a 
+Fumble during an Attack Roll. 
+Blast
+This weapon uses the round blast marker. 
+Place the blast marker centred over the 
+target. Roll once for your Attack Roll and 
+apply the roll to every individual character 
+(friendly and enemy) under the template.
+Harmless
+A character cannot cause any Damage when 
+using this weapon, but still follows normal 
+rules for making Combat actions.
+Knockback
+If a character takes Damage from this 
+weapon (whether they lose Life Points or 
+not), they are moved 2” horizontally directly 
+away from the attacker. This movement does 
+not count as charging or disengaging, and 
+cannot cause Attacks of Opportunity.Reload (X)
+This weapon may only be used for up to (X) 
+Combat actions in each round.
+A character in base contact with an enemy 
+may only use this weapon (X) number of 
+times (modified by the amount already used 
+that round). Once that number has been 
+reached, the weapon may not be used again 
+until the character starts their turn out of 
+base contact with any enemies.
+For example, a weapon with Reload (2) is used 
+once in a character’s turn. They are then charged 
+in the same round. The character may then only 
+use that weapon one more time until they start a 
+turn out of base contact.
+Poisoned
+If a character loses at least 1 Life Point from 
+this weapon, that character must roll 1 dice. 
+On a 7+ they shrug off the poison. On a 1-6, 
+they lose extra Life Points depending on 
+their Base Size:
+• 30mm models lose 3 Life Points.
+• 40mm models lose 4 Life Points.
+• 50mm models lose 5 Life Points.
+• 60mm+ models lose 6 Life Points.
+==================================================
+
+=== PAGE 40 ===
+40Campaigns Actions Special Rules The Basics
+Smoke
+Any character hit by this weapon counts as 
+being in cover until the end of the round, 
+and gains a Hidden counter. If this weapon 
+also has the Blast ability, any character under 
+the marker is affected. Remove the marker at 
+the end of the round.
+Stun
+If a character takes Damage from this 
+weapon (whether they lose Life Points or 
+not) they receive a Stunned counter.
+A character with a Stunned counter reduces 
+its MOVE, ATTACK, DEXTERITY, 
+and MIND by 1 (to a minimum of 1). A 
+character automatically removes its Stunned 
+counter at the end of its next turn. A 
+character can only have one Stunned counter 
+at a time.
+If a character with a Stunned counter starts 
+its turn in water it loses 2 Life Points.Template
+This weapon uses the teardrop shaped 
+template.  
+Trace a line between the attacker and the 
+target. Place the template with the centre on 
+the line with the small end of the template in 
+range of the weapon (base contact with the 
+attacker if the range is 0”), and the large end 
+further away from the attacker. Any character 
+at least partly touched by the template 
+(friendly or enemy) is affected by the attack. 
+Roll once for your Attack Roll and apply the 
+roll to every individual character hit.
+Two-handed
+This weapon increases its Evasion by +1 
+when making an Attack of Opportunity.
+==================================================
+

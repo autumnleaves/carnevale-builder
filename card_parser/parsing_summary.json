@@ -1,0 +1,37 @@
+{
+  "Gifted": {
+    "cards_parsed": 34,
+    "output_file": "gifted_cards.json",
+    "faction_ability": "What's My Cue?"
+  },
+  "Patricians": {
+    "cards_parsed": 41,
+    "output_file": "patricians_cards.json",
+    "faction_ability": "Let the Masquerata Begin"
+  },
+  "Rashaar": {
+    "cards_parsed": 37,
+    "output_file": "rashaar_cards.json",
+    "faction_ability": "Soul Drain"
+  },
+  "Strigoi": {
+    "cards_parsed": 41,
+    "output_file": "strigoi_cards.json",
+    "faction_ability": "Necrotic Mist"
+  },
+  "The_Doctors": {
+    "cards_parsed": 45,
+    "output_file": "the_doctors_cards.json",
+    "faction_ability": "Nexus Link Reconfiguration"
+  },
+  "The_Guild": {
+    "cards_parsed": 46,
+    "output_file": "the_guild_cards.json",
+    "faction_ability": "Mob Mentality"
+  },
+  "The_Vatican": {
+    "cards_parsed": 50,
+    "output_file": "the_vatican_cards.json",
+    "faction_ability": "Heavenly Father Guide Us"
+  }
+}

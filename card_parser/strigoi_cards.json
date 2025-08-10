@@ -1,0 +1,1676 @@
+{
+  "faction": "Strigoi",
+  "faction_ability": {
+    "name": "Necrotic Mist",
+    "description": "Until the end of the round, all friendly characters within 6\" of this character count as being in Cover."
+  },
+  "cards": [
+    {
+      "name": "Vlad Dracula",
+      "page": 2,
+      "keywords": [
+        "Unique",
+        "Vampire"
+      ],
+      "rank": "Leader",
+      "version": "2.4.0",
+      "actions": 3,
+      "life": 15,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 5,
+        "protection": 5,
+        "mind": 5
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Bodyguard (Vlad Dracula)",
+          "Companion (Vlad Dracula)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Frenzied Transformation",
+            "type": "PULSE",
+            "description": "Remove this character and place it anywhere on solid ground within 8”, at least 3” away from any enemy characters. This ability cannot be used while in base contact with an enemy character. Master Bloodline All friendly characters with the Vampire keyword in line of sight to this character gain Bodyguard (Vlad Dracula) and Companion (Vlad Dracula) . 2.4.0 3027 315 5 Vlad Dracula"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blood Crone",
+      "page": 3,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty , Blood Rites , Fateweaving )"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 3,
+      "will": 5,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Slippery Clairvoyancy",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 6\" may re-roll 1 dice on any of their rolls. Note that this does not include the Destiny dice!"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Noble Strigoi",
+      "page": 4,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "life": 13,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bloodline\nAll friendly characters with the \nVampire keyword in line of sight \nto this character gain Companion \n(Noble Strigoi )."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (2)Blood Frenzy",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters with the Vampire keyword within Line of Sight increase their Vampiric Attack by 1 to a maximum of 2. Bloodline All friendly characters with the Vampire keyword in line of sight to this character gain Companion (Noble Strigoi )."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stryha Crone",
+      "page": 5,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 1,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Talons",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Concealment (+2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (1)Natural Camouflage",
+            "type": "PULSE",
+            "description": "Pick one friendly character within 6\". That character gains Concealment (+2) until the end of the game. A character can only be affected by this Command Ability once."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wallachian Hospodar",
+      "page": 6,
+      "keywords": [
+        "Vampire",
+        "Soldier"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "life": 14,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 6,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Longsword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)"
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Frenzied Defensive Lines:",
+            "type": "PULSE",
+            "description": "Until the end of the round, all other friendly characters within 3\" gain Universal Shielding (2) . Warlord: Friendly characters with the Soldier keyword may use this character's MIND instead of their own while they are in Line of Sight of this character."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ceres",
+      "page": 7,
+      "keywords": [
+        "Unique",
+        "Vampire",
+        "Bride"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 2,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (2)Romani Fury",
+            "type": "PULSE",
+            "description": "Every friendly character with the Bride keyword gains Expert Offence (3) until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cibele",
+      "page": 8,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty , Blood Rites , Fateweaving )",
+        "Unique",
+        "Vampire",
+        "Bride"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 2,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (1)African Bewitching",
+            "type": "PULSE",
+            "description": "Every friendly character with the Bride keyword gains Stun on their weapons until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Miriam",
+      "page": 9,
+      "keywords": [
+        "Unique",
+        "Vampire",
+        "Bride"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 2,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (1)Eastern Swiftness",
+            "type": "PULSE",
+            "description": "Every friendly character with the Bride keyword gains 1 AP until the end of the round. Procession of Brides While building your Gang, if it contains Vlad Dracula , this character counts as having the Henchman keyword instead of the Hero keyword for the purposes of Frequency."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Monstrous Stryx",
+      "page": 10,
+      "keywords": [
+        "Vampire",
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 30,
+      "will": 0,
+      "command": null,
+      "base_size": 75,
+      "ducats": 40,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 3,
+        "attack": 5,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Bulky",
+          "Flight\nFrenzied\nMindless\nSlippery\nAerial Aggression\nWhen this character moves into base \ncontact with an enemy character that \nis either 3\" above or 3\" below it at \nthe start of the action, that enemy \ncharacter skips their Protection \nroll for this character's Attack of \nOpportunity.\nSerpentine\nThis character is able to move \nthrough spaces smaller than its base \nto a minimum of 2\". It must be able \nto fit where it ends its turn."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Aquatic Strigoi",
+      "page": 11,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 1,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Webbed Talons",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Fast Swimmer (2)",
+          "Frenzied",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Cetean Upiór",
+      "page": 12,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 17,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 21,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 3,
+        "attack": 5,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Distended Jaws",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (3)",
+          "Vampiric Attack (1)",
+          "Fast Swimmer (2)",
+          "Frenzied",
+          "Water Creature Hydrodynamic\nThis character increases its \nDEXTERITY to 5 while in water."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Highborn Servant",
+      "page": 13,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Black Powder, Reload (2)"
+        },
+        {
+          "name": "Sword",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( V ampire )",
+          "Parry (1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Hulking Moroi",
+      "page": 14,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 15,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Clawed Hands",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-2",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "First Strike (2)",
+          "Bulky",
+          "Frenzied\nMindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Leech",
+      "page": 15,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 8,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "A Thousand Teeth",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (3)",
+          "Acrobatic (3)",
+          "Frenzied",
+          "Primitive\n\nWater Creature Brain Leech \nWhen this character replenishes \nLife Points due to the Vampiric Attack \nability, the target character lowers any abilities \nwith a number down by 1 until the end of the \ngame, to a minimum of 0. \nFor example  becomes Acrobatic (2) ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Moon Eater",
+      "page": 16,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 17,
+      "command": null,
+      "base_size": 50,
+      "ducats": 23,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 5,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Brutal Claws",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brawler (2)",
+          "Fear (-3)",
+          "Berserk",
+          "Mindless Lunar Might\nDuring deployment let your \nopponent know when the moon will \nbe brightest. Choose either the first 3 \nrounds, or the remaining rounds.\nWhen the moon is brightest, all \ncharacters with this rule increase their \nMOVEMENT , DEXTERITY , and \nAT TAC K by 1."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Reaper",
+      "page": 17,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Aerial Attack",
+          "Frenzied",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Seer",
+      "page": 18,
+      "keywords": [
+        "Discipline ( Fateweaving )"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 4,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Staff",
+          "range": "1\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Slippery Soothsaying",
+            "type": "PULSE",
+            "description": "For every enemy character in line of sight to this character, add a re-roll to your Soothsaying Pool. Until the end of the round, any friendly character may use these re-rolls on any roll this round - one re-roll per dice."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spatar",
+      "page": 19,
+      "keywords": [
+        "Vampire",
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Bodyguard (Leader)",
+          "Parry (1)",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Strige",
+      "page": 20,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 1,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Flight",
+          "Frenzied\nHunter"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Strigoi Jude",
+      "page": 21,
+      "keywords": [
+        "Discipline ( Blood Rites , Runes of Sovereignty )",
+        "Vampire",
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Mage (X)",
+          "That character is Judged until the \nend of the round. Friendly characters \nmay re-roll their entire Attack Roll \n(all of it - including the Destiny dice) \nagainst an enemy Judged character. \nWhen a friendly Mage attempts \nto Dispel a spell cast by a Judged \ncharacter, count their  level \nas 1 higher."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (1)Judgement",
+            "type": "PULSE",
+            "description": "Pick an enemy character within 6\". That character is Judged until the end of the round. Friendly characters may re-roll their entire Attack Roll (all of it - including the Destiny dice) against an enemy Judged character. When a friendly Mage attempts to Dispel a spell cast by a Judged character, count their Mage (X) level as 1 higher."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strigoi Priest",
+      "page": 22,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 1,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Frenzied",
+          "Mage (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Strigoi Sluger",
+      "page": 23,
+      "keywords": [
+        "Vampire",
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 14,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Vampiric Attack (1)",
+          "Brawler (2)",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Strzyga",
+      "page": 24,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 15,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Monstrous Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Expert Offence (2)",
+          "Flight",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Tarot Reader",
+      "page": 25,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty , Fateweaving , Wild Magic )"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Sorcerer (1)",
+          "Mage (2)",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Varcolac",
+      "page": 26,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 3,
+      "will": 3,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 17,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Canine Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (1)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Wallachian Impaler",
+      "page": 27,
+      "keywords": [
+        "Vampire",
+        "Soldier"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 14,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Expert Offence (2)",
+          "Fear (-1)",
+          "Frenzied",
+          "Impaler \nEach time an enemy character is \nkilled within 3\" of this character, \nthis character increases its Fear and \nVampiric Attack value by 1."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Zoryi",
+      "page": 28,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 19,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 5,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Calcified Fists",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Stun"
+        },
+        {
+          "name": "Fresh Claws",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Brawler (2)",
+          "Fear (0)",
+          "Bulky",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Al Naibii",
+      "page": 29,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.1",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Sica",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "First Strike (1)",
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Common Strigoi",
+      "page": 30,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 11,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Expert Offence (1)",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Ferryman",
+      "page": 31,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Oar",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "+1",
+          "abilities": "Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fear (-1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Giurgiu Guard",
+      "page": 32,
+      "keywords": [
+        "Vampire",
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Protection (2)",
+          "Vampiric Attack (1)"
+        ],
+        "unique": [
+          {
+            "name": "Fenzied",
+            "description": "2.2.0 3013 212"
+          }
+        ],
+        "command": []
+      }
+    },
+    {
+      "name": "Harpy",
+      "page": 33,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 7,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 6,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 2,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Flight",
+          "Frenzied\nMindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Newborn Strigoi",
+      "page": 34,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Henchman",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 8,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 8,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Frenzied",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Nosferatu",
+      "page": 35,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Ancient Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (1)Shadow Walker",
+            "type": "PULSE",
+            "description": "Pick one friendly character with the Vampire keyword within 1”. Remove this character and place them anywhere out of base contact within 8” of this character. This placement does not cause Attacks of Opportunity."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Romani",
+      "page": 36,
+      "keywords": [
+        "Discipline ( Blood Rites, Runes of Sovereignty , Fateweaving , Wild Magic )"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Mage (0)",
+          "Slippery"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Rotter",
+      "page": 37,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (2)",
+          "Berserk",
+          "Frenzied\nWater Creature"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Sinker",
+      "page": 38,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Henchman",
+      "version": "2.4.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Sinking Weights",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Knockback"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Frenzied",
+          "Limited Movement\nWater Creature Dead Weights\nThis character is not deployed like \nnormal. Instead, at the end of the \nfirst round, deploy it anywhere on the \nboard in water at least 3\" away from \nany enemy characters in water. \nFrom that point on they take turns \njust like normal."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Starved Dhampir",
+      "page": 39,
+      "keywords": [
+        "Vampire"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 7,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Frenzied"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Poenari Scout",
+      "page": 40,
+      "keywords": [
+        "Vampire",
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Acrobatic (2)",
+          "Frenzied",
+          "Infiltration"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Targoveti",
+      "page": 41,
+      "keywords": [
+        "Soldier"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Companion (Vampire)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Thrall",
+      "page": 42,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Crossbow",
+          "range": "30\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "Reload (1), Two-handed"
+        },
+        {
+          "name": "Club",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( V ampire )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    }
+  ]
+}

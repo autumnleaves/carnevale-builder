@@ -1,0 +1,1739 @@
+{
+  "faction": "The_Doctors",
+  "faction_ability": {
+    "name": "Nexus Link Reconfiguration",
+    "description": "Pick 2 friendly characters within 6\" (including the character using the Command Ability). One character loses all of their Will Points . For every Will Point lost, the other character replenishes 2 Will Points ."
+  },
+  "cards": [
+    {
+      "name": "Doctor of the Mind",
+      "page": 2,
+      "keywords": [
+        "Discipline ( Blood Rites , Runes of Sovereignty )",
+        "Doctor"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 2,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 22,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 6
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fear (-2)",
+          ", or increase their Fear \nnumber to ( -2)."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Parry (3)Mind Gazing",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 6\" gain Fear (-2) , or increase their Fear number to ( -2)."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Master ofNecromantic Studies",
+      "page": 3,
+      "keywords": [
+        "Discipline ( Blood Rites , Divinity )",
+        "Doctor"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "will": 1,
+      "life": 1,
+      "command": null,
+      "ducats": 0,
+      "base_size": 0,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Surgical Tools",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Elixir of Death \nEvery friendly character who starts \nthe game with Will Points loses \nall of their Will Points and gains \nFrenzied .\nThis change remains in play even if \nthis character is killed."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Vampiric Attack (2)Unliving Curse",
+            "type": "PULSE",
+            "description": "One friendly character within 1\" gains Vampiric Attack (2) until the end of the game. Elixir of Death Every friendly character who starts the game with Will Points loses all of their Will Points and gains Frenzied . This change remains in play even if this character is killed."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Master ofArcane Security",
+      "page": 4,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 3,
+      "will": 4,
+      "life": 22,
+      "base_size": 50,
+      "ducats": 27,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 5,
+        "mind": 4
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Expert Marksman (2)Electrical Stimulation",
+            "type": "PULSE",
+            "description": "All friendly characters within 3\" gain +1 ATT ACK until the end of the round. Auxiliary Systems At the start of this character's turn, it gains +2 to either its MOVEMENT , DEXTERITY , or PROTECTION until the end of the round."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Master of Zoology",
+      "page": 5,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Leader",
+      "version": "2.2.0",
+      "actions": 3,
+      "command": 3,
+      "will": 4,
+      "life": 14,
+      "base_size": 30,
+      "ducats": 20,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 5,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Electrified Mace",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-2",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (4)",
+          ".\nBeast Master\nAll friendly characters with the \nAnimal keyword gain Companion \n(Doctor ) while in line of sight of \nthis character."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Hunter Protective Field",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 3\" gain Universal Shielding (4). Beast Master All friendly characters with the Animal keyword gain Companion (Doctor ) while in line of sight of this character."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Plague Doctor",
+      "page": 6,
+      "keywords": [
+        "Discipline ( Fateweaving , Wild Magic )",
+        "Doctor"
+      ],
+      "rank": "Leader",
+      "version": "2.3.0",
+      "actions": 3,
+      "command": 4,
+      "will": 2,
+      "life": 13,
+      "base_size": 30,
+      "ducats": 21,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Scalpel",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Mage (2)Biological Studies",
+            "type": "AURA",
+            "description": "Until the end of the round, any friendly characters within 3\" gain Penetration -2 on their weapons. Purifying Ungents While within 6” of this character, friendly characters are immune to the Stun Ability. At the end of each friendly character’s turn, remove any Stun counters from friendly characters within 6” of this character."
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Being",
+      "page": 7,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 15,
+      "command": null,
+      "base_size": 40,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 5,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Brutal Fists",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Doctor )",
+          "Berserk",
+          "Mindless\nPrimitive Locomotive Nexus Link\nWhenever this character makes \na Combat action, total up the \namount of Damage caused \n(before Protection rolls).\nThat many characters within 6\" \nwith the Nexus ability replenish \n1 Will Point ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "The Unholy Union",
+      "page": 8,
+      "keywords": [
+        "Unique"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 3,
+      "life": 40,
+      "will": 0,
+      "command": null,
+      "base_size": 75,
+      "ducats": 45,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 6,
+        "protection": 1,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Grappler (3)",
+          "Fear (-3)",
+          "Bulky",
+          "Limited Movement\nMindless\nPrimitive Convulsing\nThis character is able to move through \nspaces smaller than its base to a \nminimum of 2\". It must be able to fit \nwhere it ends its turn."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Brined Horror",
+      "page": 9,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 25,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 3,
+        "attack": 6,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Webbed Apendages",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (3)",
+          "Fear (-1)",
+          "Bulky",
+          "Mindless\nWater Creature"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Doctor of Blood",
+      "page": 10,
+      "keywords": [
+        "Discipline ( Blood Rites )",
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Frenzied",
+          "Mage (2)",
+          "Sanguine Sorcery \nThis character's Vampiric Attack \nalso activates when making a \nCast Spell action."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Doctor of Tides",
+      "page": 11,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 15,
+      "base_size": 40,
+      "ducats": 18,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 6,
+        "mind": 4
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)",
+          "Water Creature",
+          "Limited Movement Long Dive\nPulse Command Ability\nAll friendly characters with an \nUnderwater Counter gain an \nadditional Underwater Counter.\nDeep Dive\nWhenever this character makes a \nDive action, you may spend 1 Will \nPoint . If you do, you automatically \nscore a Critical without rolling any \ndice."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Doctor of Poisons",
+      "page": 12,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Poisoned Blade",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Poisoned"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Engage , or Slippery until the \nend of the game."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Slippery Elixir",
+            "type": "PULSE",
+            "description": "One friendly character within 3\" gains either Acrobatic (3) , Engage , or Slippery until the end of the game."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Doctor of the Beasts",
+      "page": 13,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 11,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Shock Staff",
+          "range": "2\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback, Stun,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Animal keyword within 6\" gains \nBerserk until the end of the game."
+        ],
+        "unique": [],
+        "command": [
+          {
+            "name": "Hunter Overcharged Discipline",
+            "type": "PULSE",
+            "description": "One friendly character with the Animal keyword within 6\" gains Berserk until the end of the game."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Doctor of the Firmament",
+      "page": 14,
+      "keywords": [
+        "Discipline ( Blood Rites , Fateweaving , Wild Magic )",
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 10,
+      "base_size": 30,
+      "ducats": 16,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 4,
+        "mind": 5
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [],
+        "command": [
+          {
+            "name": "Mage (2)Void Walker",
+            "type": "PULSE",
+            "description": "One friendly character within 3\" gains Ethereal until the end of the game."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weapon Range Evasion Damage Penetration Abilities",
+      "page": 15,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "First Strike (2)",
+          "Concealment (2)",
+          "Stride Through The Void - 1AP\nThis character gains Ethereal until \nthe end of its turn."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Electro Gauntlet 0\" - - -2 Stun Ethereal Snatcher",
+      "page": 16,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 14,
+      "command": null,
+      "base_size": 40,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Engage",
+          "Stride Through The Void - 1AP\nThis character gains Ethereal until \nthe end of its turn.\nDrag Through The Void\nTargets of this characters Grapple \nactions may be moved as if they had \nthe Ethereal special rule."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Alchemist Doctor",
+      "page": 17,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Alchemical Bomb",
+          "range": "6\"",
+          "evasion": "+1",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "Black Powder, Blast,"
+        },
+        {
+          "name": "Poison Bomb",
+          "range": "6\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Reload (1), Poisoned"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brave"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Morgue Doctor",
+      "page": 18,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "command": 2,
+      "will": 2,
+      "life": 12,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 4
+      },
+      "weapons": [
+        {
+          "name": "Surgical Tools",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [],
+        "unique": [
+          {
+            "name": "Make a Basic MIND Roll:",
+            "description": "2.2.0 3015 21222"
+          }
+        ],
+        "command": [
+          {
+            "name": "Mage (2)Power Over Death",
+            "type": "PULSE",
+            "description": "This Command Ability is used out of sequence, when any other friendly character within 3\" is killed. Make a Basic MIND Roll:"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Marine Biologist",
+      "page": 19,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.2.1",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Water Creature",
+          "Hunter"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Ordnance Doctor",
+      "page": 20,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Hero",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Spirit Cannon",
+          "range": "12\"",
+          "evasion": "+1",
+          "damage": "+2",
+          "penetration": "-1",
+          "abilities": "Reload (1), Two-handed"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (1)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Unleashed Madman",
+      "page": 21,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 3,
+      "life": 12,
+      "command": null,
+      "base_size": 30,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Grasping Tentacles",
+          "range": "2\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (3)",
+          "Brawler (1)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Voltage Bombardiers",
+      "page": 22,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.3.1",
+      "actions": 2,
+      "will": 4,
+      "life": 10,
+      "command": null,
+      "base_size": 40,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Brawler (2)",
+          "Limited Movement\nMindless Nexus\nAny character with the Doctor \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own.\nDetonation \nWhen placing the Blast template for \nSoul Bombard, it must be centred \nover this character (and is also hit)."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Warden",
+      "page": 23,
+      "keywords": [],
+      "rank": "Hero",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 13,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Mace",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Protection (2)",
+          "Bodyguard ( Doctor )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Apprentice Doctor",
+      "page": 24,
+      "keywords": [
+        "Doctor"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 3
+      },
+      "weapons": [
+        {
+          "name": "Scalpel",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Doctor )"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Basilisk",
+      "page": 25,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 13,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 4,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Venomous Spray",
+          "range": "0\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-2",
+          "abilities": "Poisoned, Template"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fear (-2)",
+          "Limited Movement\nMindless\nPrimitive Poison Burst\nWhen this character is killed, before \nremoving it from the game, each \ncharacter in base contact (friendly \nand enemy) loses Life Points as if \nthey were damaged by an attack with \nthe Poisoned rule."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Carrion",
+      "page": 26,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 4,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Implanted Tools",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Infiltration",
+          "Mindless",
+          "Pickpocket Nexus\nAny character with the Doctor \nkeyword within 6\" and line of sight \nmay use this character's Will Points \nas if they were their own."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Crocodile",
+      "page": 27,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 13,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 14,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 4,
+        "protection": 4,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Enhanced Jaws",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-3",
+          "abilities": "Aquatic"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (3)",
+          "Limited Movement",
+          "Mindless",
+          "Primitive\nWater Creature"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Doctor of Venesection",
+      "page": 28,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 9,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Fangs",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (1)",
+          "Frenzied",
+          "Limited Movement\nPrimitive"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Diving Assistant",
+      "page": 29,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 4,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)",
+          "Bodyguard (Doctor)",
+          "Water Creature Deep Dive\nWhenever this character makes a \nDive action, you may spend 1 Will \nPoint . If you do, you automatically \nscore a Critical without rolling any \ndice."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Electron Cannoneer",
+      "page": 30,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Electron Cannon",
+          "range": "12\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "-1",
+          "abilities": "Black Powder,"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Universal Shielding (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Ghoul",
+      "page": 31,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 6,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 6,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Mindless",
+          "Frenzied Unstable Wretch\nFrom the start of the second round \nonwards, at the end of this character's \nturn all characters (friendly and \nenemy, including this character) \nwithin 3\" lose 1 Life Point ."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Gorilla",
+      "page": 32,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 13,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Titanic Fists",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Bodyguard ( Doctor )",
+          "Flight",
+          "Primitive"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Hippocampus",
+      "page": 33,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 14,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 19,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 3,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Hoof Stomp",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (4)",
+          "Bulky",
+          "Limited Movement\nMindless\nPrimitive\nWater Creature"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Hippogryph",
+      "page": 34,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 7,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Beak & Claws",
+          "range": "0\"",
+          "evasion": "-1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Flight",
+          "Infiltration\nMindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Hollowman",
+      "page": 35,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 6,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 6,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Frenzied",
+          "Mindless",
+          "Blood Nexus\nEvery time this character loses \nLife Points (including from the \nFrenzied rule), you may replenish \nthat many Will Points from all \ncharacters within 6\" with \nthe Nexus ability."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Harvester",
+      "page": 36,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 2,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Husk",
+      "page": 37,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 8,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 4,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 2,
+        "attack": 3,
+        "protection": 0,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Grappler (2)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Lab Assistant",
+      "page": 38,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 1,
+      "life": 11,
+      "command": null,
+      "base_size": 30,
+      "ducats": 10,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Shock Prod",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "Stun"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Companion ( Doctor )",
+          "Hunter"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Lion",
+      "page": 39,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 12,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 12,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 5,
+        "attack": 4,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Ripping Teeth",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Offence (3)",
+          "Engage",
+          "Mindless\nPrimitive"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Madman",
+      "page": 40,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "will": 6,
+      "life": 8,
+      "command": null,
+      "base_size": 30,
+      "ducats": 5,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 4,
+        "attack": 1,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Unarmed",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "+1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Limited Movement",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Manticore",
+      "page": 41,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 10,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 6,
+        "dexterity": 4,
+        "attack": 3,
+        "protection": 2,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Quilled Spines",
+          "range": "8\"",
+          "evasion": "+1",
+          "damage": "0",
+          "penetration": "-1",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Expert Marksman (2)",
+          "Primitive"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Mermaid",
+      "page": 42,
+      "keywords": [
+        "Discipline ( Runes of Sovereignty )"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 11,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 13,
+      "stat_block": {
+        "movement": 3,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 1,
+        "mind": 1
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Fast Swimmer (3)",
+          "Mage (0)",
+          "Water Creature"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Monstrosity",
+      "page": 43,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "life": 14,
+      "will": 0,
+      "command": null,
+      "base_size": 40,
+      "ducats": 9,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 2,
+        "attack": 3,
+        "protection": 0,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Rusty Blade",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+2",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Brawler (1)",
+          "Mindless"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Nurse",
+      "page": 44,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.3.0",
+      "actions": 2,
+      "will": 1,
+      "life": 10,
+      "command": null,
+      "base_size": 30,
+      "ducats": 7,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 4,
+        "attack": 2,
+        "protection": 2,
+        "mind": 2
+      },
+      "weapons": [
+        {
+          "name": "Rusty Knife",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "0",
+          "penetration": "0",
+          "abilities": "-"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "Frenzied",
+          "Primitive Healer - 1AP\nPick a character within 3\" and make \na basic MIND roll. That character \nreplenishes 2 Life Points for each \nAce rolled."
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Rhino",
+      "page": 45,
+      "keywords": [
+        "Animal"
+      ],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 20,
+      "will": 0,
+      "command": null,
+      "base_size": 50,
+      "ducats": 15,
+      "stat_block": {
+        "movement": 5,
+        "dexterity": 3,
+        "attack": 3,
+        "protection": 5,
+        "mind": 1
+      },
+      "weapons": [
+        {
+          "name": "Horns",
+          "range": "0\"",
+          "evasion": "0",
+          "damage": "+1",
+          "penetration": "0",
+          "abilities": "Knockback"
+        }
+      ],
+      "abilities": {
+        "common": [
+          "First Strike (2)",
+          "Bulky",
+          "Limited Movement\nMindless\nPrimitive"
+        ],
+        "unique": [],
+        "command": []
+      }
+    },
+    {
+      "name": "Shackled Feaster",
+      "page": 46,
+      "keywords": [],
+      "rank": "Henchman",
+      "version": "2.2.0",
+      "actions": 2,
+      "life": 9,
+      "will": 0,
+      "command": null,
+      "base_size": 30,
+      "ducats": 11,
+      "stat_block": {
+        "movement": 4,
+        "dexterity": 5,
+        "attack": 3,
+        "protection": 3,
+        "mind": 2
+      },
+      "weapons": [],
+      "abilities": {
+        "common": [
+          "Vampiric Attack (2)",
+          "Frenzied",
+          "Mindless",
+          "Regenerating\nThis character's Vampiric Attack \nspecial rule can cause it to gain Life \nPoints above its starting value. If they \nstart their turn with 10 or more Life \nPoints , they increase their AT TAC K \nby 2 until the start of their next turn."
+        ],
+        "unique": [],
+        "command": []
+      }
+    }
+  ]
+}
