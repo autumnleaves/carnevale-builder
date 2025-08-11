@@ -85,7 +85,18 @@
                     </div>
                     <div id="crewWarnings" class="crew-warnings"></div>
                 </div>
-                
+                <!-- Faction Ability Section -->
+                    <div class="faction-ability-section" id="factionAbilitySection" style="display: none;">
+                        <h3 class="crew-header faction-ability-header" onclick="toggleFactionAbility()">
+                            <span class="collapse-icon collapsed">▼</span>
+                            <span id="factionAbilityName">Faction Ability</span>
+                        </h3>
+                        <div id="factionAbilityContent" class="crew-content faction-ability-content" style="display: none;">
+                            <div class="faction-ability-description">
+                                <p id="factionAbilityDescription">Select a faction to view its ability.</p>
+                            </div>
+                        </div>
+                    </div>
                 <div class="crew-composition">
                     <div class="crew-section">
                         <h3 class="crew-header" onclick="toggleCrewSection('leaders')">

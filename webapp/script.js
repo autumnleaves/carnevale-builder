@@ -75,6 +75,7 @@ async function loadFactionData(factionFile, isRestoration = false) {
         
         displayAvailableCards();
         updateCrewDisplay();
+        updateFactionAbility();
         
         // If this is a restoration, restore crew state after faction data is loaded
         if (isRestoration) {
@@ -680,6 +681,7 @@ function generateCardHTML(card) {
                 <span>Version: ${card.version}</span>
                 <span>Rank: ${card.rank || 'N/A'}</span>
                 <span>Cost: ${card.ducats} ducats</span>
+                <span>Base Size: ${card.base_size ? `${card.base_size}mm` : 'N/A'}</span>
             </div>
         </div>
         
@@ -714,8 +716,7 @@ function generateBasicStats(card) {
         { label: 'Actions', value: card.actions },
         { label: 'Command', value: card.command },
         { label: 'Will', value: card.will },
-        { label: 'Life', value: card.life },
-        { label: 'Base Size', value: card.base_size ? `${card.base_size}mm` : 'N/A' }
+        { label: 'Life', value: card.life }
     ];
     
     const statsHTML = stats.map(stat => 
@@ -1383,5 +1384,40 @@ function restoreCrewState() {
         console.error('Error restoring crew state:', error);
         // Clear invalid state
         sessionStorage.removeItem('carnevale-crew-state');
+    }
+}
+
+// Faction Ability Functions
+function updateFactionAbility() {
+    const factionAbilitySection = document.getElementById('factionAbilitySection');
+    const factionAbilityName = document.getElementById('factionAbilityName');
+    const factionAbilityDescription = document.getElementById('factionAbilityDescription');
+    
+    if (currentFactionData && currentFactionData.faction_ability) {
+        const ability = currentFactionData.faction_ability;
+        
+        // Show the section
+        factionAbilitySection.style.display = 'block';
+        
+        // Update the name and description
+        factionAbilityName.textContent = ability.name;
+        factionAbilityDescription.textContent = ability.description;
+        
+    } else {
+        // Hide the section if no faction ability
+        factionAbilitySection.style.display = 'none';
+    }
+}
+
+function toggleFactionAbility() {
+    const content = document.getElementById('factionAbilityContent');
+    const icon = document.querySelector('#factionAbilitySection .collapse-icon');
+    
+    if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block';
+        icon.classList.remove('collapsed');
+    } else {
+        content.style.display = 'none';
+        icon.classList.add('collapsed');
     }
 }
