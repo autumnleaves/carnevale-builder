@@ -675,12 +675,13 @@ function showCardDetails(cardName) {
 function generateCardHTML(card) {
     return `
         <div class="card-header">
-            <div class="card-name">${card.name}</div>
+            <div class="card-title-section">
+                <div class="card-name">${card.name}</div>
+                <div class="ducat-circle">${card.ducats}</div>
+            </div>
             <div class="card-meta">
-                <span>Page: ${card.page}</span>
                 <span>Version: ${card.version}</span>
                 <span>Rank: ${card.rank || 'N/A'}</span>
-                <span>Cost: ${card.ducats} ducats</span>
                 <span>Base Size: ${card.base_size ? `${card.base_size}mm` : 'N/A'}</span>
             </div>
         </div>
@@ -712,24 +713,26 @@ function generateKeywords(keywords) {
 
 // Generate basic stats section
 function generateBasicStats(card) {
-    const stats = [
-        { label: 'Actions', value: card.actions },
-        { label: 'Command', value: card.command },
-        { label: 'Will', value: card.will },
-        { label: 'Life', value: card.life }
-    ];
-    
-    const statsHTML = stats.map(stat => 
-        `<div class="stat-item">
-            <span class="stat-label">${stat.label}:</span>
-            <span>${stat.value || 'N/A'}</span>
-        </div>`
-    ).join('');
-    
     return `
-        <div class="stats-section">
-            <h3>Basic Stats</h3>
-            <div class="stat-grid">${statsHTML}</div>
+        <div class="stats-section card-style-stats">
+            <div class="basic-stats-row">
+                <div class="stat-icon-item">
+                    <div class="stat-icon actions-icon">${card.actions || 'N/A'}</div>
+                    <div class="stat-label">Actions</div>
+                </div>
+                <div class="stat-icon-item">
+                    <div class="stat-icon life-icon">${card.life || 'N/A'}</div>
+                    <div class="stat-label">Life</div>
+                </div>
+                <div class="stat-icon-item">
+                    <div class="stat-icon will-icon">${card.will || 'N/A'}</div>
+                    <div class="stat-label">Will</div>
+                </div>
+                <div class="stat-icon-item">
+                    <div class="stat-icon command-icon">${card.command || 'N/A'}</div>
+                    <div class="stat-label">Command</div>
+                </div>
+            </div>
         </div>
     `;
 }
@@ -740,25 +743,22 @@ function generateStatBlock(statBlock) {
         return '<div class="stats-section"><h3>Combat Stats</h3><p>No combat stats available</p></div>';
     }
     
-    const stats = [
-        { label: 'Movement', value: statBlock.movement },
-        { label: 'Dexterity', value: statBlock.dexterity },
-        { label: 'Attack', value: statBlock.attack },
-        { label: 'Protection', value: statBlock.protection },
-        { label: 'Mind', value: statBlock.mind }
-    ];
-    
-    const statsHTML = stats.map(stat => 
-        `<div class="stat-item">
-            <span class="stat-label">${stat.label}:</span>
-            <span>${stat.value || 'N/A'}</span>
-        </div>`
-    ).join('');
-    
     return `
-        <div class="stats-section">
-            <h3>Combat Stats</h3>
-            <div class="stat-grid">${statsHTML}</div>
+        <div class="stats-section combat-stats-table">
+            <div class="combat-stats-header">
+                <div class="combat-stat-cell">Movement</div>
+                <div class="combat-stat-cell">Dexterity</div>
+                <div class="combat-stat-cell">Attack</div>
+                <div class="combat-stat-cell">Protection</div>
+                <div class="combat-stat-cell">Mind</div>
+            </div>
+            <div class="combat-stats-values">
+                <div class="combat-stat-cell">${statBlock.movement || 'N/A'}</div>
+                <div class="combat-stat-cell">${statBlock.dexterity || 'N/A'}</div>
+                <div class="combat-stat-cell">${statBlock.attack || 'N/A'}</div>
+                <div class="combat-stat-cell">${statBlock.protection || 'N/A'}</div>
+                <div class="combat-stat-cell">${statBlock.mind || 'N/A'}</div>
+            </div>
         </div>
     `;
 }
@@ -766,41 +766,33 @@ function generateStatBlock(statBlock) {
 // Generate weapons section
 function generateWeapons(weapons) {
     if (!weapons || weapons.length === 0) {
-        return '<div class="weapons-section"><h3>Weapons</h3><p>No weapons</p></div>';
+        return '<div class="weapons-section"><p>No weapons</p></div>';
     }
     
-    const weaponsHTML = weapons.map(weapon => `
-        <div class="weapon">
-            <div class="weapon-name">${weapon.name}</div>
-            <div class="weapon-stats">
-                <div class="weapon-stat">
-                    <span>Range:</span>
-                    <span>${weapon.range || 'N/A'}</span>
-                </div>
-                <div class="weapon-stat">
-                    <span>Evasion:</span>
-                    <span>${weapon.evasion || 'N/A'}</span>
-                </div>
-                <div class="weapon-stat">
-                    <span>Damage:</span>
-                    <span>${weapon.damage || 'N/A'}</span>
-                </div>
-                <div class="weapon-stat">
-                    <span>Penetration:</span>
-                    <span>${weapon.penetration || 'N/A'}</span>
-                </div>
-                <div class="weapon-stat">
-                    <span>Abilities:</span>
-                    <span>${weapon.abilities || 'N/A'}</span>
-                </div>
-            </div>
+    const weaponRows = weapons.map(weapon => `
+        <div class="weapon-row">
+            <div class="weapon-name-cell">${weapon.name}</div>
+            <div class="weapon-stat-cell">${weapon.range || '0"'}</div>
+            <div class="weapon-stat-cell">${weapon.evasion || '-'}</div>
+            <div class="weapon-stat-cell">${weapon.damage || '-'}</div>
+            <div class="weapon-stat-cell">${weapon.penetration || '-'}</div>
+            <div class="weapon-stat-cell">${weapon.abilities || '-'}</div>
         </div>
     `).join('');
     
     return `
         <div class="weapons-section">
-            <h3>Weapons</h3>
-            ${weaponsHTML}
+            <div class="weapon-table">
+                <div class="weapon-header">
+                    <div class="weapon-name-cell">Weapon</div>
+                    <div class="weapon-stat-cell">Range</div>
+                    <div class="weapon-stat-cell">Evasion</div>
+                    <div class="weapon-stat-cell">Damage</div>
+                    <div class="weapon-stat-cell">Penetration</div>
+                    <div class="weapon-stat-cell">Abilities</div>
+                </div>
+                ${weaponRows}
+            </div>
         </div>
     `;
 }

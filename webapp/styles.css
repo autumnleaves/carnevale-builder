@@ -1261,6 +1261,211 @@ h1 {
     min-height: 200px;
 }
 
+.card-display .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid var(--venetian-gold);
+}
+
+.card-title-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-display .card-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--rich-navy);
+}
+
+.ducat-circle {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(135deg, var(--venetian-gold), var(--bronze));
+    border: 2px solid #B8860B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a1a1a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+
+/* Card-style Stats */
+.card-style-stats {
+    background: linear-gradient(135deg, #8B1538, #4A0E2D);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.basic-stats-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.stat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid;
+}
+
+.actions-icon {
+    background: #FF8C42;
+    border-color: #FF6B1A;
+}
+
+.life-icon {
+    background: #C41E3A;
+    border-color: #A01729;
+}
+
+.will-icon {
+    background: #4FC3F7;
+    border-color: #29B6F6;
+}
+
+.command-icon {
+    background: #4CAF50;
+    border-color: #388E3C;
+}
+
+.stat-label {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--venetian-gold);
+    text-transform: uppercase;
+}
+
+/* Combat Stats Table */
+.combat-stats-table {
+    margin-bottom: 15px;
+}
+
+.combat-stats-header {
+    display: flex;
+    background: linear-gradient(135deg, #8B1538, #4A0E2D);
+    color: white;
+    border-radius: 8px 8px 0 0;
+    border: 2px solid #8B1538;
+    border-bottom: none;
+}
+
+.combat-stats-values {
+    display: flex;
+    background: white;
+    border: 2px solid #8B1538;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.combat-stat-cell {
+    flex: 1;
+    text-align: center;
+    padding: 12px 8px;
+    border-right: 1px solid #8B1538;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.combat-stat-cell:last-child {
+    border-right: none;
+}
+
+.combat-stats-header .combat-stat-cell {
+    color: white;
+    background: linear-gradient(135deg, #8B1538, #4A0E2D);
+}
+
+.combat-stats-values .combat-stat-cell {
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+/* Weapons Table */
+.weapon-table {
+    border: 2px solid #8B1538;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.weapon-header {
+    display: flex;
+    background: linear-gradient(135deg, #8B1538, #4A0E2D);
+    color: white;
+}
+
+.weapon-row {
+    display: flex;
+    background: white;
+    border-top: 1px solid #8B1538;
+}
+
+.weapon-row:first-child {
+    border-top: none;
+}
+
+.weapon-name-cell {
+    flex: 2;
+    padding: 12px;
+    text-align: center;
+    border-right: 1px solid #8B1538;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.weapon-stat-cell {
+    flex: 1;
+    padding: 12px 8px;
+    text-align: center;
+    border-right: 1px solid #8B1538;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.weapon-stat-cell:last-child {
+    border-right: none;
+}
+
+.weapon-header .weapon-name-cell,
+.weapon-header .weapon-stat-cell {
+    color: white;
+    background: linear-gradient(135deg, #8B1538, #4A0E2D);
+}
+
+.weapon-row .weapon-name-cell,
+.weapon-row .weapon-stat-cell {
+    color: #2c3e50;
+}
+
 .card-meta {
     display: flex;
     gap: 15px;
