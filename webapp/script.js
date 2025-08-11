@@ -23,6 +23,9 @@ async function loadFactionIndex() {
         const response = await fetch('cards/index.json');
         factionIndex = await response.json();
         populateFactionDropdown();
+        
+        // After faction index is loaded, try to restore page state
+        restorePageState();
     } catch (error) {
         console.error('Error loading faction index:', error);
         showError('Error loading card data. Make sure you are running this from a web server (not file://). Try running: python -m http.server 8000');
@@ -52,7 +55,7 @@ function populateFactionDropdown() {
 }
 
 // Load specific faction card data
-async function loadFactionData(factionFile) {
+async function loadFactionData(factionFile, isRestoration = false) {
     try {
         // Handle legacy guild_cards.json or cards in the cards directory
         const url = factionFile === 'guild_cards.json' ? factionFile : `cards/${factionFile}`;
@@ -64,10 +67,19 @@ async function loadFactionData(factionFile) {
             localStorage.setItem(`rank-${rankId}-collapsed`, 'false');
         });
         
-        // Reset crew when faction changes
-        resetCrew();
+        // Only reset crew if this is not a restoration
+        if (!isRestoration) {
+            // Reset crew when faction changes
+            resetCrew();
+        }
+        
         displayAvailableCards();
         updateCrewDisplay();
+        
+        // If this is a restoration, restore crew state after faction data is loaded
+        if (isRestoration) {
+            restoreCrewState();
+        }
         
     } catch (error) {
         console.error('Error loading faction data:', error);
@@ -82,9 +94,34 @@ function setupEventListeners() {
     const rankFilters = ['showLeaders', 'showHeroes', 'showHenchmen'];
     
     factionSelect.addEventListener('change', function() {
+        const previousFaction = sessionStorage.getItem('carnevale-selected-faction');
+        
         if (this.value) {
             // Show main content
             document.getElementById('mainContent').style.display = 'grid';
+            
+            // Only reset if faction actually changed (not just restoring)
+            const factionChanged = previousFaction && previousFaction !== this.value;
+            
+            // Save the new faction selection
+            sessionStorage.setItem('carnevale-selected-faction', this.value);
+            
+            if (factionChanged) {
+                // Reset ducats limit when changing faction
+                document.getElementById('ducatsLimit').value = 150;
+                ducatsLimit = 150;
+                sessionStorage.setItem('carnevale-ducats-limit', '150');
+                
+                // Clear saved crew state when changing faction
+                sessionStorage.removeItem('carnevale-crew-state');
+                sessionStorage.removeItem('carnevale-crew-name');
+                
+                // Reset tracking state
+                currentSavedCrewId = null;
+                crewHasUnsavedChanges = false;
+                updateSaveButtonState();
+            }
+            
             loadFactionData(this.value);
         } else {
             // Hide main content
@@ -92,6 +129,12 @@ function setupEventListeners() {
             currentFactionData = null;
             resetCrew();
             document.getElementById('availableCardsList').innerHTML = '<p>Select a faction to see available cards.</p>';
+            
+            // Clear session storage when no faction selected
+            sessionStorage.removeItem('carnevale-selected-faction');
+            sessionStorage.removeItem('carnevale-ducats-limit');
+            sessionStorage.removeItem('carnevale-crew-state');
+            sessionStorage.removeItem('carnevale-crew-name');
         }
     });
     
@@ -101,6 +144,8 @@ function setupEventListeners() {
     // Add event listener for crew name changes
     const crewNameHeader = document.getElementById('crewNameHeader');
     crewNameHeader.addEventListener('input', function() {
+        // Save crew name to session storage
+        sessionStorage.setItem('carnevale-crew-name', this.value);
         markCrewAsChanged();
     });
     
@@ -112,6 +157,10 @@ function setupEventListeners() {
             this.value = 0;
         }
         ducatsLimit = value;
+        
+        // Save ducats limit to session storage
+        sessionStorage.setItem('carnevale-ducats-limit', value.toString());
+        
         updateBudgetDisplay();
         validateCrew();
         markCrewAsChanged();
@@ -369,6 +418,9 @@ function addCardToCrew(cardName) {
             break;
     }
     
+    // Save crew state to session storage
+    saveCrewState();
+    
     updateCrewDisplay();
     displayAvailableCards(); // Refresh to update button states
     validateCrew();
@@ -412,6 +464,9 @@ function removeCardFromCrew(cardName) {
         }
     }
     
+    // Save crew state to session storage
+    saveCrewState();
+    
     updateCrewDisplay();
     displayAvailableCards(); // Refresh to update button states
     validateCrew();
@@ -423,6 +478,9 @@ function removeAllCardsFromCrew(cardName) {
     selectedCrew.leaders = selectedCrew.leaders.filter(c => c.name !== cardName);
     selectedCrew.heroes = selectedCrew.heroes.filter(c => c.name !== cardName);
     selectedCrew.henchmen = selectedCrew.henchmen.filter(c => c.name !== cardName);
+    
+    // Save crew state to session storage
+    saveCrewState();
     
     updateCrewDisplay();
     displayAvailableCards(); // Refresh to update button states
@@ -443,6 +501,10 @@ function resetCrew() {
     currentSavedCrewId = null;
     crewHasUnsavedChanges = false;
     updateSaveButtonState();
+    
+    // Clear crew state from session storage
+    sessionStorage.removeItem('carnevale-crew-state');
+    sessionStorage.removeItem('carnevale-crew-name');
     
     updateCrewDisplay();
     validateCrew();
@@ -560,8 +622,10 @@ function validateCrew() {
     // Check budget
     if (totalCost > ducatsLimit) {
         const overage = totalCost - ducatsLimit;
-        if (overage <= 5) {
-            warnings.push(`⚠️ Over budget by ${overage} ducats (allowed up to 5)`);
+        if (overage <= 3) {
+            warnings.push(`⚠️ Over budget by ${overage} ducats (1 Ill Tide)`);
+        } else if (overage <= 5) {
+            warnings.push(`⚠️ Over budget by ${overage} ducats (2 Ill Tides)`);
         } else {
             warnings.push(`❌ Over budget by ${overage} ducats (maximum 5 allowed)`);
         }
@@ -1225,4 +1289,99 @@ function showToast(message, type = 'success', duration = 3000) {
             }
         }, 300);
     }, duration);
+}
+
+// Save crew state to session storage
+function saveCrewState() {
+    if (!currentFactionData) return;
+    
+    const crewState = {
+        leaders: selectedCrew.leaders.map(card => card.name),
+        heroes: selectedCrew.heroes.map(card => card.name),
+        henchmen: selectedCrew.henchmen.map(card => card.name)
+    };
+    
+    sessionStorage.setItem('carnevale-crew-state', JSON.stringify(crewState));
+}
+
+// Restore page state from session storage
+function restorePageState() {
+    // Only proceed if faction index is loaded
+    if (!factionIndex) return;
+    
+    // Restore faction selection
+    const savedFaction = sessionStorage.getItem('carnevale-selected-faction');
+    if (savedFaction) {
+        const factionSelect = document.getElementById('factionSelect');
+        factionSelect.value = savedFaction;
+        
+        // Restore ducats limit
+        const savedDucats = sessionStorage.getItem('carnevale-ducats-limit');
+        if (savedDucats) {
+            const ducatsInput = document.getElementById('ducatsLimit');
+            ducatsInput.value = savedDucats;
+            ducatsLimit = parseInt(savedDucats);
+        }
+        
+        // Restore crew name
+        const savedCrewName = sessionStorage.getItem('carnevale-crew-name');
+        if (savedCrewName) {
+            document.getElementById('crewNameHeader').value = savedCrewName;
+        }
+        
+        // Show main content since we have a faction
+        document.getElementById('mainContent').style.display = 'grid';
+        
+        // Load faction data - crew restoration will happen inside loadFactionData
+        loadFactionData(savedFaction, true);
+    }
+}
+
+// Restore crew composition from session storage
+function restoreCrewState() {
+    const savedCrewState = sessionStorage.getItem('carnevale-crew-state');
+    if (!savedCrewState || !currentFactionData) return;
+    
+    try {
+        const crewState = JSON.parse(savedCrewState);
+        
+        // Restore crew by finding cards by name
+        selectedCrew = {
+            leaders: [],
+            heroes: [],
+            henchmen: []
+        };
+        
+        // Restore leaders
+        crewState.leaders.forEach(cardName => {
+            const card = currentFactionData.cards.find(c => c.name === cardName);
+            if (card) selectedCrew.leaders.push(card);
+        });
+        
+        // Restore heroes
+        crewState.heroes.forEach(cardName => {
+            const card = currentFactionData.cards.find(c => c.name === cardName);
+            if (card) selectedCrew.heroes.push(card);
+        });
+        
+        // Restore henchmen
+        crewState.henchmen.forEach(cardName => {
+            const card = currentFactionData.cards.find(c => c.name === cardName);
+            if (card) selectedCrew.henchmen.push(card);
+        });
+        
+        // Update displays
+        updateCrewDisplay();
+        displayAvailableCards();
+        validateCrew();
+        
+        // Mark as unchanged since we're just restoring
+        crewHasUnsavedChanges = false;
+        updateSaveButtonState();
+        
+    } catch (error) {
+        console.error('Error restoring crew state:', error);
+        // Clear invalid state
+        sessionStorage.removeItem('carnevale-crew-state');
+    }
 }
