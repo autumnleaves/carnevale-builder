@@ -13,9 +13,7 @@
                 <button onclick="toggleSavedCrews()" class="btn-manage-crews">Manage Saved Crews</button>
             </div>
             <div class="header-content">
-                <img src="Carnevale_Half_Logo_SMALL_9b192416-fe6c-4c0f-8f67-a93b6bcf4733_480x480.avif" alt="Carnevale Logo" class="logo">
-                <h1>Crew Builder</h1>
-                <p class="subtitle">Build your crew for the streets of Venice</p>
+                <h1>Carnevale Crew Builder</h1>
             </div>
         </div>
         
@@ -48,10 +46,6 @@
                         <input type="text" id="cardSearch" placeholder="Search cards by name..." oninput="filterCardsBySearch()">
                         <button onclick="clearSearch()" class="btn-clear-search" title="Clear search">Clear</button>
                     </div>
-                    <div class="collapse-controls">
-                        <button onclick="expandAllRanks()" class="btn-collapse-control">Expand All</button>
-                        <button onclick="collapseAllRanks()" class="btn-collapse-control">Collapse All</button>
-                    </div>
                 </div>
                 <div id="availableCardsList" class="cards-list">
                     <p>Select a faction to see available cards.</p>
@@ -60,7 +54,12 @@
             
             <div class="crew-builder">
                 <div class="crew-header-section">
-                    <input type="text" id="crewNameHeader" class="crew-name-input" value="Your Crew" maxlength="50">
+                    <div class="crew-name-container">
+                        <input type="text" id="crewNameHeader" class="crew-name-input" value="Your Crew" maxlength="50">
+                        <div class="crew-status-box">
+                            <span class="crew-status-icon" id="crewStatusIcon">✓</span>
+                        </div>
+                    </div>
                     <div class="save-buttons">
                         <button onclick="saveCurrentCrew()" class="btn-save-crew">Save Crew</button>
                         <button onclick="saveAsNewCrew()" class="btn-save-as-new" title="Create a new crew based on this one">Save as New</button>

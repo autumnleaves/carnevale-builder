@@ -543,6 +543,7 @@ function calculateTotalCost() {
 function validateCrew() {
     const warnings = [];
     const totalCost = calculateTotalCost();
+    const statusIcon = document.getElementById('crewStatusIcon');
     
     // Check for leader requirement
     if (selectedCrew.leaders.length === 0) {
@@ -566,10 +567,26 @@ function validateCrew() {
         }
     }
     
-    // Display warnings
+    // Update status icon
+    if (warnings.length === 0) {
+        statusIcon.textContent = '✓';
+        statusIcon.className = 'crew-status-icon valid';
+    } else {
+        // Check if any warnings are errors (❌)
+        const hasErrors = warnings.some(warning => warning.includes('❌'));
+        if (hasErrors) {
+            statusIcon.textContent = '✗';
+            statusIcon.className = 'crew-status-icon error';
+        } else {
+            statusIcon.textContent = '⚠';
+            statusIcon.className = 'crew-status-icon warning';
+        }
+    }
+    
+    // Display only warnings/errors, no "valid" message
     const warningsContainer = document.getElementById('crewWarnings');
     if (warnings.length === 0) {
-        warningsContainer.innerHTML = '<div class="crew-valid">✅ Crew is valid!</div>';
+        warningsContainer.innerHTML = '';
     } else {
         warningsContainer.innerHTML = warnings.map(warning => 
             `<div class="crew-warning">${warning}</div>`
