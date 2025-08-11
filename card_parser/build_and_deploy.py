@@ -165,13 +165,6 @@ def deploy_to_webapp():
             shutil.copy2(card_file, dest_file)
             print(f"✓ Copied: {card_file.name}")
         
-        # Also copy the guild cards to the root webapp directory (for backward compatibility)
-        guild_file = output_dir / "the_guild_cards.json"
-        if guild_file.exists():
-            webapp_guild_file = Path("../webapp/guild_cards.json")
-            shutil.copy2(guild_file, webapp_guild_file)
-            print(f"✓ Updated: guild_cards.json (backward compatibility)")
-        
         # Create an index file with metadata
         create_cards_index(card_files, webapp_cards_dir)
         
