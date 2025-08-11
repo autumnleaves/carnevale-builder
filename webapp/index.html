@@ -3,24 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carnevale Guild Cards</title>
+    <title>Carnevale Crew Builder</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Carnevale Guild Cards</h1>
+        <div class="page-header">
+            <div class="top-controls">
+                <button onclick="toggleSavedCrews()" class="btn-manage-crews">Manage Saved Crews</button>
+            </div>
+            <div class="header-content">
+                <img src="Carnevale_Half_Logo_SMALL_9b192416-fe6c-4c0f-8f67-a93b6bcf4733_480x480.avif" alt="Carnevale Logo" class="logo">
+                <h1>Crew Builder</h1>
+                <p class="subtitle">Build your crew for the streets of Venice</p>
+            </div>
+        </div>
         
-        <div class="card-selector">
-            <label for="cardSelect">Select a Card:</label>
-            <select id="cardSelect">
-                <option value="">Choose a card...</option>
-            </select>
+        <div class="crew-setup">
+            <div class="faction-selector">
+                <label for="factionSelect">Select a Faction:</label>
+                <select id="factionSelect">
+                    <option value="">Choose a faction...</option>
+                </select>
+            </div>
+            
+            <div class="ducats-selector">
+                <label for="ducatsLimit">Ducats Limit:</label>
+                <input type="number" id="ducatsLimit" min="0" step="1" value="150" placeholder="Enter ducats limit" oninput="preventNegative(this)">
+            </div>
         </div>
 
-        <div id="cardDisplay" class="card-display">
-            <p>Select a card to view its details.</p>
+        <div id="mainContent" class="main-content" style="display: none;">
+            <div class="available-cards">
+                <h2>Available Cards</h2>
+                <div class="card-filters">
+                    <div class="rank-filter">
+                        <label>Show:</label>
+                        <label><input type="checkbox" id="showLeaders" checked> Leaders</label>
+                        <label><input type="checkbox" id="showHeroes" checked> Heroes</label>
+                        <label><input type="checkbox" id="showHenchmen" checked> Henchmen</label>
+                    </div>
+                    <div class="search-filter">
+                        <label for="cardSearch">Search:</label>
+                        <input type="text" id="cardSearch" placeholder="Search cards by name..." oninput="filterCardsBySearch()">
+                        <button onclick="clearSearch()" class="btn-clear-search" title="Clear search">Clear</button>
+                    </div>
+                    <div class="collapse-controls">
+                        <button onclick="expandAllRanks()" class="btn-collapse-control">Expand All</button>
+                        <button onclick="collapseAllRanks()" class="btn-collapse-control">Collapse All</button>
+                    </div>
+                </div>
+                <div id="availableCardsList" class="cards-list">
+                    <p>Select a faction to see available cards.</p>
+                </div>
+            </div>
+            
+            <div class="crew-builder">
+                <div class="crew-header-section">
+                    <input type="text" id="crewNameHeader" class="crew-name-input" value="Your Crew" maxlength="50">
+                    <div class="save-buttons">
+                        <button onclick="saveCurrentCrew()" class="btn-save-crew">Save Crew</button>
+                        <button onclick="saveAsNewCrew()" class="btn-save-as-new" title="Create a new crew based on this one">Save as New</button>
+                    </div>
+                </div>
+                <div class="crew-summary">
+                    <div class="crew-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Total Cost:</span>
+                            <span id="totalCost" class="cost-display">0</span>
+                            <span class="ducats-text">ducats</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Budget:</span>
+                            <span id="budgetDisplay">150</span>
+                            <span class="ducats-text">ducats</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Remaining:</span>
+                            <span id="remainingBudget" class="cost-display">150</span>
+                            <span class="ducats-text">ducats</span>
+                        </div>
+                    </div>
+                    <div id="crewWarnings" class="crew-warnings"></div>
+                </div>
+                
+                <div class="crew-composition">
+                    <div class="crew-section">
+                        <h3 class="crew-header" onclick="toggleCrewSection('leaders')">
+                            <span class="collapse-icon">▼</span>
+                            Leader <span class="required">(Required)</span>
+                        </h3>
+                        <div id="crewLeaders" class="crew-cards crew-content" data-section="leaders">
+                            <p class="empty-slot">No leader selected</p>
+                        </div>
+                    </div>
+                    
+                    <div class="crew-section">
+                        <h3 class="crew-header" onclick="toggleCrewSection('heroes')">
+                            <span class="collapse-icon">▼</span>
+                            Heroes <span id="heroCount" class="count-display">(0)</span>
+                        </h3>
+                        <div id="crewHeroes" class="crew-cards crew-content" data-section="heroes">
+                            <p class="empty-slot">No heroes selected</p>
+                        </div>
+                    </div>
+                    
+                    <div class="crew-section">
+                        <h3 class="crew-header" onclick="toggleCrewSection('henchmen')">
+                            <span class="collapse-icon">▼</span>
+                            Henchmen <span id="henchmanCount" class="count-display">(0)</span>
+                        </h3>
+                        <div id="crewHenchmen" class="crew-cards crew-content" data-section="henchmen">
+                            <p class="empty-slot">No henchmen selected</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Saved Crews Modal -->
+        <div id="savedCrewsModal" class="modal">
+            <div class="modal-content saved-crews-modal-content">
+                <div class="modal-header">
+                    <h3>Manage Saved Crews</h3>
+                    <span class="close" onclick="closeSavedCrewsModal()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div id="savedCrewsList" class="saved-crews-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Details Modal -->
+        <div id="cardModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalCardDetails"></div>
+            </div>
         </div>
     </div>
+
+    <!-- Toast notification container -->
+    <div id="toast-container" class="toast-container"></div>
 
     <script src="script.js"></script>
 </body>
