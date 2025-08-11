@@ -20,12 +20,24 @@ def find_faction_files():
         faction_name = os.path.basename(json_file).replace("_cards.json", "")
         
         # Look for corresponding extracted text file in extracted_text directory
-        extracted_text_file = f"extracted_text/{faction_name}_extracted_text.json"
+        # Handle the different naming conventions
+        extracted_text_files = [
+            f"extracted_text/{faction_name.title()}_extracted_text.json",
+            f"extracted_text/{faction_name}_extracted_text.json",
+            f"extracted_text/{faction_name.replace('_', ' ').title().replace(' ', '_')}_extracted_text.json"
+        ]
         
-        if os.path.exists(extracted_text_file):
+        extracted_text_file = None
+        for potential_file in extracted_text_files:
+            if os.path.exists(potential_file):
+                extracted_text_file = potential_file
+                break
+        
+        if extracted_text_file:
             faction_pairs.append((json_file, extracted_text_file, faction_name))
         else:
             print(f"Warning: No extracted text file found for {json_file}")
+            print(f"  Searched for: {extracted_text_files}")
     
     return faction_pairs
 

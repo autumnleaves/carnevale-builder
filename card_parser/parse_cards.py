@@ -554,6 +554,33 @@ def enhanced_parse_abilities(text: str) -> Dict[str, List]:
 
 # The rest of the functions remain the same as the working parser
 
+def parse_base_size_and_ducats(number_string: str) -> tuple[int, int]:
+    """Parse base size and ducats from a combined number string using valid base sizes"""
+    # Valid base sizes in Carnevale
+    valid_base_sizes = [30, 40, 50, 75, 100, 120]
+    
+    # Remove any spaces and convert to string if needed
+    clean_string = str(number_string).replace(' ', '')
+    
+    # Try different combinations for 4-5 digit numbers
+    if len(clean_string) >= 4:
+        # Try 2-digit base size first (most common case)
+        if len(clean_string) >= 4:
+            potential_base_2 = int(clean_string[:2])
+            if potential_base_2 in valid_base_sizes:
+                ducats = int(clean_string[2:])
+                return potential_base_2, ducats
+        
+        # Try 3-digit base size (for 100, 120)
+        if len(clean_string) >= 5:
+            potential_base_3 = int(clean_string[:3])
+            if potential_base_3 in valid_base_sizes:
+                ducats = int(clean_string[3:])
+                return potential_base_3, ducats
+    
+    # If we can't parse it using valid base sizes, return 0, 0
+    return 0, 0
+
 def parse_stats_line(stats_text: str) -> Dict[str, int]:
     """Parse the MOVEMENT DEXTERITY ATTACK PROTECTION MIND line"""
     # Look for the pattern of 5 numbers after MIND
@@ -581,6 +608,115 @@ def parse_stats_line(stats_text: str) -> Dict[str, int]:
             "mind": int(stats_numbers[4])
         }
     return {}
+
+def parse_stats_header(card_text: str) -> dict:
+    """
+    Parse the stats header to determine which fields are present.
+    Returns a dictionary with field positions and whether each stat is present.
+    """
+    header_patterns = [
+        r'Actions Life Will Command Ducats Size',
+        r'Actions Life Will Ducats Size Command', 
+        r'Actions Life Will Ducats Size',
+        r'Actions Life Ducats Size Command',
+        r'Actions Life Will Command',
+        r'Actions Life Command',
+        r'Actions Life Will',
+        r'Actions Life',
+    ]
+    
+    for pattern in header_patterns:
+        if pattern in card_text:
+            fields = pattern.split()
+            return {
+                'has_will': 'Will' in fields,
+                'has_command': 'Command' in fields,
+                'has_ducats': 'Ducats' in fields,
+                'has_size': 'Size' in fields,
+                'header': pattern,
+                'fields': fields
+            }
+    
+    # Default fallback
+    return {
+        'has_will': True,
+        'has_command': True, 
+        'has_ducats': False,
+        'has_size': False,
+        'header': 'Actions Life Will Command',
+        'fields': ['Actions', 'Life', 'Will', 'Command']
+    }
+
+def parse_condensed_stats(stats_string: str, header_info: dict) -> dict:
+    """
+    Parse condensed stats like '315 5' based on header information.
+    """
+    stats = {}
+    
+    # Handle spaced numbers like "315 5" -> "3155"
+    condensed = ''.join(stats_string.split())
+    
+    if not condensed or not condensed.isdigit():
+        return {}
+    
+    # Parse based on header format
+    if header_info['header'] == 'Actions Life Ducats Size Command':
+        # Example: Vlad Dracula with "315 5" -> actions=3, life=15, command=5
+        # No Will field in header, so Will should be null/0
+        if len(condensed) >= 3:
+            stats['actions'] = int(condensed[0])
+            stats['will'] = 0  # Not present in header
+            
+            if len(condensed) == 3:
+                # "315" -> actions=3, life=15, but no command detected yet
+                stats['life'] = int(condensed[1:])
+                stats['command'] = 0
+            elif len(condensed) == 4:
+                # "3155" -> actions=3, life=15, command=5
+                stats['life'] = int(condensed[1:3])
+                stats['command'] = int(condensed[3])
+            elif len(condensed) > 4:
+                # Longer number, command is last digit
+                stats['command'] = int(condensed[-1])
+                stats['life'] = int(condensed[1:-1])
+                
+    elif header_info['header'] == 'Actions Life Will Command Ducats Size':
+        # Standard format with Will
+        if len(condensed) >= 4:
+            stats['actions'] = int(condensed[0])
+            stats['command'] = int(condensed[-1]) if header_info['has_command'] else 0
+            
+            if header_info['has_will']:
+                if len(condensed) == 4:
+                    # "3155" -> actions=3, life=1, will=5, command=5 (unlikely)
+                    # More likely: actions=3, life=15, will=5
+                    stats['life'] = int(condensed[1:3])
+                    stats['will'] = int(condensed[2])
+                elif len(condensed) == 5:
+                    # "31353" -> actions=3, life=13, will=5, command=3
+                    stats['life'] = int(condensed[1:3])
+                    stats['will'] = int(condensed[3])
+            else:
+                # No will
+                stats['will'] = 0
+                stats['life'] = int(condensed[1:-1]) if header_info['has_command'] else int(condensed[1:])
+    
+    # Apply life limits (models never have >99 life)
+    if 'life' in stats and stats['life'] > 99:
+        # Try alternative parsing for unreasonable life values
+        if len(condensed) >= 4:
+            stats['actions'] = int(condensed[0])
+            stats['life'] = int(condensed[1:3])  # Take exactly 2 digits for life
+            remaining = condensed[3:]
+            if header_info['has_will'] and len(remaining) >= 1:
+                stats['will'] = int(remaining[0]) if len(remaining) > 1 else 0
+                if header_info['has_command'] and len(remaining) > 1:
+                    stats['command'] = int(remaining[-1])
+            elif header_info['has_command']:
+                stats['will'] = 0
+                stats['command'] = int(remaining) if remaining else 0
+    
+    return stats
 
 def parse_weapons(text: str) -> List[Dict]:
     """Parse weapon information from the text"""
@@ -699,6 +835,14 @@ def parse_card_enhanced(card_text: str, page_num: int) -> Dict:
     
     card_data["page"] = page_num
     
+    # Special case for Painted Protector - has non-standard format
+    if name == "Painted Protector":
+        # Painted Protector has a fixed 30mm base size
+        card_data["base_size"] = 30
+        card_data["ducats"] = 0 
+        card_data["actions"] = 2
+        card_data["life"] = 8
+    
     # Parse keywords and rank with special case handling
     keywords, rank = parse_keywords_and_rank(card_text)
     
@@ -720,92 +864,115 @@ def parse_card_enhanced(card_text: str, page_num: int) -> Dict:
     card_data["rank"] = rank
     
     # Parse Actions Life Will Command - look for the encoded number
-    # Check if this character has Command ability (Leaders/Heroes usually do)
-    has_command = "Actions Life Will Command" in card_text
-    
-    # Check if Will is in the header (right after Life)
-    has_will = "Life Will" in card_text
+    # Use new header-aware parsing to handle different stat formats
+    header_info = parse_stats_header(card_text)
     
     # Find the encoded stats number (usually 2-5 digits after version number)
-    # Some cards have spaces in numbers like "30 6" instead of "306"
+    # Some cards have spaces in numbers like "315 5" instead of "3155"
     # Some simple cards like Dog only have 2 digits (actions + life)
-    stats_pattern = r'(\d+\.\d+\.\d+)\s*\n\s*(\d+(?:\s+\d+)?)\s*\n\s*(\d{2,5})'
-    stats_match = re.search(stats_pattern, card_text)
+    # Try multiple patterns to handle different card layouts
+    stats_patterns = [
+        # Original pattern: version, base_size/ducats, stats
+        r'(\d+\.\d+\.\d+)\s*\n\s*(\d+(?:\s+\d+)?)\s*\n\s*(\d{2,5}(?:\s+\d+)?)',
+        # Alternative pattern: base_size/ducats, stats (for cards like Ottoman Janissary)
+        r'(\d{4,5})\s*\n\s*(\d{2,5}(?:\s+\d+)?)',
+        # Another alternative: just find stats after stat headers
+        r'MIND\s*\n\s*\d+\s+\d+\s+\d+\s+\d+\s+\d+\s*\n.*?(\d{2,5}(?:\s+\d+)?)',
+        # Handle spaced stats like "315 5" at end of card
+        r'(\d{2,4}\s+\d{1,2})\s*\n\s*[A-Z][a-z]'
+    ]
     
-    if stats_match:
-        card_data["version"] = stats_match.group(1)  # Extract version number
-        stats_string = stats_match.group(3)  # The longer number contains the stats
+    stats_match = None
+    stats_string = None
+    
+    for i, pattern in enumerate(stats_patterns):
+        match = re.search(pattern, card_text)
+        if match:
+            if i == 0:  # Original pattern
+                card_data["version"] = match.group(1)
+                stats_string = match.group(3)
+            elif i == 1:  # Alternative pattern
+                card_data["version"] = None  # Will be found elsewhere
+                stats_string = match.group(2)
+            elif i == 2:  # Stats after stat headers
+                card_data["version"] = None
+                stats_string = match.group(1)
+            elif i == 3:  # Spaced stats pattern
+                card_data["version"] = None
+                stats_string = match.group(1)
+            stats_match = match
+            break
+    
+    # Use the new condensed stats parser
+    if stats_match and stats_string:
+        parsed_stats = parse_condensed_stats(stats_string, header_info)
         
-        if has_command and len(stats_string) >= 4:
-            # Format: Actions(1), Life(variable), Will(1 or nothing), Command(last)
-            card_data["actions"] = int(stats_string[0])
-            card_data["command"] = int(stats_string[-1])  # Last digit is always command
-            
-            # Check if Will is present (second to last digit)
-            if has_will and len(stats_string) >= 3:
-                card_data["will"] = int(stats_string[-2])  # Second to last is will
-                # Life is everything between actions and will
-                if len(stats_string) > 3:
-                    card_data["life"] = int(stats_string[1:-2])
-                else:
-                    card_data["life"] = 0  # Edge case
-            else:
-                # No will, life is everything between actions and command
-                card_data["life"] = int(stats_string[1:-1])
-                card_data["will"] = 0
-        
-        elif not has_command and len(stats_string) >= 2:
-            # Format for non-command characters: Actions(1), Life(variable), Will(1 or nothing)
-            card_data["actions"] = int(stats_string[0])
-            
-            # Check if Will is present
-            if has_will and len(stats_string) >= 3:
-                card_data["will"] = int(stats_string[-1])  # Last digit is will
-                # Life is everything between actions and will
-                card_data["life"] = int(stats_string[1:-1])
-            else:
-                # No will, life is everything after actions
-                card_data["life"] = int(stats_string[1:])
-                card_data["will"] = 0
-            
-            card_data["command"] = None
+        # Apply parsed stats to card data (preserve special case values)
+        if name != "Painted Protector":
+            card_data["actions"] = parsed_stats.get("actions", 0)
+            card_data["life"] = parsed_stats.get("life", 0)
+        card_data["will"] = parsed_stats.get("will", 0)
+        card_data["command"] = parsed_stats.get("command", 0) if parsed_stats.get("command", 0) > 0 else None
     else:
-        card_data["version"] = "2.2.0"  # Default version when not found
-        card_data["actions"] = 0
-        card_data["life"] = 0
-        card_data["will"] = 0
+        card_data["version"] = card_data.get("version")  # Keep existing version if set
+        # Only set defaults if not a special case
+        if name != "Painted Protector":
+            card_data["actions"] = 0
+            card_data["life"] = 0
+        card_data["will"] = card_data.get("will", 0)
         card_data["command"] = None
+    
+    # If version wasn't found yet, try to find it elsewhere
+    if card_data["version"] is None:
+        version_pattern = r'(\d+\.\d+\.\d+)'
+        version_match = re.search(version_pattern, card_text)
+        if version_match:
+            card_data["version"] = version_match.group(1)
     
     # Parse Ducats and Base Size from the structured end pattern
     # Pattern: version number, base size/ducats, stats block, then eventually the card name
     # Base size/ducats can be "3010" (30 base, 10 ducats) or "30 8" (30 base, 8 ducats)
+    # Also handles cases like "3017" (30 base, 17 ducats) or "7518" (75 base, 18 ducats)
     # Stats block can vary in length (2-6 digits) - some cards like Dog only have 2 digits
     # There might be other text between stats block and name
-    end_pattern = r'\d+\.\d+\.\d+\s*\n(\d+(?:\s+\d+)?)\s*\n\s*\d{2,6}\s*\n.*?[A-Za-z]'
+    
+    # First try the original pattern (version, base_size/ducats, stats)
+    # Handle spaced stats like "315 5" as well as solid stats like "3155"
+    end_pattern = r'\d+\.\d+\.\d+\s*\n(\d+(?:\s+\d+)?)\s*\n\s*\d{2,6}(?:\s+\d+)?\s*\n.*?[A-Za-z]'
     end_match = re.search(end_pattern, card_text, re.MULTILINE | re.DOTALL)
+    
+    # If that doesn't work, try alternative pattern where base_size/ducats comes before stats
+    if not end_match:
+        # Pattern: base_size/ducats, then stats block (look for 4-5 digit number followed by spaced or solid stats)
+        alt_pattern = r'(\d{4,5})\s*\n\s*\d{2,6}(?:\s+\d+)?\s*\n'
+        alt_match = re.search(alt_pattern, card_text, re.MULTILINE)
+        if alt_match:
+            end_match = alt_match
     
     if end_match:
         number_string = end_match.group(1).strip()  # The base size/ducats number
         
-        # Handle spaced format like "30 8" (base size, ducats)
-        if ' ' in number_string:
-            parts = number_string.split()
-            if len(parts) == 2:
-                card_data["base_size"] = int(parts[0])  # First number is base size
-                card_data["ducats"] = int(parts[1])     # Second number is ducats
+        # Skip parsing for special cases that already have base_size set
+        if name != "Painted Protector":
+            # Handle spaced format like "30 8" (base size, ducats)
+            if ' ' in number_string:
+                parts = number_string.split()
+                if len(parts) == 2:
+                    card_data["base_size"] = int(parts[0])  # First number is base size
+                    card_data["ducats"] = int(parts[1])     # Second number is ducats
+                else:
+                    card_data["ducats"] = 0
+                    card_data["base_size"] = 0
+            # Handle combined format like "3010", "3017", "7518" using valid base sizes
             else:
-                card_data["ducats"] = 0
-                card_data["base_size"] = 0
-        # Handle 4-digit format like "3010" (base size + ducats combined)
-        elif len(number_string) == 4:
-            card_data["base_size"] = int(number_string[:2])  # First two digits
-            card_data["ducats"] = int(number_string[2:])     # Last two digits
-        else:
+                base_size, ducats = parse_base_size_and_ducats(number_string)
+                card_data["base_size"] = base_size
+                card_data["ducats"] = ducats
+    else:
+        # Only set defaults if not a special case
+        if name != "Painted Protector":
             card_data["ducats"] = 0
             card_data["base_size"] = 0
-    else:
-        card_data["ducats"] = 0
-        card_data["base_size"] = 0
     
     # Parse stat block
     card_data["stat_block"] = parse_stats_line(card_text)

@@ -308,6 +308,48 @@ class CardValidationTests:
         
         return len(self.errors) == 0
     
+    def test_nonzero_ducats_cost(self) -> bool:
+        """Test 10: Validate all models have a nonzero ducats cost (except Painted Protector)."""
+        test_name = "Nonzero Ducats Cost"
+        
+        for card in self.json_data.get("cards", []):
+            card_name = card.get("name", "Unknown Card")
+            
+            # Special case: Painted Protector is a summoned unit and can have zero ducats
+            if card_name == "Painted Protector":
+                continue
+            
+            ducats = card.get("ducats")
+            
+            # Check if ducats is missing, null, or zero
+            if ducats is None:
+                self._add_error(test_name, f"{card_name}: Ducats field is null")
+            elif ducats == 0:
+                self._add_error(test_name, f"{card_name}: Ducats cost is zero (should be > 0)")
+            elif not isinstance(ducats, (int, float)) or ducats < 0:
+                self._add_error(test_name, f"{card_name}: Invalid ducats value '{ducats}' (should be positive number)")
+        
+        return len(self.errors) == 0
+    
+    def test_base_size_present(self) -> bool:
+        """Test 11: Validate all models have a base_size value greater than 0 (except Painted Protector)."""
+        test_name = "Base Size Present"
+        
+        for card in self.json_data.get("cards", []):
+            card_name = card.get("name", "Unknown Card")
+            
+            base_size = card.get("base_size")
+            
+            # Check if base_size is missing or null
+            if base_size is None:
+                self._add_error(test_name, f"{card_name}: base_size field is null or missing")
+            elif not isinstance(base_size, (int, float)):
+                self._add_error(test_name, f"{card_name}: Invalid base_size value '{base_size}' (should be a number)")
+            elif base_size <= 0:
+                self._add_error(test_name, f"{card_name}: base_size is zero or negative ({base_size}) - should be > 0")
+        
+        return len(self.errors) == 0
+    
     def run_all_tests(self) -> Tuple[int, int]:
         """Run all tests and return (passed, total) counts."""
         tests = [
@@ -320,6 +362,8 @@ class CardValidationTests:
             self.test_weapon_names,
             self.test_faction_ability,
             self.test_valid_rank_values,
+            self.test_nonzero_ducats_cost,
+            self.test_base_size_present,
         ]
         
         passed = 0
